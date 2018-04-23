@@ -12,7 +12,7 @@
  * }
  */
 
-public class Solution {
+public class AddTwoNumbersV2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
@@ -48,7 +48,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        AddTwoNumbersV2 s = new AddTwoNumbersV2();
 
         ListNode l1 = new ListNode(2);
         ListNode p1 = l1;
