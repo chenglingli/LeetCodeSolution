@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 /**
  * Given a string, find the length of the longest substring without repeating characters.
  * <p>
@@ -112,7 +110,7 @@ public class Solution {
 简单来说，可以不用HashSet，因为对于任何一个当前 检测串，已经拥有完全信息
 
  */
-public class Solution {
+public class LongestSubstringWithoutRepeatingCharacters {
 
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
@@ -146,7 +144,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        LongestSubstringWithoutRepeatingCharacters s = new LongestSubstringWithoutRepeatingCharacters();
         String testStr = "abcabcbb";
         // String testStr = "ab";
         // String testStr = "a";
