@@ -1,5 +1,5 @@
 
-public class Solution {
+public class ReverseInt {
 
     public int reverse(int x) {
 
@@ -21,7 +21,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ReverseInt s = new ReverseInt();
         // int x = 1534236469;
         // int x = -123;
         int x = -2147483648;

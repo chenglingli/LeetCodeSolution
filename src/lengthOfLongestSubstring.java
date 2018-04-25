@@ -110,7 +110,7 @@ public class Solution {
 简单来说，可以不用HashSet，因为对于任何一个当前 检测串，已经拥有完全信息
 
  */
-public class LongestSubstringWithoutRepeatingCharacters {
+public class lengthOfLongestSubstring {
 
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
@@ -144,7 +144,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
 
-        LongestSubstringWithoutRepeatingCharacters s = new LongestSubstringWithoutRepeatingCharacters();
+        lengthOfLongestSubstring s = new lengthOfLongestSubstring();
         String testStr = "abcabcbb";
         // String testStr = "ab";
         // String testStr = "a";
