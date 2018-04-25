@@ -55,7 +55,7 @@ public class Solution {
 }
  */
 
-public class Solution {
+public class IsPalindrome {
 
     public boolean isPalindrome(int x) {
         long y = x;
@@ -77,7 +77,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        IsPalindrome s = new IsPalindrome();
         // int x = 1534236469;
         // int x = -123;
         int x = 1;
