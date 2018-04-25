@@ -1,4 +1,4 @@
-public class Solution {
+public class MergeTwoLists {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
@@ -30,7 +30,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        MergeTwoLists s = new MergeTwoLists();
 
         ListNode l1 = new ListNode(2);
         ListNode p1 = l1;
