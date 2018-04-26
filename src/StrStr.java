@@ -1,4 +1,4 @@
-public class Solution {
+public class StrStr {
 
 
     public int strStr(String haystack, String needle) {
@@ -47,7 +47,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        StrStr s = new StrStr();
 
         long sysDate1 = System.currentTimeMillis();
 

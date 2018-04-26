@@ -33,4 +33,5 @@ public class SearchInsert {
         System.out.println("\ntime ");
         System.out.print(sysDate2 - sysDate1);
     }
+
 }
