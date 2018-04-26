@@ -1,4 +1,4 @@
-public class Solution {
+public class SearchInsert {
 
     public int searchInsert(int[] nums, int target) {
         int i  = 0;
@@ -11,7 +11,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        SearchInsert s = new SearchInsert();
 
         long sysDate1 = System.currentTimeMillis();
 //        int[] inputNums = {1,2,3,4};
