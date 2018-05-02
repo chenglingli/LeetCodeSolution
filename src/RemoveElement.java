@@ -1,4 +1,4 @@
-public class Solution {
+public class RemoveElement {
 
 
     public int removeElement(int[] nums, int val) {
@@ -22,7 +22,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        RemoveElement s = new RemoveElement();
 
         int nums [] = {1, 1};
         int val = 1;
