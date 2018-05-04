@@ -1,5 +1,5 @@
 
-public class Solution {
+public class removeDuplicates {
 
     public int removeDuplicates(int[] nums) {
 
@@ -25,7 +25,7 @@ public class Solution {
                 else {
                     i++;
                 }
-
+                
                 j++;
             }
         }
@@ -35,7 +35,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        removeDuplicates s = new removeDuplicates();
 
         long sysDate1 = System.currentTimeMillis();
 
