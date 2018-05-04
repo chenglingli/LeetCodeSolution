@@ -1,5 +1,5 @@
 
-public class Solution {
+public class MergeSortedArray {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 
@@ -24,7 +24,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        MergeSortedArray s = new MergeSortedArray();
 
         long sysDate1 = System.currentTimeMillis();
 
