@@ -5,7 +5,7 @@
  *
  */
 
-public class Solution {
+public class CountAndSay {
 
     public String countAndSay(int n) {
 
@@ -39,7 +39,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        CountAndSay s = new CountAndSay();
 
         int val = 7;
 
