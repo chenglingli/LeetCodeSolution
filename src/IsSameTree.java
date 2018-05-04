@@ -5,7 +5,7 @@
  *
  */
 
-public class Solution {
+public class IsSameTree {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
 
@@ -21,7 +21,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        IsSameTree s = new IsSameTree();
 
         long sysDate1 = System.currentTimeMillis();
 
