@@ -5,7 +5,7 @@
  *
  */
 
-public class Solution {
+public class MaxSubArray {
 
     public int maxSubArray(int[] nums) {
         int [] max =  new int[100000];
@@ -28,7 +28,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        MaxSubArray s = new MaxSubArray();
 
         long sysDate1 = System.currentTimeMillis();
 
