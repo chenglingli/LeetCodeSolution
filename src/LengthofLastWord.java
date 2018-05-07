@@ -5,7 +5,7 @@
  *
  */
 
-public class Solution {
+public class LengthofLastWord {
 
     public int lengthOfLastWord(String s) {
         int res = 0;
@@ -34,7 +34,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        LengthofLastWord s = new LengthofLastWord();
 
         long sysDate1 = System.currentTimeMillis();
 
