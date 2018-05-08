@@ -1,5 +1,5 @@
 
-public class Solution {
+public class PlusOne {
 
     public int[] plusOne(int[] digits) {
         digits[digits.length - 1] += 1;
@@ -26,7 +26,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        PlusOne s = new PlusOne();
 
         long sysDate1 = System.currentTimeMillis();
 

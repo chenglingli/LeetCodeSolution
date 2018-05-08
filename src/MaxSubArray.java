@@ -1,9 +1,3 @@
-/**
- * 检查两棵树是否长得一样
- *
- * 采用递归的方式判断
- *
- */
 
 public class MaxSubArray {
 
