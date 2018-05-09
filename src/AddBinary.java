@@ -1,5 +1,5 @@
 
-public class Solution {
+public class AddBinary {
 
     public String addBinary(String a, String b) {
 
@@ -56,7 +56,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        AddBinary s = new AddBinary();
 
         long sysDate1 = System.currentTimeMillis();
 
