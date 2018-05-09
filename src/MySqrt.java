@@ -1,5 +1,5 @@
 
-public class Solution {
+public class MySqrt {
 
     public int mySqrt(int x) {
         double temp = x * 1.0;
@@ -9,7 +9,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        MySqrt s = new MySqrt();
 
         long sysDate1 = System.currentTimeMillis();
         int x = 2147483647;
