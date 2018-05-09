@@ -1,5 +1,9 @@
+/**
+ * f(n) = f(n-1) + f(n-2)
+ *
+ */
 
-public class Solution {
+public class ClimbStairs {
 
     public int climbStairs(int n) {
 
@@ -16,7 +20,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ClimbStairs s = new ClimbStairs();
 
         long sysDate1 = System.currentTimeMillis();
         int x = 12;
