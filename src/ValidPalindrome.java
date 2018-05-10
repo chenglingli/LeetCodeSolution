@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class ValidPalindrome {
 
     public boolean isPalindrome(String s) {
 
@@ -39,7 +39,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ValidPalindrome s = new ValidPalindrome();
 
         long sysDate1 = System.currentTimeMillis();
 
