@@ -1,5 +1,5 @@
 
-public class Solution {
+public class HasCycle {
 
     public boolean hasCycle(ListNode head) {
 
@@ -21,10 +21,9 @@ public class Solution {
         return true;
     }
 
-
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        HasCycle s = new HasCycle();
 
         long sysDate1 = System.currentTimeMillis();
 
