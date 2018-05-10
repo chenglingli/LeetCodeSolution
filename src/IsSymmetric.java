@@ -1,5 +1,13 @@
 
-public class Solution {
+// 判断一棵树是否对称
+
+/*
+
+递归判断方式，令a树为右边节点，b树为左边节点，判断a树和b树是否"same"即可。
+
+ */
+
+public class IsSymmetric {
 
     public boolean isSymmetric(TreeNode root) {
         return isSymmetricForTwoTree(root, root);
@@ -20,7 +28,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        IsSymmetric s = new IsSymmetric();
 
         long sysDate1 = System.currentTimeMillis();
 
