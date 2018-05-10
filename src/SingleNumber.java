@@ -3,7 +3,7 @@
  */
 
 
-public class Solution {
+public class SingleNumber {
 
     public int singleNumber(int[] nums) {
         int result = 0;
@@ -17,7 +17,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        SingleNumber s = new SingleNumber();
 
         long sysDate1 = System.currentTimeMillis();
 
