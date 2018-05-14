@@ -1,7 +1,7 @@
 
 // Count the number of prime numbers less than a non-negative number, n.
 
-public class Solution {
+public class CountPrimes {
 
     public int countPrimes(int n) {
 
@@ -22,7 +22,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        CountPrimes s = new CountPrimes();
 
         long sysDate1 = System.currentTimeMillis();
 
