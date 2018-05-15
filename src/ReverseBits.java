@@ -1,7 +1,7 @@
 
 // Reverse bits of a given 32 bits unsigned integer.
 
-public class Solution {
+public class ReverseBits {
 
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -19,7 +19,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ReverseBits s = new ReverseBits();
 
         long sysDate1 = System.currentTimeMillis();
 
