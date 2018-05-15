@@ -4,7 +4,7 @@
 //
 // You may assume that the array is non-empty and the majority element always exist in the array.
 
-public class Solution {
+public class MajorityElement {
 
     public int majorityElement(int[] nums) {
 
@@ -32,7 +32,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        MajorityElement s = new MajorityElement();
 
         long sysDate1 = System.currentTimeMillis();
 
