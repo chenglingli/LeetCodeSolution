@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class trailingZeroes {
 
     public int trailingZeroes(int n) {
         int res = 0;
@@ -15,7 +15,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        trailingZeroes s = new trailingZeroes();
 
         long sysDate1 = System.currentTimeMillis();
 
