@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class DeleteDuplicates {
 
     public ListNode deleteDuplicates(ListNode head) {
         ListNode res = head;
@@ -20,7 +20,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        DeleteDuplicates s = new DeleteDuplicates();
 
         long sysDate1 = System.currentTimeMillis();
 
