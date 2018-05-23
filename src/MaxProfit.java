@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class MaxProfit {
 
     public int maxProfit2(int[] prices) {
 
@@ -48,10 +48,9 @@ public class Solution {
         return curRes;
     }
 
-
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        MaxProfit s = new MaxProfit();
 
         long sysDate1 = System.currentTimeMillis();
         int [] prices = {7};
@@ -63,6 +62,5 @@ public class Solution {
         System.out.println("\ntime ");
         System.out.print(sysDate2 - sysDate1);
     }
-
 
 }
