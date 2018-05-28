@@ -2,7 +2,7 @@
 
 // Best Time to Buy and Sell Stock III
 
-public class Solution {
+public class maxProfit3 {
 
     public int maxProfit3(int[] prices) {
 
@@ -39,7 +39,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        maxProfit3 s = new maxProfit3();
 
         long sysDate1 = System.currentTimeMillis();
         int [] prices = {7,1,5,3,6,4};
