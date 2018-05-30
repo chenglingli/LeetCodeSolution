@@ -1,7 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+/**
+ * Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+ */
+
+public class PascalTriangle {
 
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
@@ -24,7 +28,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        PascalTriangle s = new PascalTriangle();
 
         long sysDate1 = System.currentTimeMillis();
         int numRows = 5;
