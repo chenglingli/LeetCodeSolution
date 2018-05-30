@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class PascalTriangle2 {
 
     public List<Integer> getRow(int rowIndex) {
         List<Integer> lastTemp = new ArrayList<>();
@@ -22,7 +22,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        PascalTriangle2 s = new PascalTriangle2();
 
         long sysDate1 = System.currentTimeMillis();
         int numRows = 3;
