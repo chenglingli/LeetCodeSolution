@@ -1,5 +1,5 @@
 
-public class Solution {
+public class HasPathSum {
 
     public boolean hasPathSum(TreeNode root, int sum) {
 
@@ -26,7 +26,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        HasPathSum s = new HasPathSum();
 
         long sysDate1 = System.currentTimeMillis();
 
