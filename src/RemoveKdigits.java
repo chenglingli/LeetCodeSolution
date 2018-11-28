@@ -7,7 +7,7 @@ is the smallest possible.
 */
 
 
-public class Solution {
+public class RemoveKdigits {
 
 
     public String removeKdigits(String num, int k) {
@@ -138,7 +138,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        RemoveKdigits s = new RemoveKdigits();
 
         long sysDate1 = System.currentTimeMillis();
 
