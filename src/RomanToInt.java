@@ -9,7 +9,7 @@
 //        D             500
 //        M             1000
 
-public class Solution {
+public class RomanToInt {
 
     public int romanToInt(String s) {
 
@@ -115,7 +115,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        RomanToInt s = new RomanToInt();
 
         long sysDate1 = System.currentTimeMillis();
 
