@@ -6,8 +6,8 @@ import java.util.*;
 // Output: [[1,6],[8,10],[15,18]]
 // Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
 
-public class Solution {
-
+public class MergeIntervals {
+    
         private class IntervalComparator implements Comparator<Interval> {
             @Override
             public int compare(Interval a, Interval b) {
@@ -34,7 +34,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        MergeIntervals s = new MergeIntervals();
 
         long sysDate1 = System.currentTimeMillis();
 
