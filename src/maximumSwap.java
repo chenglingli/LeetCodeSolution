@@ -1,5 +1,5 @@
 
-public class Solution {
+public class maximumSwap {
 
     /*
     思路是这样的，由于我们希望置换后的数字最大，
@@ -56,7 +56,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        maximumSwap s = new maximumSwap();
 
         long sysDate1 = System.currentTimeMillis();
 
