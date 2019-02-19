@@ -1,8 +1,7 @@
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution {
+public class NumSquarefulPerms {
 
     public int numSquarefulPerms(int[] A) {
         int res = 0;
@@ -78,7 +77,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        NumSquarefulPerms s = new NumSquarefulPerms();
 
         long sysDate1 = System.currentTimeMillis();
 
