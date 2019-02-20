@@ -1,5 +1,5 @@
 
-public class Solution {
+public class LongestPalindrome {
 
     /**
      *
@@ -45,7 +45,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        LongestPalindrome s = new LongestPalindrome();
 
         long sysDate1 = System.currentTimeMillis();
 
