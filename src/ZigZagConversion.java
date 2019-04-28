@@ -1,5 +1,5 @@
 
-public class Solution {
+public class ZigZagConversion {
 
 
     // 写sample，找规律
@@ -46,7 +46,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ZigZagConversion s = new ZigZagConversion();
 
         long sysDate1 = System.currentTimeMillis();
 
