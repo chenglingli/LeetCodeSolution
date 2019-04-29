@@ -18,8 +18,6 @@ public class Solution {
         }
         return max;
     }
-
-
     
     // 以i为结尾柱子的思维模式，DP算法，有性能提升空间
     public int maxArea(int[] height) {
