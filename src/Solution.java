@@ -39,6 +39,7 @@ public class Solution {
                 if (curArea > tempMax) {
                     tempMax = curArea;
                 }
+                
                 // System.out.println("i: " + i + " j: " + j + " tempMax: " + tempMax);
             }
 
