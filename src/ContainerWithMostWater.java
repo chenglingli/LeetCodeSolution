@@ -1,5 +1,5 @@
 
-public class Solution {
+public class ContainerWithMostWater {
 
     // 两个柱子向里逼近
     public int maxArea2(int[] height) {
@@ -53,7 +53,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ContainerWithMostWater s = new ContainerWithMostWater();
 
         long sysDate1 = System.currentTimeMillis();
 
