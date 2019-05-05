@@ -1,9 +1,8 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Solution {
+public class ThreeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {
         int length = nums.length;
@@ -43,7 +42,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ThreeSum s = new ThreeSum();
 
         long sysDate1 = System.currentTimeMillis();
 
