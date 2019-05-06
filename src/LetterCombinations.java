@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution {
+public class LetterCombinations {
 
     Map<String, String> phone = new HashMap<String, String>() {
         {
@@ -45,7 +45,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        LetterCombinations s = new LetterCombinations();
 
         long sysDate1 = System.currentTimeMillis();
 
