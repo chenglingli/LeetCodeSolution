@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class Permutations {
 
 
     List<List<Integer>> res = new ArrayList<>();
@@ -34,7 +34,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        Permutations s = new Permutations();
 
         long sysDate1 = System.currentTimeMillis();
 
