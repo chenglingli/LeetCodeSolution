@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class PermuteUnique {
 
 
     List<List<Integer>> res = new ArrayList<>();
@@ -45,7 +45,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        PermuteUnique s = new PermuteUnique();
 
         long sysDate1 = System.currentTimeMillis();
 
