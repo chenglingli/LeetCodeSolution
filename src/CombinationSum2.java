@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class CombinationSum2 {
 
 
     List<List<Integer>> res = new ArrayList<>();
@@ -41,7 +41,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        CombinationSum2 s = new CombinationSum2();
 
         long sysDate1 = System.currentTimeMillis();
 
