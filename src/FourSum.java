@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class FourSum {
 
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
@@ -54,7 +54,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        FourSum s = new FourSum();
 
         long sysDate1 = System.currentTimeMillis();
 
