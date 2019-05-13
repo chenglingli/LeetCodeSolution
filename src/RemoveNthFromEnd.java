@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class RemoveNthFromEnd {
 
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -30,7 +30,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        RemoveNthFromEnd s = new RemoveNthFromEnd();
 
         long sysDate1 = System.currentTimeMillis();
 
