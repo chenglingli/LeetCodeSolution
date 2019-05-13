@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class HammingDistance {
 
 
     public int hammingDistance(int x, int y) {
@@ -16,7 +16,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        HammingDistance s = new HammingDistance();
 
         long sysDate1 = System.currentTimeMillis();
 
