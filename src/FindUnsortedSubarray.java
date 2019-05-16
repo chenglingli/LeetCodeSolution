@@ -1,8 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.List;
 
-public class Solution {
+public class FindUnsortedSubarray {
 
 
 
@@ -59,7 +57,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        FindUnsortedSubarray s = new FindUnsortedSubarray();
 
         long sysDate1 = System.currentTimeMillis();
 
