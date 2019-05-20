@@ -1,8 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.List;
 
-public class Solution {
+public class SortArrayByParity {
 
     public int[] sortArrayByParity(int[] A) {
 
@@ -29,7 +27,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        SortArrayByParity s = new SortArrayByParity();
 
         long sysDate1 = System.currentTimeMillis();
         // int [] nums = {2, 5, 4, 8, 10, 9, 15};
