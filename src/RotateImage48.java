@@ -1,8 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.List;
-
-public class Solution {
+public class RotateImage48 {
 
     public void rotate(int[][] matrix) {
 
@@ -21,7 +17,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        RotateImage48 s = new RotateImage48();
 
         long sysDate1 = System.currentTimeMillis();
 
