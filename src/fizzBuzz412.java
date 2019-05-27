@@ -1,9 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class fizzBuzz412 {
 
     public List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList<>();
@@ -26,7 +24,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        fizzBuzz412 s = new fizzBuzz412();
 
         long sysDate1 = System.currentTimeMillis();
 
