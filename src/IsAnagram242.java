@@ -1,9 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class Solution {
+public class IsAnagram242 {
 
     public boolean isAnagram2(String s, String t) {
 
@@ -57,7 +52,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        IsAnagram242 s = new IsAnagram242();
 
         long sysDate1 = System.currentTimeMillis();
 
