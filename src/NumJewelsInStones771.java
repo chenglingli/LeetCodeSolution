@@ -1,9 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class Solution {
+public class NumJewelsInStones771 {
 
     public int numJewelsInStones(String J, String S) {
         int count = 0;
@@ -23,7 +18,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        NumJewelsInStones771 s = new NumJewelsInStones771();
 
         long sysDate1 = System.currentTimeMillis();
 
