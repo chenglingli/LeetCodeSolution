@@ -1,9 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class Solution {
+public class swapPairs24 {
 
     public ListNode swapPairs(ListNode head) {
 
@@ -40,7 +35,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        swapPairs24 s = new swapPairs24();
 
         long sysDate1 = System.currentTimeMillis();
 
