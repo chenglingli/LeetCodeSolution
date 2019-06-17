@@ -1,9 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class Solution {
+public class ReverseBetween92 {
 
 
     /**
@@ -57,7 +52,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ReverseBetween92 s = new ReverseBetween92();
 
         long sysDate1 = System.currentTimeMillis();
 
