@@ -1,9 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class Solution {
+public class SortedListToBST109 {
 
 
     public TreeNode sortedListToBST(ListNode head) {
@@ -36,7 +31,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        SortedListToBST109 s = new SortedListToBST109();
 
         long sysDate1 = System.currentTimeMillis();
 
