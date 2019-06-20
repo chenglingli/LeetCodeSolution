@@ -3,7 +3,7 @@ import struct.Node;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class CopyRandomList138 {
 
     public Node copyRandomList(Node head) {
         Map<Node, Node> map = new HashMap<>();
@@ -28,7 +28,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        CopyRandomList138 s = new CopyRandomList138();
 
         long sysDate1 = System.currentTimeMillis();
 
