@@ -1,9 +1,4 @@
-import struct.Node;
-
-import java.util.HashMap;
-import java.util.Map;
-
-public class Solution {
+public class ReorderList143 {
 
     public void reorderList(ListNode head) {
 
@@ -45,7 +40,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        ReorderList143 s = new ReorderList143();
 
         long sysDate1 = System.currentTimeMillis();
 
