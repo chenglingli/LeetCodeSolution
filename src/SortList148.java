@@ -1,4 +1,4 @@
-public class Solution {
+public class SortList148 {
 
     public ListNode sortList(ListNode head) {
 
@@ -48,7 +48,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        SortList148 s = new SortList148();
 
         long sysDate1 = System.currentTimeMillis();
 
