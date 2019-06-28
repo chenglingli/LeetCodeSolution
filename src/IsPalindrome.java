@@ -1,7 +1,7 @@
 
 /*
 字符串法
-public class Solution {
+public class L944_Delete_Columns_to_Make_Sorted {
     public boolean isPalindrome(int x) {
 
         int tempX = x;
@@ -33,7 +33,7 @@ public class Solution {
 
 int 法，比较两个int是否一样大
 
-public class Solution {
+public class L944_Delete_Columns_to_Make_Sorted {
 
     public boolean isPalindrome(int x) {
         long y = x;

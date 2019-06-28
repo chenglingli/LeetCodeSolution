@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class fizzBuzz412 {
+public class L412_Fizz_Buzz {
 
     public List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList<>();
@@ -24,7 +24,7 @@ public class fizzBuzz412 {
 
     public static void main(String[] args) {
 
-        fizzBuzz412 s = new fizzBuzz412();
+        L412_Fizz_Buzz s = new L412_Fizz_Buzz();
 
         long sysDate1 = System.currentTimeMillis();
 

@@ -13,7 +13,7 @@
 
 字符串维度操作
 
-public class Solution {
+public class L944_Delete_Columns_to_Make_Sorted {
 
     public int lengthOfLongestSubstring(String s) {
 
@@ -49,7 +49,7 @@ public class Solution {
 
 使用 hash map 替代String
 
-public class Solution {
+public class L944_Delete_Columns_to_Make_Sorted {
 
     public int lengthOfLongestSubstring(String s) {
 
@@ -80,7 +80,7 @@ public class Solution {
 
 用HashSet，只需要控制左右两个index，当右index出现重复时候，左index前移
 
-public class Solution {
+public class L944_Delete_Columns_to_Make_Sorted {
 
     public int lengthOfLongestSubstring(String s) {
         int i = 0, j = 0, max = 0;

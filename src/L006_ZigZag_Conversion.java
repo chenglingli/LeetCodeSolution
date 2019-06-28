@@ -1,5 +1,5 @@
 
-public class ZigZagConversion {
+public class L006_ZigZag_Conversion {
 
 
     // 写sample，找规律
@@ -46,7 +46,7 @@ public class ZigZagConversion {
 
     public static void main(String[] args) {
 
-        ZigZagConversion s = new ZigZagConversion();
+        L006_ZigZag_Conversion s = new L006_ZigZag_Conversion();
 
         long sysDate1 = System.currentTimeMillis();
 

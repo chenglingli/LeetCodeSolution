@@ -1,6 +1,6 @@
-import java.util.Arrays;
 
-public class Solution {
+
+public class L944_Delete_Columns_to_Make_Sorted {
 
     public int minDeletionSize(String[] A) {
         int res = 0;
@@ -25,7 +25,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L944_Delete_Columns_to_Make_Sorted s = new L944_Delete_Columns_to_Make_Sorted();
 
         long sysDate1 = System.currentTimeMillis();
 
