@@ -1,6 +1,6 @@
 
 
-public class DeleteDuplicates {
+public class L083_Remove_Duplicates_from_Sorted_List {
 
     public ListNode deleteDuplicates(ListNode head) {
         ListNode res = head;
@@ -20,7 +20,7 @@ public class DeleteDuplicates {
 
     public static void main(String[] args) {
 
-        DeleteDuplicates s = new DeleteDuplicates();
+        L083_Remove_Duplicates_from_Sorted_List s = new L083_Remove_Duplicates_from_Sorted_List();
 
         long sysDate1 = System.currentTimeMillis();
 

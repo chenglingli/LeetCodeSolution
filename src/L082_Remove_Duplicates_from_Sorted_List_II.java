@@ -1,4 +1,4 @@
-public class deleteDuplicates82 {
+public class L082_Remove_Duplicates_from_Sorted_List_II {
 
     public ListNode deleteDuplicates(ListNode head) {
 
@@ -38,7 +38,7 @@ public class deleteDuplicates82 {
 
     public static void main(String[] args) {
 
-        deleteDuplicates82 s = new deleteDuplicates82();
+        L082_Remove_Duplicates_from_Sorted_List_II s = new L082_Remove_Duplicates_from_Sorted_List_II();
 
         long sysDate1 = System.currentTimeMillis();
 
