@@ -1,4 +1,4 @@
-public class Solution {
+public class L203_Remove_Linked_List_Elements {
 
     public ListNode removeElements(ListNode head, int val) {
 
@@ -29,7 +29,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L203_Remove_Linked_List_Elements s = new L203_Remove_Linked_List_Elements();
 
         long sysDate1 = System.currentTimeMillis();
 
