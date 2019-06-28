@@ -1,5 +1,5 @@
 
-public class AddBinary {
+public class L067_Add_Binary {
 
     public String addBinary(String a, String b) {
 
@@ -56,7 +56,7 @@ public class AddBinary {
 
     public static void main(String[] args) {
 
-        AddBinary s = new AddBinary();
+        L067_Add_Binary s = new L067_Add_Binary();
 
         long sysDate1 = System.currentTimeMillis();
 
