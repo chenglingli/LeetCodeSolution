@@ -1,4 +1,4 @@
-public class Solution {
+public class L0237_Delete_Node_in_a_Linked_List {
 
     public void deleteNode(ListNode node) {
 
@@ -13,7 +13,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L0237_Delete_Node_in_a_Linked_List s = new L0237_Delete_Node_in_a_Linked_List();
 
         long sysDate1 = System.currentTimeMillis();
 
