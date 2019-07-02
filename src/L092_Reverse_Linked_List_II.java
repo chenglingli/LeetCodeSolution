@@ -1,4 +1,4 @@
-public class ReverseBetween92 {
+public class L092_Reverse_Linked_List_II {
 
 
     /**
@@ -52,7 +52,7 @@ public class ReverseBetween92 {
 
     public static void main(String[] args) {
 
-        ReverseBetween92 s = new ReverseBetween92();
+        L092_Reverse_Linked_List_II s = new L092_Reverse_Linked_List_II();
 
         long sysDate1 = System.currentTimeMillis();
 

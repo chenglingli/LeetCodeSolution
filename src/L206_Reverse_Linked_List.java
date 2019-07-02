@@ -1,4 +1,4 @@
-public class ReverseList {
+public class L206_Reverse_Linked_List {
 
 
     public ListNode reverseList(ListNode head) {
@@ -21,7 +21,7 @@ public class ReverseList {
 
     public static void main(String[] args) {
 
-        ReverseList s = new ReverseList();
+        L206_Reverse_Linked_List s = new L206_Reverse_Linked_List();
 
         long sysDate1 = System.currentTimeMillis();
 
