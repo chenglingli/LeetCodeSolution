@@ -7,7 +7,7 @@
 
  */
 
-public class IsSymmetric {
+public class L101_Symmetric_Tree {
 
     public boolean isSymmetric(TreeNode root) {
         return isSymmetricForTwoTree(root, root);
@@ -28,7 +28,7 @@ public class IsSymmetric {
 
     public static void main(String[] args) {
 
-        IsSymmetric s = new IsSymmetric();
+        L101_Symmetric_Tree s = new L101_Symmetric_Tree();
 
         long sysDate1 = System.currentTimeMillis();
 

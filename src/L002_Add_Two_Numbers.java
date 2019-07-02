@@ -12,7 +12,7 @@
  * }
  */
 
-public class AddTwoNumbers {
+public class L002_Add_Two_Numbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
@@ -73,9 +73,41 @@ public class AddTwoNumbers {
         return res;
     }
 
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+
+        ListNode p1 = l1;
+        ListNode p2 = l2;
+
+        ListNode res = new ListNode(0);
+        ListNode pRes = res;
+
+        // add
+        int carry = 0;
+        while (p1 != null || p2 != null) {
+
+            int val1 = (p1 != null ? p1.val : 0);
+            int val2 = (p2 != null ? p2.val : 0);
+
+            int curVal = val1 + val2 + carry;
+            carry = curVal / 10;
+            curVal = curVal % 10;
+
+            pRes.next = new ListNode(curVal);
+            pRes = pRes.next;
+
+            if (p1 != null) p1 = p1.next;
+            if (p2 != null) p2 = p2.next;
+        }
+
+        // last step
+        if (carry > 0 ) pRes.next = new ListNode(carry);
+
+        return res.next;
+    }
+
     public static void main(String[] args) {
 
-        AddTwoNumbers s = new AddTwoNumbers();
+        L002_Add_Two_Numbers s = new L002_Add_Two_Numbers();
 
 //        ListNode l1 = new ListNode(5);
 //        ListNode p1 = l1;

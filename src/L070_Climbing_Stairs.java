@@ -3,7 +3,7 @@
  *
  */
 
-public class ClimbStairs {
+public class L070_Climbing_Stairs {
 
     public int climbStairs(int n) {
 
@@ -20,7 +20,7 @@ public class ClimbStairs {
 
     public static void main(String[] args) {
 
-        ClimbStairs s = new ClimbStairs();
+        L070_Climbing_Stairs s = new L070_Climbing_Stairs();
 
         long sysDate1 = System.currentTimeMillis();
         int x = 12;
