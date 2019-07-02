@@ -1,4 +1,4 @@
-public class Solution {
+public class L025_Reverse_Nodes_in_k_Group {
 
     public ListNode reverseKGroup(ListNode head, int k) {
 
@@ -37,7 +37,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L025_Reverse_Nodes_in_k_Group s = new L025_Reverse_Nodes_in_k_Group();
 
         long sysDate1 = System.currentTimeMillis();
 
