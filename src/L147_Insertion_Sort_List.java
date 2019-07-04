@@ -1,4 +1,4 @@
-public class Solution {
+public class L147_Insertion_Sort_List {
 
     public ListNode insertionSortList(ListNode head) {
 
@@ -38,10 +38,9 @@ public class Solution {
         p.next = newNode;
     }
 
-
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L147_Insertion_Sort_List s = new L147_Insertion_Sort_List();
 
         long sysDate1 = System.currentTimeMillis();
 
