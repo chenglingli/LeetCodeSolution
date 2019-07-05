@@ -1,4 +1,4 @@
-public class Solution {
+public class L086_Partition_List {
 
     public ListNode partition(ListNode head, int x) {
 
@@ -37,7 +37,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L086_Partition_List s = new L086_Partition_List();
 
         long sysDate1 = System.currentTimeMillis();
 
