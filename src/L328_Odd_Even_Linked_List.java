@@ -1,5 +1,5 @@
-public class Solution {
-
+public class L328_Odd_Even_Linked_List {
+    
     public ListNode oddEvenList(ListNode head) {
         if (head == null) {
             return null;
@@ -39,7 +39,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L328_Odd_Even_Linked_List s = new L328_Odd_Even_Linked_List();
 
         long sysDate1 = System.currentTimeMillis();
 
