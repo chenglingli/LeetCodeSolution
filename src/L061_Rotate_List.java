@@ -1,6 +1,4 @@
-import java.util.List;
-
-public class Solution {
+public class L061_Rotate_List {
 
     public ListNode rotateRight(ListNode head, int k) {
 
@@ -48,7 +46,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L061_Rotate_List s = new L061_Rotate_List();
 
         long sysDate1 = System.currentTimeMillis();
 
