@@ -1,6 +1,4 @@
-import java.util.List;
-
-public class Solution {
+public class L160_Intersection_of_Two_Linked_Lists {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
@@ -55,7 +53,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L160_Intersection_of_Two_Linked_Lists s = new L160_Intersection_of_Two_Linked_Lists();
 
         long sysDate1 = System.currentTimeMillis();
 
