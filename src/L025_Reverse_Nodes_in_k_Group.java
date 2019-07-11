@@ -24,7 +24,7 @@ public class L025_Reverse_Nodes_in_k_Group {
     // Perform K-1 reversals for K group
     private ListNode reverseK(ListNode prev, int k) {
         ListNode cur = prev.next;
-        if (cur != null) {      // when len is divisible by k, no node left in last batch
+        if (cur != null) {     // when len is divisible by k, no node left in last batch
             while (k-- > 1) {
                 ListNode then = cur.next;
                 cur.next = then.next;

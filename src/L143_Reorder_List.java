@@ -1,4 +1,4 @@
-public class ReorderList143 {
+public class L143_Reorder_List {
 
     public void reorderList(ListNode head) {
 
@@ -40,7 +40,7 @@ public class ReorderList143 {
 
     public static void main(String[] args) {
 
-        ReorderList143 s = new ReorderList143();
+        L143_Reorder_List s = new L143_Reorder_List();
 
         long sysDate1 = System.currentTimeMillis();
 
