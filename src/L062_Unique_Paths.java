@@ -1,6 +1,4 @@
-import java.util.List;
-
-public class Solution {
+public class L062_Unique_Paths {
 
     public int uniquePaths(int m, int n) {
 
@@ -26,7 +24,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L062_Unique_Paths s = new L062_Unique_Paths();
 
         long sysDate1 = System.currentTimeMillis();
 
