@@ -1,6 +1,4 @@
-import java.util.List;
-
-public class Solution {
+public class L079_Word_Search {
 
     public boolean exist(char[][] board, String word) {
 
@@ -69,7 +67,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L079_Word_Search s = new L079_Word_Search();
 
         long sysDate1 = System.currentTimeMillis();
 
