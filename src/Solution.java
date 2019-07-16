@@ -1,70 +1,62 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
 
-    public boolean exist(char[][] board, String word) {
+    List<String> rt = new ArrayList<String>();
+    String[] stack = new String[4];
 
-        if (board == null || board[0].length == 0 || board.length == 0
-                || word == null) {
-            return false;
+    public List<String> restoreIpAddresses(String s) {
+
+        if (s == null || s.length() == 0) {
+            return new ArrayList<String>();
         }
-
-        int rows = board.length;
-        int cols = board[0].length;
-        boolean[] visited = new boolean[rows * cols];
-
-        int pathLength = 0;
-        for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
-
-                // 以row,col为开始，能够遍历得到结果
-                if (dfs(board, rows, cols, row, col, word, pathLength, visited)) {
-                    return true;
-                }
-            }
-        }
-
-        return false;
+        dfs(s, 0, 0);
+        return rt;
     }
 
-    public boolean dfs(char[][] board, int rows, int cols, int row, int col,
-                       String word, int pathLength, boolean[] visited) {
+    /**
+     *
+     * @param s
+     * @param p
+     *            :指针
+     * @param pstack
+     *            :stack的下标
+     */
+    public void dfs(String s, int p, int pstack) {
 
-        // 如果pathLength的长度已经是查找字串的长度，则已经找到
-        if (pathLength == word.length()) {
-            return true;
+        if (pstack == 4) {
+
+            // 如果stack长度为4，且s的字符全部用上
+            // 则stack[0...3]存了一个结果
+            if (p >= s.length()) {
+                String ip = String.join(".", stack);
+                rt.add(ip);
+            }
+            return;
         }
 
-        boolean hasPath = false;
+        // 获取1~3个字符
+        for (int i = 1; i <= 3; i++) {
 
-        // 符合条件的情况下：
-        // 1. 行、列均在矩阵范围内
-        // 2. board[row][col]是所要找的字符
-        // 3. board[row][col]没有遍历过
-        if (row >= 0 && row < rows && col >= 0 && col < cols
-                && board[row][col] == word.charAt(pathLength)
-                && !visited[row * cols + col]) {
+            // 如果超过字符串长度，返回
+            if (p + i > s.length()) {
+                return;
+            }
 
-            pathLength++;
-            visited[row * cols + col] = true;
+            // 若选取的第一个字符是0，则停止选取
+            if (i > 1 && s.charAt(p) == '0') {
+                continue;
+            }
 
-            hasPath = dfs(board, rows, cols, row, col - 1, word, pathLength,
-                    visited)
-                    || dfs(board, rows, cols, row - 1, col, word, pathLength,
-                    visited)
-                    || dfs(board, rows, cols, row, col + 1, word, pathLength,
-                    visited)
-                    || dfs(board, rows, cols, row + 1, col, word, pathLength,
-                    visited);
+            String number = s.substring(p, p + i);
 
-            // 若board[row][col]的前后左右没有满足条件的字符，则回退
-            if (!hasPath) {
-                pathLength--;
-                visited[row * cols + col] = false;
+            // 如果number<=255，递归
+            if (Integer.parseInt(number) <= 255) {
+                stack[pstack] = number;
+                dfs(s, p + i, pstack + 1);
             }
         }
-
-        return hasPath;
     }
 
     public static void main(String[] args) {
@@ -73,15 +65,13 @@ public class Solution {
 
         long sysDate1 = System.currentTimeMillis();
 
-        char [][] obstacleGrid = {
-                {0, 0, 0},
-                {0, 1, 0},
-                {0, 0, 0}
-                };
+        String t = "25525511135";
 
-        boolean x = s.exist(obstacleGrid, "10");
+        List<String> x = s.restoreIpAddresses(t);
 
-        System.out.println(x);
+        for (String l : x) {
+            System.out.println(l);
+        }
 
         long sysDate2 = System.currentTimeMillis();
         System.out.println("\ntime ");
