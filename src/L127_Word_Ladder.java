@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class L127_Word_Ladder {
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
 
@@ -43,7 +43,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L127_Word_Ladder s = new L127_Word_Ladder();
 
         long sysDate1 = System.currentTimeMillis();
 
