@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class L126_Word_Ladder_II {
 
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
 
@@ -91,7 +91,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L126_Word_Ladder_II s = new L126_Word_Ladder_II();
 
         long sysDate1 = System.currentTimeMillis();
 
