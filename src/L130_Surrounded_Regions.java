@@ -1,4 +1,4 @@
-public class Solution {
+public class L130_Surrounded_Regions {
 
     public void solve(char[][] board) {
 
@@ -44,7 +44,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L130_Surrounded_Regions s = new L130_Surrounded_Regions();
 
         long sysDate1 = System.currentTimeMillis();
 
