@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class L077_Combinations {
 
     public List<List<Integer>> combine(int n, int k) {
 
@@ -30,7 +30,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L077_Combinations s = new L077_Combinations();
 
         long sysDate1 = System.currentTimeMillis();
 
