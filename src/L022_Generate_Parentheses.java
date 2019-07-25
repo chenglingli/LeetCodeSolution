@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class L022_Generate_Parentheses {
 
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<String>();
@@ -21,7 +21,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L022_Generate_Parentheses s = new L022_Generate_Parentheses();
 
         long sysDate1 = System.currentTimeMillis();
 
