@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-
-public class Solution {
+public class L31_Next_Permutation {
 
     /**
 
@@ -55,7 +52,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L31_Next_Permutation s = new L31_Next_Permutation();
 
         long sysDate1 = System.currentTimeMillis();
         int[] nums = {1,2,3};
