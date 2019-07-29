@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class L060_Permutation_Sequence {
 
     public String getPermutation(int n, int k) {
 
@@ -42,7 +42,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L060_Permutation_Sequence s = new L060_Permutation_Sequence();
 
         long sysDate1 = System.currentTimeMillis();
         String res = s.getPermutation(4, 2);
