@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class L089_Gray_Code {
 
     public List<Integer> grayCode(int n) {
         List<Integer> ret = new ArrayList<>();
@@ -84,7 +84,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L089_Gray_Code s = new L089_Gray_Code();
 
         long sysDate1 = System.currentTimeMillis();
         List<Integer> res = s.grayCode2(4);
