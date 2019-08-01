@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Solution {
+public class L131_Palindrome_Partitioning {
 
     public List<List<String>> partition(String s) {
 
@@ -94,7 +94,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L131_Palindrome_Partitioning s = new L131_Palindrome_Partitioning();
 
         long sysDate1 = System.currentTimeMillis();
         List<List<String>> res = s.partition("aabbc");
