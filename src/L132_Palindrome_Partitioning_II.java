@@ -1,5 +1,5 @@
 
-public class Solution {
+public class L132_Palindrome_Partitioning_II {
 
     /**
      * 整体的思路是一维DP。DP[i]表示长度为i的prefix：s[0: i-1]的min cut数量。
@@ -35,7 +35,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L132_Palindrome_Partitioning_II s = new L132_Palindrome_Partitioning_II();
 
         long sysDate1 = System.currentTimeMillis();
         int res = s.minCut("aaccda");
