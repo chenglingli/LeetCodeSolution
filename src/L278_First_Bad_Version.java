@@ -1,5 +1,5 @@
 
-public class Solution {
+public class L278_First_Bad_Version {
 
     public int firstBadVersion(int n) {
 
@@ -26,7 +26,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L278_First_Bad_Version s = new L278_First_Bad_Version();
 
         long sysDate1 = System.currentTimeMillis();
         int res = s.firstBadVersion(10);
