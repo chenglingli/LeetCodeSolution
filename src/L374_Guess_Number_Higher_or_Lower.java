@@ -1,5 +1,5 @@
 
-public class Solution {
+public class L374_Guess_Number_Higher_or_Lower {
 
     public int guessNumber(int n) {
 
@@ -39,7 +39,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L374_Guess_Number_Higher_or_Lower s = new L374_Guess_Number_Higher_or_Lower();
 
         long sysDate1 = System.currentTimeMillis();
         int res = s.guessNumber(10);
