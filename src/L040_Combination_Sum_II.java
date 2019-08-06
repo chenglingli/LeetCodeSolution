@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CombinationSum {
+public class L040_Combination_Sum_II {
 
 
     List<List<Integer>> res = new ArrayList<>();
@@ -19,14 +19,18 @@ public class CombinationSum {
         else {
             for (int i = start; i < num.length ; i++) {
 
+                if (i > start && num[i-1] == num[i]) {
+                    continue;
+                }
+
                 ans.add(num[i]);
-                backTrack(i, ans, num, target - num[i]);
+                backTrack(i + 1, ans, num, target - num[i]);
                 ans.remove(ans.size() - 1);
             }
         }
     }
 
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         if (candidates.length != 0 ) {
             List<Integer> ans = new ArrayList<>();
@@ -37,12 +41,12 @@ public class CombinationSum {
 
     public static void main(String[] args) {
 
-        CombinationSum s = new CombinationSum();
+        L040_Combination_Sum_II s = new L040_Combination_Sum_II();
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] input = {1, 2, 3, 4};
-        List<List<Integer>> res = s.combinationSum(input, 5);
+        int[] input = {10,1,2,7,6,1,5};
+        List<List<Integer>> res = s.combinationSum2(input, 8);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();

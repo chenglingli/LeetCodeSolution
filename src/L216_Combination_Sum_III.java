@@ -1,52 +1,49 @@
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class CombinationSum2 {
+public class L216_Combination_Sum_III {
 
 
     List<List<Integer>> res = new ArrayList<>();
+    int[] input = {1,2,3,4,5,6,7,8,9};
 
-    public void backTrack(int start, List<Integer> ans, int [] num, int target) {
+    public void backTrack(int start, List<Integer> ans, int [] num, int target, int count) {
 
-        if (target < 0) {
+        if (target < 0 || ans.size() > count) {
             return;
         }
-        else if (target == 0) {
+        else if (target == 0 && ans.size() == count) {
             res.add(new ArrayList<>(ans));
         }
         else {
             for (int i = start; i < num.length ; i++) {
 
-                if (i > start && num[i-1] == num[i]) {
-                    continue;
-                }
-
                 ans.add(num[i]);
-                backTrack(i + 1, ans, num, target - num[i]);
+                backTrack(i + 1, ans, num, target - num[i], count);
                 ans.remove(ans.size() - 1);
             }
         }
     }
 
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        Arrays.sort(candidates);
-        if (candidates.length != 0 ) {
+    public List<List<Integer>> combinationSum3(int k, int n) {
+
+        if (k != 0 && n!= 0 ) {
             List<Integer> ans = new ArrayList<>();
-            backTrack(0, ans, candidates, target);
+            backTrack(0, ans, input, n, k);
         }
         return res;
     }
 
     public static void main(String[] args) {
 
-        CombinationSum2 s = new CombinationSum2();
+        L216_Combination_Sum_III s = new L216_Combination_Sum_III();
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] input = {10,1,2,7,6,1,5};
-        List<List<Integer>> res = s.combinationSum2(input, 8);
+        int k = 3;
+        int n = 9;
+        List<List<Integer>> res = s.combinationSum3(k, n);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();
