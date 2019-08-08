@@ -1,4 +1,4 @@
-public class L31_Next_Permutation {
+public class L031_Next_Permutation {
 
     /**
 
@@ -52,7 +52,7 @@ public class L31_Next_Permutation {
 
     public static void main(String[] args) {
 
-        L31_Next_Permutation s = new L31_Next_Permutation();
+        L031_Next_Permutation s = new L031_Next_Permutation();
 
         long sysDate1 = System.currentTimeMillis();
         int[] nums = {1,2,3};
