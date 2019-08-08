@@ -1,4 +1,4 @@
-public class Solution {
+public class L033_Search_in_Rotated_Sorted_Array {
 
     public int search(int[] nums, int target) {
 
@@ -31,7 +31,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L033_Search_in_Rotated_Sorted_Array s = new L033_Search_in_Rotated_Sorted_Array();
 
         long sysDate1 = System.currentTimeMillis();
         int[] nums = {5, 6, 7, 8, 0, 1, 2, 3};
