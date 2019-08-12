@@ -1,32 +1,28 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Solution {
 
-    public int search(int[] nums, int target) {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
 
-        int low = 0, high = nums.length - 1;
-
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if (nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] < nums[low]) {
-
-                if (target >= nums[mid] && target <= nums[high]) {
-                    low = mid + 1;
-                }
-                else {
-                    high = mid;
-                }
-
-            } else {
-                if (target <= nums[mid] && target >= nums[low]) {
-                    high = mid;
-                } else {
-                    low = mid + 1;
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 0; i < nums1.length; i++) {
+            if (i == 0 || (i > 0 && nums1[i] != nums1[i - 1])) {
+                if (Arrays.binarySearch(nums2, nums1[i]) > -1) {
+                    list.add(nums1[i]);
                 }
             }
         }
 
-        return -1;
+        int[] result = new int[list.size()];
+        int k = 0;
+        for (int i : list) {
+            result[k++] = i;
+        }
+
+        return result;
     }
 
     public static void main(String[] args) {
@@ -34,10 +30,10 @@ public class Solution {
         Solution s = new Solution();
 
         long sysDate1 = System.currentTimeMillis();
-        int[] nums = {5, 6, 7, 8, 0, 1, 2, 3};
-        int res = s.search(nums, 3);
+        int[] nums = {5, 6, 7, 8, 0, 1, 1, 3};
+        int[] res = s.intersection(nums, nums);
 
-        System.out.println(res);
+        System.out.println(res.length);
 
         long sysDate2 = System.currentTimeMillis();
         System.out.println("\ntime ");
