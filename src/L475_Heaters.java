@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Solution {
+public class L475_Heaters {
 
     /**
      * Winter is coming! Your first job during the contest is
@@ -60,7 +59,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L475_Heaters s = new L475_Heaters();
 
         long sysDate1 = System.currentTimeMillis();
         int[] houses = {-1,2,5};
