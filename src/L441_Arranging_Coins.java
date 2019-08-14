@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import static java.lang.StrictMath.sqrt;
-
-public class Solution {
+public class L441_Arranging_Coins {
 
     /**
 
@@ -81,7 +76,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L441_Arranging_Coins s = new L441_Arranging_Coins();
 
         long sysDate1 = System.currentTimeMillis();
         int res = s.arrangeCoins(1804289383);
