@@ -1,4 +1,4 @@
-public class Solution {
+public class L367_Valid_Perfect_Square {
 
     /**
      * Given a positive integer num, write a function which returns True if num is a perfect square else False.
@@ -53,7 +53,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L367_Valid_Perfect_Square s = new L367_Valid_Perfect_Square();
 
         long sysDate1 = System.currentTimeMillis();
 
