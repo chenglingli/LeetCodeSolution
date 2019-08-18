@@ -1,4 +1,4 @@
-public class Solution {
+public class L363_Max_Sum_of_Rectangle_No_Larger_Than_K {
 
 
     public int maxSumSubmatrix(int[][] matrix, int k) {
@@ -34,7 +34,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L363_Max_Sum_of_Rectangle_No_Larger_Than_K s = new L363_Max_Sum_of_Rectangle_No_Larger_Than_K();
 
         long sysDate1 = System.currentTimeMillis();
 
