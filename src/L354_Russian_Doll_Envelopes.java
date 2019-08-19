@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Solution {
+public class L354_Russian_Doll_Envelopes {
 
     /**
      * You have a number of envelopes with widths and heights given as a
@@ -120,7 +120,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L354_Russian_Doll_Envelopes s = new L354_Russian_Doll_Envelopes();
         long sysDate1 = System.currentTimeMillis();
 
         int[][] matrix = {{1, 1}};
