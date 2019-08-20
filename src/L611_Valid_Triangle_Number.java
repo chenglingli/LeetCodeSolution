@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
-public class Solution {
+public class L611_Valid_Triangle_Number {
 
     /**
      *
@@ -109,7 +108,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L611_Valid_Triangle_Number s = new L611_Valid_Triangle_Number();
         long sysDate1 = System.currentTimeMillis();
 
         int[] matrix = {2, 2, 3, 4};
