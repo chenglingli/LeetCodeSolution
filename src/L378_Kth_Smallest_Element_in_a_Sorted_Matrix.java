@@ -1,7 +1,7 @@
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Solution {
+public class L378_Kth_Smallest_Element_in_a_Sorted_Matrix {
 
     /**
      * Given a n x n matrix where each of the rows and columns are
@@ -107,7 +107,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L378_Kth_Smallest_Element_in_a_Sorted_Matrix s = new L378_Kth_Smallest_Element_in_a_Sorted_Matrix();
         long sysDate1 = System.currentTimeMillis();
 
         int[][] matrix = {
