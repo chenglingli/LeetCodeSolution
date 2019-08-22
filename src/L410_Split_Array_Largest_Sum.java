@@ -1,4 +1,4 @@
-public class Solution {
+public class L410_Split_Array_Largest_Sum {
 
     /**
      * Given an array which consists of non-negative integers
@@ -61,7 +61,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L410_Split_Array_Largest_Sum s = new L410_Split_Array_Largest_Sum();
         long sysDate1 = System.currentTimeMillis();
 
         int[] matrix = {7, 2, 5, 10, 8};

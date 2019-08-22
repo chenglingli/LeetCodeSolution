@@ -1,5 +1,5 @@
 
-public class MySqrt {
+public class L069_Sqrt_x {
 
     public int mySqrt(int x) {
         double temp = x * 1.0;
@@ -9,7 +9,7 @@ public class MySqrt {
 
     public static void main(String[] args) {
 
-        MySqrt s = new MySqrt();
+        L069_Sqrt_x s = new L069_Sqrt_x();
 
         long sysDate1 = System.currentTimeMillis();
         int x = 2147483647;
