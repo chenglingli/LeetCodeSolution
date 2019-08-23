@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class L658_Find_K_Closest_Elements {
 
     /**
      * Given a sorted array, two integers k and x,
@@ -60,7 +59,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L658_Find_K_Closest_Elements s = new L658_Find_K_Closest_Elements();
         long sysDate1 = System.currentTimeMillis();
 
         int[] matrix = {1,2,3,4,5};
