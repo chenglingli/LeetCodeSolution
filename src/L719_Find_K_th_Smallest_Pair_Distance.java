@@ -1,6 +1,8 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
-public class Solution {
+public class L719_Find_K_th_Smallest_Pair_Distance {
 
     /**
      Given an integer array, return the k-th smallest distance among all the pairs.
@@ -87,7 +89,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L719_Find_K_th_Smallest_Pair_Distance s = new L719_Find_K_th_Smallest_Pair_Distance();
         long sysDate1 = System.currentTimeMillis();
 
         int[] matrix = {1,3,1};
