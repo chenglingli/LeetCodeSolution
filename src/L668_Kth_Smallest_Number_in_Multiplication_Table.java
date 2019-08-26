@@ -1,4 +1,4 @@
-public class Solution {
+public class L668_Kth_Smallest_Number_in_Multiplication_Table {
 
     /**
      *
@@ -93,7 +93,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L668_Kth_Smallest_Number_in_Multiplication_Table s = new L668_Kth_Smallest_Number_in_Multiplication_Table();
         long sysDate1 = System.currentTimeMillis();
 
         int res = s.findKthNumber(3, 3, 5);
