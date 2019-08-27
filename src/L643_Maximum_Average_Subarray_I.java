@@ -1,4 +1,4 @@
-public class Solution {
+public class L643_Maximum_Average_Subarray_I {
 
     /**
      *
@@ -40,7 +40,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L643_Maximum_Average_Subarray_I s = new L643_Maximum_Average_Subarray_I();
         long sysDate1 = System.currentTimeMillis();
 
         int[] nums = {1, 12, -5, -6, 50, 3};
