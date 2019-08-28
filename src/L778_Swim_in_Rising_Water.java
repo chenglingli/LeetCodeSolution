@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Solution {
+public class L778_Swim_in_Rising_Water {
 
     /**
      *
@@ -125,7 +125,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L778_Swim_in_Rising_Water s = new L778_Swim_in_Rising_Water();
         long sysDate1 = System.currentTimeMillis();
 
         int[][] nums = {{0,1,2,3,4},{24,23,22,21,5},{12,13,14,15,16},{11,17,18,19,20},{10,9,8,7,6}};
