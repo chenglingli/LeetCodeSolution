@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.Stack;
-
-public class Solution {
+public class L875_Koko_Eating_Bananas {
 
     /**
      *
@@ -122,7 +119,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L875_Koko_Eating_Bananas s = new L875_Koko_Eating_Bananas();
         long sysDate1 = System.currentTimeMillis();
 
         int[] nums = {30,11,23,4,20};
