@@ -1,4 +1,4 @@
-public class Solution {
+public class L878_Nth_Magical_Number {
 
     /**
      *
@@ -57,7 +57,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L878_Nth_Magical_Number s = new L878_Nth_Magical_Number();
         long sysDate1 = System.currentTimeMillis();
 
         int res = s.nthMagicalNumber(8, 10, 5);
