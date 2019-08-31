@@ -1,4 +1,4 @@
-public class Solution {
+public class L162_Find_Peak_Element {
 
     /**
      *
@@ -61,7 +61,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L162_Find_Peak_Element s = new L162_Find_Peak_Element();
         long sysDate1 = System.currentTimeMillis();
 
         int [] nums = {3,2,1};
