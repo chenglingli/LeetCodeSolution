@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class Solution {
+public class L275_H_Index_II {
 
     /**
      *
@@ -45,7 +43,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L275_H_Index_II s = new L275_H_Index_II();
         long sysDate1 = System.currentTimeMillis();
 
         int [] nums = {0,1};
