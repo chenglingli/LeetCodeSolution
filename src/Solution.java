@@ -1,62 +1,41 @@
+import java.util.Arrays;
+
 public class Solution {
 
     /**
      *
 
-     A peak element is an element that is greater than its neighbors.
+     Given an array of citations sorted in ascending order (each citation is a non-negative integer)
+     of a researcher, write a function to compute the researcher's h-index.
 
-     Given an input array nums, where nums[i] ≠ nums[i+1], find a peak element and return its index.
+     According to the definition of h-index on Wikipedia:
+     "A scientist has index h if h of his/her N papers have at least h citations each,
+     and the other N − h papers have no more than h citations each."
 
-     The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
+     Example:
 
-     You may imagine that nums[-1] = nums[n] = -∞.
-
-     Example 1:
-
-     Input: nums = [1,2,3,1]
-     Output: 2
-     Explanation: 3 is a peak element and your function should return the index number 2.
-
-
-     Example 2:
-
-     Input: nums = [1,2,1,3,5,6,4]
-     Output: 1 or 5
-     Explanation: Your function can return either index number 1 where the peak element is 2,
-     or index number 5 where the peak element is 6.
+     Input: citations = [0,1,3,5,6]
+     Output: 3
+     Explanation: [0,1,3,5,6] means the researcher has 5 papers in total and each of them had
+     received 0, 1, 3, 5, 6 citations respectively.
+     Since the researcher has 3 papers with at least 3 citations each and the remaining
+     two with no more than 3 citations each, her h-index is 3.
      Note:
 
-     Your solution should be in logarithmic complexity.
+     If there are several possible values for h, the maximum one is taken as the h-index.
+
+     Follow up:
+
+     This is a follow up problem to H-Index, where citations is now guaranteed to be sorted in ascending order.
+     Could you solve it in logarithmic time complexity?
 
      */
 
-    public int findPeakElement(int[] nums) {
+    public int hIndex(int[] citations) {
 
-        int len = nums.length;
-        if (len == 1) {
-            return 0;
-        }
+        
 
-        for (int i = 1 ;i < len-1; i++) {
-            if (nums[i] > nums[i-1] && nums[i] > nums[i+1]) {
-                return i;
-            }
-        }
-
-        if (nums[0] > nums[len - 1]) {
-            return 0;
-        }
-        return len - 1;
-    }
-
-    public int findPeakElement2(int[] nums) {
-        int left = 0, right = nums.length - 1;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] < nums[mid + 1]) left = mid + 1;
-            else right = mid;
-        }
-        return right;
+        return 0;
     }
 
     public static void main(String[] args) {
@@ -64,8 +43,8 @@ public class Solution {
         Solution s = new Solution();
         long sysDate1 = System.currentTimeMillis();
 
-        int [] nums = {3,2,1};
-        int res = s.findPeakElement(nums);
+        int [] nums = {0,1};
+        int res = s.hIndex(nums);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();
