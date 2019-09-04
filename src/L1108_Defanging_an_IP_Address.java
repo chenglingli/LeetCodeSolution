@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class Solution {
+public class L1108_Defanging_an_IP_Address {
 
     /**
      *
@@ -38,7 +36,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L1108_Defanging_an_IP_Address s = new L1108_Defanging_an_IP_Address();
         long sysDate1 = System.currentTimeMillis();
 
         String nums = "255.100.50.0";
