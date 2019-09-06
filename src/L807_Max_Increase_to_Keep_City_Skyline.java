@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class Solution {
+public class L807_Max_Increase_to_Keep_City_Skyline {
 
     /**
      *
@@ -75,7 +73,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L807_Max_Increase_to_Keep_City_Skyline s = new L807_Max_Increase_to_Keep_City_Skyline();
         long sysDate1 = System.currentTimeMillis();
 
         int[][] grid = {{3,0,8,4},{2,4,5,7},{9,2,6,3},{0,3,1,0}};
