@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class Solution {
+public class L1038_Binary_Search_Tree_to_Greater_Sum_Tree {
 
     /**
      *
@@ -86,7 +84,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L1038_Binary_Search_Tree_to_Greater_Sum_Tree s = new L1038_Binary_Search_Tree_to_Greater_Sum_Tree();
         long sysDate1 = System.currentTimeMillis();
 
         TreeNode root = new TreeNode(0);
