@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class Solution {
+public class L938_Range_Sum_of_BST {
 
     /**
      *
@@ -56,7 +54,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L938_Range_Sum_of_BST s = new L938_Range_Sum_of_BST();
         long sysDate1 = System.currentTimeMillis();
 
         TreeNode root = new TreeNode(10);
