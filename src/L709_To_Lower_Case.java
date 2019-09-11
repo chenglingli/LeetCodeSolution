@@ -1,8 +1,7 @@
-import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Solution {
+public class L709_To_Lower_Case {
 
     /**
      *
@@ -53,7 +52,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L709_To_Lower_Case s = new L709_To_Lower_Case();
         long sysDate1 = System.currentTimeMillis();
 
         String t = "Hello";
