@@ -1,10 +1,7 @@
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class Solution {
+public class L804_Unique_Morse_Code_Words {
 
     /**
      *
@@ -92,7 +89,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L804_Unique_Morse_Code_Words s = new L804_Unique_Morse_Code_Words();
         long sysDate1 = System.currentTimeMillis();
 
         String []t = {"gin", "zen", "gig", "msg"};
