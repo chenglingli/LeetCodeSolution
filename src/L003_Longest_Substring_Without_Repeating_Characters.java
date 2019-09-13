@@ -1,11 +1,13 @@
 /**
- * Given a string, find the length of the longest substring without repeating characters.
+ * Given a string, find the length of the longest substring without
+ * repeating characters.
  * <p>
  * Examples:
  * <p>
  * Given "abcabcbb", the answer is "abc", which the length is 3.
  * Given "bbbbb", the answer is "b", with the length of 1.
- * Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring,
+ * Given "pwwkew", the answer is "wke", with the length of 3.
+ * Note that the answer must be a substring,
  * "pwke" is a subsequence and not a substring.
  */
 
@@ -13,9 +15,9 @@
 
 字符串维度操作
 
-public class L944_Delete_Columns_to_Make_Sorted {
+public class L003_Longest_Substring_Without_Repeating_Characters {
 
-    public int lengthOfLongestSubstring(String s) {
+    public int L003_Longest_Substring_Without_Repeating_Characters(String s) {
 
         int length = s.length();
         if (length == 0) return 0;
@@ -49,9 +51,9 @@ public class L944_Delete_Columns_to_Make_Sorted {
 
 使用 hash map 替代String
 
-public class L944_Delete_Columns_to_Make_Sorted {
+public class L003_Longest_Substring_Without_Repeating_Characters {
 
-    public int lengthOfLongestSubstring(String s) {
+    public int L003_Longest_Substring_Without_Repeating_Characters(String s) {
 
         int length = s.length();
         if (length == 0) return 0;
@@ -80,9 +82,9 @@ public class L944_Delete_Columns_to_Make_Sorted {
 
 用HashSet，只需要控制左右两个index，当右index出现重复时候，左index前移
 
-public class L944_Delete_Columns_to_Make_Sorted {
+public class L003_Longest_Substring_Without_Repeating_Characters {
 
-    public int lengthOfLongestSubstring(String s) {
+    public int L003_Longest_Substring_Without_Repeating_Characters(String s) {
         int i = 0, j = 0, max = 0;
         Set<Character> set = new HashSet<>();
 
@@ -110,7 +112,7 @@ public class L944_Delete_Columns_to_Make_Sorted {
 简单来说，可以不用HashSet，因为对于任何一个当前 检测串，已经拥有完全信息
 
  */
-public class lengthOfLongestSubstring {
+public class L003_Longest_Substring_Without_Repeating_Characters {
 
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
@@ -144,7 +146,7 @@ public class lengthOfLongestSubstring {
 
     public static void main(String[] args) {
 
-        lengthOfLongestSubstring s = new lengthOfLongestSubstring();
+        L003_Longest_Substring_Without_Repeating_Characters s = new L003_Longest_Substring_Without_Repeating_Characters();
         String testStr = "abcabcbb";
         // String testStr = "ab";
         // String testStr = "a";
