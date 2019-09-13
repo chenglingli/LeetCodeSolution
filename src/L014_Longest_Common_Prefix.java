@@ -1,4 +1,4 @@
-public class LongestCommonPrefix {
+public class L014_Longest_Common_Prefix {
 
     public String longestCommonPrefix(String[] strs) {
 
@@ -30,7 +30,7 @@ public class LongestCommonPrefix {
 
     public static void main(String[] args) {
 
-        LongestCommonPrefix s = new LongestCommonPrefix();
+        L014_Longest_Common_Prefix s = new L014_Longest_Common_Prefix();
 
         long sysDate1 = System.currentTimeMillis();
         String inputStr1 = "aca";
