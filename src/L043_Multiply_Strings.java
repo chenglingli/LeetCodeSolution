@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Solution {
+public class L043_Multiply_Strings {
 
     /**
      Given two non-negative integers num1 and num2 represented as strings,
@@ -70,7 +70,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L043_Multiply_Strings s = new L043_Multiply_Strings();
         long sysDate1 = System.currentTimeMillis();
 
         String s1 = "23";
