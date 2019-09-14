@@ -114,7 +114,7 @@ public class L611_Valid_Triangle_Number {
         int[] matrix = {2, 2, 3, 4};
         // int[][] matrix = {{1, 3}, {3, 5}, {6, 7}, {6, 8}, {8, 4}, {9, 5}};
         // int[][] matrix = {{5,4},{6,4},{6,7},{2,3}};
-        int res2 = s.triangleNumber2(matrix);
+        int res2 = s.triangleNumber(matrix);
         System.out.println(res2);
 
         long sysDate2 = System.currentTimeMillis();

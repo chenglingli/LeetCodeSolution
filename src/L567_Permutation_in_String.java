@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.TreeSet;
-
-public class Solution {
+public class L567_Permutation_in_String {
 
     /**
      * Given two strings s1 and s2, write a function to return true
@@ -106,7 +101,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L567_Permutation_in_String s = new L567_Permutation_in_String();
         long sysDate1 = System.currentTimeMillis();
 
         String s1 = "abc";
