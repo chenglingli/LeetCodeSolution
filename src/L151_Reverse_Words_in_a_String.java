@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Solution {
+public class L151_Reverse_Words_in_a_String {
 
     /**
 
@@ -42,7 +42,7 @@ public class Solution {
     public String reverseWords(String s) {
 
         if (s == null || s.length() == 0) return "";
-
+        
         String trimString = s.trim();
         String[] stringList = trimString.split(" ");
 
@@ -58,7 +58,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L151_Reverse_Words_in_a_String s = new L151_Reverse_Words_in_a_String();
         long sysDate1 = System.currentTimeMillis();
 
         String s1 = "a good   example";
