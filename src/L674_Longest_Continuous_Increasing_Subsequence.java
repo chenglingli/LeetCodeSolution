@@ -1,6 +1,4 @@
-import java.util.Objects;
-
-public class Solution {
+public class L674_Longest_Continuous_Increasing_Subsequence {
 
     /**
 
@@ -48,7 +46,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L674_Longest_Continuous_Increasing_Subsequence s = new L674_Longest_Continuous_Increasing_Subsequence();
         long sysDate1 = System.currentTimeMillis();
 
         int[] nums = {1,2,3,4,5,3,4,5,6,7,8,9};
