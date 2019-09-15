@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ThreeSum {
+public class L015_3Sum {
 
     public List<List<Integer>> threeSum(int[] nums) {
         int length = nums.length;
@@ -42,7 +42,7 @@ public class ThreeSum {
 
     public static void main(String[] args) {
 
-        ThreeSum s = new ThreeSum();
+        L015_3Sum s = new L015_3Sum();
 
         long sysDate1 = System.currentTimeMillis();
 
