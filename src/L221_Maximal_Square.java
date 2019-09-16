@@ -1,4 +1,4 @@
-public class Solution {
+public class L221_Maximal_Square {
 
     /**
 
@@ -49,7 +49,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L221_Maximal_Square s = new L221_Maximal_Square();
         long sysDate1 = System.currentTimeMillis();
 
         char[][] matrix = {
