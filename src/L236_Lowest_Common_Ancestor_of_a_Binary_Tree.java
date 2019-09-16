@@ -1,4 +1,4 @@
-public class Solution {
+public class L236_Lowest_Common_Ancestor_of_a_Binary_Tree {
 
     /**
 
@@ -57,7 +57,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L236_Lowest_Common_Ancestor_of_a_Binary_Tree s = new L236_Lowest_Common_Ancestor_of_a_Binary_Tree();
         long sysDate1 = System.currentTimeMillis();
 
         TreeNode n1 = new TreeNode(3);
