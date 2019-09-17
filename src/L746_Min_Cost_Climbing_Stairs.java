@@ -1,4 +1,4 @@
-public class Solution {
+public class L746_Min_Cost_Climbing_Stairs {
 
     /**
 
@@ -41,7 +41,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L746_Min_Cost_Climbing_Stairs s = new L746_Min_Cost_Climbing_Stairs();
         long sysDate1 = System.currentTimeMillis();
 
         int[] cost = {10, 15, 20};
