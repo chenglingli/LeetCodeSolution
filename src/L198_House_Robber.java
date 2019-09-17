@@ -1,4 +1,4 @@
-public class Solution {
+public class L198_House_Robber {
 
     /**
 
@@ -54,7 +54,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L198_House_Robber s = new L198_House_Robber();
         long sysDate1 = System.currentTimeMillis();
 
         int[] cost = {2,7,9,3,1};
