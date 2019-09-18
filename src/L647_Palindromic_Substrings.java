@@ -1,4 +1,4 @@
-public class Solution {
+public class L647_Palindromic_Substrings {
 
     /**
 
@@ -87,7 +87,7 @@ public class Solution {
 
         int [] nums = {-2, 0, 3, -5, 2, -1};
 
-        Solution s = new Solution();
+        L647_Palindromic_Substrings s = new L647_Palindromic_Substrings();
         long sysDate1 = System.currentTimeMillis();
 
         String ss = "aaaaa";
