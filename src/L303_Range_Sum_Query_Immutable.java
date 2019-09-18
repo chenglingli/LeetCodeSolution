@@ -1,4 +1,4 @@
-public class Solution {
+public class L303_Range_Sum_Query_Immutable {
 
     /**
 
@@ -39,7 +39,7 @@ public class Solution {
 
         int [] nums = {-2, 0, 3, -5, 2, -1};
 
-        Solution s = new Solution();
+        L303_Range_Sum_Query_Immutable s = new L303_Range_Sum_Query_Immutable();
         long sysDate1 = System.currentTimeMillis();
 
         int[] cost = {2,7,9,3,1};
