@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class L413_Arithmetic_Slices {
 
     /**
 
@@ -87,7 +87,7 @@ public class Solution {
 
         int [] nums = {-2, 0, 3, -5, 2, -1};
 
-        Solution s = new Solution();
+        L413_Arithmetic_Slices s = new L413_Arithmetic_Slices();
         long sysDate1 = System.currentTimeMillis();
 
         int[] ss = {1,2,3,4,5, 9, 13};
