@@ -1,8 +1,6 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-public class Solution {
+public class L712_Minimum_ASCII_Delete_Sum_for_Two_Strings {
 
     /**
 
@@ -89,7 +87,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L712_Minimum_ASCII_Delete_Sum_for_Two_Strings s = new L712_Minimum_ASCII_Delete_Sum_for_Two_Strings();
         long sysDate1 = System.currentTimeMillis();
 
         String s1 = "delete";
