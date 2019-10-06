@@ -1,9 +1,7 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 
-public class Solution {
+public class L646_Maximum_Length_of_Pair_Chain {
 
     /**
      You are given n pairs of numbers. In every pair,
@@ -78,7 +76,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L646_Maximum_Length_of_Pair_Chain s = new L646_Maximum_Length_of_Pair_Chain();
         long sysDate1 = System.currentTimeMillis();
 
         int[][] pairs = {{1,2},{3,4},{2,3}};
