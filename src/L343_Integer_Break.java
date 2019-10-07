@@ -1,4 +1,4 @@
-public class Solution {
+public class L343_Integer_Break {
 
     /**
      Given a positive integer n, break it into the sum of at
@@ -63,7 +63,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L343_Integer_Break s = new L343_Integer_Break();
         long sysDate1 = System.currentTimeMillis();
 
         int res = s.integerBreak2(58);
