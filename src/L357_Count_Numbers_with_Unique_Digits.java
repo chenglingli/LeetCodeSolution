@@ -1,4 +1,4 @@
-public class Solution {
+public class L357_Count_Numbers_with_Unique_Digits {
 
     /**
      Given a non-negative integer n, count all numbers with unique digits, x, where 0 ≤ x < 10n.
@@ -33,7 +33,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L357_Count_Numbers_with_Unique_Digits s = new L357_Count_Numbers_with_Unique_Digits();
         long sysDate1 = System.currentTimeMillis();
 
         int res = s.countNumbersWithUniqueDigits(2);
