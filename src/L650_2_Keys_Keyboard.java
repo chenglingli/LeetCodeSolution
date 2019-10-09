@@ -1,4 +1,4 @@
-public class Solution {
+public class L650_2_Keys_Keyboard {
 
     /**
      Initially on a notepad only one character 'A' is present.
@@ -50,7 +50,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L650_2_Keys_Keyboard s = new L650_2_Keys_Keyboard();
         long sysDate1 = System.currentTimeMillis();
 
         int res = s.minSteps(9);
