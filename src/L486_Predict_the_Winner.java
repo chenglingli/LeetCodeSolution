@@ -1,4 +1,4 @@
-public class Solution {
+public class L486_Predict_the_Winner {
 
     /**
      Given an array of scores that are non-negative integers.
@@ -65,7 +65,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L486_Predict_the_Winner s = new L486_Predict_the_Winner();
         long sysDate1 = System.currentTimeMillis();
 
         int [] nums = {1, 5, 233, 7};
