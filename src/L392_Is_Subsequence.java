@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Solution {
+public class L392_Is_Subsequence {
 
     /**
      Given a string s and a string t, check if s is subsequence of t.
@@ -100,7 +100,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution s = new Solution();
+        L392_Is_Subsequence s = new L392_Is_Subsequence();
         long sysDate1 = System.currentTimeMillis();
 
         String a = "ab";
