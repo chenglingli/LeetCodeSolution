@@ -67,6 +67,20 @@ public class L392_Is_Subsequence {
         return true;
     }
 
+    /*
+    Our current solution is O(n), where n is the length of t.
+    If there are lots of incoming s,
+    out solution won't be satisfactory because n is very large.
+Binary search. For each character from a - z,
+create a list of indices where the character occurs in t.
+Iterate through s. For each character in s,
+go to its corresponding list, and binary search 
+for the earliest index where the character occurs in t.
+Use a variable "previous" to keep track of that index.
+If in any iteration, binary search returns an index
+that's out of range of the list, return false,
+because that means a character that appears later in s has no match in t.
+     */
     public boolean isSubsequence3(String s, String t) {
         List<Integer>[] positions = new List[26];
 
