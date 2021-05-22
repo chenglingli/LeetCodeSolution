@@ -16,12 +16,9 @@ public class L093_Restore_IP_Addresses {
     }
 
     /**
-     *
      * @param s
-     * @param p
-     *            :指针
-     * @param pstack
-     *            :stack的下标
+     * @param p      :指针
+     * @param pstack :stack的下标
      */
     public void dfs(String s, int p, int pstack) {
 

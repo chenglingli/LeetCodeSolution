@@ -1,5 +1,3 @@
-
-
 public class MaxProfit {
 
     public int maxProfit2(int[] prices) {

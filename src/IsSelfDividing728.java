@@ -7,7 +7,7 @@ public class IsSelfDividing728 {
 
         List<Integer> res = new ArrayList<>();
 
-        for (int i = left ; i <= right ; i++) {
+        for (int i = left; i <= right; i++) {
 
             if (isSelfDividing(i)) {
                 res.add(i);
@@ -22,9 +22,8 @@ public class IsSelfDividing728 {
         while (m != 0) {
             int temp = m % 10;
             if (temp != 0 && x % temp == 0) {
-                m = m/10;
-            }
-            else {
+                m = m / 10;
+            } else {
                 return false;
             }
         }

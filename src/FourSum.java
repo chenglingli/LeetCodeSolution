@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -37,14 +36,18 @@ public class FourSum {
                         quad.add(nums[right]);
                         res.add(quad);
 
-                        while (left < right && nums[left++] == nums[left]) {}
-                        while (left < right && nums[right--] == nums[right]) {}
+                        while (left < right && nums[left++] == nums[left]) {
+                        }
+                        while (left < right && nums[right--] == nums[right]) {
+                        }
 
                     } else if (nums[left] + nums[right] < sum2) {
-                        while (left < right && nums[left++] == nums[left]) {}
+                        while (left < right && nums[left++] == nums[left]) {
+                        }
 
                     } else {
-                        while (left < right && nums[right--] == nums[right]) {}
+                        while (left < right && nums[right--] == nums[right]) {
+                        }
                     }
                 }
             }

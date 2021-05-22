@@ -6,7 +6,7 @@ public class L206_Reverse_Linked_List {
         newHead.next = null;
 
         ListNode p = head;
-        while (p!=null) {
+        while (p != null) {
 
             int value = p.val;
             ListNode temp = new ListNode(value);
@@ -37,7 +37,6 @@ public class L206_Reverse_Linked_List {
             System.out.println(res.val);
             res = res.next;
         }
-
 
 
         long sysDate2 = System.currentTimeMillis();

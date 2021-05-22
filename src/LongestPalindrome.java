@@ -1,12 +1,10 @@
-
 public class LongestPalindrome {
 
     /**
-     *
      * 动态规划
      * dp[i, j] = 1                                   if i == j
-                = s[i] == s[j]                        if j = i + 1
-                = s[i] == s[j] && dp[i + 1][j - 1]    if j > i + 1 
+     *            = s[i] == s[j]                        if j = i + 1
+     *            = s[i] == s[j] && dp[i + 1][j - 1]    if j > i + 1 
      */
 
     public String longestPalindrome(String s) {
@@ -16,12 +14,12 @@ public class LongestPalindrome {
             return res;
         }
 
-        int [][] dp = new int[s.length()][s.length()];
+        int[][] dp = new int[s.length()][s.length()];
         int max = 0;
         int right = 0, left = 0;
 
-        for (int i = 0 ; i < s.length() ; i++) {
-            for (int j = 0 ; j < i ; j++) {
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j < i; j++) {
 
                 if (s.charAt(i) == s.charAt(j)) {
                     if (i - j < 2 || dp[j + 1][i - 1] == 1) {
@@ -49,7 +47,7 @@ public class LongestPalindrome {
 
         long sysDate1 = System.currentTimeMillis();
 
-        String input  = "babad";
+        String input = "babad";
 
         String res = s.longestPalindrome(input);
 

@@ -51,8 +51,6 @@ public class CopyRandomList138 {
 //        System.out.println(res.right.val);
 
 
-
-
         long sysDate2 = System.currentTimeMillis();
         System.out.println("\ntime ");
         System.out.print(sysDate2 - sysDate1);

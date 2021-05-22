@@ -71,11 +71,11 @@ public class L079_Word_Search {
 
         long sysDate1 = System.currentTimeMillis();
 
-        char [][] obstacleGrid = {
+        char[][] obstacleGrid = {
                 {0, 0, 0},
                 {0, 1, 0},
                 {0, 0, 0}
-                };
+        };
 
         boolean x = s.exist(obstacleGrid, "10");
 

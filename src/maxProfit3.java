@@ -1,5 +1,3 @@
-
-
 // Best Time to Buy and Sell Stock III
 
 /**
@@ -52,7 +50,7 @@ public class maxProfit3 {
         maxProfit3 s = new maxProfit3();
 
         long sysDate1 = System.currentTimeMillis();
-        int [] prices = {7,1,5,3,6,4};
+        int[] prices = {7, 1, 5, 3, 6, 4};
 
         int res = s.maxProfit3(prices);
         System.out.println(res);

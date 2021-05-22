@@ -1,5 +1,5 @@
 public class L328_Odd_Even_Linked_List {
-    
+
     public ListNode oddEvenList(ListNode head) {
         if (head == null) {
             return null;
@@ -21,14 +21,13 @@ public class L328_Odd_Even_Linked_List {
                 p1.next = p;
                 p.next = null;
                 p1 = p;
-            }
-            else {
+            } else {
                 p2.next = p;
                 p.next = null;
                 p2 = p;
             }
 
-            i ++ ;
+            i++;
             p = temp;
         }
         p1.next = p2Head.next;
@@ -59,7 +58,7 @@ public class L328_Odd_Even_Linked_List {
 
         ListNode x = s.oddEvenList(head);
 
-        while (x!=null) {
+        while (x != null) {
             System.out.println(x.val);
             x = x.next;
         }

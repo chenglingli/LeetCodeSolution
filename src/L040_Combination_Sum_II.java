@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,18 +7,16 @@ public class L040_Combination_Sum_II {
 
     List<List<Integer>> res = new ArrayList<>();
 
-    public void backTrack(int start, List<Integer> ans, int [] num, int target) {
+    public void backTrack(int start, List<Integer> ans, int[] num, int target) {
 
         if (target < 0) {
             return;
-        }
-        else if (target == 0) {
+        } else if (target == 0) {
             res.add(new ArrayList<>(ans));
-        }
-        else {
-            for (int i = start; i < num.length ; i++) {
+        } else {
+            for (int i = start; i < num.length; i++) {
 
-                if (i > start && num[i-1] == num[i]) {
+                if (i > start && num[i - 1] == num[i]) {
                     continue;
                 }
 
@@ -32,7 +29,7 @@ public class L040_Combination_Sum_II {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
-        if (candidates.length != 0 ) {
+        if (candidates.length != 0) {
             List<Integer> ans = new ArrayList<>();
             backTrack(0, ans, candidates, target);
         }
@@ -45,7 +42,7 @@ public class L040_Combination_Sum_II {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] input = {10,1,2,7,6,1,5};
+        int[] input = {10, 1, 2, 7, 6, 1, 5};
         List<List<Integer>> res = s.combinationSum2(input, 8);
         System.out.println(res);
 

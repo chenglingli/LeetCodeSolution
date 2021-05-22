@@ -20,8 +20,7 @@ public class L147_Insertion_Sort_List {
             if (pre.next == p) {
                 p = p.next;
                 pre = pre.next;
-            }
-            else {
+            } else {
                 p = pre.next;
             }
         }
@@ -31,7 +30,7 @@ public class L147_Insertion_Sort_List {
 
     public void insert(ListNode dummyHead, ListNode newNode) {
         ListNode p = dummyHead;
-        while ( p.next != null && p.next.val < newNode.val) {
+        while (p.next != null && p.next.val < newNode.val) {
             p = p.next;
         }
         newNode.next = p.next;
@@ -60,7 +59,7 @@ public class L147_Insertion_Sort_List {
 
         ListNode x = s.insertionSortList(head);
 
-        while (x!=null) {
+        while (x != null) {
             System.out.println(x.val);
             x = x.next;
         }

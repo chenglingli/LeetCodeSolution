@@ -9,12 +9,12 @@ public class Triangle {
         cost[0][0] = triangle.get(0).get(0);
         int res = Integer.MAX_VALUE;
 
-        for (int i = 1 ; i < triangle.size(); i++) {
-            cost[i][0] = cost[i-1][0] + triangle.get(i).get(0);
+        for (int i = 1; i < triangle.size(); i++) {
+            cost[i][0] = cost[i - 1][0] + triangle.get(i).get(0);
             for (int j = 1; j < triangle.get(i).size() - 1; j++)
-                cost[i][j] = Math.min(cost[i-1][j-1], cost[i-1][j]) + triangle.get(i).get(j);
+                cost[i][j] = Math.min(cost[i - 1][j - 1], cost[i - 1][j]) + triangle.get(i).get(j);
             int end = triangle.get(i).size() - 1;
-            cost[i][end] = cost[i-1][end-1] + triangle.get(i).get(end);
+            cost[i][end] = cost[i - 1][end - 1] + triangle.get(i).get(end);
         }
 
         for (int i = 0; i < triangle.get(triangle.size() - 1).size(); i++) {
@@ -34,12 +34,12 @@ public class Triangle {
         int[][] cache = new int[rowNums][rowNums];
 
         for (int i = 0; i < rowNums; i++) {
-            cache[rowNums-1][i] = triangle.get(rowNums-1).get(i);
+            cache[rowNums - 1][i] = triangle.get(rowNums - 1).get(i);
         }
 
         for (int j = rowNums - 2; j >= 0; j--) {
             for (int i = 0; i <= j; i++) {
-                cache[j][i] = triangle.get(j).get(i) + Math.min(cache[j+1][i], cache[j+1][i+1]);
+                cache[j][i] = triangle.get(j).get(i) + Math.min(cache[j + 1][i], cache[j + 1][i + 1]);
             }
         }
 

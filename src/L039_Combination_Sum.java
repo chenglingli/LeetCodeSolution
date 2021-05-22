@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,16 +7,14 @@ public class L039_Combination_Sum {
 
     List<List<Integer>> res = new ArrayList<>();
 
-    public void backTrack(int start, List<Integer> ans, int [] num, int target) {
+    public void backTrack(int start, List<Integer> ans, int[] num, int target) {
 
         if (target < 0) {
             return;
-        }
-        else if (target == 0) {
+        } else if (target == 0) {
             res.add(new ArrayList<>(ans));
-        }
-        else {
-            for (int i = start; i < num.length ; i++) {
+        } else {
+            for (int i = start; i < num.length; i++) {
 
                 ans.add(num[i]);
                 backTrack(i, ans, num, target - num[i]);
@@ -28,7 +25,7 @@ public class L039_Combination_Sum {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates);
-        if (candidates.length != 0 ) {
+        if (candidates.length != 0) {
             List<Integer> ans = new ArrayList<>();
             backTrack(0, ans, candidates, target);
         }

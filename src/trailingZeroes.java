@@ -1,5 +1,3 @@
-
-
 public class trailingZeroes {
 
     public int trailingZeroes(int n) {

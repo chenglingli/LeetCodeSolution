@@ -5,7 +5,7 @@ public class RemoveElement {
         int res = 0;
 
         int i = 0, j = 0;
-        while ( j < nums.length) {
+        while (j < nums.length) {
             if (nums[j] == val) {
                 j++;
             } else {
@@ -24,7 +24,7 @@ public class RemoveElement {
 
         RemoveElement s = new RemoveElement();
 
-        int nums [] = {1, 1};
+        int nums[] = {1, 1};
         int val = 1;
 
         long sysDate1 = System.currentTimeMillis();

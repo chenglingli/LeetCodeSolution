@@ -3,26 +3,23 @@ import java.util.Arrays;
 public class L274_H_Index {
 
     /**
-     *
-
-     Given an array of citations (each citation is a non-negative integer) of a researcher,
-     write a function to compute the researcher's h-index.
-
-     According to the definition of h-index on Wikipedia:
-     "A scientist has index h if h of his/her N papers have at least h citations each,
-     and the other N − h papers have no more than h citations each."
-
-     Example:
-
-     Input: citations = [3,0,6,1,5]
-     Output: 3
-
-     Explanation: [3,0,6,1,5] means the researcher has 5 papers in total and each of them had
-     received 3, 0, 6, 1, 5 citations respectively.
-     Since the researcher has 3 papers with at least 3 citations each and the remaining
-     two with no more than 3 citations each, her h-index is 3.
-     Note: If there are several possible values for h, the maximum one is taken as the h-index.
-
+     * Given an array of citations (each citation is a non-negative integer) of a researcher,
+     * write a function to compute the researcher's h-index.
+     * <p>
+     * According to the definition of h-index on Wikipedia:
+     * "A scientist has index h if h of his/her N papers have at least h citations each,
+     * and the other N − h papers have no more than h citations each."
+     * <p>
+     * Example:
+     * <p>
+     * Input: citations = [3,0,6,1,5]
+     * Output: 3
+     * <p>
+     * Explanation: [3,0,6,1,5] means the researcher has 5 papers in total and each of them had
+     * received 3, 0, 6, 1, 5 citations respectively.
+     * Since the researcher has 3 papers with at least 3 citations each and the remaining
+     * two with no more than 3 citations each, her h-index is 3.
+     * Note: If there are several possible values for h, the maximum one is taken as the h-index.
      */
 
     public int hIndex2(int[] citations) {
@@ -52,8 +49,7 @@ public class L274_H_Index {
         if (citations.length == 1) {
             if (citations[0] == 0) {
                 return 0;
-            }
-            else {
+            } else {
                 return 1;
             }
         }
@@ -68,7 +64,7 @@ public class L274_H_Index {
         for (int i = len - 1; i >= 1; i--) {
 
             int min = citations[i];
-            int max = citations[i-1];
+            int max = citations[i - 1];
             int tryValue = len - i;
 
             if (tryValue >= max && tryValue <= min) {
@@ -84,7 +80,7 @@ public class L274_H_Index {
         L274_H_Index s = new L274_H_Index();
         long sysDate1 = System.currentTimeMillis();
 
-        int [] nums = {0,1};
+        int[] nums = {0, 1};
         int res = s.hIndex(nums);
         System.out.println(res);
 

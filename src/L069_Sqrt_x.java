@@ -1,9 +1,8 @@
-
 public class L069_Sqrt_x {
 
     public int mySqrt(int x) {
         double temp = x * 1.0;
-        int ans = (int)Math.sqrt(temp);
+        int ans = (int) Math.sqrt(temp);
         return ans;
     }
 

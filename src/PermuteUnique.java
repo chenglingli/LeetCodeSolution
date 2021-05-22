@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,25 +7,24 @@ public class PermuteUnique {
 
     List<List<Integer>> res = new ArrayList<>();
 
-    public void backTrack(List<Integer> ans, int [] num, boolean[] used) {
+    public void backTrack(List<Integer> ans, int[] num, boolean[] used) {
         if (ans.size() == num.length) {
             res.add(new ArrayList<>(ans));
-        }
-        else {
-            for (int i = 0; i < num.length ; i++) {
+        } else {
+            for (int i = 0; i < num.length; i++) {
 
-                if(used[i] ||
-                        i > 0 && num[i]==num[i-1] && !used[i-1]) {
+                if (used[i] ||
+                        i > 0 && num[i] == num[i - 1] && !used[i - 1]) {
                     continue;
                 }
 
-                used[i]=true;
+                used[i] = true;
                 ans.add(num[i]);
 
                 backTrack(ans, num, used);
 
                 ans.remove(ans.size() - 1);
-                used[i]=false;
+                used[i] = false;
             }
         }
     }

@@ -1,11 +1,9 @@
 public class L031_Next_Permutation {
 
     /**
-
-     1,2,3 → 1,3,2
-     3,2,1 → 1,2,3
-     1,1,5 → 1,5,1
-
+     * 1,2,3 → 1,3,2
+     * 3,2,1 → 1,2,3
+     * 1,1,5 → 1,5,1
      */
 
     public void nextPermutation(int[] nums) {
@@ -23,8 +21,8 @@ public class L031_Next_Permutation {
             return;
         }
 
-        int idx = nums.length-1;
-        for (int i = nums.length-1; i >= mark+1; i--) {
+        int idx = nums.length - 1;
+        for (int i = nums.length - 1; i >= mark + 1; i--) {
             if (nums[i] > nums[mark]) {
                 idx = i;
                 break;
@@ -55,10 +53,10 @@ public class L031_Next_Permutation {
         L031_Next_Permutation s = new L031_Next_Permutation();
 
         long sysDate1 = System.currentTimeMillis();
-        int[] nums = {1,2,3};
+        int[] nums = {1, 2, 3};
         s.nextPermutation(nums);
 
-        for (int i = 0 ; i< nums.length ; i++) {
+        for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
         }
 

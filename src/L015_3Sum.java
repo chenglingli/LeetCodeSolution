@@ -25,16 +25,16 @@ public class L015_3Sum {
         return result;
     }
 
-    public int increment (int i, int[] nums) {
+    public int increment(int i, int[] nums) {
         while (i < nums.length - 1 && nums[i] == nums[i + 1]) {
-            i ++;
+            i++;
         }
         return ++i;
     }
 
-    public int decrease (int i, int[] nums) {
+    public int decrease(int i, int[] nums) {
         while (i >= 1 && nums[i] == nums[i - 1]) {
-            i --;
+            i--;
         }
         return --i;
     }

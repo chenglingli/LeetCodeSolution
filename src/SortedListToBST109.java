@@ -20,8 +20,7 @@ public class SortedListToBST109 {
         TreeNode treeHead = new TreeNode(slow.val);
         if (head == slow) {
             return treeHead;
-        }
-        else {
+        } else {
             treeHead.left = sortedListToBST(head);
             treeHead.right = sortedListToBST(slow.next);
         }
@@ -52,8 +51,6 @@ public class SortedListToBST109 {
         System.out.println(res.val);
         System.out.println(res.left.val);
         System.out.println(res.right.val);
-
-
 
 
         long sysDate2 = System.currentTimeMillis();

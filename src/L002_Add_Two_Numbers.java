@@ -3,12 +3,12 @@
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
  * Output: 7 -> 0 -> 8
  * Explanation: 342 + 465 = 807.
-
+ * <p>
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
  * }
  */
 
@@ -31,7 +31,7 @@ public class L002_Add_Two_Numbers {
             p2 = p2.next;
         }
 
-        while(p1 != null ) {
+        while (p1 != null) {
             pRes.val = p1.val;
             pRes.next = new ListNode(0);
 
@@ -39,7 +39,7 @@ public class L002_Add_Two_Numbers {
             p1 = p1.next;
         }
 
-        while(p2 != null ) {
+        while (p2 != null) {
             pRes.val = p2.val;
             pRes.next = new ListNode(0);
 
@@ -56,7 +56,7 @@ public class L002_Add_Two_Numbers {
             pRes.val = pRes.val % 10;
             pRes = pRes.next;
         }
-        if (tempValue > 0 ) {
+        if (tempValue > 0) {
             pRes = new ListNode(0);
             pRes.val = tempValue;
         }
@@ -100,7 +100,7 @@ public class L002_Add_Two_Numbers {
         }
 
         // last step
-        if (carry > 0 ) pRes.next = new ListNode(carry);
+        if (carry > 0) pRes.next = new ListNode(carry);
 
         return res.next;
     }

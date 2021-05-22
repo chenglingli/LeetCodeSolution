@@ -1,4 +1,3 @@
-
 // 罗马数字转化为十进制数字
 //        Symbol       Value
 //        I             1
@@ -19,12 +18,12 @@ public class RomanToInt {
                 case 'I':
 
                     if (i + 1 < s.length()) {
-                        if (s.charAt(i+1) == 'V') {
+                        if (s.charAt(i + 1) == 'V') {
                             res += 4;
                             i++;
                             break;
                         }
-                        if (s.charAt(i+1) == 'X') {
+                        if (s.charAt(i + 1) == 'X') {
                             res += 9;
                             i++;
                             break;
@@ -40,12 +39,12 @@ public class RomanToInt {
                 case 'X':
 
                     if (i + 1 < s.length()) {
-                        if (s.charAt(i+1) == 'L') {
+                        if (s.charAt(i + 1) == 'L') {
                             res += 40;
                             i++;
                             break;
                         }
-                        if (s.charAt(i+1) == 'C') {
+                        if (s.charAt(i + 1) == 'C') {
                             res += 90;
                             i++;
                             break;
@@ -60,12 +59,12 @@ public class RomanToInt {
                     break;
                 case 'C':
                     if (i + 1 < s.length()) {
-                        if (s.charAt(i+1) == 'D') {
+                        if (s.charAt(i + 1) == 'D') {
                             res += 400;
                             i++;
                             break;
                         }
-                        if (s.charAt(i+1) == 'M') {
+                        if (s.charAt(i + 1) == 'M') {
                             res += 900;
                             i++;
                             break;
@@ -92,20 +91,34 @@ public class RomanToInt {
         // assign initial val to last char
         int last = 0;
         int result = last;
-        for(int i = length - 1; i >= 0; i--){
+        for (int i = length - 1; i >= 0; i--) {
             int cur = 0;
-            switch(s.charAt(i)){
-                case 'I': cur = 1; break;
-                case 'V': cur = 5; break;
-                case 'X': cur = 10; break;
-                case 'L': cur = 50; break;
-                case 'C': cur = 100; break;
-                case 'D': cur = 500; break;
-                case 'M': cur = 1000; break;
+            switch (s.charAt(i)) {
+                case 'I':
+                    cur = 1;
+                    break;
+                case 'V':
+                    cur = 5;
+                    break;
+                case 'X':
+                    cur = 10;
+                    break;
+                case 'L':
+                    cur = 50;
+                    break;
+                case 'C':
+                    cur = 100;
+                    break;
+                case 'D':
+                    cur = 500;
+                    break;
+                case 'M':
+                    cur = 1000;
+                    break;
             }
-            if(last <= cur){
+            if (last <= cur) {
                 result += cur;
-            } else{
+            } else {
                 result -= cur;
             }
             last = cur;

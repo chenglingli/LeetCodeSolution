@@ -1,4 +1,3 @@
-
 public class maximumSwap {
 
     /*
@@ -47,7 +46,7 @@ public class maximumSwap {
         return Integer.parseInt(String.valueOf(res));
     }
 
-    void swap(char [] str, int i, int j) {
+    void swap(char[] str, int i, int j) {
         char temp = str[i];
         str[i] = str[j];
         str[j] = temp;

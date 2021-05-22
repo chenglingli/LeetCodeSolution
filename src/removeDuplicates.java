@@ -1,9 +1,8 @@
-
 public class removeDuplicates {
 
     public int removeDuplicates(int[] nums) {
 
-        if (nums.length == 0 ) {
+        if (nums.length == 0) {
             return 0;
         }
 
@@ -21,11 +20,10 @@ public class removeDuplicates {
                 if (i != j - 1) {
                     i++;
                     nums[i] = nums[j];
-                }
-                else {
+                } else {
                     i++;
                 }
-                
+
                 j++;
             }
         }

@@ -1,8 +1,7 @@
 /**
  * 检查两棵树是否长得一样
- *
+ * <p>
  * 采用递归的方式判断
- *
  */
 
 public class LengthofLastWord {
@@ -11,12 +10,12 @@ public class LengthofLastWord {
         int res = 0;
         int i = s.length() - 1;
 
-        while (i>=0 && s.charAt(i) == ' ') {
+        while (i >= 0 && s.charAt(i) == ' ') {
             i--;
         }
         int j = i;
 
-        while (i >=0) {
+        while (i >= 0) {
             if (s.charAt(i) == ' ') {
                 break;
             }
@@ -25,8 +24,7 @@ public class LengthofLastWord {
 
         if (j == i) {
             res = 0;
-        }
-        else {
+        } else {
             res = j - i;
         }
         return res;

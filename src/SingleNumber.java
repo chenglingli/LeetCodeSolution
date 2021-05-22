@@ -8,8 +8,8 @@ public class SingleNumber {
     public int singleNumber(int[] nums) {
         int result = 0;
 
-        for (int i = 0; i< nums.length; i++)
-            result ^=nums[i];
+        for (int i = 0; i < nums.length; i++)
+            result ^= nums[i];
 
         return result;
     }
@@ -21,7 +21,7 @@ public class SingleNumber {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int [] l = {1, 1, 2};
+        int[] l = {1, 1, 2};
 
         int res = s.singleNumber(l);
 

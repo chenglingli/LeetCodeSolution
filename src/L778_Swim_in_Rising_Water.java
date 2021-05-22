@@ -47,9 +47,7 @@ public class L778_Swim_in_Rising_Water {
      */
 
 
-
     /**
-     *
      * 我们也可以使用DP+DFS来做，这里使用一个二维dp数组，
      * 其中 dp[i][j] 表示到达 (i, j) 位置所需要的最低水面高度，均初始化为整型数最大值，
      * 我们的递归函数函数需要知道当前的位置 (x, y)，还有当前的水高cur，
@@ -57,15 +55,15 @@ public class L778_Swim_in_Rising_Water {
      * 或者是当前水高和 grid[x][y] 中的较大值大于等于 dp[x][y] 了，
      * 直接跳过，因为此时的dp值更小，不需要被更新了。否则 dp[x][y] 更新为较大值，
      * 然后对周围四个位置调用递归函数继续更新dp数组，最终返回右下位置的dp值即可
-     *
      */
 
     int[][] dirs = {{0, -1}, {-1, 0}, {0, 1}, {1, 0}};
+
     public int swimInWater(int[][] grid) {
         int n = grid.length;
         int[][] dp = new int[n][51];
-        for (int i = 0; i< dp.length; i++) {
-            for (int j = 0 ;j <dp[0].length;j++) {
+        for (int i = 0; i < dp.length; i++) {
+            for (int j = 0; j < dp[0].length; j++) {
                 dp[i][j] = Integer.MAX_VALUE;
             }
         }
@@ -128,7 +126,7 @@ public class L778_Swim_in_Rising_Water {
         L778_Swim_in_Rising_Water s = new L778_Swim_in_Rising_Water();
         long sysDate1 = System.currentTimeMillis();
 
-        int[][] nums = {{0,1,2,3,4},{24,23,22,21,5},{12,13,14,15,16},{11,17,18,19,20},{10,9,8,7,6}};
+        int[][] nums = {{0, 1, 2, 3, 4}, {24, 23, 22, 21, 5}, {12, 13, 14, 15, 16}, {11, 17, 18, 19, 20}, {10, 9, 8, 7, 6}};
         int res = s.swimInWater2(nums);
         System.out.println(res);
 

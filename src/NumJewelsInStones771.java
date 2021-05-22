@@ -2,15 +2,15 @@ public class NumJewelsInStones771 {
 
     public int numJewelsInStones(String J, String S) {
         int count = 0;
-        int [] mark = new int [70];
+        int[] mark = new int[70];
 
-        for (int i = 0; i < J.length() ; i++) {
+        for (int i = 0; i < J.length(); i++) {
             mark[J.charAt(i) - 'A'] = 1;
         }
 
-        for (int i = 0 ; i < S.length(); i++) {
+        for (int i = 0; i < S.length(); i++) {
             if (mark[S.charAt(i) - 'A'] == 1) {
-                count ++;
+                count++;
             }
         }
         return count;

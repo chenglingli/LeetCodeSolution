@@ -40,7 +40,6 @@ public class L127_Word_Ladder {
     }
 
 
-
     public static void main(String[] args) {
 
         L127_Word_Ladder s = new L127_Word_Ladder();

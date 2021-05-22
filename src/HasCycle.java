@@ -1,15 +1,14 @@
-
 public class HasCycle {
 
     public boolean hasCycle(ListNode head) {
 
         if (head == null || head.next == null) return false;
 
-        ListNode p1,p2;
+        ListNode p1, p2;
         p1 = head;
         p2 = head.next;
 
-        while (p1 != p2 ) {
+        while (p1 != p2) {
             if (p1 == null || p2 == null) return false;
 
             p1 = p1.next;

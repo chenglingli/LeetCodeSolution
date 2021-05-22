@@ -3,25 +3,23 @@ import java.util.Arrays;
 public class FindUnsortedSubarray {
 
 
+    public int findUnsortedSubarray1(int[] nums) {
+        int[] snums = nums.clone();
 
+        Arrays.sort(nums);
 
-        public int findUnsortedSubarray1(int[] nums){
-            int[] snums = nums.clone();
-
-            Arrays.sort(nums);
-
-            int start = snums.length, end = 0;
-            for (int i = 0; i < snums.length; i++) {
-                if (snums[i] != nums[i]) {
-                    start = Math.min(start, i);
-                    end = Math.max(end, i);
-                }
+        int start = snums.length, end = 0;
+        for (int i = 0; i < snums.length; i++) {
+            if (snums[i] != nums[i]) {
+                start = Math.min(start, i);
+                end = Math.max(end, i);
             }
-            return (end - start >= 0 ? end - start + 1 : 0);
         }
+        return (end - start >= 0 ? end - start + 1 : 0);
+    }
 
 
-    public int findUnsortedSubarray2( int[] nums){
+    public int findUnsortedSubarray2(int[] nums) {
         int[] snums = nums.clone();
 
         Arrays.sort(nums);
@@ -61,7 +59,7 @@ public class FindUnsortedSubarray {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int [] nums = {2, 5, 4, 8, 10, 9, 15};
+        int[] nums = {2, 5, 4, 8, 10, 9, 15};
         // int [] nums = {1, 2, 4, 8, 9, 15};
         // int [] nums = {2, 1};
         // int[] nums = {1, 3, 2, 2, 2};

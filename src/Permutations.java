@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,12 +6,11 @@ public class Permutations {
 
     List<List<Integer>> res = new ArrayList<>();
 
-    public void backTrack(List<Integer> ans, int [] num) {
+    public void backTrack(List<Integer> ans, int[] num) {
         if (ans.size() == num.length) {
             res.add(new ArrayList<>(ans));
-        }
-        else {
-            for (int i = 0; i < num.length ; i++) {
+        } else {
+            for (int i = 0; i < num.length; i++) {
                 if (ans.contains(num[i])) {
                     continue;
                 }

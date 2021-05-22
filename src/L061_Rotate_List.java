@@ -11,12 +11,12 @@ public class L061_Rotate_List {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode node = dummy.next;
-        while(node != null){
+        while (node != null) {
             len++;
             node = node.next;
         }
 
-        int step = k%len;
+        int step = k % len;
 
         if (step == 0) {
             return head;
@@ -56,7 +56,7 @@ public class L061_Rotate_List {
 
         ListNode x = s.rotateRight(head, 2);
 
-        while (x!=null) {
+        while (x != null) {
             System.out.println(x.val);
             x = x.next;
         }

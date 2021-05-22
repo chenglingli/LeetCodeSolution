@@ -8,13 +8,12 @@ public class L062_Unique_Paths {
 
         int mapCount[][] = new int[m + 1][n + 1];
 
-        for (int i = 1; i <= m ; i++) {
-            for (int j = 1; j<= n ; j++) {
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
                 if (i == 1 || j == 1) {
                     mapCount[i][j] = 1;
-                }
-                else {
-                    mapCount[i][j] = mapCount[i][j-1] + mapCount[i-1][j];
+                } else {
+                    mapCount[i][j] = mapCount[i][j - 1] + mapCount[i - 1][j];
                 }
             }
         }

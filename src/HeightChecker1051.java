@@ -6,8 +6,8 @@ public class HeightChecker1051 {
         int[] temp = heights.clone();
         Arrays.sort(heights);
         int incorrect = 0;
-        for(int i = 0; i < heights.length; i++){
-            if(temp[i] != heights[i]){
+        for (int i = 0; i < heights.length; i++) {
+            if (temp[i] != heights[i]) {
                 incorrect++;
             }
         }
@@ -20,7 +20,6 @@ public class HeightChecker1051 {
         HeightChecker1051 s = new HeightChecker1051();
 
         long sysDate1 = System.currentTimeMillis();
-
 
 
         long sysDate2 = System.currentTimeMillis();

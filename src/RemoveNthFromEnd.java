@@ -1,5 +1,3 @@
-
-
 public class RemoveNthFromEnd {
 
 
@@ -19,7 +17,7 @@ public class RemoveNthFromEnd {
         }
 
         p = p.next;
-        while(p.next != null) {
+        while (p.next != null) {
             p = p.next;
             q = q.next;
         }

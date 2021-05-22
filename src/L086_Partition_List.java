@@ -20,8 +20,7 @@ public class L086_Partition_List {
                 p1.next = p;
                 p.next = null;
                 p1 = p;
-            }
-            else {
+            } else {
                 p2.next = p;
                 p.next = null;
                 p2 = p;
@@ -57,7 +56,7 @@ public class L086_Partition_List {
 
         ListNode x = s.partition(head, 3);
 
-        while (x!=null) {
+        while (x != null) {
             System.out.println(x.val);
             x = x.next;
         }

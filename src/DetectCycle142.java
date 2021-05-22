@@ -14,7 +14,7 @@ public class DetectCycle142 {
         ListNode p2 = head;
 
         while (p1.next != null
-                && p2.next !=null
+                && p2.next != null
                 && p2.next.next != null) {
             p1 = p1.next;
             p2 = p2.next.next;
@@ -26,8 +26,7 @@ public class DetectCycle142 {
         ListNode common = head;
         if (p1 != p2) {
             return null;
-        }
-        else {
+        } else {
             common = p1;
         }
 

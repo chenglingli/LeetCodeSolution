@@ -2,7 +2,7 @@ public class L143_Reorder_List {
 
     public void reorderList(ListNode head) {
 
-        if(head == null || head.next == null || head.next.next == null) {
+        if (head == null || head.next == null || head.next.next == null) {
             return;
         }
 
@@ -27,7 +27,7 @@ public class L143_Reorder_List {
 
         ListNode tmp = head;
         ListNode p = null;
-        while(first != null) {
+        while (first != null) {
             p = first.next;
             first.next = tmp.next;
             tmp.next = first;

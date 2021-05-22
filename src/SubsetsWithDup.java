@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +10,7 @@ public class SubsetsWithDup {
         ret.add(new ArrayList<>(list));  //每次递归将其加入结果集
         for (int i = position; i < nums.length; i++) {
 
-            if (i > position && nums[i-1] == nums[i]) {
+            if (i > position && nums[i - 1] == nums[i]) {
                 continue;
             }
 
@@ -36,7 +35,7 @@ public class SubsetsWithDup {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] nums = {1,2,2};
+        int[] nums = {1, 2, 2};
         List<List<Integer>> res = s.subsetsWithDup(nums);
         System.out.println(res);
 

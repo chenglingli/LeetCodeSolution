@@ -1,4 +1,3 @@
-
 public class L006_ZigZag_Conversion {
 
 
@@ -9,17 +8,17 @@ public class L006_ZigZag_Conversion {
             return s;
         }
 
-        int interval  = (numRows - 1) * 2;
+        int interval = (numRows - 1) * 2;
 
         StringBuilder res = new StringBuilder();
         int span1 = interval;
         int span2 = 0;
 
-        for (int i = 0 ; i < numRows ; i++) {
+        for (int i = 0; i < numRows; i++) {
 
             StringBuilder tempSB = new StringBuilder();
 
-            for (int j = i ; j < s.length(); ) {
+            for (int j = i; j < s.length(); ) {
 
                 if (span1 > 0) {
                     tempSB.append(s.charAt(j));
@@ -50,7 +49,7 @@ public class L006_ZigZag_Conversion {
 
         long sysDate1 = System.currentTimeMillis();
 
-        String input  = "AB";
+        String input = "AB";
 
         String res = s.convert(input, 1);
 

@@ -5,23 +5,21 @@ public class IsAnagram242 {
         if (s.length() != t.length()) {
             return false;
         }
-        int [] ocupied = new int[s.length()];
+        int[] ocupied = new int[s.length()];
 
-        for (int i = 0 ;i < s.length() ; i++) {
+        for (int i = 0; i < s.length(); i++) {
             char temp = s.charAt(i);
             int index = t.indexOf(temp);
 
             if (index == -1) {
                 return false;
-            }
-            else {
-                while(index != -1 && ocupied[index] != 0) {
+            } else {
+                while (index != -1 && ocupied[index] != 0) {
                     index = t.indexOf(temp, index + 1);
                 }
                 if (index == -1) {
                     return false;
-                }
-                else {
+                } else {
                     ocupied[index] = 1;
                 }
             }
@@ -33,7 +31,7 @@ public class IsAnagram242 {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
 
-        int[] counts = new int['z'+1];
+        int[] counts = new int['z' + 1];
 
         for (char c : s.toCharArray()) {
             counts[c]++;
@@ -43,7 +41,7 @@ public class IsAnagram242 {
             counts[c]--;
         }
 
-        for (int i='a'; i<'z'; i++) {
+        for (int i = 'a'; i < 'z'; i++) {
             if (counts[i] != 0) return false;
         }
 

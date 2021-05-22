@@ -1,9 +1,8 @@
-
 public class L067_Add_Binary {
 
     public String addBinary(String a, String b) {
 
-        int [] res = new int[1000];
+        int[] res = new int[1000];
 
         int i = a.length() - 1, j = b.length() - 1, k = 0;
 
@@ -33,16 +32,16 @@ public class L067_Add_Binary {
         }
 
         int resLen = k;
-        for (i = 0; i < resLen ; i++) {
+        for (i = 0; i < resLen; i++) {
             if (res[i] >= 2) {
                 res[i] -= 2;
-                res[i+1] += 1;
+                res[i + 1] += 1;
             }
         }
 
         if (res[resLen] == 1) resLen += 1;
 
-        for (i = 0; i < resLen/2 ; i++) {
+        for (i = 0; i < resLen / 2; i++) {
             int temp = res[i];
             res[i] = res[resLen - i - 1];
             res[resLen - i - 1] = temp;

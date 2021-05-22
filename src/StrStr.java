@@ -10,10 +10,8 @@ public class StrStr {
         int next[] = new int[100000];
         next[0] = -1;
         int j = 0, i = 0, k = -1;
-        while (j < needle.length() - 1)
-        {
-            if (k == -1 || needle.charAt(j) == needle.charAt(k))
-            {
+        while (j < needle.length() - 1) {
+            if (k == -1 || needle.charAt(j) == needle.charAt(k)) {
                 ++k;
                 ++j;
 
@@ -21,9 +19,7 @@ public class StrStr {
                     next[j] = k;
                 else
                     next[j] = next[k];
-            }
-            else
-            {
+            } else {
                 k = next[k];
             }
         }
@@ -33,10 +29,9 @@ public class StrStr {
         j = 0;
         while (i < haystack.length() && j < needle.length()) {
             if (j == -1 || haystack.charAt(i) == needle.charAt(j)) {
-                i++ ;
-                j++ ;
-            }
-            else {
+                i++;
+                j++;
+            } else {
                 j = next[j];
             }
         }

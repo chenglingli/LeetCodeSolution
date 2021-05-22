@@ -1,31 +1,29 @@
 public class L221_Maximal_Square {
 
     /**
-
-     Given a 2D binary matrix filled with 0's and 1's,
-     find the largest square containing only 1's and return its area.
-
-     Example:
-
-     Input:
-
-     1 0 1 0 0
-     1 0 1 1 1
-     1 1 1 1 1
-     1 0 0 1 0
-
-     Output: 4
-
+     * Given a 2D binary matrix filled with 0's and 1's,
+     * find the largest square containing only 1's and return its area.
+     * <p>
+     * Example:
+     * <p>
+     * Input:
+     * <p>
+     * 1 0 1 0 0
+     * 1 0 1 1 1
+     * 1 1 1 1 1
+     * 1 0 0 1 0
+     * <p>
+     * Output: 4
      */
 
 
     public int maximalSquare(char[][] matrix) {
 
-        if(matrix.length == 0 || matrix[0].length == 0)
+        if (matrix.length == 0 || matrix[0].length == 0)
             return 0;
 
-        int m = matrix.length,n = matrix[0].length;
-        int [][] dp = new int[m][n];
+        int m = matrix.length, n = matrix[0].length;
+        int[][] dp = new int[m][n];
 
         int res = 0;
         for (int i = 0; i < m; i++) {

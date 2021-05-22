@@ -1,8 +1,7 @@
 /**
  * 检查两棵树是否长得一样
- *
+ * <p>
  * 采用递归的方式判断
- *
  */
 
 public class IsSameTree {

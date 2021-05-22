@@ -1,5 +1,3 @@
-
-
 public class ValidPalindrome {
 
     public boolean isPalindrome(String s) {
@@ -29,8 +27,8 @@ public class ValidPalindrome {
             if (Character.toLowerCase(s.charAt(i)) != Character.toLowerCase(s.charAt(j))) {
                 return false;
             }
-            i ++;
-            j --;
+            i++;
+            j--;
         }
 
         return true;

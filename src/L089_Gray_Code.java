@@ -13,14 +13,14 @@ public class L089_Gray_Code {
         List<String> res = new ArrayList<>();
 
         StringBuilder s = new StringBuilder();
-        for (int i = 0; i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             s.append('0');
         }
 
         res.add(s.toString());
         generateGray(res, s.toString());
 
-        for (int i = 0 ; i < res.size() ;i ++) {
+        for (int i = 0; i < res.size(); i++) {
             Integer x = convert(res.get(i));
             ret.add(x);
         }
@@ -29,9 +29,9 @@ public class L089_Gray_Code {
 
     Integer convert(String s) {
         int ans = 0;
-        for (int i = 0 ; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             ans *= 2;
-            ans += s.charAt(i) == '1'? 1: 0;
+            ans += s.charAt(i) == '1' ? 1 : 0;
         }
         return ans;
     }
@@ -41,7 +41,7 @@ public class L089_Gray_Code {
 
         String option = getOptions(res, cur);
 
-        if (option == null ) {
+        if (option == null) {
             return;
         }
 
@@ -55,8 +55,7 @@ public class L089_Gray_Code {
             StringBuilder temp = new StringBuilder(cur);
             if (cur.charAt(i) == '0') {
                 temp.setCharAt(i, '1');
-            }
-            else {
+            } else {
                 temp.setCharAt(i, '0');
             }
 
@@ -89,7 +88,7 @@ public class L089_Gray_Code {
         long sysDate1 = System.currentTimeMillis();
         List<Integer> res = s.grayCode2(4);
 
-        for (int i = 0 ; i< res.size() ; i++) {
+        for (int i = 0; i < res.size(); i++) {
             System.out.println(res.get(i));
         }
 

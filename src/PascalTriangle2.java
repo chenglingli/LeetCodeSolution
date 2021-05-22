@@ -31,8 +31,8 @@ public class PascalTriangle2 {
         System.out.println(res.size());
 
         for (int i = 0; i < res.size(); i++) {
-                System.out.print(res.get(i));
-                System.out.print(" ");
+            System.out.print(res.get(i));
+            System.out.print(" ");
         }
 
         long sysDate2 = System.currentTimeMillis();

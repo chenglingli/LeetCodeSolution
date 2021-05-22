@@ -7,7 +7,7 @@ public class ThreeSumCloest {
         int length = nums.length;
         Arrays.sort(nums); // {-1,-1,0,1,2,4}
 
-        int res = Integer.MAX_VALUE/2;
+        int res = Integer.MAX_VALUE / 2;
 
         for (int i = 0; i < length - 2; i++) {
             int head = i + 1, tail = length - 1;
@@ -36,7 +36,7 @@ public class ThreeSumCloest {
         long sysDate1 = System.currentTimeMillis();
 
 
-        int[] nums = {1,1,-1,-1,3};
+        int[] nums = {1, 1, -1, -1, 3};
 
         int res = s.threeSumClosest(nums, -1);
 

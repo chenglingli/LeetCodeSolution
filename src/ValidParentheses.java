@@ -1,4 +1,3 @@
-
 import java.util.Stack;
 
 public class ValidParentheses {
@@ -10,7 +9,7 @@ public class ValidParentheses {
         while (i < s.length()) {
             char curChar = s.charAt(i);
             char topChar;
-            switch (curChar){
+            switch (curChar) {
                 case '{':
                 case '[':
                 case '(':
@@ -19,7 +18,7 @@ public class ValidParentheses {
 
                 case '}':
                     if (st.size() < 1) return false;
-                    topChar = (char)st.pop();
+                    topChar = (char) st.pop();
                     if (topChar != '{') {
                         return false;
                     }
@@ -27,7 +26,7 @@ public class ValidParentheses {
 
                 case ']':
                     if (st.size() < 1) return false;
-                    topChar = (char)st.pop();
+                    topChar = (char) st.pop();
                     if (topChar != '[') {
                         return false;
                     }
@@ -35,7 +34,7 @@ public class ValidParentheses {
 
                 case ')':
                     if (st.size() < 1) return false;
-                    topChar = (char)st.pop();
+                    topChar = (char) st.pop();
                     if (topChar != '(') {
                         return false;
                     }

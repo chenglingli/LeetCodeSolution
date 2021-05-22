@@ -16,8 +16,7 @@ public class MyAtoi {
         if (str.charAt(i) == '-') {
             sign = -1;
             i++;
-        }
-        else if (str.charAt(i) == '+') {
+        } else if (str.charAt(i) == '+') {
             sign = 1;
             i++;
         }
@@ -43,7 +42,7 @@ public class MyAtoi {
         if (i == 0 || (sign < 0 && i == 1)) return 0;
 
         // return result
-        return (int)(res * sign);
+        return (int) (res * sign);
     }
 
     public static void main(String[] args) {

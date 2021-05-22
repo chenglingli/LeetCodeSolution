@@ -7,7 +7,7 @@ public class NumSquarefulPerms {
         int res = 0;
 
         Set<int[]> fullSortRes = new HashSet<>();
-        fullSort(fullSortRes, A, 0, A.length-1);
+        fullSort(fullSortRes, A, 0, A.length - 1);
 
         for (int[] temp : fullSortRes) {
             if (isSquareful(temp)) {
@@ -21,7 +21,7 @@ public class NumSquarefulPerms {
     private void fullSort(Set<int[]> res, int[] arr, int start, int end) {
         // 递归终止条件
         if (start == end) {
-            int [] sample = arr.clone();
+            int[] sample = arr.clone();
 
             boolean addTag = true;
             for (int[] data : res) {
@@ -44,7 +44,7 @@ public class NumSquarefulPerms {
         }
     }
 
-    private boolean equals(int [] data1, int [] data2) {
+    private boolean equals(int[] data1, int[] data2) {
         for (int i = 0; i < data1.length; i++) {
             if (data1[i] != data2[i]) {
                 return false;
@@ -60,8 +60,8 @@ public class NumSquarefulPerms {
     }
 
     private boolean isSquareful(int[] A) {
-        for (int i = 0 ; i < A.length-1 ; i++) {
-            int temp = A[i] + A[i+1];
+        for (int i = 0; i < A.length - 1; i++) {
+            int temp = A[i] + A[i + 1];
             if (!isSquare(temp)) {
                 return false;
             }
@@ -71,7 +71,7 @@ public class NumSquarefulPerms {
 
     private boolean isSquare(int val) {
         double temp = Math.sqrt(val * 1.0);
-        int tempInt = (int)temp;
+        int tempInt = (int) temp;
         return tempInt * tempInt == val;
     }
 

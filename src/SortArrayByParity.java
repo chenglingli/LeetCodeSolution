@@ -8,11 +8,11 @@ public class SortArrayByParity {
 
         while (i < j) {
 
-            while (i<j && A[i] % 2 == 0) {
+            while (i < j && A[i] % 2 == 0) {
                 i++;
             }
 
-            while (j >i && A[j] % 2 != 0 ) {
+            while (j > i && A[j] % 2 != 0) {
                 j--;
             }
 
@@ -32,7 +32,7 @@ public class SortArrayByParity {
         long sysDate1 = System.currentTimeMillis();
         // int [] nums = {2, 5, 4, 8, 10, 9, 15};
         // int [] nums = {3,1,2,4};
-        int [] nums = {2, 1};
+        int[] nums = {2, 1};
         int[] res = s.sortArrayByParity(nums);
         System.out.println(Arrays.toString(res));
 

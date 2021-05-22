@@ -1,22 +1,21 @@
-
 public class ReverseInt {
 
     public int reverse(int x) {
 
         long max = 2147483647L;
         long min = -2147483648L;
-        long tempX = (long)x;
+        long tempX = (long) x;
         long res = 0L;
 
         while (tempX != 0) {
             res = res * 10 + tempX % 10;
-            if (res > max || res < min ) {
+            if (res > max || res < min) {
                 return 0;
             }
             tempX /= 10;
         }
 
-        return (int)res;
+        return (int) res;
     }
 
     public static void main(String[] args) {

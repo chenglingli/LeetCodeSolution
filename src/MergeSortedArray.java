@@ -1,9 +1,8 @@
-
 public class MergeSortedArray {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 
-        int [] numsRes = new int [10000];
+        int[] numsRes = new int[10000];
         int i = 0, j = 0, k = 0;
         while (i < m || j < n) {
             if (i == m) {
@@ -12,12 +11,11 @@ public class MergeSortedArray {
                 numsRes[k++] = nums1[i++];
             } else if (nums1[i] < nums2[j]) {
                 numsRes[k++] = nums1[i++];
-            }
-            else {
+            } else {
                 numsRes[k++] = nums2[j++];
             }
         }
-        for (i = 0 ; i < k; i++) {
+        for (i = 0; i < k; i++) {
             nums1[i] = numsRes[i];
         }
     }
@@ -28,8 +26,8 @@ public class MergeSortedArray {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int nums1[] = {1,2,3,0,0,0};
-        int nums2[] = {2,5,6};
+        int nums1[] = {1, 2, 3, 0, 0, 0};
+        int nums2[] = {2, 5, 6};
         s.merge(nums1, 3, nums2, 3);
 
         System.out.println("nums:");

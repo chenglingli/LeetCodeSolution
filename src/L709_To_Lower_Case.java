@@ -4,40 +4,37 @@ import java.util.stream.Stream;
 public class L709_To_Lower_Case {
 
     /**
-     *
-
-     Implement function ToLowerCase() that has a string parameter str,
-     and returns the same string in lowercase.
-
-
-
-     Example 1:
-
-     Input: "Hello"
-     Output: "hello"
-
-
-     Example 2:
-
-     Input: "here"
-     Output: "here"
-
-
-     Example 3:
-
-     Input: "LOVELY"
-     Output: "lovely"
-
+     * Implement function ToLowerCase() that has a string parameter str,
+     * and returns the same string in lowercase.
+     * <p>
+     * <p>
+     * <p>
+     * Example 1:
+     * <p>
+     * Input: "Hello"
+     * Output: "hello"
+     * <p>
+     * <p>
+     * Example 2:
+     * <p>
+     * Input: "here"
+     * Output: "here"
+     * <p>
+     * <p>
+     * Example 3:
+     * <p>
+     * Input: "LOVELY"
+     * Output: "lovely"
      */
 
     public String toLowerCase(String str) {
 
         StringBuilder res = new StringBuilder();
 
-        for (int i = 0 ; i< str.length();i++) {
+        for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
             if (ch <= 'Z' && ch >= 'A') {
-                ch = (char)(ch - ('A' - 'a'));
+                ch = (char) (ch - ('A' - 'a'));
             }
             res.append(ch);
         }

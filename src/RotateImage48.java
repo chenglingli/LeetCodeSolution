@@ -4,13 +4,13 @@ public class RotateImage48 {
 
         int n = matrix.length;
 
-        for (int i = 0; i < n/2; i++) {
-            for(int j=i;j<n-i-1;j++){
-                int temp=matrix[i][j];
-                matrix[i][j]=matrix[n-j-1][i];
-                matrix[n-j-1][i]=matrix[n-i-1][n-j-1];
-                matrix[n-i-1][n-j-1]=matrix[j][n-i-1];
-                matrix[j][n-i-1]=temp;
+        for (int i = 0; i < n / 2; i++) {
+            for (int j = i; j < n - i - 1; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[n - j - 1][i];
+                matrix[n - j - 1][i] = matrix[n - i - 1][n - j - 1];
+                matrix[n - i - 1][n - j - 1] = matrix[j][n - i - 1];
+                matrix[j][n - i - 1] = temp;
             }
         }
     }
@@ -21,7 +21,7 @@ public class RotateImage48 {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int [][] m =
+        int[][] m =
                 {
                         {1, 2, 3},
                         {4, 5, 6},
@@ -30,7 +30,7 @@ public class RotateImage48 {
 
         s.rotate(m);
 
-        for (int i = 0; i< m.length; i++) {
+        for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m[0].length; j++) {
                 System.out.print(m[i][j] + " ");
             }

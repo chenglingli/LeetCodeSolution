@@ -1,8 +1,8 @@
 public class SearchInsert {
 
     public int searchInsert(int[] nums, int target) {
-        int i  = 0;
-        while ( i < nums.length) {
+        int i = 0;
+        while (i < nums.length) {
             if (nums[i] >= target) return i;
             i++;
         }
@@ -20,7 +20,7 @@ public class SearchInsert {
 //        int[] inputNums = { };
 //        int target = 5;
 
-        int[] inputNums = {1,2,3,4};
+        int[] inputNums = {1, 2, 3, 4};
         int target = 0;
 
 //        int[] inputNums = {1,2,3,4};
