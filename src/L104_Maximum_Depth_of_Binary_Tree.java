@@ -60,9 +60,7 @@ public class L104_Maximum_Depth_of_Binary_Tree {
         return depth;
     }
 
-    
     public static void main(String[] args) {
-
         L104_Maximum_Depth_of_Binary_Tree s = new L104_Maximum_Depth_of_Binary_Tree();
         long sysDate1 = System.currentTimeMillis();
 
