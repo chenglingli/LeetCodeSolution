@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Permutations {
+public class L046_Permutations {
 
 
     List<List<Integer>> res = new ArrayList<>();
@@ -32,7 +32,7 @@ public class Permutations {
 
     public static void main(String[] args) {
 
-        Permutations s = new Permutations();
+        L046_Permutations s = new L046_Permutations();
 
         long sysDate1 = System.currentTimeMillis();
 
