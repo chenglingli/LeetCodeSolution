@@ -27,6 +27,36 @@ public class L077_Combinations {
         }
     }
 
+    public List<List<Integer>> combine2(int n, int k) {
+        if (n < k) {
+            return new ArrayList();
+        }
+
+        List<Integer> candidate = new ArrayList<>();
+        for (int i = 1 ; i <= n; i++) {
+            candidate.add(i);
+        }
+
+        List<List<Integer>> res = new ArrayList<>();
+        backTrack2(candidate, 0, new ArrayList<>(), k, res);
+
+        return res;
+    }
+
+    public void backTrack2(
+            List<Integer> candidate, int start, List<Integer> tmp, int k, List<List<Integer>> res) {
+        if (tmp.size() == k) {
+            res.add(new ArrayList<>(tmp));
+        }
+        else {
+            for (int i = start; i < candidate.size(); i++) {
+                tmp.add(candidate.get(i));
+                backTrack2(candidate, i + 1, tmp, k, res);
+                tmp.remove(tmp.size() - 1);
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
 
@@ -34,7 +64,7 @@ public class L077_Combinations {
 
         long sysDate1 = System.currentTimeMillis();
 
-        List<List<Integer>> res = s.combine(4, 2);
+        List<List<Integer>> res = s.combine2(4, 2);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();
