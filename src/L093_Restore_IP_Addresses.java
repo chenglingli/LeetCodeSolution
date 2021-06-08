@@ -3,6 +3,51 @@ import java.util.List;
 
 public class L093_Restore_IP_Addresses {
 
+    List<String> res = new ArrayList<String>();
+
+    void backtrack(String s, String tmp, int n) {
+
+        if (s.length() > 3 * (4 - n)) {
+            return;
+        }
+
+        if (n == 4 && s.length() == 0) {
+            res.add(tmp.substring(0, tmp.length()-1));
+            return;
+        }
+
+        for (int i = 1; i <= 3; i++) {
+            if (s.length() < i) {
+                break;
+            }
+
+            String number = s.substring(0, i);
+            int val = Integer.parseInt(number);
+            if (Integer.toString(val).length() != i) {
+                break;
+            }
+            if (val > 255)  {
+                break;
+            }
+
+            tmp += number + '.';
+            backtrack(s.substring(i), tmp, n + 1);
+            tmp = tmp.substring(0, tmp.length() - i - 1);
+        }
+    }
+
+    public List<String> restoreIpAddresses2(String s) {
+
+        if (s == null || s.length() == 0) {
+            return new ArrayList<String>();
+        }
+
+        backtrack(s, "", 0);
+
+        return res;
+    }
+
+
     List<String> rt = new ArrayList<String>();
     String[] stack = new String[4];
 
@@ -62,9 +107,9 @@ public class L093_Restore_IP_Addresses {
 
         long sysDate1 = System.currentTimeMillis();
 
-        String t = "25525511135";
+        String t = "010010";
 
-        List<String> x = s.restoreIpAddresses(t);
+        List<String> x = s.restoreIpAddresses2(t);
 
         for (String l : x) {
             System.out.println(l);

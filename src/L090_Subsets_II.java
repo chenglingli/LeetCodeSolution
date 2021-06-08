@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SubsetsWithDup {
+public class L090_Subsets_II {
 
 
     public void backtracking(List<List<Integer>> ret, List<Integer> list, int[] nums, int position) {
@@ -31,7 +31,7 @@ public class SubsetsWithDup {
 
     public static void main(String[] args) {
 
-        SubsetsWithDup s = new SubsetsWithDup();
+        L090_Subsets_II s = new L090_Subsets_II();
 
         long sysDate1 = System.currentTimeMillis();
 

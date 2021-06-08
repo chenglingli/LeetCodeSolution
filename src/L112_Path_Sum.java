@@ -1,4 +1,4 @@
-public class HasPathSum {
+public class L112_Path_Sum {
 
     public boolean hasPathSum(TreeNode root, int sum) {
 
@@ -25,7 +25,7 @@ public class HasPathSum {
 
     public static void main(String[] args) {
 
-        HasPathSum s = new HasPathSum();
+        L112_Path_Sum s = new L112_Path_Sum();
 
         long sysDate1 = System.currentTimeMillis();
 
