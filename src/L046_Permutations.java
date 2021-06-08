@@ -3,29 +3,38 @@ import java.util.List;
 
 public class L046_Permutations {
 
+    public void backTrack(List<List<Integer>> res, List<Integer> tmp, int[] num, int target) {
 
-    List<List<Integer>> res = new ArrayList<>();
-
-    public void backTrack(List<Integer> ans, int[] num) {
-        if (ans.size() == num.length) {
-            res.add(new ArrayList<>(ans));
-        } else {
-            for (int i = 0; i < num.length; i++) {
-                if (ans.contains(num[i])) {
-                    continue;
-                }
-                ans.add(num[i]);
-                backTrack(ans, num);
-                ans.remove(ans.size() - 1);
-            }
+        if (tmp.size() == target) {
+            res.add(new ArrayList<>(tmp));
+            return;
         }
+
+        for (int value : num) {
+
+            if (tmp.contains(value)) {
+                continue;
+            }
+
+            tmp.add(value);
+            backTrack(res, tmp, num, target);
+            tmp.remove(tmp.size() - 1);
+        }
+
     }
 
     public List<List<Integer>> permute(int[] nums) {
-        if (nums.length != 0) {
-            List<Integer> ans = new ArrayList<>();
-            backTrack(ans, nums);
+
+        int target = nums.length;
+        if (target == 0) {
+            return new ArrayList<>();
         }
+
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> tmp = new ArrayList<>();
+
+        backTrack(res, tmp, nums, target);
+
         return res;
     }
 
