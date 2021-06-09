@@ -1,4 +1,11 @@
-public class MaxSubArray {
+public class L053_Maximum_Subarray {
+
+    /*
+     *
+     * sum[i] 表示以i元素结尾的最大子串和
+     * sum[i] = max {sum[i-1] + num[i], num[i]}
+     *
+     */
 
     public int maxSubArray(int[] nums) {
         int[] max = new int[100000];
@@ -20,7 +27,7 @@ public class MaxSubArray {
 
     public static void main(String[] args) {
 
-        MaxSubArray s = new MaxSubArray();
+        L053_Maximum_Subarray s = new L053_Maximum_Subarray();
 
         long sysDate1 = System.currentTimeMillis();
 

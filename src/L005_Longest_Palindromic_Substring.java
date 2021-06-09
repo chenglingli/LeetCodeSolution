@@ -1,4 +1,4 @@
-public class LongestPalindrome {
+public class L005_Longest_Palindromic_Substring {
 
     /**
      * 动态规划
@@ -43,7 +43,7 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
 
-        LongestPalindrome s = new LongestPalindrome();
+        L005_Longest_Palindromic_Substring s = new L005_Longest_Palindromic_Substring();
 
         long sysDate1 = System.currentTimeMillis();
 
