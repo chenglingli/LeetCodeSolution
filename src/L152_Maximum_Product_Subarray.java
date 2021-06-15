@@ -2,10 +2,9 @@ public class L152_Maximum_Product_Subarray {
 
     /**
      *
-     * 维持
+     * 维持 
      *  maxValue
      *  minValue
-     * 
      *
      */
     public int maxProduct(int[] nums) {
