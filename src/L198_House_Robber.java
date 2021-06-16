@@ -28,6 +28,9 @@ public class L198_House_Robber {
      * Total amount you can rob = 2 + 9 + 1 = 12.
      */
 
+    /**
+     * dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])
+     */
 
     public int rob(int[] nums) {
 

@@ -1,5 +1,9 @@
 public class L062_Unique_Paths {
 
+    /**
+     * mapCount[i][j] = mapCount[i-1][j] + mapCount[i][j-1]
+     */
+
     public int uniquePaths(int m, int n) {
 
         if (m <= 1 || n <= 1) {
