@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Triangle {
+public class L120_Triangle {
 
     public int minimumTotal(List<List<Integer>> triangle) {
 
@@ -48,7 +48,7 @@ public class Triangle {
 
     public static void main(String[] args) {
 
-        Triangle s = new Triangle();
+        L120_Triangle s = new L120_Triangle();
 
         long sysDate1 = System.currentTimeMillis();
 

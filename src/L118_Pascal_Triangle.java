@@ -1,11 +1,16 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PascalTriangle2 {
+/**
+ * Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+ */
 
-    public List<Integer> getRow(int rowIndex) {
+public class L118_Pascal_Triangle {
+
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> res = new ArrayList<>();
         List<Integer> lastTemp = new ArrayList<>();
-        for (int i = 1; i <= rowIndex + 1; i++) {
+        for (int i = 1; i <= numRows; i++) {
             List<Integer> temp = new ArrayList<>();
             for (int j = 0; j < i; j++) {
                 if (j == 0 || j == i - 1) {
@@ -14,25 +19,29 @@ public class PascalTriangle2 {
                     temp.add(lastTemp.get(j - 1) + lastTemp.get(j));
                 }
             }
+            res.add(temp);
             lastTemp = temp;
         }
 
-        return lastTemp;
+        return res;
     }
 
     public static void main(String[] args) {
 
-        PascalTriangle2 s = new PascalTriangle2();
+        L118_Pascal_Triangle s = new L118_Pascal_Triangle();
 
         long sysDate1 = System.currentTimeMillis();
-        int numRows = 3;
+        int numRows = 5;
 
-        List<Integer> res = s.getRow(numRows);
+        List<List<Integer>> res = s.generate(numRows);
         System.out.println(res.size());
 
         for (int i = 0; i < res.size(); i++) {
-            System.out.print(res.get(i));
-            System.out.print(" ");
+            for (int j = 0; j < res.get(i).size(); j++) {
+                System.out.print(res.get(i).get(j));
+                System.out.print(" ");
+            }
+            System.out.println();
         }
 
         long sysDate2 = System.currentTimeMillis();
