@@ -1,9 +1,10 @@
 /**
- * known that A XOR A = 0 and the XOR operator is commutative, the solution will be very straightforward.
+ * known that A XOR A = 0 and the XOR operator is commutative,
+ * the solution will be very straightforward.
  */
 
 
-public class SingleNumber {
+public class L136_Single_Number {
 
     public int singleNumber(int[] nums) {
         int result = 0;
@@ -17,7 +18,7 @@ public class SingleNumber {
 
     public static void main(String[] args) {
 
-        SingleNumber s = new SingleNumber();
+        L136_Single_Number s = new L136_Single_Number();
 
         long sysDate1 = System.currentTimeMillis();
 
