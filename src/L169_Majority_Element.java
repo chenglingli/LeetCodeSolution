@@ -3,7 +3,7 @@
 //
 // You may assume that the array is non-empty and the majority element always exist in the array.
 
-public class MajorityElement {
+public class L169_Majority_Element {
 
     public int majorityElement(int[] nums) {
 
@@ -29,7 +29,7 @@ public class MajorityElement {
 
     public static void main(String[] args) {
 
-        MajorityElement s = new MajorityElement();
+        L169_Majority_Element s = new L169_Majority_Element();
 
         long sysDate1 = System.currentTimeMillis();
 
