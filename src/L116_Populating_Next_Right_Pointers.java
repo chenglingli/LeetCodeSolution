@@ -7,30 +7,6 @@ import java.util.Queue;
 
 public class L116_Populating_Next_Right_Pointers {
 
-    /*
-    Node* connect(Node* root) {
-        if (!root) return NULL;
-        queue<Node*> q;
-        q.push(root);
-        //每一个while循环都是一层
-        //size就是这一层的节点数量
-        //i<size-1时，代表要右指
-        //每一层干三件事：1.弹出旧的 2.判断右指 3.添加新的
-        while (!q.empty()) {
-            auto size = q.size();
-            for (int i = 0; i < size; ++i) {
-                Node* t = q.front(); q.pop();
-                if (i < size - 1) {
-                    t->next = q.front();
-                }
-                if (t->left) q.push(t->left);
-                if (t->right) q.push(t->right);
-            }
-        }
-        return root;
-    }
-    */
-
     public NextNode connect(NextNode root) {
 
         if (root == null)
