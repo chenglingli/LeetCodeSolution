@@ -10,7 +10,7 @@ M             1000
 */
 
 
-public class IntToRoman {
+public class L012_Integer_to_Roman {
 
 
     public String intToRoman(int num) {
@@ -39,7 +39,7 @@ public class IntToRoman {
 
     public static void main(String[] args) {
 
-        IntToRoman s = new IntToRoman();
+        L012_Integer_to_Roman s = new L012_Integer_to_Roman();
 
         long sysDate1 = System.currentTimeMillis();
 
