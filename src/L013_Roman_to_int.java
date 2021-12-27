@@ -8,7 +8,7 @@
 //        D             500
 //        M             1000
 
-public class RomanToInt {
+public class L013_Roman_to_int {
 
     public int romanToInt(String s) {
 
@@ -128,7 +128,7 @@ public class RomanToInt {
 
     public static void main(String[] args) {
 
-        RomanToInt s = new RomanToInt();
+        L013_Roman_to_int s = new L013_Roman_to_int();
 
         long sysDate1 = System.currentTimeMillis();
 
