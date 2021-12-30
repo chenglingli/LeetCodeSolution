@@ -3,7 +3,7 @@ import struct.Node;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CopyRandomList138 {
+public class L138_Copy_List_with_Random_Pointer {
 
     public Node copyRandomList(Node head) {
         Map<Node, Node> map = new HashMap<>();
@@ -28,7 +28,7 @@ public class CopyRandomList138 {
 
     public static void main(String[] args) {
 
-        CopyRandomList138 s = new CopyRandomList138();
+        L138_Copy_List_with_Random_Pointer s = new L138_Copy_List_with_Random_Pointer();
 
         long sysDate1 = System.currentTimeMillis();
 
