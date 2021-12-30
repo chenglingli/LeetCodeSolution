@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class LetterCombinations {
+public class L017_Letter_Combinations_of_a_Phone_Number {
 
     Map<String, String> phone = new HashMap<String, String>() {
         {
@@ -44,7 +44,7 @@ public class LetterCombinations {
 
     public static void main(String[] args) {
 
-        LetterCombinations s = new LetterCombinations();
+        L017_Letter_Combinations_of_a_Phone_Number s = new L017_Letter_Combinations_of_a_Phone_Number();
 
         long sysDate1 = System.currentTimeMillis();
 
