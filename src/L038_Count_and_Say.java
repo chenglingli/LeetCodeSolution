@@ -4,7 +4,7 @@
  * 实际方法很简单，就是简单模拟
  */
 
-public class CountAndSay {
+public class L038_Count_and_Say {
 
     public String countAndSay(int n) {
 
@@ -37,7 +37,7 @@ public class CountAndSay {
 
     public static void main(String[] args) {
 
-        CountAndSay s = new CountAndSay();
+        L038_Count_and_Say s = new L038_Count_and_Say();
 
         int val = 7;
 
