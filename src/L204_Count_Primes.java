@@ -1,6 +1,6 @@
 // Count the number of prime numbers less than a non-negative number, n.
 
-public class CountPrimes {
+public class L204_Count_Primes {
 
     public int countPrimes(int n) {
 
@@ -21,7 +21,7 @@ public class CountPrimes {
 
     public static void main(String[] args) {
 
-        CountPrimes s = new CountPrimes();
+        L204_Count_Primes s = new L204_Count_Primes();
 
         long sysDate1 = System.currentTimeMillis();
 
