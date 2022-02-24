@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class swapPairs24 {
 
     public ListNode swapPairs(ListNode head) {

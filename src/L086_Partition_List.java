@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L086_Partition_List {
 
     public ListNode partition(ListNode head, int x) {

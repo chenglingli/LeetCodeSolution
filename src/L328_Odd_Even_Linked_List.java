@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L328_Odd_Even_Linked_List {
 
     public ListNode oddEvenList(ListNode head) {

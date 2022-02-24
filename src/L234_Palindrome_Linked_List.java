@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L234_Palindrome_Linked_List {
 
     public boolean isPalindrome(ListNode head) {

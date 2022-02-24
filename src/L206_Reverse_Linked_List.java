@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L206_Reverse_Linked_List {
 
 

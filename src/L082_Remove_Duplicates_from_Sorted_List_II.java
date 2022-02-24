@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L082_Remove_Duplicates_from_Sorted_List_II {
 
     public ListNode deleteDuplicates(ListNode head) {

@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L143_Reorder_List {
 
     public void reorderList(ListNode head) {

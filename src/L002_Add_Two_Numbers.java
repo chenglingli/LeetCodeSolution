@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 /**
  * Add Two Numbers
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -5,10 +7,10 @@
  * Explanation: 342 + 465 = 807.
  * <p>
  * Definition for singly-linked list.
- * public class ListNode {
+ * public class struct.ListNode {
  * int val;
- * ListNode next;
- * ListNode(int x) { val = x; }
+ * struct.ListNode next;
+ * struct.ListNode(int x) { val = x; }
  * }
  */
 
@@ -109,15 +111,15 @@ public class L002_Add_Two_Numbers {
 
         L002_Add_Two_Numbers s = new L002_Add_Two_Numbers();
 
-//        ListNode l1 = new ListNode(5);
-//        ListNode p1 = l1;
-//        p1.next = new ListNode(3);
+//        struct.ListNode l1 = new struct.ListNode(5);
+//        struct.ListNode p1 = l1;
+//        p1.next = new struct.ListNode(3);
 //        p1 = p1.next;
-//        p1.next = new ListNode(6);
+//        p1.next = new struct.ListNode(6);
 //        p1 = p1.next;
 //
-//        ListNode l2 = new ListNode(9);
-//        l2.next = new ListNode(8);
+//        struct.ListNode l2 = new struct.ListNode(9);
+//        l2.next = new struct.ListNode(8);
 
 
         ListNode l1 = new ListNode(2);

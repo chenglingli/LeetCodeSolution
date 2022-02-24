@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import struct.LRUCache;
 
 public class L146_LRU_Cache {
 

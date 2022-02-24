@@ -32,17 +32,17 @@ public class L138_Copy_List_with_Random_Pointer {
 
         long sysDate1 = System.currentTimeMillis();
 
-//        ListNode f = new ListNode(1);
-//        ListNode head = f;
-//        f.next = new ListNode(2);
+//        struct.ListNode f = new struct.ListNode(1);
+//        struct.ListNode head = f;
+//        f.next = new struct.ListNode(2);
 //        f = f.next;
-//        f.next = new ListNode(3);
+//        f.next = new struct.ListNode(3);
 //        f = f.next;
-//        f.next = new ListNode(4);
+//        f.next = new struct.ListNode(4);
 //        f = f.next;
-//        f.next = new ListNode(5);
+//        f.next = new struct.ListNode(5);
 //        f = f.next;
-//        f.next = new ListNode(6);
+//        f.next = new struct.ListNode(6);
 //
 //        TreeNode res = s.sortedListToBST(head);
 //

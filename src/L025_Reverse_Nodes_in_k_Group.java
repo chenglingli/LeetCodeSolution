@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L025_Reverse_Nodes_in_k_Group {
 
     public ListNode reverseKGroup(ListNode head, int k) {

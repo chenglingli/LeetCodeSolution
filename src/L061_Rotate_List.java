@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L061_Rotate_List {
 
     public ListNode rotateRight(ListNode head, int k) {

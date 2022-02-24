@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L237_Delete_Node_in_a_Linked_List {
 
     public void deleteNode(ListNode node) {

@@ -1,3 +1,5 @@
+package struct;
+
 import java.util.HashMap;
 
 public class LRUCache {

@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class DetectCycle142 {
 
     public ListNode detectCycle(ListNode head) {
@@ -56,16 +58,16 @@ public class DetectCycle142 {
         f = f.next;
 
 //
-//        f.next = new ListNode(3);
+//        f.next = new struct.ListNode(3);
 //        f = f.next;
 //
-//        ListNode newNode = f;
+//        struct.ListNode newNode = f;
 //
-//        f.next = new ListNode(4);
+//        f.next = new struct.ListNode(4);
 //        f = f.next;
-//        f.next = new ListNode(5);
+//        f.next = new struct.ListNode(5);
 //        f = f.next;
-//        f.next = new ListNode(6);
+//        f.next = new struct.ListNode(6);
 //        f = f.next;
 //        f.next = newNode;
 

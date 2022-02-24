@@ -1,3 +1,5 @@
+import struct.ListNode;
+
 public class L203_Remove_Linked_List_Elements {
 
     public ListNode removeElements(ListNode head, int val) {
