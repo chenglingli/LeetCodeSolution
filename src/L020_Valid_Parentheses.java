@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class ValidParentheses {
+public class L020_Valid_Parentheses {
 
     public boolean isValid(String s) {
         Stack st = new Stack();
@@ -51,7 +51,7 @@ public class ValidParentheses {
 
     public static void main(String[] args) {
 
-        ValidParentheses s = new ValidParentheses();
+        L020_Valid_Parentheses s = new L020_Valid_Parentheses();
         // String str = "{[]}";
         // String str = "([)]";
         String str = "[";

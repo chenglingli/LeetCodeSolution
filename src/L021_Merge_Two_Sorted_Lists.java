@@ -1,6 +1,6 @@
 import struct.ListNode;
 
-public class MergeTwoLists {
+public class L021_Merge_Two_Sorted_Lists {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
@@ -32,7 +32,7 @@ public class MergeTwoLists {
 
     public static void main(String[] args) {
 
-        MergeTwoLists s = new MergeTwoLists();
+        L021_Merge_Two_Sorted_Lists s = new L021_Merge_Two_Sorted_Lists();
 
         ListNode l1 = new ListNode(2);
         ListNode p1 = l1;
