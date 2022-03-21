@@ -1,6 +1,6 @@
 import struct.ListNode;
 
-public class HasCycle {
+public class L141_Linked_List_Cycle {
 
     public boolean hasCycle(ListNode head) {
 
@@ -24,7 +24,7 @@ public class HasCycle {
 
     public static void main(String[] args) {
 
-        HasCycle s = new HasCycle();
+        L141_Linked_List_Cycle s = new L141_Linked_List_Cycle();
 
         long sysDate1 = System.currentTimeMillis();
 

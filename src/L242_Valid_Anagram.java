@@ -1,4 +1,4 @@
-public class IsAnagram242 {
+public class L242_Valid_Anagram {
 
     public boolean isAnagram2(String s, String t) {
 
@@ -50,7 +50,7 @@ public class IsAnagram242 {
 
     public static void main(String[] args) {
 
-        IsAnagram242 s = new IsAnagram242();
+        L242_Valid_Anagram s = new L242_Valid_Anagram();
 
         long sysDate1 = System.currentTimeMillis();
 

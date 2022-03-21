@@ -1,4 +1,4 @@
-public class FindMedianSortedArrays {
+public class L004_Median_of_Two_Sorted_Arrays {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
@@ -53,7 +53,7 @@ public class FindMedianSortedArrays {
 
     public static void main(String[] args) {
 
-        FindMedianSortedArrays s = new FindMedianSortedArrays();
+        L004_Median_of_Two_Sorted_Arrays s = new L004_Median_of_Two_Sorted_Arrays();
         int[] nums1 = {1, 2};
         int[] nums2 = {3, 4};
 

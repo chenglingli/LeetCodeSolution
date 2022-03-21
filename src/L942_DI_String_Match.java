@@ -1,4 +1,4 @@
-public class DiStringMatch942 {
+public class L942_DI_String_Match {
 
     public int[] diStringMatch(String S) {
         int N = S.length();
@@ -17,7 +17,7 @@ public class DiStringMatch942 {
 
     public static void main(String[] args) {
 
-        DiStringMatch942 s = new DiStringMatch942();
+        L942_DI_String_Match s = new L942_DI_String_Match();
 
         long sysDate1 = System.currentTimeMillis();
 

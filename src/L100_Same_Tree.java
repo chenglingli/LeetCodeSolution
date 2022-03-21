@@ -4,7 +4,7 @@
  * 采用递归的方式判断
  */
 
-public class IsSameTree {
+public class L100_Same_Tree {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
 
@@ -20,7 +20,7 @@ public class IsSameTree {
 
     public static void main(String[] args) {
 
-        IsSameTree s = new IsSameTree();
+        L100_Same_Tree s = new L100_Same_Tree();
 
         long sysDate1 = System.currentTimeMillis();
 

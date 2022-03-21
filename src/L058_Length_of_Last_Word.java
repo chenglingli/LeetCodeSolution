@@ -4,7 +4,7 @@
  * 采用递归的方式判断
  */
 
-public class LengthofLastWord {
+public class L058_Length_of_Last_Word {
 
     public int lengthOfLastWord(String s) {
         int res = 0;
@@ -32,7 +32,7 @@ public class LengthofLastWord {
 
     public static void main(String[] args) {
 
-        LengthofLastWord s = new LengthofLastWord();
+        L058_Length_of_Last_Word s = new L058_Length_of_Last_Word();
 
         long sysDate1 = System.currentTimeMillis();
 

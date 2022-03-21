@@ -1,6 +1,6 @@
 import struct.ListNode;
 
-public class DetectCycle142 {
+public class L142_Linked_List_Cycle_II {
 
     public ListNode detectCycle(ListNode head) {
 
@@ -48,7 +48,7 @@ public class DetectCycle142 {
 
     public static void main(String[] args) {
 
-        DetectCycle142 s = new DetectCycle142();
+        L142_Linked_List_Cycle_II s = new L142_Linked_List_Cycle_II();
 
         long sysDate1 = System.currentTimeMillis();
 

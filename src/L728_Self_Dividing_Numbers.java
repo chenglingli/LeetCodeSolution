@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class IsSelfDividing728 {
+public class L728_Self_Dividing_Numbers {
 
     public List<Integer> selfDividingNumbers(int left, int right) {
 
@@ -32,7 +32,7 @@ public class IsSelfDividing728 {
 
     public static void main(String[] args) {
 
-        IsSelfDividing728 s = new IsSelfDividing728();
+        L728_Self_Dividing_Numbers s = new L728_Self_Dividing_Numbers();
 
         long sysDate1 = System.currentTimeMillis();
 

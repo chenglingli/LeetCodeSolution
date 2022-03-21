@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class HeightChecker1051 {
+public class L1051_Height_Checker {
 
     public int heightChecker(int[] heights) {
         int[] temp = heights.clone();
@@ -17,7 +17,7 @@ public class HeightChecker1051 {
 
     public static void main(String[] args) {
 
-        HeightChecker1051 s = new HeightChecker1051();
+        L1051_Height_Checker s = new L1051_Height_Checker();
 
         long sysDate1 = System.currentTimeMillis();
 

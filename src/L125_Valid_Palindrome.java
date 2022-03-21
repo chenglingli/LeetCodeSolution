@@ -54,7 +54,7 @@ public class L944_Delete_Columns_to_Make_Sorted {
 }
  */
 
-public class IsPalindrome {
+public class L125_Valid_Palindrome {
 
     public boolean isPalindrome(int x) {
         long y = x;
@@ -76,7 +76,7 @@ public class IsPalindrome {
 
     public static void main(String[] args) {
 
-        IsPalindrome s = new IsPalindrome();
+        L125_Valid_Palindrome s = new L125_Valid_Palindrome();
         // int x = 1534236469;
         // int x = -123;
         int x = 1;

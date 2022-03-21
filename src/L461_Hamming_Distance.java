@@ -1,4 +1,4 @@
-public class HammingDistance {
+public class L461_Hamming_Distance {
 
 
     public int hammingDistance(int x, int y) {
@@ -14,7 +14,7 @@ public class HammingDistance {
 
     public static void main(String[] args) {
 
-        HammingDistance s = new HammingDistance();
+        L461_Hamming_Distance s = new L461_Hamming_Distance();
 
         long sysDate1 = System.currentTimeMillis();
 

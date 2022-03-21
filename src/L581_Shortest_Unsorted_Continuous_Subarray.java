@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class FindUnsortedSubarray {
+public class L581_Shortest_Unsorted_Continuous_Subarray {
 
 
     public int findUnsortedSubarray1(int[] nums) {
@@ -55,7 +55,7 @@ public class FindUnsortedSubarray {
 
     public static void main(String[] args) {
 
-        FindUnsortedSubarray s = new FindUnsortedSubarray();
+        L581_Shortest_Unsorted_Continuous_Subarray s = new L581_Shortest_Unsorted_Continuous_Subarray();
 
         long sysDate1 = System.currentTimeMillis();
 
