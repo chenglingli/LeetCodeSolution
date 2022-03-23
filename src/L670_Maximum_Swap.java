@@ -1,4 +1,4 @@
-public class maximumSwap {
+public class L670_Maximum_Swap {
 
     /*
     思路是这样的，由于我们希望置换后的数字最大，
@@ -55,7 +55,7 @@ public class maximumSwap {
 
     public static void main(String[] args) {
 
-        maximumSwap s = new maximumSwap();
+        L670_Maximum_Swap s = new L670_Maximum_Swap();
 
         long sysDate1 = System.currentTimeMillis();
 
