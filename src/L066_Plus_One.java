@@ -1,4 +1,4 @@
-public class PlusOne {
+public class L066_Plus_One {
 
     public int[] plusOne(int[] digits) {
         digits[digits.length - 1] += 1;
@@ -24,7 +24,7 @@ public class PlusOne {
 
     public static void main(String[] args) {
 
-        PlusOne s = new PlusOne();
+        L066_Plus_One s = new L066_Plus_One();
 
         long sysDate1 = System.currentTimeMillis();
 
