@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ThreeSumCloest {
+public class L016_3_Sum_Closest {
 
 
     public int threeSumClosest(int[] nums, int target) {
@@ -31,7 +31,7 @@ public class ThreeSumCloest {
 
     public static void main(String[] args) {
 
-        ThreeSumCloest s = new ThreeSumCloest();
+        L016_3_Sum_Closest s = new L016_3_Sum_Closest();
 
         long sysDate1 = System.currentTimeMillis();
 

@@ -1,4 +1,4 @@
-public class StrStr {
+public class L028_Implement_strStr {
 
 
     public int strStr(String haystack, String needle) {
@@ -42,7 +42,7 @@ public class StrStr {
 
     public static void main(String[] args) {
 
-        StrStr s = new StrStr();
+        L028_Implement_strStr s = new L028_Implement_strStr();
 
         long sysDate1 = System.currentTimeMillis();
 

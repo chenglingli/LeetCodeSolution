@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class NumSquarefulPerms {
+public class L996_Number_of_Squareful_Arrays {
 
     public int numSquarefulPerms(int[] A) {
         int res = 0;
@@ -77,7 +77,7 @@ public class NumSquarefulPerms {
 
     public static void main(String[] args) {
 
-        NumSquarefulPerms s = new NumSquarefulPerms();
+        L996_Number_of_Squareful_Arrays s = new L996_Number_of_Squareful_Arrays();
 
         long sysDate1 = System.currentTimeMillis();
 

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortArrayByParity {
+public class L905_Sort_Array_By_Parity {
 
     public int[] sortArrayByParity(int[] A) {
 
@@ -27,7 +27,7 @@ public class SortArrayByParity {
 
     public static void main(String[] args) {
 
-        SortArrayByParity s = new SortArrayByParity();
+        L905_Sort_Array_By_Parity s = new L905_Sort_Array_By_Parity();
 
         long sysDate1 = System.currentTimeMillis();
         // int [] nums = {2, 5, 4, 8, 10, 9, 15};

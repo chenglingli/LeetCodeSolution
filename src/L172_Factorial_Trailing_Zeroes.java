@@ -1,4 +1,4 @@
-public class trailingZeroes {
+public class L172_Factorial_Trailing_Zeroes {
 
     public int trailingZeroes(int n) {
         int res = 0;
@@ -13,7 +13,7 @@ public class trailingZeroes {
 
     public static void main(String[] args) {
 
-        trailingZeroes s = new trailingZeroes();
+        L172_Factorial_Trailing_Zeroes s = new L172_Factorial_Trailing_Zeroes();
 
         long sysDate1 = System.currentTimeMillis();
 

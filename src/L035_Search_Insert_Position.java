@@ -1,4 +1,4 @@
-public class SearchInsert {
+public class L035_Search_Insert_Position {
 
     public int searchInsert(int[] nums, int target) {
         int i = 0;
@@ -11,7 +11,7 @@ public class SearchInsert {
 
     public static void main(String[] args) {
 
-        SearchInsert s = new SearchInsert();
+        L035_Search_Insert_Position s = new L035_Search_Insert_Position();
 
         long sysDate1 = System.currentTimeMillis();
 //        int[] inputNums = {1,2,3,4};

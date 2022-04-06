@@ -1,4 +1,4 @@
-public class ReverseInt {
+public class L007_Reverse_Integer {
 
     public int reverse(int x) {
 
@@ -20,7 +20,7 @@ public class ReverseInt {
 
     public static void main(String[] args) {
 
-        ReverseInt s = new ReverseInt();
+        L007_Reverse_Integer s = new L007_Reverse_Integer();
         // int x = 1534236469;
         // int x = -123;
         int x = -2147483648;

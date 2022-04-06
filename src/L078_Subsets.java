@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subsets {
+public class L078_Subsets {
 
 
     public void backtracking(List<List<Integer>> ret, List<Integer> list, int[] nums, int position) {
@@ -23,7 +23,7 @@ public class Subsets {
 
     public static void main(String[] args) {
 
-        Subsets s = new Subsets();
+        L078_Subsets s = new L078_Subsets();
 
         long sysDate1 = System.currentTimeMillis();
 
