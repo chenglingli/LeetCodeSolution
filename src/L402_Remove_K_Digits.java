@@ -6,7 +6,7 @@ is the smallest possible.
 */
 
 
-public class RemoveKdigits {
+public class L402_Remove_K_Digits {
 
 
     public String removeKdigits(String num, int k) {
@@ -137,7 +137,7 @@ public class RemoveKdigits {
 
     public static void main(String[] args) {
 
-        RemoveKdigits s = new RemoveKdigits();
+        L402_Remove_K_Digits s = new L402_Remove_K_Digits();
 
         long sysDate1 = System.currentTimeMillis();
 

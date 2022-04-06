@@ -1,6 +1,6 @@
 import struct.ListNode;
 
-public class swapPairs24 {
+public class L024_Swap_Nodes_in_Pairs {
 
     public ListNode swapPairs(ListNode head) {
 
@@ -37,7 +37,7 @@ public class swapPairs24 {
 
     public static void main(String[] args) {
 
-        swapPairs24 s = new swapPairs24();
+        L024_Swap_Nodes_in_Pairs s = new L024_Swap_Nodes_in_Pairs();
 
         long sysDate1 = System.currentTimeMillis();
 

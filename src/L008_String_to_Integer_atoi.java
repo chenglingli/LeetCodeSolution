@@ -1,4 +1,4 @@
-public class MyAtoi {
+public class L008_String_to_Integer_atoi {
 
     public int myAtoi(String str) {
 
@@ -47,7 +47,7 @@ public class MyAtoi {
 
     public static void main(String[] args) {
 
-        MyAtoi s = new MyAtoi();
+        L008_String_to_Integer_atoi s = new L008_String_to_Integer_atoi();
 
         long sysDate1 = System.currentTimeMillis();
         // String inputStr = " 4193 with words";

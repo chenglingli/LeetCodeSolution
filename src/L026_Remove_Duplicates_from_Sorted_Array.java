@@ -1,4 +1,4 @@
-public class removeDuplicates {
+public class L026_Remove_Duplicates_from_Sorted_Array {
 
     public int removeDuplicates(int[] nums) {
 
@@ -33,7 +33,7 @@ public class removeDuplicates {
 
     public static void main(String[] args) {
 
-        removeDuplicates s = new removeDuplicates();
+        L026_Remove_Duplicates_from_Sorted_Array s = new L026_Remove_Duplicates_from_Sorted_Array();
 
         long sysDate1 = System.currentTimeMillis();
 

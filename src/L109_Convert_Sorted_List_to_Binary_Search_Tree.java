@@ -1,6 +1,6 @@
 import struct.ListNode;
 
-public class SortedListToBST109 {
+public class L109_Convert_Sorted_List_to_Binary_Search_Tree {
 
 
     public TreeNode sortedListToBST(ListNode head) {
@@ -32,7 +32,7 @@ public class SortedListToBST109 {
 
     public static void main(String[] args) {
 
-        SortedListToBST109 s = new SortedListToBST109();
+        L109_Convert_Sorted_List_to_Binary_Search_Tree s = new L109_Convert_Sorted_List_to_Binary_Search_Tree();
 
         long sysDate1 = System.currentTimeMillis();
 

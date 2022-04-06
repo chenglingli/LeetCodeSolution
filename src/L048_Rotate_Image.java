@@ -1,4 +1,4 @@
-public class RotateImage48 {
+public class L048_Rotate_Image {
 
     public void rotate(int[][] matrix) {
 
@@ -17,7 +17,7 @@ public class RotateImage48 {
 
     public static void main(String[] args) {
 
-        RotateImage48 s = new RotateImage48();
+        L048_Rotate_Image s = new L048_Rotate_Image();
 
         long sysDate1 = System.currentTimeMillis();
 

@@ -1,4 +1,4 @@
-public class MergeSortedArray {
+public class L088_Merge_Sorted_Array {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 
@@ -22,7 +22,7 @@ public class MergeSortedArray {
 
     public static void main(String[] args) {
 
-        MergeSortedArray s = new MergeSortedArray();
+        L088_Merge_Sorted_Array s = new L088_Merge_Sorted_Array();
 
         long sysDate1 = System.currentTimeMillis();
 

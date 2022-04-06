@@ -1,6 +1,6 @@
 import struct.ListNode;
 
-public class SortList148 {
+public class L148_Sort_List {
 
     public ListNode sortList(ListNode head) {
 
@@ -50,7 +50,7 @@ public class SortList148 {
 
     public static void main(String[] args) {
 
-        SortList148 s = new SortList148();
+        L148_Sort_List s = new L148_Sort_List();
 
         long sysDate1 = System.currentTimeMillis();
 

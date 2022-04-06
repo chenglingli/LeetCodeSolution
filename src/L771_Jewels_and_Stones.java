@@ -1,4 +1,4 @@
-public class NumJewelsInStones771 {
+public class L771_Jewels_and_Stones {
 
     public int numJewelsInStones(String J, String S) {
         int count = 0;
@@ -18,7 +18,7 @@ public class NumJewelsInStones771 {
 
     public static void main(String[] args) {
 
-        NumJewelsInStones771 s = new NumJewelsInStones771();
+        L771_Jewels_and_Stones s = new L771_Jewels_and_Stones();
 
         long sysDate1 = System.currentTimeMillis();
 

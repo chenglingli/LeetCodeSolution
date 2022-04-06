@@ -1,6 +1,6 @@
 import struct.ListNode;
 
-public class RemoveNthFromEnd {
+public class L019_Remove_Nth_Node_From_End_of_List {
 
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -30,7 +30,7 @@ public class RemoveNthFromEnd {
 
     public static void main(String[] args) {
 
-        RemoveNthFromEnd s = new RemoveNthFromEnd();
+        L019_Remove_Nth_Node_From_End_of_List s = new L019_Remove_Nth_Node_From_End_of_List();
 
         long sysDate1 = System.currentTimeMillis();
 

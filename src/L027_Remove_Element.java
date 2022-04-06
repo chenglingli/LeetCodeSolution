@@ -1,4 +1,4 @@
-public class RemoveElement {
+public class L027_Remove_Element {
 
 
     public int removeElement(int[] nums, int val) {
@@ -22,7 +22,7 @@ public class RemoveElement {
 
     public static void main(String[] args) {
 
-        RemoveElement s = new RemoveElement();
+        L027_Remove_Element s = new L027_Remove_Element();
 
         int nums[] = {1, 1};
         int val = 1;
