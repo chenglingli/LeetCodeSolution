@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
-public class L094_Binary_Tree_Inorder_Traversal {
+public class L145_Binary_Tree_Postorder_Traversal {
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null)
             return res;
@@ -13,22 +14,22 @@ public class L094_Binary_Tree_Inorder_Traversal {
         TreeNode p = root;
         while (p != null || !stack.empty()) {
             if (p != null) {
+                res.add(p.val);
                 stack.push(p);
-                p = p.left;
+                p = p.right;
             }
             else {
                 p = stack.peek();
-                res.add(p.val);
                 stack.pop();
-                p = p.right;
+                p = p.left;
             }
         }
-
+        Collections.reverse(res);
         return res;
     }
 
     public static void main(String[] args) {
-        L094_Binary_Tree_Inorder_Traversal s = new L094_Binary_Tree_Inorder_Traversal();
+        L145_Binary_Tree_Postorder_Traversal s = new L145_Binary_Tree_Postorder_Traversal();
         long sysDate1 = System.currentTimeMillis();
 
         // [2,null,3,null,4,null,5,null,6]
@@ -62,7 +63,7 @@ public class L094_Binary_Tree_Inorder_Traversal {
          *
          */
 
-        System.out.println(s.inorderTraversal(root));
+        System.out.println(s.postorderTraversal(root));
 
         long sysDate2 = System.currentTimeMillis();
         System.out.println("\ntime ");
