@@ -4,19 +4,18 @@ import java.util.Queue;
 public class L111_Minimum_Depth_of_Binary_Tree {
 
     /**
-     Given a binary tree, find its minimum depth.
-
-     The minimum depth is the number of nodes along the shortest
-     path from the root node down to the nearest leaf node.
-
-     Note: A leaf is a node with no children.
+     * Given a binary tree, find its minimum depth.
+     * <p>
+     * The minimum depth is the number of nodes along the shortest
+     * path from the root node down to the nearest leaf node.
+     * <p>
+     * Note: A leaf is a node with no children.
      */
 
     /*
     两种解决思路，一种是递归，一种是层序遍历。
     递归的方式
      */
-
     public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -27,14 +26,12 @@ public class L111_Minimum_Depth_of_Binary_Tree {
 
         int leftD = 0, rightD = 0;
         if (root.right != null && root.left != null) {
-            rightD =  1 + minDepth(root.right);
+            rightD = 1 + minDepth(root.right);
             leftD = 1 + minDepth(root.left);
             return Math.min(leftD, rightD);
-        }
-        else if (root.left != null) {
+        } else if (root.left != null) {
             return 1 + minDepth(root.left);
-        }
-        else {
+        } else {
             return 1 + minDepth(root.right);
         }
     }

@@ -6,10 +6,14 @@ public class L150_Evaluate_Reverse_Polish_Notation {
 
     public int calc(int x, int y, String op) {
         switch (op) {
-            case "+" : return x + y;
-            case "-" : return x - y;
-            case "*" : return x * y;
-            case "/" : return x / y;
+            case "+":
+                return x + y;
+            case "-":
+                return x - y;
+            case "*":
+                return x * y;
+            case "/":
+                return x / y;
         }
         return 0;
     }
@@ -43,7 +47,7 @@ public class L150_Evaluate_Reverse_Polish_Notation {
         L150_Evaluate_Reverse_Polish_Notation s = new L150_Evaluate_Reverse_Polish_Notation();
         long sysDate1 = System.currentTimeMillis();
 
-        String[] s1 = {"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
+        String[] s1 = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"};
         int res = s.evalRPN(s1);
         System.out.println(res);
 

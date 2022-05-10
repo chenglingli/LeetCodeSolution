@@ -2,8 +2,8 @@ public class L165_Compare_Version_Numbers {
 
     public int compareVersion(String version1, String version2) {
 
-        String [] valStrList1 = version1.split("\\.");
-        String [] valStrList2 = version2.split("\\.");
+        String[] valStrList1 = version1.split("\\.");
+        String[] valStrList2 = version2.split("\\.");
         int i = 0;
         int j = 0;
 
@@ -12,8 +12,7 @@ public class L165_Compare_Version_Numbers {
             int temp2 = Integer.parseInt(valStrList2[j]);
             if (temp1 > temp2) {
                 return 1;
-            }
-            else if (temp1 < temp2) {
+            } else if (temp1 < temp2) {
                 return -1;
             }
             i++;

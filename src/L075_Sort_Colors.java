@@ -19,12 +19,10 @@ public class L075_Sort_Colors {
                 swap(nums, zeroTail, i);
                 zeroTail++;
                 i++;
-            }
-            else if (nums[i] == 2){
+            } else if (nums[i] == 2) {
                 swap(nums, twoHead, i);
                 twoHead--;
-            }
-            else {
+            } else {
                 i++;
             }
         }

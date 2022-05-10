@@ -15,12 +15,12 @@ public class L160_Intersection_of_Two_Linked_Lists {
         ListNode pB = headB;
 
         while (pA != null) {
-            lenA ++;
+            lenA++;
             pA = pA.next;
         }
 
         while (pB != null) {
-            lenB ++;
+            lenB++;
             pB = pB.next;
         }
 
@@ -31,13 +31,12 @@ public class L160_Intersection_of_Two_Linked_Lists {
         if (lenA > lenB) {
             while (steps > 0) {
                 pA = pA.next;
-                steps --;
+                steps--;
             }
-        }
-        else {
+        } else {
             while (steps > 0) {
                 pB = pB.next;
-                steps --;
+                steps--;
             }
         }
 

@@ -5,7 +5,7 @@ public class L205_Isomorphic_Strings {
 
     public boolean isIsomorphic(String s, String t) {
 
-        if (s == null || t==null) {
+        if (s == null || t == null) {
             return false;
         }
 
@@ -20,14 +20,13 @@ public class L205_Isomorphic_Strings {
         Map<Character, Integer> m = new HashMap<>();
         StringBuilder sb = new StringBuilder();
         int count = 1;
-        for(int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             char temp = s.charAt(i);
             if (m.containsKey(temp)) {
                 sb.append(m.get(temp).toString());
-            }
-            else {
+            } else {
                 m.put(temp, count);
-                count ++;
+                count++;
                 sb.append(m.get(temp).toString());
             }
         }

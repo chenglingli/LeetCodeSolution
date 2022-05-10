@@ -7,7 +7,7 @@ public class L071_Simplify_Path {
 
     public String simplifyPath2(String path) {
 
-        if(path.isEmpty())
+        if (path.isEmpty())
             return path;
 
         StringBuilder simplifiedPath = new StringBuilder();
@@ -15,18 +15,17 @@ public class L071_Simplify_Path {
         Deque<String> q = new LinkedList<>();
         int pop = 0;
 
-        for(int i=tokens.length-1; i>=0; i--) {
+        for (int i = tokens.length - 1; i >= 0; i--) {
 
             String token = tokens[i];
 
-            if(token.isEmpty() || ".".equals(token) || "_".equals(token))
+            if (token.isEmpty() || ".".equals(token) || "_".equals(token))
                 continue;
 
-            if("..".equals(token)) {
+            if ("..".equals(token)) {
                 pop++;
-            }
-            else {
-                if(pop > 0){
+            } else {
+                if (pop > 0) {
                     pop--;
                 } else {
                     q.add(token);
@@ -35,11 +34,11 @@ public class L071_Simplify_Path {
 
         }
 
-        while(!q.isEmpty()) {
-            simplifiedPath.append("/"+q.removeLast());
+        while (!q.isEmpty()) {
+            simplifiedPath.append("/" + q.removeLast());
         }
 
-        return simplifiedPath.toString().equals("") ? "/": simplifiedPath.toString();
+        return simplifiedPath.toString().equals("") ? "/" : simplifiedPath.toString();
     }
 
 
@@ -50,13 +49,12 @@ public class L071_Simplify_Path {
 
         path = path + "/";
 
-        for (int i = 0; i< path.length(); i ++) {
+        for (int i = 0; i < path.length(); i++) {
 
             if (path.charAt(i) == '/') {
-                if (block.toString().equals("..") &&  blocks.size() > 0) {
+                if (block.toString().equals("..") && blocks.size() > 0) {
                     blocks.pop();
-                }
-                else if (!Objects.equals(block.toString(), "")
+                } else if (!Objects.equals(block.toString(), "")
                         && !Objects.equals(block.toString(), ".")
                         && !Objects.equals(block.toString(), "..")) {
                     blocks.push(block.toString());

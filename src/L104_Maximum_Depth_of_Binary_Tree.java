@@ -4,17 +4,16 @@ import java.util.Queue;
 public class L104_Maximum_Depth_of_Binary_Tree {
 
     /**
-     Given the root of a binary tree, return its maximum depth.
-
-     A binary tree's maximum depth is the number of nodes
-     along the longest path from the root node down to the farthest leaf node.
+     * Given the root of a binary tree, return its maximum depth.
+     * <p>
+     * A binary tree's maximum depth is the number of nodes
+     * along the longest path from the root node down to the farthest leaf node.
      */
 
     /*
     两种解决思路，一种是递归，一种是层序遍历。
     递归的方式
      */
-
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -25,14 +24,12 @@ public class L104_Maximum_Depth_of_Binary_Tree {
 
         int leftD = 0, rightD = 0;
         if (root.right != null && root.left != null) {
-            rightD =  1 + maxDepth(root.right);
+            rightD = 1 + maxDepth(root.right);
             leftD = 1 + maxDepth(root.left);
             return Math.max(leftD, rightD);
-        }
-        else if (root.left != null) {
+        } else if (root.left != null) {
             return 1 + maxDepth(root.left);
-        }
-        else {
+        } else {
             return 1 + maxDepth(root.right);
         }
     }

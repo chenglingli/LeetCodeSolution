@@ -1,5 +1,3 @@
-
-
 public class L944_Delete_Columns_to_Make_Sorted {
 
     public int minDeletionSize(String[] A) {
@@ -9,11 +7,11 @@ public class L944_Delete_Columns_to_Make_Sorted {
             return 0;
         }
 
-        for (int i = 0; i<A[0].length();i++) {
+        for (int i = 0; i < A[0].length(); i++) {
 
-            for (int j = 0; j < A.length-1 ; j++) {
-                if (A[j].charAt(i) > A[j+1].charAt(i)) {
-                    res +=1;
+            for (int j = 0; j < A.length - 1; j++) {
+                if (A[j].charAt(i) > A[j + 1].charAt(i)) {
+                    res += 1;
                     j = A.length;
                 }
             }
@@ -29,7 +27,7 @@ public class L944_Delete_Columns_to_Make_Sorted {
 
         long sysDate1 = System.currentTimeMillis();
 
-        String [] A = {"zyx","wvu","tsr"};
+        String[] A = {"zyx", "wvu", "tsr"};
 
         int res = s.minDeletionSize(A);
         System.out.println(res);

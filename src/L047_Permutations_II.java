@@ -24,7 +24,7 @@ public class L047_Permutations_II {
             used[i] = true;
             tmp.add(num[i]);
 
-            backTrack(res, tmp, num, target ,used);
+            backTrack(res, tmp, num, target, used);
 
             tmp.remove(tmp.size() - 1);
             used[i] = false;

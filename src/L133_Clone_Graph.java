@@ -1,5 +1,4 @@
 import struct.GraphNode;
-import struct.Node;
 
 import java.util.*;
 
@@ -44,7 +43,7 @@ public class L133_Clone_Graph {
         GraphNode clone = new GraphNode(node.val, new ArrayList<GraphNode>());
         m.put(node, clone);
 
-        while (! q.isEmpty()) {
+        while (!q.isEmpty()) {
             GraphNode t = q.poll();
             for (GraphNode nei : t.neighbors) {
                 if (!m.containsKey(nei)) {

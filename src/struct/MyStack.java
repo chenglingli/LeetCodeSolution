@@ -16,15 +16,13 @@ public class MyStack {
     public void push(int x) {
         if (q1.isEmpty() && q2.isEmpty()) {
             q1.add(x);
-        }
-        else if (q1.isEmpty()) {
+        } else if (q1.isEmpty()) {
             q1.add(x);
             while (!q2.isEmpty()) {
                 q1.add(q2.peek());
                 q2.poll();
             }
-        }
-        else {
+        } else {
             q2.add(x);
             while (!q1.isEmpty()) {
                 q2.add(q1.peek());
@@ -39,8 +37,7 @@ public class MyStack {
         if (!q1.isEmpty()) {
             val = q1.peek();
             q1.poll();
-        }
-        else {
+        } else {
             val = q2.peek();
             q2.poll();
         }

@@ -25,7 +25,6 @@ public class L110_Balanced_Binary_Tree {
     }
 
 
-
     public boolean isBalanced(TreeNode root) {
 
         if (root == null) {
@@ -59,14 +58,12 @@ public class L110_Balanced_Binary_Tree {
 
         int leftD = 0, rightD = 0;
         if (root.right != null && root.left != null) {
-            rightD =  1 + maxDepth(root.right);
+            rightD = 1 + maxDepth(root.right);
             leftD = 1 + maxDepth(root.left);
             return Math.max(leftD, rightD);
-        }
-        else if (root.left != null) {
+        } else if (root.left != null) {
             return 1 + maxDepth(root.left);
-        }
-        else {
+        } else {
             return 1 + maxDepth(root.right);
         }
     }

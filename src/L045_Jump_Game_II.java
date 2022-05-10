@@ -3,7 +3,6 @@ public class L045_Jump_Game_II {
 
     /**
      * 动态规划做法
-     *
      */
     public int jump(int[] nums) {
         int len = nums.length;
@@ -27,16 +26,15 @@ public class L045_Jump_Game_II {
 
     /**
      * 爬楼梯模式
-     *
+     * <p>
      * We use "last" to keep track of the maximum distance that has been reached
      * by using the minimum steps "ret", whereas "curr" is the maximum distance
      * that can be reached by using "ret+1" steps. Thus,
      * curr = max(i+A[i]) where 0 <= i <= last.
-     *
+     * <p>
      * last 当前ret可达最远
      * curr，ret+1可达最远
      * ret 步数
-     *
      */
     public int jump2(int[] nums) {
 
@@ -53,7 +51,7 @@ public class L045_Jump_Game_II {
                 ++ret;
             }
             // 记录当前可达的最远点
-            cur = Math.max(cur, i+nums[i]);
+            cur = Math.max(cur, i + nums[i]);
 
             if (last >= len) {
                 break;

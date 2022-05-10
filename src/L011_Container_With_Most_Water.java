@@ -1,4 +1,3 @@
-
 public class L011_Container_With_Most_Water {
 
     // 两个柱子向里逼近
@@ -6,13 +5,13 @@ public class L011_Container_With_Most_Water {
 
         int max = Integer.MIN_VALUE;
         int l = 0;
-        int h = height.length-1;
-        while (l<h) {
-            if (height[l] > height[h]){
-                max = Math.max(max, (h-l)*height[h]);
+        int h = height.length - 1;
+        while (l < h) {
+            if (height[l] > height[h]) {
+                max = Math.max(max, (h - l) * height[h]);
                 h--;
             } else {
-                max = Math.max(max, (h-l)*height[l]);
+                max = Math.max(max, (h - l) * height[l]);
                 l++;
             }
         }
@@ -23,15 +22,14 @@ public class L011_Container_With_Most_Water {
     public int maxArea(int[] height) {
         int res = 0;
 
-        for (int i = 1; i < height.length ; i++) {
+        for (int i = 1; i < height.length; i++) {
             int curArea = 0;
 
             int tempMax = -1;
-            for (int j = 0 ; j < i ;j++) {
+            for (int j = 0; j < i; j++) {
                 if (height[j] <= height[i]) {
                     curArea = (i - j) * height[j];
-                }
-                else {
+                } else {
                     curArea = (i - j) * height[i];
                     j = i;
                 }
@@ -57,7 +55,7 @@ public class L011_Container_With_Most_Water {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] height = {1,8,6,2,5,4,8,3,7};
+        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
 
         int res = s.maxArea(height);
 

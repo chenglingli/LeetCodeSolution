@@ -26,7 +26,7 @@ public class L234_Palindrome_Linked_List {
         newHead.next = null;
 
         ListNode p = head;
-        while (p!=null) {
+        while (p != null) {
 
             int value = p.val;
             ListNode temp = new ListNode(value);

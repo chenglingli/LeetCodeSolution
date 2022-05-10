@@ -14,11 +14,11 @@ public class MyQueue {
     }
 
     public void push(int x) {
-         while (!s2.empty()) {
-             s1.push(s2.peek());
-             s2.pop();
-         }
-         s2.push(x);
+        while (!s2.empty()) {
+            s1.push(s2.peek());
+            s2.pop();
+        }
+        s2.push(x);
         while (!s1.empty()) {
             s2.push(s1.peek());
             s1.pop();

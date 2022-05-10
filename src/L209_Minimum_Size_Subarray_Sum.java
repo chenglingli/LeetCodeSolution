@@ -20,7 +20,7 @@ public class L209_Minimum_Size_Subarray_Sum {
             }
         }
 
-        return res == Integer.MAX_VALUE? 0 : res;
+        return res == Integer.MAX_VALUE ? 0 : res;
     }
 
 

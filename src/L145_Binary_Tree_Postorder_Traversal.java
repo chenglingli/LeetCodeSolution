@@ -17,8 +17,7 @@ public class L145_Binary_Tree_Postorder_Traversal {
                 res.add(p.val);
                 stack.push(p);
                 p = p.right;
-            }
-            else {
+            } else {
                 p = stack.peek();
                 stack.pop();
                 p = p.left;

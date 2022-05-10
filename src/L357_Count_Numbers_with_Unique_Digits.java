@@ -1,14 +1,14 @@
 public class L357_Count_Numbers_with_Unique_Digits {
 
     /**
-     Given a non-negative integer n, count all numbers with unique digits, x, where 0 ≤ x < 10n.
-
-     Example:
-
-     Input: 2
-     Output: 91
-     Explanation: The answer should be the total numbers in the range of 0 ≤ x < 100,
-     excluding 11,22,33,44,55,66,77,88,99
+     * Given a non-negative integer n, count all numbers with unique digits, x, where 0 ≤ x < 10n.
+     * <p>
+     * Example:
+     * <p>
+     * Input: 2
+     * Output: 91
+     * Explanation: The answer should be the total numbers in the range of 0 ≤ x < 100,
+     * excluding 11,22,33,44,55,66,77,88,99
      */
 
     public int countNumbersWithUniqueDigits(int n) {

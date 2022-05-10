@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
 public class L226_Invert_Binary_Tree {
 
     public TreeNode invertTree(TreeNode root) {
@@ -11,7 +6,7 @@ public class L226_Invert_Binary_Tree {
             return null;
         }
 
-        if(root.left != null || root.right != null) {
+        if (root.left != null || root.right != null) {
             TreeNode temp = root.right;
             root.right = root.left;
             root.left = temp;

@@ -16,12 +16,12 @@ public class MinStack {
     public void push(int val) {
         data.push(val);
 
-        if(min.empty() || val<=getMin())
+        if (min.empty() || val <= getMin())
             min.push(val);
     }
 
     public void pop() {
-        if(Objects.equals(data.peek(), min.peek())) {
+        if (Objects.equals(data.peek(), min.peek())) {
             min.pop();
         }
 

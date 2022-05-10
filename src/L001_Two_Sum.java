@@ -25,16 +25,12 @@ public class L001_Two_Sum {
         Map<Integer, Integer> m = new HashMap<>();
         final int[] result = new int[2];
 
-        for(int i=0; i<nums.length; i++)
-        {
+        for (int i = 0; i < nums.length; i++) {
             int another = target - nums[i];
-            if(m.containsKey(another))
-            {
+            if (m.containsKey(another)) {
                 result[0] = m.get(another);
                 result[1] = i;
-            }
-            else
-            {
+            } else {
                 m.put(nums[i], i);
             }
         }

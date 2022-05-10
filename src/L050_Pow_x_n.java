@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class L050_Pow_x_n {
 
     public double myPow(double x, int n) {
@@ -10,16 +8,15 @@ public class L050_Pow_x_n {
 
         //一定要转化为long型，防止表示-n时溢出
         long tmpN = n;
-        if (n < 0)
-        {
+        if (n < 0) {
             x = 1 / x;
-            tmpN = -(long)n;;
+            tmpN = -(long) n;
+            ;
         }
         return quickPow(x, tmpN);
     }
 
-    double quickPow(double x, long n)
-    {
+    double quickPow(double x, long n) {
         //递归出口
         if (n == 1)
             return x;

@@ -37,7 +37,7 @@ public class L213_House_Robber_II {
             curMax2[i] = Integer.max(f[i], curMax2[i - 1]);
         }
 
-        return Integer.max(curMax2[n-1], curMax1[n-2]);
+        return Integer.max(curMax2[n - 1], curMax1[n - 2]);
     }
 
 

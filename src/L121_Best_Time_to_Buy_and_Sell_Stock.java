@@ -13,12 +13,10 @@ public class L121_Best_Time_to_Buy_and_Sell_Stock {
 
 
     /**
-     *
      * 解法1，
      * 从尾部找，找到当前最大值数组，max[i]表示，倒过来看到下标i时候的最大值。
      * 其实下标i时候卖的话可以获得的最大卖价。
      * 然后遍历数组，max[i] - num[i] 就知道可以获得的最大收益了。
-     *
      */
     public int maxProfit(int[] prices) {
 
@@ -45,12 +43,10 @@ public class L121_Best_Time_to_Buy_and_Sell_Stock {
     }
 
     /**
-     *
      * 解法2
-     *
+     * <p>
      * minBuyPrice 记录到目前为止的最小price
      * max记录到目前i为止可以获得的最大收益
-     *
      */
     public int maxProfit2(int[] prices) {
 
@@ -69,15 +65,13 @@ public class L121_Best_Time_to_Buy_and_Sell_Stock {
     }
 
 
-
-
     public static void main(String[] args) {
 
         L121_Best_Time_to_Buy_and_Sell_Stock s = new L121_Best_Time_to_Buy_and_Sell_Stock();
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] prices = {7,1,5,3,6,4};
+        int[] prices = {7, 1, 5, 3, 6, 4};
 
         int res = s.maxProfit2(prices);
         System.out.println(res);

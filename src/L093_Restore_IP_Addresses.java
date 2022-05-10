@@ -12,7 +12,7 @@ public class L093_Restore_IP_Addresses {
         }
 
         if (n == 4 && s.length() == 0) {
-            res.add(tmp.substring(0, tmp.length()-1));
+            res.add(tmp.substring(0, tmp.length() - 1));
             return;
         }
 
@@ -26,7 +26,7 @@ public class L093_Restore_IP_Addresses {
             if (Integer.toString(val).length() != i) {
                 break;
             }
-            if (val > 255)  {
+            if (val > 255) {
                 break;
             }
 

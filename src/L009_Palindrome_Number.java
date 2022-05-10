@@ -75,7 +75,6 @@ public class L009_Palindrome_Number {
     }
 
 
-
     public static void main(String[] args) {
 
         L009_Palindrome_Number s = new L009_Palindrome_Number();

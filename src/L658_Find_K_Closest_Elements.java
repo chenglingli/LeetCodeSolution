@@ -30,7 +30,7 @@ public class L658_Find_K_Closest_Elements {
         int i = 0, j = arr.length - 1;
         while (j - i + 1 > k) {
             if (arr[j] - x < x - arr[i]) i++;
-             else j--;
+            else j--;
         }
 
         List<Integer> res = new ArrayList<>();
@@ -51,7 +51,7 @@ public class L658_Find_K_Closest_Elements {
         List<Integer> res = new ArrayList<>();
         for (int l = 0; l < k; l++) {
             res.add(arr[left]);
-            left ++;
+            left++;
         }
 
         return res;
@@ -62,7 +62,7 @@ public class L658_Find_K_Closest_Elements {
         L658_Find_K_Closest_Elements s = new L658_Find_K_Closest_Elements();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] matrix = {1,2,3,4,5};
+        int[] matrix = {1, 2, 3, 4, 5};
 
         List<Integer> res = s.findClosestElements2(matrix, 4, 3);
         System.out.println(res);

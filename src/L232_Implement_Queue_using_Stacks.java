@@ -1,5 +1,4 @@
 import struct.MyQueue;
-import struct.MyStack;
 
 public class L232_Implement_Queue_using_Stacks {
 

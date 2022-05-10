@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashSet;
 
 public class L217_Contains_Duplicate {
@@ -6,7 +5,7 @@ public class L217_Contains_Duplicate {
     public boolean containsDuplicate(int[] nums) {
 
         HashSet<Integer> set = new HashSet<>();
-        for (int i = 0 ; i< nums.length ; i++) {
+        for (int i = 0; i < nums.length; i++) {
             set.add(nums[i]);
         }
         return set.size() != nums.length;

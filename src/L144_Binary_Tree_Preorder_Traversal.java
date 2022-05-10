@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 public class L144_Binary_Tree_Preorder_Traversal {
 
@@ -14,8 +16,7 @@ public class L144_Binary_Tree_Preorder_Traversal {
                 res.add(p.val);
                 stack.push(p);
                 p = p.left;
-            }
-            else {
+            } else {
                 p = stack.peek();
                 stack.pop();
                 p = p.right;

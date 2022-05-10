@@ -18,8 +18,7 @@ public class L049_Group_Anagrams {
             String sortedStr = new String(arrayCh);
             if (m.containsKey(sortedStr)) {
                 m.get(sortedStr).add(s);
-            }
-            else {
+            } else {
                 m.put(sortedStr, new ArrayList<String>(Collections.singleton(s)));
             }
         }
@@ -37,7 +36,7 @@ public class L049_Group_Anagrams {
 
         long sysDate1 = System.currentTimeMillis();
 
-        String[] input = {"eat","tea","tan","ate","nat","bat"};
+        String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
         List<List<String>> res = s.groupAnagrams(input);
         System.out.println(res);
 

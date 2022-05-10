@@ -37,15 +37,15 @@ public class L200_Number_of_Islands {
         while (!q.isEmpty()) {
             Pair head = q.poll();
 
-            int a = (int)head.getKey();
-            int b = (int)head.getValue();
+            int a = (int) head.getKey();
+            int b = (int) head.getValue();
 
             if (grid[a][b] != '1')
                 continue;
 
             grid[a][b] = '0';
 
-            for (int index = 0 ; index < 4; index ++) {
+            for (int index = 0; index < 4; index++) {
                 int i = a + dirs1.get(index);
                 int j = b + dirs2.get(index);
 
@@ -53,7 +53,7 @@ public class L200_Number_of_Islands {
                     continue;
                 }
 
-                q.offer(new Pair( i, j ));
+                q.offer(new Pair(i, j));
             }
         }
     }
@@ -64,11 +64,11 @@ public class L200_Number_of_Islands {
 
         long sysDate1 = System.currentTimeMillis();
 
-        char [][] grid = {
-                {'1','1','0','0','0'},
-                {'1','1','0','0','0'},
-                {'0','0','1','0','0'},
-                {'0','0','0','1','1'}
+        char[][] grid = {
+                {'1', '1', '0', '0', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '1', '0', '0'},
+                {'0', '0', '0', '1', '1'}
         };
 
 //        char [][] grid = {

@@ -45,7 +45,7 @@ public class L074_Search_a_2D_Matrix {
         L074_Search_a_2D_Matrix s = new L074_Search_a_2D_Matrix();
 
         long sysDate1 = System.currentTimeMillis();
-        int[][] matrix = {{1,3,5,7}, {10,11,16,20}, {23,30,34,60}};
+        int[][] matrix = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};
         boolean res = s.searchMatrix(matrix, 3);
 
         System.out.println(res);

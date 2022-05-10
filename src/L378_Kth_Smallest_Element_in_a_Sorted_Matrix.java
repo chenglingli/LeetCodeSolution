@@ -91,7 +91,7 @@ public class L378_Kth_Smallest_Element_in_a_Sorted_Matrix {
     }
 
     // 查找 <= t 的元素个数
-    int searchLessEqual(int [][] matrix, int target) {
+    int searchLessEqual(int[][] matrix, int target) {
         int n = matrix.length, i = n - 1, j = 0, res = 0;
         while (i >= 0 && j < n) {
             if (matrix[i][j] <= target) {

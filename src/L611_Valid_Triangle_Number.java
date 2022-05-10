@@ -5,20 +5,19 @@ import java.util.List;
 public class L611_Valid_Triangle_Number {
 
     /**
-     *
      * Given an array consists of non-negative integers, your task is to count the number of triplets chosen from the
      * array that can make triangles if we take them as side lengths of a triangle.
-     Example 1:
-     Input: [2,2,3,4]
-     Output: 3
-     Explanation:
-     Valid combinations are:
-     2,3,4 (using the first 2)
-     2,3,4 (using the second 2)
-     2,2,3
-     Note:
-     The length of the given array won't exceed 1000.
-     The integers in the given array are in the range of [0, 1000].
+     * Example 1:
+     * Input: [2,2,3,4]
+     * Output: 3
+     * Explanation:
+     * Valid combinations are:
+     * 2,3,4 (using the first 2)
+     * 2,3,4 (using the second 2)
+     * 2,2,3
+     * Note:
+     * The length of the given array won't exceed 1000.
+     * The integers in the given array are in the range of [0, 1000].
      */
     public int triangleNumber(int[] nums) {
 
@@ -34,15 +33,14 @@ public class L611_Valid_Triangle_Number {
 
     int count = 0;
 
-    public void backTrack(int start, List<Integer> ans, int [] num) {
+    public void backTrack(int start, List<Integer> ans, int[] num) {
 
         if (ans.size() == 3) {
             if (exist(ans)) {
                 count += 1;
             }
-        }
-        else if (ans.size() < 3) {
-            for (int i = start; i < num.length ; i++) {
+        } else if (ans.size() < 3) {
+            for (int i = start; i < num.length; i++) {
                 ans.add(num[i]);
                 backTrack(i + 1, ans, num);
                 ans.remove(ans.size() - 1);
@@ -81,24 +79,20 @@ public class L611_Valid_Triangle_Number {
     public int triangleNumber3(int[] nums) {
         int count = 0;
 
-        if(nums == null || nums.length < 3)
+        if (nums == null || nums.length < 3)
             return count;
 
         Arrays.sort(nums);
         int n = nums.length;
 
-        for(int i=n-1; i>=2; i--)
-        {
-            int l=0, r=i-1;
+        for (int i = n - 1; i >= 2; i--) {
+            int l = 0, r = i - 1;
 
-            while(l<r)
-            {
-                if(nums[l] + nums[r] > nums[i])
-                {
-                    count += r-l;
+            while (l < r) {
+                if (nums[l] + nums[r] > nums[i]) {
+                    count += r - l;
                     r--;
-                }
-                else
+                } else
                     l++;
             }
         }

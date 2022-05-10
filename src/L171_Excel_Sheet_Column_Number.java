@@ -1,4 +1,3 @@
-
 public class L171_Excel_Sheet_Column_Number {
 
     public int titleToNumber(String columnTitle) {

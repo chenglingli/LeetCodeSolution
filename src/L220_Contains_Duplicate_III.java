@@ -6,7 +6,7 @@ public class L220_Contains_Duplicate_III {
 
     public boolean containsNearbyAlmostDuplicate2(int[] nums, int k, int t) {
 
-        if (nums.length == 0 || k ==0 || t < 0) {
+        if (nums.length == 0 || k == 0 || t < 0) {
             return false;
         }
 
@@ -16,12 +16,12 @@ public class L220_Contains_Duplicate_III {
 
         while (left < nums.length) {
             if (right + 1 < nums.length && right - left < k) {
-                right ++;
+                right++;
 
                 Long newNum = (long) nums[right];
-                if (treeMap.ceilingEntry(- (long)t + newNum ) != null) {
-                    Map.Entry<Long, Integer> ceil = treeMap.ceilingEntry(- (long)t + newNum );
-                    if (ceil.getKey() <= (long)t + newNum) {
+                if (treeMap.ceilingEntry(-(long) t + newNum) != null) {
+                    Map.Entry<Long, Integer> ceil = treeMap.ceilingEntry(-(long) t + newNum);
+                    if (ceil.getKey() <= (long) t + newNum) {
                         return true;
                     }
                 }
@@ -32,9 +32,9 @@ public class L220_Contains_Duplicate_III {
                     treeMap.put(newNum, 1);
                 }
             } else {
-                treeMap.put((long)nums[left], treeMap.get((long)nums[left] - 1));
-                if (treeMap.get((long)nums[left]) == null || treeMap.get((long)nums[left]) == 0) {
-                    treeMap.remove((long)nums[left]);
+                treeMap.put((long) nums[left], treeMap.get((long) nums[left] - 1));
+                if (treeMap.get((long) nums[left]) == null || treeMap.get((long) nums[left]) == 0) {
+                    treeMap.remove((long) nums[left]);
                 }
                 left++;
             }
@@ -46,7 +46,7 @@ public class L220_Contains_Duplicate_III {
 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 
-        if (nums.length == 0 || k ==0 || t < 0) {
+        if (nums.length == 0 || k == 0 || t < 0) {
             return false;
         }
 
@@ -92,7 +92,7 @@ public class L220_Contains_Duplicate_III {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] input = {1,5,9,1,5,9};
+        int[] input = {1, 5, 9, 1, 5, 9};
         boolean res = s.containsNearbyAlmostDuplicate(input, 2, 3);
         System.out.println(res);
 

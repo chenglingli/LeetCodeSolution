@@ -1,4 +1,3 @@
-
 public class L168_Excel_Sheet_Column_Title {
 
     public String convertToTitle(int columnNumber) {
@@ -6,8 +5,8 @@ public class L168_Excel_Sheet_Column_Title {
         StringBuilder res = new StringBuilder();
 
         while (columnNumber > 0) {
-            columnNumber --;
-            int x  = 'A' + (columnNumber % 26);
+            columnNumber--;
+            int x = 'A' + (columnNumber % 26);
             char temp = (char) x;
 
             res.append(temp);

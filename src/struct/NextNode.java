@@ -6,7 +6,8 @@ public class NextNode {
     public NextNode right;
     public NextNode next;
 
-    public NextNode() {}
+    public NextNode() {
+    }
 
     public NextNode(int _val) {
         val = _val;

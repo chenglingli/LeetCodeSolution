@@ -5,8 +5,8 @@ public class L081_Search_in_Rotated_Sorted_Array_II {
 
         while (low <= high) {
 
-            while(low < high && nums[low]==nums[low+1]) low++;
-            while(low < high && nums[high]==nums[high-1]) high--;
+            while (low < high && nums[low] == nums[low + 1]) low++;
+            while (low < high && nums[high] == nums[high - 1]) high--;
 
             int mid = low + (high - low) / 2;
             if (nums[mid] == target) {
@@ -15,8 +15,7 @@ public class L081_Search_in_Rotated_Sorted_Array_II {
 
                 if (target >= nums[mid] && target <= nums[high]) {
                     low = mid + 1;
-                }
-                else {
+                } else {
                     high = mid;
                 }
 

@@ -38,7 +38,7 @@ public class L363_Max_Sum_of_Rectangle_No_Larger_Than_K {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[][] matrix = {{1,0,1},{0,-2,3}};
+        int[][] matrix = {{1, 0, 1}, {0, -2, 3}};
         int res2 = s.maxSumSubmatrix(matrix, 2);
         System.out.println(res2);
 

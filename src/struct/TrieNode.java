@@ -14,15 +14,15 @@ public class TrieNode {
     }
 
     public boolean containsKey(char ch) {
-        return links[ch -'a'] != null;
+        return links[ch - 'a'] != null;
     }
 
     public TrieNode get(char ch) {
-        return links[ch -'a'];
+        return links[ch - 'a'];
     }
 
     public void put(char ch, TrieNode node) {
-        links[ch -'a'] = node;
+        links[ch - 'a'] = node;
     }
 
     public void setEnd() {

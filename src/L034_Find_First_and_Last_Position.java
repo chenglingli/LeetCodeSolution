@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class L034_Find_First_and_Last_Position {
 
     public int[] searchRange(int[] nums, int target) {
-        int [] res = {-1, -1};
+        int[] res = {-1, -1};
         if (nums.length <= 0) {
             return res;
         }

@@ -7,9 +7,9 @@ public class L208_Course_Schedule_II {
         //如果某个点没有其他点指向它，那么对应的list为空。
         HashMap<Integer, List<Integer>> map = new HashMap(numCourses);
 
-        int[] res = new int [numCourses];
+        int[] res = new int[numCourses];
 
-        for(int i = 0;i < numCourses;i++)
+        for (int i = 0; i < numCourses; i++)
             map.put(i, new ArrayList());
 
         for (int[] prerequisite : prerequisites) {
@@ -21,27 +21,25 @@ public class L208_Course_Schedule_II {
         }
 
         int i = 0;
-        while(map.size() > 0)
-        {
+        while (map.size() > 0) {
             //判断是否能找到一个没有任何节点指向的节点
             boolean flag = false;
             int num = 0;
-            for(Map.Entry<Integer,List<Integer>> entry:map.entrySet())
-                if(entry.getValue().size() == 0)
-                {
+            for (Map.Entry<Integer, List<Integer>> entry : map.entrySet())
+                if (entry.getValue().size() == 0) {
                     flag = true;
                     num = entry.getKey();
                     break;
                 }
 
-            if(!flag)
+            if (!flag)
                 return new int[0];
 
             map.remove(num);
             res[i++] = num;
 
             Iterator<List<Integer>> it = map.values().iterator();
-            while(it.hasNext()) {
+            while (it.hasNext()) {
                 it.next().remove(new Integer(num));
             }
         }
@@ -55,11 +53,11 @@ public class L208_Course_Schedule_II {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[][] prerequisites = {{1, 0} , {0, 2} , {2, 3}};
+        int[][] prerequisites = {{1, 0}, {0, 2}, {2, 3}};
         // int[][] prerequisites = {{1, 0}, {0, 1}};
 
         int[] res = s.findOrder(4, prerequisites);
-        for (int i = 0 ;i < res.length; i++) {
+        for (int i = 0; i < res.length; i++) {
             System.out.println(res[i]);
         }
 

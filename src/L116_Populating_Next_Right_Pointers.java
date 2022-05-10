@@ -1,8 +1,6 @@
 import struct.NextNode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class L116_Populating_Next_Right_Pointers {

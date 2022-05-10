@@ -1,22 +1,19 @@
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class L108_Convert_Sorted_Array_to_Binary_Search_Tree {
 
     public TreeNode sortedArrayToBST(int[] nums) {
         int len = nums.length;
-        return dfs(nums, 0 ,len);
+        return dfs(nums, 0, len);
     }
 
-    TreeNode dfs(int [] nums, int l, int r) {
-        if(l == r) {
+    TreeNode dfs(int[] nums, int l, int r) {
+        if (l == r) {
             return null;
         }
 
         int mid = (l + r) / 2;
         TreeNode root = new TreeNode(nums[mid]);
         root.left = dfs(nums, l, mid);
-        root.right = dfs(nums, mid+1, r);
+        root.right = dfs(nums, mid + 1, r);
         return root;
     }
 

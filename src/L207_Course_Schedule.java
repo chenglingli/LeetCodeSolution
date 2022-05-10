@@ -38,7 +38,7 @@ public class L207_Course_Schedule {
         //如果某个点没有其他点指向它，那么对应的list为空。
         HashMap<Integer, List<Integer>> map = new HashMap(numCourses);
 
-        for(int i = 0;i < numCourses;i++)
+        for (int i = 0; i < numCourses; i++)
             map.put(i, new ArrayList());
 
         for (int[] prerequisite : prerequisites) {
@@ -49,26 +49,24 @@ public class L207_Course_Schedule {
             list.add(previous);
         }
 
-        while(map.size() > 0)
-        {
+        while (map.size() > 0) {
             //判断是否能找到一个没有任何节点指向的节点
             boolean flag = false;
             int num = 0;
-            for(Map.Entry<Integer,List<Integer>> entry:map.entrySet())
-                if(entry.getValue().size() == 0)
-                {
+            for (Map.Entry<Integer, List<Integer>> entry : map.entrySet())
+                if (entry.getValue().size() == 0) {
                     flag = true;
                     num = entry.getKey();
                     break;
                 }
 
-            if(!flag)
+            if (!flag)
                 return false;
 
             map.remove(num);
 
             Iterator<List<Integer>> it = map.values().iterator();
-            while(it.hasNext()) {
+            while (it.hasNext()) {
                 it.next().remove(new Integer(num));
             }
         }

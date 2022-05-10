@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class L153_Find_Minimum_in_Rotated_Sorted_Array {
 
     // Given the sorted rotated array nums of unique elements,
@@ -27,7 +25,7 @@ public class L153_Find_Minimum_in_Rotated_Sorted_Array {
         L153_Find_Minimum_in_Rotated_Sorted_Array s = new L153_Find_Minimum_in_Rotated_Sorted_Array();
 
         long sysDate1 = System.currentTimeMillis();
-        int[] nums = {4,5,6,7,-1,1,2};
+        int[] nums = {4, 5, 6, 7, -1, 1, 2};
         int res = s.findMin(nums);
 
         System.out.println(res);

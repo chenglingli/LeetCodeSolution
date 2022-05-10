@@ -33,7 +33,7 @@ public class L077_Combinations {
         }
 
         List<Integer> candidate = new ArrayList<>();
-        for (int i = 1 ; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             candidate.add(i);
         }
 
@@ -47,8 +47,7 @@ public class L077_Combinations {
             List<Integer> candidate, int start, List<Integer> tmp, int k, List<List<Integer>> res) {
         if (tmp.size() == k) {
             res.add(new ArrayList<>(tmp));
-        }
-        else {
+        } else {
             for (int i = start; i < candidate.size(); i++) {
                 tmp.add(candidate.get(i));
                 backTrack2(candidate, i + 1, tmp, k, res);

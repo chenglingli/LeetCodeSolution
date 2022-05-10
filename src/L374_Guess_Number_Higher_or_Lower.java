@@ -1,4 +1,3 @@
-
 public class L374_Guess_Number_Higher_or_Lower {
 
     public int guessNumber(int n) {
@@ -28,11 +27,9 @@ public class L374_Guess_Number_Higher_or_Lower {
         int x = 6;
         if (num == x) {
             return 0;
-        }
-        else if (num > x) {
-            return  -1;
-        }
-        else {
+        } else if (num > x) {
+            return -1;
+        } else {
             return 1;
         }
     }

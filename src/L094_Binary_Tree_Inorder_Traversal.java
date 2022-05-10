@@ -15,8 +15,7 @@ public class L094_Binary_Tree_Inorder_Traversal {
             if (p != null) {
                 stack.push(p);
                 p = p.left;
-            }
-            else {
+            } else {
                 p = stack.peek();
                 res.add(p.val);
                 stack.pop();

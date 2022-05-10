@@ -18,8 +18,7 @@ public class L203_Remove_Linked_List_Elements {
             if (p.val == val) {
                 pre.next = p.next;
                 p = pre.next;
-            }
-            else {
+            } else {
                 p = p.next;
                 pre = pre.next;
             }

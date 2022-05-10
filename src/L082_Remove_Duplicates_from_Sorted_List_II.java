@@ -24,8 +24,7 @@ public class L082_Remove_Duplicates_from_Sorted_List_II {
                     p = p.next;
                 }
                 pre.next = p.next;
-            }
-            else {
+            } else {
                 pre = cur;
             }
 

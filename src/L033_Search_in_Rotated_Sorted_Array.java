@@ -12,8 +12,7 @@ public class L033_Search_in_Rotated_Sorted_Array {
 
                 if (target >= nums[mid] && target <= nums[high]) {
                     low = mid + 1;
-                }
-                else {
+                } else {
                     high = mid;
                 }
 
