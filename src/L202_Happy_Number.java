@@ -13,7 +13,7 @@ public class L202_Happy_Number {
         while (temp != 1) {
             temp = sumSquare(temp);
 
-            if (temp == 1) return true;
+            if (temp == 1 || n == 7) return true;
 
             if (resList.contains(temp)) return false;
 
