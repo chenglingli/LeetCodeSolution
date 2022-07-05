@@ -13,7 +13,7 @@ public class L189_Rotate_Array {
 
         int[] temp = new int[len];
         for (int i = 0; i < len; i++) {
-            temp[(i + k) % len ] = nums[i];
+            temp[(i + k) % len] = nums[i];
         }
 
         for (int i = 0; i < len; i++) {
@@ -23,23 +23,22 @@ public class L189_Rotate_Array {
 
 
     // in place
-    public void reverse(int[] nums, int l, int r)
-    {
-        while(l<r)
-        {
-            int temp=nums[l];
-            nums[l]=nums[r];
-            nums[r]=temp;
+    public void reverse(int[] nums, int l, int r) {
+        while (l < r) {
+            int temp = nums[l];
+            nums[l] = nums[r];
+            nums[r] = temp;
             l++;
             r--;
         }
     }
+
     public void rotate2(int[] nums, int k) {
-        int n=nums.length;
-        k%=n;
-        reverse(nums,0,n-k-1);
-        reverse(nums,n-k,n-1);
-        reverse(nums,0,n-1);
+        int n = nums.length;
+        k %= n;
+        reverse(nums, 0, n - k - 1);
+        reverse(nums, n - k, n - 1);
+        reverse(nums, 0, n - 1);
     }
 
     public static void main(String[] args) {

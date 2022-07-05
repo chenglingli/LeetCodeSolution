@@ -19,7 +19,7 @@ public class L030_Substring_with_Concatenation_of_All_Words {
         for (String word : words) {
             hash.put(word, hash.containsKey(word) ? hash.get(word) + 1 : 1);
         }
-        int n=words.length;
+        int n = words.length;
         int m = words[0].length();
 
         // 以m段跳跃
@@ -76,7 +76,7 @@ public class L030_Substring_with_Concatenation_of_All_Words {
 
         long sysDate1 = System.currentTimeMillis();
         String ss = "wordgoodgoodgoodbestword";
-        String[] words = {"word","good","best","good"};
+        String[] words = {"word", "good", "best", "good"};
         List<Integer> res = s.findSubstring(ss, words);
         System.out.println(res);
 

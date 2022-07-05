@@ -21,14 +21,14 @@ public class L228_Summary_Ranges {
         for (int i = 1; i < nums.length; i++) {
 
             // 加入结果集
-            if (nums[i] - nums[i-1] != 1) {
-                if (start == nums[i-1]) {
+            if (nums[i] - nums[i - 1] != 1) {
+                if (start == nums[i - 1]) {
                     res.add(String.valueOf(start));
                 } else {
                     StringBuilder sb = new StringBuilder();
                     sb.append(start);
                     sb.append("->");
-                    sb.append(nums[i-1]);
+                    sb.append(nums[i - 1]);
                     res.add(sb.toString());
                 }
                 start = nums[i];
@@ -56,7 +56,7 @@ public class L228_Summary_Ranges {
         L228_Summary_Ranges s = new L228_Summary_Ranges();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] nums = {0,1,2,4,5,7};
+        int[] nums = {0, 1, 2, 4, 5, 7};
         System.out.println(s.summaryRanges(nums));
 
         long sysDate2 = System.currentTimeMillis();

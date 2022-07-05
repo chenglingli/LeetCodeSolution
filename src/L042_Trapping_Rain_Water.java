@@ -50,7 +50,7 @@ public class L042_Trapping_Rain_Water {
 
             if (leftMost < rightMost) {
                 res += leftMost > height[left] ? leftMost - height[left] : 0;
-                left ++;
+                left++;
             } else {
                 res += rightMost > height[right] ? rightMost - height[right] : 0;
                 right--;
@@ -66,7 +66,7 @@ public class L042_Trapping_Rain_Water {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] input = {4,2,0,3,2,5};
+        int[] input = {4, 2, 0, 3, 2, 5};
         int res = s.trap2(input);
         System.out.println(res);
 

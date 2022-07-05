@@ -1,12 +1,13 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class L036_Valid_Sudoku {
 
     public boolean isValidSudoku(char[][] board) {
 
-        List<Character> [] rowExistList = new List[9];
-        List<Character> [] ColumnExistList = new List[9];
-        List<Character> [] gridExistList = new List[9];
+        List<Character>[] rowExistList = new List[9];
+        List<Character>[] ColumnExistList = new List[9];
+        List<Character>[] gridExistList = new List[9];
 
         for (int i = 0; i < 9; i++) {
             rowExistList[i] = new ArrayList<>();
@@ -15,32 +16,29 @@ public class L036_Valid_Sudoku {
         }
 
         for (int i = 0; i < 9; i++) {
-            for (int j = 0 ; j < 9 ; j++) {
+            for (int j = 0; j < 9; j++) {
 
                 if (board[i][j] != '.') {
 
                     // 行(
                     if (rowExistList[j].contains(board[i][j])) {
                         return false;
-                    }
-                    else {
+                    } else {
                         rowExistList[j].add(board[i][j]);
                     }
 
                     // 列
                     if (ColumnExistList[i].contains(board[i][j])) {
                         return false;
-                    }
-                    else {
+                    } else {
                         ColumnExistList[i].add(board[i][j]);
                     }
 
                     // 九宫格
-                    int x = (i/3)*3 + j/3;
+                    int x = (i / 3) * 3 + j / 3;
                     if (gridExistList[x].contains(board[i][j])) {
                         return false;
-                    }
-                    else {
+                    } else {
                         gridExistList[x].add(board[i][j]);
                     }
                 }

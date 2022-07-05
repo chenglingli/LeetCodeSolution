@@ -26,7 +26,7 @@ public class L268_Missing_Number {
         L268_Missing_Number s = new L268_Missing_Number();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] nums = {0,1,3};
+        int[] nums = {0, 1, 3};
         int res = s.missingNumber(nums);
         System.out.println(res);
 

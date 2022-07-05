@@ -24,15 +24,15 @@ public class L100_Same_Tree {
 
         long sysDate1 = System.currentTimeMillis();
 
-//        TreeNode t1 = new TreeNode(1);
-//        TreeNode p1 = new TreeNode(2);
-//        TreeNode p2 = new TreeNode(3);
-//        t1.right = p2;
-//
-//        TreeNode t2 = new TreeNode(1);
-//        TreeNode p3 = new TreeNode(2);
-//        TreeNode p4 = new TreeNode(3);
-//        t2.right = p4;
+        //        TreeNode t1 = new TreeNode(1);
+        //        TreeNode p1 = new TreeNode(2);
+        //        TreeNode p2 = new TreeNode(3);
+        //        t1.right = p2;
+        //
+        //        TreeNode t2 = new TreeNode(1);
+        //        TreeNode p3 = new TreeNode(2);
+        //        TreeNode p4 = new TreeNode(3);
+        //        t2.right = p4;
 
 
         TreeNode t1 = null;

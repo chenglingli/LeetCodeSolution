@@ -111,15 +111,15 @@ public class L002_Add_Two_Numbers {
 
         L002_Add_Two_Numbers s = new L002_Add_Two_Numbers();
 
-//        struct.ListNode l1 = new struct.ListNode(5);
-//        struct.ListNode p1 = l1;
-//        p1.next = new struct.ListNode(3);
-//        p1 = p1.next;
-//        p1.next = new struct.ListNode(6);
-//        p1 = p1.next;
-//
-//        struct.ListNode l2 = new struct.ListNode(9);
-//        l2.next = new struct.ListNode(8);
+        //        struct.ListNode l1 = new struct.ListNode(5);
+        //        struct.ListNode p1 = l1;
+        //        p1.next = new struct.ListNode(3);
+        //        p1 = p1.next;
+        //        p1.next = new struct.ListNode(6);
+        //        p1 = p1.next;
+        //
+        //        struct.ListNode l2 = new struct.ListNode(9);
+        //        l2.next = new struct.ListNode(8);
 
 
         ListNode l1 = new ListNode(2);

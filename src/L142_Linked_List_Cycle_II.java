@@ -57,19 +57,19 @@ public class L142_Linked_List_Cycle_II {
         f.next = new ListNode(2);
         f = f.next;
 
-//
-//        f.next = new struct.ListNode(3);
-//        f = f.next;
-//
-//        struct.ListNode newNode = f;
-//
-//        f.next = new struct.ListNode(4);
-//        f = f.next;
-//        f.next = new struct.ListNode(5);
-//        f = f.next;
-//        f.next = new struct.ListNode(6);
-//        f = f.next;
-//        f.next = newNode;
+        //
+        //        f.next = new struct.ListNode(3);
+        //        f = f.next;
+        //
+        //        struct.ListNode newNode = f;
+        //
+        //        f.next = new struct.ListNode(4);
+        //        f = f.next;
+        //        f.next = new struct.ListNode(5);
+        //        f = f.next;
+        //        f.next = new struct.ListNode(6);
+        //        f = f.next;
+        //        f.next = newNode;
 
         ListNode res = s.detectCycle(head);
 

@@ -66,7 +66,7 @@ public class L041_First_Missing_Positive {
 
         long sysDate1 = System.currentTimeMillis();
 
-        int[] input = {3,4,-1,1};
+        int[] input = {3, 4, -1, 1};
         int res = s.firstMissingPositive2(input);
         System.out.println(res);
 

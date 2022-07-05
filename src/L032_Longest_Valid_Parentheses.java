@@ -29,7 +29,7 @@ public class L032_Longest_Valid_Parentheses {
         int[] f = new int[s.length()];
         f[0] = 0;
 
-        for (int i = 1 ;i < s.length(); i++) {
+        for (int i = 1; i < s.length(); i++) {
 
             //  '('
             if (s.charAt(i) == '(') {
@@ -40,20 +40,18 @@ public class L032_Longest_Valid_Parentheses {
             else {
 
                 // '()'
-                if(s.charAt(i-1) == '(') {
-                    f[i] = i-2 >=0 ?
-                            f[i-2] + 2 :
+                if (s.charAt(i - 1) == '(') {
+                    f[i] = i - 2 >= 0 ?
+                            f[i - 2] + 2 :
                             2;
                 }
 
                 // '))'
-                else if (i-f[i-1]-1 >=0 && s.charAt(i-f[i-1]-1) == '(') {
-                        f[i] = i-f[i-1]-2 >= 0 ?
-                                f[i-1] + f[i-f[i-1]-2] + 2 :
-                                f[i-1] + 2;
-                }
-
-                else {
+                else if (i - f[i - 1] - 1 >= 0 && s.charAt(i - f[i - 1] - 1) == '(') {
+                    f[i] = i - f[i - 1] - 2 >= 0 ?
+                            f[i - 1] + f[i - f[i - 1] - 2] + 2 :
+                            f[i - 1] + 2;
+                } else {
                     f[i] = 0;
                 }
             }

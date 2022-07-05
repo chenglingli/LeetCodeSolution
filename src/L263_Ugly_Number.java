@@ -1,10 +1,8 @@
-import java.util.Arrays;
-
 public class L263_Ugly_Number {
 
     public boolean isUgly(int n) {
 
-        if (n <= 0 )
+        if (n <= 0)
             return false;
 
         while (n % 5 == 0)

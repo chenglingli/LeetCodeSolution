@@ -25,8 +25,9 @@ public class L079_Word_Search {
         return false;
     }
 
-    public boolean dfs(char[][] board, int rows, int cols, int row, int col,
-                       String word, int pathLength, boolean[] visited) {
+    public boolean dfs(
+            char[][] board, int rows, int cols, int row, int col,
+            String word, int pathLength, boolean[] visited) {
 
         // 如果pathLength的长度已经是查找字串的长度，则已经找到
         if (pathLength == word.length()) {

@@ -34,7 +34,7 @@ public class L065_Valid_Number {
 
     public boolean isInteger(String s) {
 
-        if (s == null ||s.length() == 0) {
+        if (s == null || s.length() == 0) {
             return false;
         }
 
@@ -113,7 +113,7 @@ public class L065_Valid_Number {
         String[] x = {".1", "e9", "e", "2", "0089", "-0.1", "+3.14", "4.", "-.9",
                 "2e10", "-90E3", "3e+7", "+6e-1", "53.5e93", "-123.456e789"};
 
-        for (int i = 0 ;i < x.length; i++) {
+        for (int i = 0; i < x.length; i++) {
             boolean res = s.isNumber(x[i]);
             System.out.print(x[i]);
             System.out.print(" ");

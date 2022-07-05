@@ -2,11 +2,11 @@ public class L260_Single_Number_III {
 
     public int[] singleNumber(int[] nums) {
 
-        if(nums ==null || nums.length == 0)
-            return new int[] {};
+        if (nums == null || nums.length == 0)
+            return new int[]{};
 
         int xor = 0;
-        for(int num: nums){
+        for (int num : nums) {
             xor = xor ^ num;
         }
 
@@ -47,12 +47,11 @@ public class L260_Single_Number_III {
          */
         int temp = xor & (-xor);
 
-        int [] res = new int[2];
+        int[] res = new int[2];
         for (int num : nums) {
             if ((temp & num) == 0) {
                 res[0] ^= num;
-            }
-            else {
+            } else {
                 res[1] ^= num;
             }
         }
@@ -64,7 +63,7 @@ public class L260_Single_Number_III {
         L260_Single_Number_III s = new L260_Single_Number_III();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] nums = {1,2,3,1,5,3};
+        int[] nums = {1, 2, 3, 1, 5, 3};
         int[] res = s.singleNumber(nums);
         System.out.println(res[0] + " " + res[1]);
 

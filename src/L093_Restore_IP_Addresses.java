@@ -61,7 +61,6 @@ public class L093_Restore_IP_Addresses {
     }
 
     /**
-     * @param s
      * @param p      :指针
      * @param pstack :stack的下标
      */

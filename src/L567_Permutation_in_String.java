@@ -54,50 +54,50 @@ public class L567_Permutation_in_String {
         return true;
     }
 
-//    全排列，超时
-//    private void swap(char[] charArray,int i,int j)
-//    {
-//        char temp = charArray[i];
-//        charArray[i] = charArray[j];
-//        charArray[j] = temp;
-//    }
-//
-//    public void permutation(char[] s, int start, List<String> stringArrays) {
-//
-//        if (start > s.length - 1) {
-//            return;
-//        }
-//        if (start == s.length - 1) {
-//            stringArrays.add(String.valueOf(s));
-//            return;
-//        }
-//        for (int i = start; i < s.length; i++) {
-//            swap(s, i, start);
-//            permutation(s, start + 1, stringArrays);
-//            swap(s, i, start);
-//        }
-//    }
-//
-//    public boolean checkInclusion2(String s1, String s2) {
-//
-//        if (s2 == null || s2.length() == 0) {
-//            return s2.equals(s1);
-//        }
-//        if (s1.length() > s2.length()) {
-//            return false;
-//        }
-//
-//        char[] s1Copy = s1.toCharArray();
-//        List<String> stringArrays = new ArrayList<>();
-//        permutation(s1Copy, 0, stringArrays);
-//
-//        for (String stringArray : stringArrays) {
-//            if (s2.contains(stringArray)) {
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
+    //    全排列，超时
+    //    private void swap(char[] charArray,int i,int j)
+    //    {
+    //        char temp = charArray[i];
+    //        charArray[i] = charArray[j];
+    //        charArray[j] = temp;
+    //    }
+    //
+    //    public void permutation(char[] s, int start, List<String> stringArrays) {
+    //
+    //        if (start > s.length - 1) {
+    //            return;
+    //        }
+    //        if (start == s.length - 1) {
+    //            stringArrays.add(String.valueOf(s));
+    //            return;
+    //        }
+    //        for (int i = start; i < s.length; i++) {
+    //            swap(s, i, start);
+    //            permutation(s, start + 1, stringArrays);
+    //            swap(s, i, start);
+    //        }
+    //    }
+    //
+    //    public boolean checkInclusion2(String s1, String s2) {
+    //
+    //        if (s2 == null || s2.length() == 0) {
+    //            return s2.equals(s1);
+    //        }
+    //        if (s1.length() > s2.length()) {
+    //            return false;
+    //        }
+    //
+    //        char[] s1Copy = s1.toCharArray();
+    //        List<String> stringArrays = new ArrayList<>();
+    //        permutation(s1Copy, 0, stringArrays);
+    //
+    //        for (String stringArray : stringArrays) {
+    //            if (s2.contains(stringArray)) {
+    //                return true;
+    //            }
+    //        }
+    //        return false;
+    //    }
 
     public static void main(String[] args) {
 

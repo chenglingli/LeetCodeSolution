@@ -1,6 +1,6 @@
-import struct.Interval;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class L057_Insert_Interval {
 

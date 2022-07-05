@@ -38,11 +38,12 @@ public class L126_Word_Ladder_II {
     }
 
 
-    public void bfs(String start,
-                    String end,
-                    HashSet<String> dict,
-                    HashMap<String, List<String>> adj,
-                    HashMap<String, Integer> distance) {
+    public void bfs(
+            String start,
+            String end,
+            HashSet<String> dict,
+            HashMap<String, List<String>> adj,
+            HashMap<String, Integer> distance) {
 
         for (String word : dict) {
             adj.put(word, new ArrayList<String>());
@@ -67,13 +68,14 @@ public class L126_Word_Ladder_II {
         }
     }
 
-    public void dfs(String curr,
-                    String end,
-                    List<List<String>> result,
-                    List<String> path,
-                    HashSet<String> dict,
-                    HashMap<String, List<String>> adj,
-                    HashMap<String, Integer> distance) {
+    public void dfs(
+            String curr,
+            String end,
+            List<List<String>> result,
+            List<String> path,
+            HashSet<String> dict,
+            HashMap<String, List<String>> adj,
+            HashMap<String, Integer> distance) {
 
         if (curr.equals(end)) {
             result.add(new ArrayList<>(path));
