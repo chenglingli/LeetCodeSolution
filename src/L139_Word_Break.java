@@ -6,6 +6,11 @@ public class L139_Word_Break {
     /*
      *
      * DP 做法
+     * dp[i] = true 表示 s 到第i位，是可以有字典组成的
+     * = false，表示不可以组成。
+     *
+     * dp [i] = true
+     *      存在一个j使得：dp[j] == true && s[j,i] 在字典库中
      *
      */
     public boolean wordBreak(String s, List<String> wordDict) {
@@ -34,6 +39,7 @@ public class L139_Word_Break {
 
     private static boolean wordBreak(String s, List<String> wordDict, int startIndex, boolean[] visited) {
 
+        // 结束条件
         if (s.length() == startIndex) {
             return true;
         }
@@ -43,6 +49,8 @@ public class L139_Word_Break {
         }
 
         visited[startIndex] = true;
+
+        // 遍历每个单词，递归
         for (String word : wordDict) {
             if (s.startsWith(word, startIndex)
                     && wordBreak(s, wordDict, startIndex + word.length(), visited)) {
