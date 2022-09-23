@@ -16,7 +16,7 @@ public class L605_Can_Place_Flowers {
                     flowerbed[i] = 1;
                     count++;
 
-                    if(count >= n ) {
+                    if (count >= n) {
                         return true;
                     }
                 }
@@ -32,7 +32,7 @@ public class L605_Can_Place_Flowers {
         L605_Can_Place_Flowers s = new L605_Can_Place_Flowers();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] input = {1,0,0,0,0,0};
+        int[] input = {1, 0, 0, 0, 0, 0};
         int n = 3;
 
         boolean res = s.canPlaceFlowers(input, n);
