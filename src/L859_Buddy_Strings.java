@@ -1,4 +1,3 @@
-import sun.font.CreatedFontTracker;
 
 public class L859_Buddy_Strings {
 
