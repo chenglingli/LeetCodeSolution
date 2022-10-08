@@ -39,7 +39,7 @@ public class L039_Combination_Sum {
         long sysDate1 = System.currentTimeMillis();
 
         int[] input = {1, 2, 3, 4};
-        List<List<Integer>> res = s.combinationSum(input, 5);
+        List<List<Integer>> res = s.combinationSum(input, 8);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();
