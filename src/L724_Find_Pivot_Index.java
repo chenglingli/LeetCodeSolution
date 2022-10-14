@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class L724_Find_Pivot_Index {
 
     public int pivotIndex(int[] nums) {
@@ -16,9 +13,9 @@ public class L724_Find_Pivot_Index {
 
         int leftSum = 0;
         int rightSum = 0;
-        for (int i = 1 ;i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) {
 
-            leftSum += nums[i-1];
+            leftSum += nums[i - 1];
             rightSum = sum - leftSum - nums[i];
 
             if (leftSum == rightSum) {
@@ -35,10 +32,10 @@ public class L724_Find_Pivot_Index {
 
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] nums = {1,7,3,6,5,6};
-//        int[] nums = {2,1,-1};
-//        int[] nums = {1,2,3};
-        int[] nums = {-1,1,2};
+        //        int[] nums = {1,7,3,6,5,6};
+        //        int[] nums = {2,1,-1};
+        //        int[] nums = {1,2,3};
+        int[] nums = {-1, 1, 2};
         int res = s.pivotIndex(nums);
 
         System.out.println(res);
