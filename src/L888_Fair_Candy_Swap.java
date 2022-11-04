@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class L888_Fair_Candy_Swap {
-    
+
     public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
 
         int sum1 = 0;
