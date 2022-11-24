@@ -1,6 +1,3 @@
-import java.util.Deque;
-import java.util.LinkedList;
-
 public class L393_UTF_8_Validation {
 
     public boolean validUtf8(int[] data) {
@@ -60,19 +57,18 @@ public class L393_UTF_8_Validation {
     }
 
 
-
     public static void main(String[] args) {
 
         L393_UTF_8_Validation s = new L393_UTF_8_Validation();
         long sysDate1 = System.currentTimeMillis();
 
-         // int[] data = {255}; // false
+        // int[] data = {255}; // false
         // int[] data = {197,130,1}; // true
         // int[] data = {197,130,1}; // true
         // int[] data = {235,140,4}; // false
         // int[] data = {240,162,138,147,145}; // false
         // int[] data = {230,136,145}; // true
-         int [] data = {250,145,145,145,145}; // false
+        int[] data = {250, 145, 145, 145, 145}; // false
         // int [] data = {240,162,138,147,17}; // true
 
         boolean res = s.validUtf8(data);

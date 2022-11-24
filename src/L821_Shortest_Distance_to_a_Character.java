@@ -139,12 +139,12 @@ public class L821_Shortest_Distance_to_a_Character {
         L821_Shortest_Distance_to_a_Character s = new L821_Shortest_Distance_to_a_Character();
         long sysDate1 = System.currentTimeMillis();
 
-        String ss = "loveleetcode" ;
+        String ss = "loveleetcode";
         // [3,2,1,0,1,0,0,1,2,2,1,0]
-        char c = 'e' ;
+        char c = 'e';
 
-//        String ss = "baaa" ;
-//        char c = 'b' ;
+        //        String ss = "baaa" ;
+        //        char c = 'b' ;
 
         int[] res = s.shortestToChar4(ss, c);
         System.out.println(Arrays.toString(res));

@@ -1,22 +1,17 @@
-import javax.swing.*;
-import java.util.HashMap;
-import java.util.Map;
-
 public class L383_Ransom_Note {
 
     public boolean canConstruct(String ransomNote, String magazine) {
 
-        int []letterCount = new int[26];
-        for(int i = 0 ; i < magazine.length(); i++) {
+        int[] letterCount = new int[26];
+        for (int i = 0; i < magazine.length(); i++) {
             letterCount[magazine.charAt(i) - 'a']++;
         }
 
-        for (int i = 0 ; i < ransomNote.length(); i++) {
+        for (int i = 0; i < ransomNote.length(); i++) {
             char cur = ransomNote.charAt(i);
             if (letterCount[cur - 'a'] > 0) {
                 letterCount[cur - 'a']--;
-            }
-            else {
+            } else {
                 return false;
             }
         }

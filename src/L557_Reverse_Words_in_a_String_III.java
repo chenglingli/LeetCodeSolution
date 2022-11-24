@@ -4,9 +4,9 @@ public class L557_Reverse_Words_in_a_String_III {
 
         StringBuilder sb = new StringBuilder();
 
-        String[] stringList= s.split(" ");
+        String[] stringList = s.split(" ");
 
-        for (int i = 0 ; i < stringList.length; i ++) {
+        for (int i = 0; i < stringList.length; i++) {
             if (i != 0) {
                 sb.append(' ');
             }
@@ -19,7 +19,7 @@ public class L557_Reverse_Words_in_a_String_III {
 
     public StringBuilder reverseString(String s) {
         StringBuilder res = new StringBuilder();
-        for (int i = s.length()-1 ;i >=0 ; i--) {
+        for (int i = s.length() - 1; i >= 0; i--) {
             res.append(s.charAt(i));
         }
         return res;

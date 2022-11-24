@@ -1,14 +1,12 @@
-import java.util.Objects;
-
 public class L520_Detect_Capital {
 
     public boolean detectCapitalUse(String word) {
 
         int count = 0;
 
-        for (int i = 0 ; i < word.length(); i++) {
+        for (int i = 0; i < word.length(); i++) {
             if (word.charAt(i) >= 'A' && word.charAt(i) <= 'Z') {
-                count ++;
+                count++;
             }
         }
 
@@ -17,7 +15,7 @@ public class L520_Detect_Capital {
         }
 
         if (count == 0) {
-             return true;
+            return true;
         }
 
         if (count == 1 && word.charAt(0) >= 'A' && word.charAt(0) <= 'Z') {

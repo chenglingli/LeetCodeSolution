@@ -59,7 +59,7 @@ public class L1013_Partition_Array_Into_Three_Parts_With_Equal_Sum {
         long sysDate1 = System.currentTimeMillis();
 
         //        int[] arr = {0, 2, 1, -6, 6, -7, 9, 1, 2, 0, 1};
-        int[] arr = {1,-1,1,-1};
+        int[] arr = {1, -1, 1, -1};
         boolean res = s.canThreePartsEqualSum(arr);
         System.out.println(res);
 

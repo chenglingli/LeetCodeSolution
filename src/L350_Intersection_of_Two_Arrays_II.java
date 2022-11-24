@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 public class L350_Intersection_of_Two_Arrays_II {
 
@@ -24,7 +27,7 @@ public class L350_Intersection_of_Two_Arrays_II {
         }
 
         int[] f = new int[res.size()];
-        for (int i = 0 ; i < res.size(); i++)
+        for (int i = 0; i < res.size(); i++)
             f[i] = res.get(i);
 
         return f;
@@ -36,7 +39,7 @@ public class L350_Intersection_of_Two_Arrays_II {
         L350_Intersection_of_Two_Arrays_II s = new L350_Intersection_of_Two_Arrays_II();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] nums1 = {1,2,2,1};
+        int[] nums1 = {1, 2, 2, 1};
         int[] nums2 = {2, 2};
 
         int[] res2 = s.intersect(nums1, nums2);

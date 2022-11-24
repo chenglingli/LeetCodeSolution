@@ -48,11 +48,11 @@ public class L836_Rectangle_Overlap {
         L836_Rectangle_Overlap s = new L836_Rectangle_Overlap();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] rec2 = {7,8,13,15};
-//        int[] rec1 = {10,8,12,20};
+        //        int[] rec2 = {7,8,13,15};
+        //        int[] rec1 = {10,8,12,20};
 
-        int[] rec1 = {1,13,16,20} ;
-        int[] rec2 = {2,12,11,18} ;
+        int[] rec1 = {1, 13, 16, 20};
+        int[] rec2 = {2, 12, 11, 18};
 
         boolean res = s.isRectangleOverlap(rec1, rec2);
         System.out.println(res);

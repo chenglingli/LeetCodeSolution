@@ -38,7 +38,7 @@ public class L561_Array_Partition {
         L561_Array_Partition s = new L561_Array_Partition();
         long sysDate1 = System.currentTimeMillis();
 
-        int [] nums = {1, 1, 2, 4, 1, 3};
+        int[] nums = {1, 1, 2, 4, 1, 3};
         int res = s.arrayPairSum2(nums);
         System.out.println(res);
 

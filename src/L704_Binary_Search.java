@@ -30,16 +30,16 @@ public class L704_Binary_Search {
 
         int[] nums = {-1, 0, 3, 5, 9, 12};
         int[] nums2 = {-2, 2, 4, 6, 10, 100};
-//        int target = 4;
-//        int res = s.search(nums, 2);
-//        System.out.println(res);
+        //        int target = 4;
+        //        int res = s.search(nums, 2);
+        //        System.out.println(res);
 
-        for (int i = 0 ;i < nums.length ; i++) {
+        for (int i = 0; i < nums.length; i++) {
             int res = s.search(nums, nums[i]);
             System.out.println(res);
         }
 
-        for (int i = 0 ;i < nums2.length ; i++) {
+        for (int i = 0; i < nums2.length; i++) {
             int res = s.search(nums, nums2[i]);
             System.out.println(res);
         }

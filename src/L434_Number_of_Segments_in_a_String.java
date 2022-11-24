@@ -1,7 +1,7 @@
 public class L434_Number_of_Segments_in_a_String {
 
     public int countSegments(String s) {
-        String[] splitList= s.split(" ");
+        String[] splitList = s.split(" ");
         int count = 0;
         for (String str : splitList) {
             if (str.length() == 0) {

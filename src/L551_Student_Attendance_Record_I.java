@@ -3,20 +3,20 @@ public class L551_Student_Attendance_Record_I {
     public boolean checkRecord(String s) {
 
         int absentCount = 0;
-        for (int i = 0 ; i < s.length() ; i++) {
+        for (int i = 0; i < s.length(); i++) {
 
             char cur = s.charAt(i);
 
             switch (cur) {
                 case 'A':
-                    absentCount ++ ;
+                    absentCount++;
                     if (absentCount >= 2) {
                         return false;
                     }
                     break;
 
                 case 'L':
-                    if (i >= 2 && s.charAt(i-1) == 'L' && s.charAt(i-2) == 'L')
+                    if (i >= 2 && s.charAt(i - 1) == 'L' && s.charAt(i - 2) == 'L')
                         return false;
                     break;
 

@@ -2,8 +2,8 @@ public class L953_Verifying_an_Alien_Dictionary {
 
     public boolean isAlienSorted(String[] words, String order) {
 
-        for(int i = 0 ; i < words.length-1; i++) {
-            if (!Sorted(words[i], words[i+1], order)) {
+        for (int i = 0; i < words.length - 1; i++) {
+            if (!Sorted(words[i], words[i + 1], order)) {
                 return false;
             }
         }
@@ -36,7 +36,7 @@ public class L953_Verifying_an_Alien_Dictionary {
 
         long sysDate1 = System.currentTimeMillis();
 
-        String[] words = {"hello","hello"};
+        String[] words = {"hello", "hello"};
         String order = "abcdefghijklmnopqrstuvwxyz";
         boolean res = s.isAlienSorted(words, order);
 

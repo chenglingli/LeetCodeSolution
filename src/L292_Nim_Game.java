@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class L292_Nim_Game {
 
     public boolean canWinNim(int n) {

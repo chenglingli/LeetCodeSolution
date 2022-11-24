@@ -1,4 +1,3 @@
-
 public class L859_Buddy_Strings {
 
     public boolean buddyStrings(String s, String goal) {
@@ -10,10 +9,10 @@ public class L859_Buddy_Strings {
         // a == b
         // a 至少有两位字符一模一样
         if (s.equals(goal)) {
-            int [] letter = new int[26];
-            for (int i = 0 ; i < s.length() ; i++) {
+            int[] letter = new int[26];
+            for (int i = 0; i < s.length(); i++) {
                 int tempIndex = s.charAt(i) - 'a';
-                letter[tempIndex] ++;
+                letter[tempIndex]++;
                 if (letter[tempIndex] >= 2) {
                     return true;
                 }
@@ -27,7 +26,7 @@ public class L859_Buddy_Strings {
 
         int[] swapIndex = new int[3];
         int j = 0;
-        for (int i = 0 ; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) != goal.charAt(i)) {
                 swapIndex[j++] = i;
             }

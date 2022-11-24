@@ -15,19 +15,19 @@ public class L509_Fibonacci_Number {
         }
 
         int temp1 = 0;
-        if (r[n-1] == 0) {
-            temp1 = fib(n-1);
-            r[n-1] = temp1;
+        if (r[n - 1] == 0) {
+            temp1 = fib(n - 1);
+            r[n - 1] = temp1;
         } else {
-            temp1 = r[n-1];
+            temp1 = r[n - 1];
         }
 
         int temp2 = 0;
-        if (r[n-2] == 0) {
-            temp2 = fib(n-2);
-            r[n-2] = temp2;
+        if (r[n - 2] == 0) {
+            temp2 = fib(n - 2);
+            r[n - 2] = temp2;
         } else {
-            temp2 = r[n-2];
+            temp2 = r[n - 2];
         }
 
         r[n] = temp1 + temp2;
@@ -37,19 +37,18 @@ public class L509_Fibonacci_Number {
 
     public int fib2(int n) {
 
-        if(n==0)
+        if (n == 0)
             return 0;
 
-        if(n==1)
+        if (n == 1)
             return 1;
 
-        int sum=1;
-        int prevSum=1;
-        for(int x=2; x < n; x++  )
-        {
-            int s=sum;
-            sum=sum+prevSum;
-            prevSum=s;
+        int sum = 1;
+        int prevSum = 1;
+        for (int x = 2; x < n; x++) {
+            int s = sum;
+            sum = sum + prevSum;
+            prevSum = s;
         }
         return sum;
     }

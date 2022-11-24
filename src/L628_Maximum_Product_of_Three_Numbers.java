@@ -9,7 +9,6 @@ public class L628_Maximum_Product_of_Three_Numbers {
      */
 
 
-
     // 一般正负分析法
     public int maximumProduct(int[] nums) {
 
@@ -25,12 +24,12 @@ public class L628_Maximum_Product_of_Three_Numbers {
         int negCount = 0;
         int zeroCount = 0;
         int posCount = 0;
-        for (int i =0 ; i < len ; i++) {
+        for (int i = 0; i < len; i++) {
             if (nums[i] < 0) {
-                negCount ++;
+                negCount++;
             }
             if (nums[i] == 0) {
-                zeroCount ++;
+                zeroCount++;
             }
             if (nums[i] > 0) {
                 break;
@@ -55,8 +54,7 @@ public class L628_Maximum_Product_of_Three_Numbers {
                 if (posCount >= 3) {
                     return Math.max(nums[len - 1] * nums[0] * nums[1],
                             nums[len - 1] * nums[len - 2] * nums[len - 3]);
-                }
-                else {
+                } else {
                     return nums[len - 1] * nums[0] * nums[1];
                 }
             }
@@ -65,12 +63,10 @@ public class L628_Maximum_Product_of_Three_Numbers {
             else {
                 if (posCount >= 3) {
                     return nums[len - 1] * nums[len - 2] * nums[len - 3];
-                }
-                else {
+                } else {
                     if (zeroCount >= 0) {
                         return 0;
-                    }
-                    else {
+                    } else {
                         return nums[0] * nums[1] * nums[2];
                     }
                 }
@@ -97,8 +93,8 @@ public class L628_Maximum_Product_of_Three_Numbers {
             return nums[0] * nums[1] * nums[2];
         }
 
-        int[] max = new int[] { Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE };
-        int[] min = new int[] { Integer.MAX_VALUE, Integer.MAX_VALUE };
+        int[] max = new int[]{Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE};
+        int[] min = new int[]{Integer.MAX_VALUE, Integer.MAX_VALUE};
 
         for (int idx = 0; idx < nums.length; idx++) {
 
@@ -137,7 +133,7 @@ public class L628_Maximum_Product_of_Three_Numbers {
         long sysDate1 = System.currentTimeMillis();
 
         int[] nums = {-1, -2, 0, 0};
-        int [] nums2 = {-710,-107,-851,657,-14,-859,278,-182,-749,718,-640,127,-930,-462,694,969,143,309,904,-651,160,451,-159,-316,844,-60,611,-169,-73,721,-902,338,-20,-890,-819,-644,107,404,150,-219,459,-324,-385,-118,-307,993,202,-147,62,-94,-976,-329,689,870,532,-686,371,-850,-186,87,878,989,-822,-350,-948,-412,161,-88,-509,836,-207,-60,771,516,-287,-366,-512,509,904,-459,683,-563,-766,-837,-333,93,893,303,908,532,-206,990,280,826,-13,115,-732,525,-939,-787};
+        int[] nums2 = {-710, -107, -851, 657, -14, -859, 278, -182, -749, 718, -640, 127, -930, -462, 694, 969, 143, 309, 904, -651, 160, 451, -159, -316, 844, -60, 611, -169, -73, 721, -902, 338, -20, -890, -819, -644, 107, 404, 150, -219, 459, -324, -385, -118, -307, 993, 202, -147, 62, -94, -976, -329, 689, 870, 532, -686, 371, -850, -186, 87, 878, 989, -822, -350, -948, -412, 161, -88, -509, 836, -207, -60, 771, 516, -287, -366, -512, 509, 904, -459, 683, -563, -766, -837, -333, 93, 893, 303, 908, 532, -206, 990, 280, 826, -13, 115, -732, 525, -939, -787};
         int res = s.maximumProduct(nums2);
         System.out.println(res);
 

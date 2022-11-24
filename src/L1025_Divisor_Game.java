@@ -1,5 +1,3 @@
-
-
 public class L1025_Divisor_Game {
 
 
@@ -33,7 +31,7 @@ public class L1025_Divisor_Game {
      */
     public boolean divisorGame(int n) {
 
-        boolean [] mark = new boolean[1001];
+        boolean[] mark = new boolean[1001];
         mark[1] = false;
         mark[2] = true;
         mark[3] = false;
@@ -41,7 +39,7 @@ public class L1025_Divisor_Game {
         for (int i = 4; i <= n; i++) {
 
             boolean tempVal = false;
-            for (int k = 1; k < Math.sqrt(n) ; k++) {
+            for (int k = 1; k < Math.sqrt(n); k++) {
                 if (i % k == 0) {
                     int temp = i - k;
                     if (!mark[temp]) {
@@ -68,7 +66,7 @@ public class L1025_Divisor_Game {
 
         L1025_Divisor_Game s = new L1025_Divisor_Game();
 
-        for (int n = 1; n <= 1000 ; n++) {
+        for (int n = 1; n <= 1000; n++) {
             boolean res = s.divisorGame(n);
             System.out.print(n);
             System.out.print(" ");

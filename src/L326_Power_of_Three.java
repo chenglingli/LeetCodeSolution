@@ -1,21 +1,19 @@
-import struct.ListNode;
-
 public class L326_Power_of_Three {
 
     public boolean isPowerOfThree(int n) {
-        if(n <=0) {
+        if (n <= 0) {
             return false;
         }
 
-        if(n == 1) {
+        if (n == 1) {
             return true;
         }
 
-        if(n%3 != 0) {
+        if (n % 3 != 0) {
             return false;
         }
 
-        return isPowerOfThree(n/3);
+        return isPowerOfThree(n / 3);
     }
 
     public static void main(String[] args) {

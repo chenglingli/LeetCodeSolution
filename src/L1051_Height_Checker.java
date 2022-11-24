@@ -14,7 +14,6 @@ public class L1051_Height_Checker {
         return incorrect;
     }
 
-
     public static void main(String[] args) {
 
         L1051_Height_Checker s = new L1051_Height_Checker();

@@ -22,16 +22,12 @@ public class L414_Third_Maximum_Number {
 
                 a = num;
 
-            }
-
-            else if (num > b && num < a) {
+            } else if (num > b && num < a) {
                 c = b;
 
                 b = num;
 
-            }
-
-            else if (num > c && num < b) {
+            } else if (num > c && num < b) {
                 c = num;
             }
         }
@@ -57,11 +53,11 @@ public class L414_Third_Maximum_Number {
         L414_Third_Maximum_Number s = new L414_Third_Maximum_Number();
         long sysDate1 = System.currentTimeMillis();
 
- //        int[] ss = {2,2,3,1};
- //       int[] ss = {1,2};
- //       int[] ss = {3, 2,1};
- //        int[] ss = {3 ,-2147483648, 1, 2};
-        int[] ss = {1 ,-2147483648, 1};
+        //        int[] ss = {2,2,3,1};
+        //       int[] ss = {1,2};
+        //       int[] ss = {3, 2,1};
+        //        int[] ss = {3 ,-2147483648, 1, 2};
+        int[] ss = {1, -2147483648, 1};
 
         int res = s.thirdMax(ss);
         System.out.println(res);

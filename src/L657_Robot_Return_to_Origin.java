@@ -1,40 +1,41 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class L657_Robot_Return_to_Origin {
 
     public boolean judgeCircle(String moves) {
         int h = 0;
         int w = 0;
-        for (int i = 0 ; i < moves.length(); i++) {
+        for (int i = 0; i < moves.length(); i++) {
 
-//            if (moves.charAt(i) == 'U') {
-//                h++;
-//            }
-//            if (moves.charAt(i) == 'D') {
-//                h--;
-//            }
-//            if (moves.charAt(i) == 'R') {
-//                w++;
-//            }
-//            if (moves.charAt(i) == 'L') {
-//                w--;
-//            }
+            //            if (moves.charAt(i) == 'U') {
+            //                h++;
+            //            }
+            //            if (moves.charAt(i) == 'D') {
+            //                h--;
+            //            }
+            //            if (moves.charAt(i) == 'R') {
+            //                w++;
+            //            }
+            //            if (moves.charAt(i) == 'L') {
+            //                w--;
+            //            }
 
             switch (moves.charAt(i)) {
                 case 'D':
-                    h--;break;
+                    h--;
+                    break;
                 case 'U':
-                    h++;break;
+                    h++;
+                    break;
                 case 'R':
-                    w--;break;
+                    w--;
+                    break;
                 case 'L':
-                    w++;break;
+                    w++;
+                    break;
             }
 
         }
 
-        return h ==0 && w ==0;
+        return h == 0 && w == 0;
     }
 
     public static void main(String[] args) {

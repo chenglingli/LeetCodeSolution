@@ -17,10 +17,9 @@ public class L342_Power_of_Four {
         }
 
         while (x > 1) {
-            if (x % 4 ==0) {
+            if (x % 4 == 0) {
                 x = x / 4;
-            }
-            else {
+            } else {
                 return false;
             }
         }

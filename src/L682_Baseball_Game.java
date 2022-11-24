@@ -67,7 +67,7 @@ public class L682_Baseball_Game {
         L682_Baseball_Game s = new L682_Baseball_Game();
         long sysDate1 = System.currentTimeMillis();
 
-        String[] operations = {"5","-2","4","C","D","9","+","+"};
+        String[] operations = {"5", "-2", "4", "C", "D", "9", "+", "+"};
         int res = s.calPoints(operations);
         System.out.println(res);
 

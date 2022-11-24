@@ -6,13 +6,13 @@ public class L448_Find_All_Numbers_Disappeared_in_an_Array {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         int n = nums.length;
 
-        int [] mark = new int[n+1];
-        for (int i = 0 ; i < nums.length ; i++) {
+        int[] mark = new int[n + 1];
+        for (int i = 0; i < nums.length; i++) {
             mark[nums[i]] = 1;
         }
 
         List<Integer> res = new ArrayList<>();
-        for (int i = 1 ; i <= n ; i++) {
+        for (int i = 1; i <= n; i++) {
             if (mark[i] != 1) {
                 res.add(i);
             }

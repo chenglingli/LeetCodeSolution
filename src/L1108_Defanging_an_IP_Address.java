@@ -1,21 +1,5 @@
 public class L1108_Defanging_an_IP_Address {
 
-    /**
-     * Given a valid (IPv4) IP address, return a defanged version of that IP address.
-     * <p>
-     * A defanged IP address replaces every period "." with "[.]".
-     * <p>
-     * <p>
-     * Example 1:
-     * <p>
-     * Input: address = "1.1.1.1"
-     * Output: "1[.]1[.]1[.]1"
-     * Example 2:
-     * <p>
-     * Input: address = "255.100.50.0"
-     * Output: "255[.]100[.]50[.]0"
-     */
-
     public String defangIPaddr(String address) {
         StringBuilder sb = new StringBuilder(address);
         int cur = 0;

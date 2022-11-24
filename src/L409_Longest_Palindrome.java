@@ -1,10 +1,9 @@
-
 public class L409_Longest_Palindrome {
 
     public int longestPalindrome(String s) {
 
         int[] chatCount = new int['z' - 'A' + 1];
-        for (int i = 0 ; i< s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             chatCount[s.charAt(i) - 'A'] += 1;
         }
 

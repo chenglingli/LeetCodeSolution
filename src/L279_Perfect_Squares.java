@@ -3,29 +3,27 @@ public class L279_Perfect_Squares {
 
     // 动态规划 ，存储
     public int numSquares(int n) {
-        int[] dp = new int[n+1];
+        int[] dp = new int[n + 1];
         return solve(n, dp);
     }
 
-    int solve(int n, int[] dp){
+    int solve(int n, int[] dp) {
 
-        if(n == 0) {
+        if (n == 0) {
             return 0;
         }
 
-        if(dp[n] > 0) {
+        if (dp[n] > 0) {
             return dp[n];
         }
 
         int min = Integer.MAX_VALUE;
-        for(int i=1; i*i<=n; i++) {
-            min = Math.min(min, 1 + solve(n-i*i, dp));
+        for (int i = 1; i * i <= n; i++) {
+            min = Math.min(min, 1 + solve(n - i * i, dp));
         }
 
         return dp[n] = min;
     }
-
-
 
 
     protected boolean isSquare(int n) {
@@ -34,7 +32,6 @@ public class L279_Perfect_Squares {
     }
 
     public int numSquares2(int n) {
-
 
 
         // 拉格朗日 四平方定理

@@ -42,7 +42,7 @@ public class L560_Subarray_Sum_Equals_K {
         int count = 0;
 
         // 利用哈希表，以前缀和为键，出现次数为对应的值，记录 pre[i] 出现的次数
-        HashMap<Integer,Integer> mp = new HashMap <>();
+        HashMap<Integer, Integer> mp = new HashMap<>();
         mp.put(0, 1);
 
         for (int i = 0; i < len; i++) {
@@ -68,7 +68,7 @@ public class L560_Subarray_Sum_Equals_K {
         L560_Subarray_Sum_Equals_K s = new L560_Subarray_Sum_Equals_K();
         long sysDate1 = System.currentTimeMillis();
 
-        int [] nums = {1, 1, 2, 4, 1, 3};
+        int[] nums = {1, 1, 2, 4, 1, 3};
         int k = 4;
         int res = s.subarraySum(nums, k);
         System.out.println(res);

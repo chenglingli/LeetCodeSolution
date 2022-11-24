@@ -9,7 +9,7 @@ public class L345_Reverse_Vowels_of_a_String {
             return s;
         }
 
-        char[] vowelCharList = {'a', 'e', 'i', 'o', 'u', 'A', 'I' ,'E', 'O' ,'U'};
+        char[] vowelCharList = {'a', 'e', 'i', 'o', 'u', 'A', 'I', 'E', 'O', 'U'};
         List<Character> vowelList = new ArrayList<>();
         for (char c : vowelCharList) {
             vowelList.add(c);
@@ -19,7 +19,7 @@ public class L345_Reverse_Vowels_of_a_String {
         StringBuilder resPost = new StringBuilder();
 
         int i = 0;
-        int j = s.length()-1;
+        int j = s.length() - 1;
         while (i <= j) {
 
             while (!vowelList.contains(s.charAt(i)) && i < j) {
@@ -35,8 +35,7 @@ public class L345_Reverse_Vowels_of_a_String {
             if (i != j) {
                 resPre.append(s.charAt(j));
                 resPost.append(s.charAt(i));
-            }
-            else {
+            } else {
                 resPost.append(s.charAt(i));
             }
             i++;

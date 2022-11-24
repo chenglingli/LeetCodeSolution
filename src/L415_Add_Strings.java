@@ -6,13 +6,13 @@ public class L415_Add_Strings {
 
         int curry = 0;
         int i = 0;
-        for (i = 0 ; i < num1.length() && i < num2.length(); i++) {
+        for (i = 0; i < num1.length() && i < num2.length(); i++) {
 
             char ch1 = num1.charAt(num1.length() - i - 1);
             char ch2 = num2.charAt(num2.length() - i - 1);
 
             int tempDigit = (ch1 - '0') + (ch2 - '0') + curry;
-            curry = tempDigit/10;
+            curry = tempDigit / 10;
             tempDigit = tempDigit % 10;
             res.append(tempDigit);
         }
@@ -21,7 +21,7 @@ public class L415_Add_Strings {
 
             char ch1 = num1.charAt(num1.length() - i - 1);
             int tempDigit = (ch1 - '0') + curry;
-            curry = tempDigit/10;
+            curry = tempDigit / 10;
             tempDigit = tempDigit % 10;
             res.append(tempDigit);
 
@@ -31,7 +31,7 @@ public class L415_Add_Strings {
         while (i < num2.length()) {
             char ch2 = num2.charAt(num2.length() - i - 1);
             int tempDigit = (ch2 - '0') + curry;
-            curry = tempDigit/10;
+            curry = tempDigit / 10;
             tempDigit = tempDigit % 10;
             res.append(tempDigit);
 

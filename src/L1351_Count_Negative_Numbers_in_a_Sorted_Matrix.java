@@ -5,8 +5,8 @@ public class L1351_Count_Negative_Numbers_in_a_Sorted_Matrix {
         int m = grid.length;
         int n = grid[0].length;
 
-        for (int i = 0; i < m ; i++) {
-            int [] row = grid[i];
+        for (int i = 0; i < m; i++) {
+            int[] row = grid[i];
             int curCount = findNegative(row, n);
             count += curCount;
         }
@@ -14,15 +14,15 @@ public class L1351_Count_Negative_Numbers_in_a_Sorted_Matrix {
         return count;
     }
 
-    int findNegative(int [] row, int n) {
-        int l = 0; int r = n-1;
+    int findNegative(int[] row, int n) {
+        int l = 0;
+        int r = n - 1;
         while (l < r) {
-            int cur = row[ (l+r) / 2];
+            int cur = row[(l + r) / 2];
             if (cur >= 0) {
-                l = (l+r) / 2 + 1;
-            }
-            else {
-                r = (l+r) / 2;
+                l = (l + r) / 2 + 1;
+            } else {
+                r = (l + r) / 2;
             }
         }
 
@@ -37,9 +37,9 @@ public class L1351_Count_Negative_Numbers_in_a_Sorted_Matrix {
         L1351_Count_Negative_Numbers_in_a_Sorted_Matrix s = new L1351_Count_Negative_Numbers_in_a_Sorted_Matrix();
         long sysDate1 = System.currentTimeMillis();
 
-        int[][] grid = {{4,3,2,-1},{3,2,1,-1},{1,1,-1,-2},{-1,-1,-2,-3}};
-//        int[][] grid = {{3,2},{2,0}};
-//        int [][] grid = {{4,3,3,1,1},{1,0,0,-1,-1},{-2,-2,-2,-2,-3},{-2,-2,-2,-3,-3},{-3,-3,-3,-3,-3}};
+        int[][] grid = {{4, 3, 2, -1}, {3, 2, 1, -1}, {1, 1, -1, -2}, {-1, -1, -2, -3}};
+        //        int[][] grid = {{3,2},{2,0}};
+        //        int [][] grid = {{4,3,3,1,1},{1,0,0,-1,-1},{-2,-2,-2,-2,-3},{-2,-2,-2,-3,-3},{-3,-3,-3,-3,-3}};
         int res = s.countNegatives(grid);
         System.out.println(res);
 

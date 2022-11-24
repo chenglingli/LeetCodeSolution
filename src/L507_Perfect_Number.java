@@ -1,7 +1,3 @@
-import java.util.Arrays;
-
-
-
 public class L507_Perfect_Number {
 
     /*
@@ -33,13 +29,12 @@ public class L507_Perfect_Number {
         int sum = 0;
         sum += 1;
 
-        for (int i = 2 ; i <= Math.sqrt(num) ; i++ ) {
+        for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
-                if (num /i != i) {
+                if (num / i != i) {
                     sum += num / i;
                     sum += i;
-                }
-                else {
+                } else {
                     sum += i;
                 }
             }
@@ -57,7 +52,7 @@ public class L507_Perfect_Number {
     }
 
     public boolean checkPerfectNumber2(int num) {
-        int[] primes = new int[] { 2, 3, 5, 7, 13, 17, 19, 31 };
+        int[] primes = new int[]{2, 3, 5, 7, 13, 17, 19, 31};
 
         for (int prime : primes) {
             if (pn(prime) == num) {

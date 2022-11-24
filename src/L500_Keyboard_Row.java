@@ -48,7 +48,7 @@ public class L500_Keyboard_Row {
         long sysDate1 = System.currentTimeMillis();
         // int input = 101;
         // String[] input = {"Hello","Alaska","Dad","Peace"};
-        String[] input = {"a","b"};
+        String[] input = {"a", "b"};
 
         String[] res = s.findWords(input);
         System.out.println(Arrays.toString(res));

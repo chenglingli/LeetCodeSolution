@@ -9,7 +9,7 @@ public class L541_Reverse_String_II {
         for (int i = 0; i < s.length(); i += k) {
 
             StringBuilder temp = new StringBuilder();
-            for (int j = i; j < i+k && j < s.length(); j++) {
+            for (int j = i; j < i + k && j < s.length(); j++) {
                 temp.append(s.charAt(j));
             }
             if (count % 2 != 0) {

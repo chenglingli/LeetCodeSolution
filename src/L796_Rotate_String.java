@@ -1,4 +1,3 @@
-
 public class L796_Rotate_String {
 
     public boolean rotateString(String s, String goal) {

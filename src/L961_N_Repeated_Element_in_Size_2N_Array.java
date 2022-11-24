@@ -7,16 +7,15 @@ public class L961_N_Repeated_Element_in_Size_2N_Array {
 
         Map<Integer, Integer> countMap = new HashMap<>();
 
-        for (int i = 0 ; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             int cur = nums[i];
             if (countMap.containsKey(cur)) {
                 countMap.put(cur, countMap.get(cur) + 1);
-            }
-            else {
+            } else {
                 countMap.put(cur, 1);
             }
 
-            if (countMap.get(cur) == nums.length/2) {
+            if (countMap.get(cur) == nums.length / 2) {
                 return cur;
             }
         }

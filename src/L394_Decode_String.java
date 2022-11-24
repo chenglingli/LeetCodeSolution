@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Deque;
+import java.util.LinkedList;
 
 public class L394_Decode_String {
 
@@ -38,7 +39,7 @@ public class L394_Decode_String {
 
         int digit = 0;
 
-        for (int i = 0 ; i < s.length() ; i++)  {
+        for (int i = 0; i < s.length(); i++) {
 
             char ch = s.charAt(i);
 
@@ -46,7 +47,7 @@ public class L394_Decode_String {
                 int num = ch - '0';
                 digit = digit * 10 + num;
 
-            } else if((ch >= 'a' && ch <= 'z') ){
+            } else if ((ch >= 'a' && ch <= 'z')) {
                 res.append(ch);
 
             } else if (ch == '[') {
@@ -56,7 +57,7 @@ public class L394_Decode_String {
                 res = new StringBuilder();
 
             } else {
-            // ']' 的情况
+                // ']' 的情况
                 int count = numStack.poll();
                 StringBuilder outString = strStack.poll();
 
@@ -73,11 +74,12 @@ public class L394_Decode_String {
 
 
     private int i = 0;
+
     public String decodeString2(String s) {
 
         StringBuilder sb = new StringBuilder();
 
-        while(i < s.length()) {
+        while (i < s.length()) {
 
             char c = s.charAt(i);
 
