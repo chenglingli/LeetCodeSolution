@@ -15,7 +15,7 @@ public class L1446_Consecutive_Characters {
                 curCount = 1;
             }
         }
-        
+
         return Math.max(resCount, curCount);
     }
 
@@ -27,7 +27,7 @@ public class L1446_Consecutive_Characters {
         String xx = "a";
         int res = s.maxPower(xx);
         System.out.println(res);
-
+        
         long sysDate2 = System.currentTimeMillis();
         System.out.println("\ntime ");
         System.out.print(sysDate2 - sysDate1);
