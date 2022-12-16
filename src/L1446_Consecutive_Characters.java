@@ -16,7 +16,6 @@ public class L1446_Consecutive_Characters {
             }
         }
         
-
         return Math.max(resCount, curCount);
     }
 
