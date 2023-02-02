@@ -33,8 +33,8 @@ public class L1534_Count_Good_Triplets {
                 }
             }
         }
-    }
         return count;
+    }
 
 
     public static void main(String[] args) {
