@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class L1460_Make_Two_Arrays_Equal_by_Reversing_Subarrays {
 
     /*
@@ -11,7 +9,7 @@ public class L1460_Make_Two_Arrays_Equal_by_Reversing_Subarrays {
 
      */
     public boolean canBeEqual(int[] target, int[] arr) {
-        int [] count = new int[1001];
+        int[] count = new int[1001];
         for (int j : target) {
             count[j]++;
         }
