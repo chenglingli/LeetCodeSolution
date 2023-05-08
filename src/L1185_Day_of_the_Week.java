@@ -1,5 +1,5 @@
 public class L1185_Day_of_the_Week {
-    
+
     /*
     Given a date, return the corresponding day of the week for that date.
 
@@ -87,7 +87,6 @@ public class L1185_Day_of_the_Week {
         //        int day = 18;
         //        int month = 7;
         //        int year = 1999;
-
 
         int day = 15;
         int month = 8;
