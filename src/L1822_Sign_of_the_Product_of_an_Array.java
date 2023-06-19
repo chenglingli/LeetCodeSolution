@@ -23,7 +23,7 @@ public class L1822_Sign_of_the_Product_of_an_Array {
         L1822_Sign_of_the_Product_of_an_Array s = new L1822_Sign_of_the_Product_of_an_Array();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] nums = {-1, -2, -3, -4, 3, 2, 1};
+        int[] nums = {};
         int res = s.arraySign(nums);
         System.out.println(res);
 
