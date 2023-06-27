@@ -46,7 +46,6 @@ public class L1869_Longer_Contiguous_Segments_of_Ones_than_Zeros {
                 maxZeroes = Math.max(maxZeroes, zeroes);
             }
         }
-        
         return maxOnes > maxZeroes;
     }
 
