@@ -9,21 +9,60 @@ public class L1909_Remove_One_Element_to_Make_the_Array_Strictly_Increasing {
      */
     public boolean canBeIncreasing(int[] nums) {
 
-        int i = 1;
-        while (i < nums.length && nums[i] > nums[i - 1]) {
-            i++;
-        }
-
-        if (i == nums.length) {
+        if (nums.length <= 2) {
             return true;
         }
 
-        nums[i - 1] = 0;
-        while (i < nums.length && nums[i] > nums[i - 1]) {
+        int i = 0;
+        while (i < nums.length - 1 && nums[i] < nums[i + 1]) {
+            i++;
+        }
+        if (i == nums.length - 1) {
+            return true;
+        }
+
+        // 1 2* 34 -> 1 3 4
+        boolean ans = canBeIncrease(i + 1, nums.length, nums);
+        if (ans) {
+            if (i > 0 && i < nums.length - 1) {
+                if (nums[i - 1] < nums[i + 1]) {
+                    return true;
+                }
+            }
+            else {
+                return true;
+            }
+        }
+
+        if (i < nums.length - 1) {
+            if (ans && nums[i - 1] < nums[i + 1]) {
+                return true;
+            }
+        } else {
+            if (ans) {
+                return true;
+            }
+        }
+
+        // 1 2* 3 4 ->1 2 4
+        ans = canBeIncrease(i + 2, nums.length, nums);
+        if (i < nums.length - 2) {
+            return ans && nums[i] < nums[i + 2];
+        }
+        return ans;
+
+    }
+
+    /*
+    [ )
+     */
+    boolean canBeIncrease(int f, int t, int[] nums) {
+        int i = f;
+        while (i < t - 1 && nums[i] < nums[i + 1]) {
             i++;
         }
 
-        return i == nums.length;
+        return i >= t - 1;
     }
 
     public static void main(String[] args) {
@@ -31,7 +70,10 @@ public class L1909_Remove_One_Element_to_Make_the_Array_Strictly_Increasing {
         L1909_Remove_One_Element_to_Make_the_Array_Strictly_Increasing s = new L1909_Remove_One_Element_to_Make_the_Array_Strictly_Increasing();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] num = {1, 2, 10, 5, 17};
+        // int[] num = {2,1,3};
+        // int[] num = {2, 3, 1};
+        int[] num = {100, 21, 100};
+        // int[] num = {105, 924, 32, 968};
         // int[] num = {1, 2, 9, 4, 7};
 
         boolean res = s.canBeIncreasing(num);
