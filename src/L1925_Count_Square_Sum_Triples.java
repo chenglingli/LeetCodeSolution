@@ -34,16 +34,18 @@ public class L1925_Count_Square_Sum_Triples {
     }
 
     int trip(int k) {
-        int c = 0;
-        int n = k * k;
-        int i, j;
 
-        for (i = 1, j = k - 1; i < j; ) {
-            if ((i * i + j * j) == k * k) {
+        int c = 0;
+        int k2 = k * k;
+
+        int i = 1, j = k - 1;
+        while (i < j) {
+            if ((i * i + j * j) == k2) {
                 c++;
+
                 i++;
                 j--;
-            } else if ((i * i + j * j) < k * k) {
+            } else if ((i * i + j * j) < k2) {
                 i++;
             } else {
                 j--;
@@ -59,7 +61,7 @@ public class L1925_Count_Square_Sum_Triples {
         long sysDate1 = System.currentTimeMillis();
 
         int num = 10;
-        int res = s.countTriples(num);
+        int res = s.countTriples2(num);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();
