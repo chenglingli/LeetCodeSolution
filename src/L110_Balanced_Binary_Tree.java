@@ -1,3 +1,5 @@
+import struct.TreeNode;
+
 public class L110_Balanced_Binary_Tree {
 
 

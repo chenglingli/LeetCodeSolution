@@ -1,3 +1,5 @@
+import struct.TreeNode;
+
 /**
  * 检查两棵树是否长得一样
  * <p>

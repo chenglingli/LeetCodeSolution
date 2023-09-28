@@ -1,3 +1,5 @@
+import struct.TreeNode;
+
 public class L938_Range_Sum_of_BST {
 
     public int rangeSumBST(TreeNode root, int L, int R) {

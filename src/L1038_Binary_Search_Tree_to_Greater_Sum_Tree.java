@@ -1,3 +1,5 @@
+import struct.TreeNode;
+
 public class L1038_Binary_Search_Tree_to_Greater_Sum_Tree {
 
     public int postVisit2(TreeNode root) {

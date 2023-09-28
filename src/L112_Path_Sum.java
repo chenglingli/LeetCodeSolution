@@ -1,3 +1,5 @@
+import struct.TreeNode;
+
 public class L112_Path_Sum {
 
     public boolean hasPathSum(TreeNode root, int sum) {

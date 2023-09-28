@@ -6,6 +6,8 @@
 
  */
 
+import struct.TreeNode;
+
 public class L101_Symmetric_Tree {
 
     public boolean isSymmetric(TreeNode root) {

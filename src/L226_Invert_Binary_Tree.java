@@ -1,3 +1,5 @@
+import struct.TreeNode;
+
 public class L226_Invert_Binary_Tree {
 
     public TreeNode invertTree(TreeNode root) {

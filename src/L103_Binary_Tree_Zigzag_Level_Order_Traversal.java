@@ -1,3 +1,5 @@
+import struct.TreeNode;
+
 import java.util.*;
 
 public class L103_Binary_Tree_Zigzag_Level_Order_Traversal {
