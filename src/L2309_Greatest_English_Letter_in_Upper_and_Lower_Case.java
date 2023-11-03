@@ -29,7 +29,7 @@ public class L2309_Greatest_English_Letter_in_Upper_and_Lower_Case {
                 return uppercase;
             }
         }
-        
+
         return "";
     }
 
