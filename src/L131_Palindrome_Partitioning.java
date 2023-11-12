@@ -41,7 +41,6 @@ public class L131_Palindrome_Partitioning {
 
         return rt;
     }
-
     static boolean isPal(String s) {
 
         int st = 0, ed = s.length() - 1;
@@ -64,7 +63,7 @@ public class L131_Palindrome_Partitioning {
         }
 
         List<List<String>> res = new ArrayList<>();
-        partition(isPalindrome, s, 0, new LinkedList<>(), res);
+        backtrackPartition(isPalindrome, s, 0, new LinkedList<>(), res);
         return res;
     }
 
@@ -76,7 +75,7 @@ public class L131_Palindrome_Partitioning {
         }
     }
 
-    private void partition(
+    private void backtrackPartition(
             boolean[][] isPalindrome,
             String s,
             int index,
@@ -91,7 +90,7 @@ public class L131_Palindrome_Partitioning {
         for (int i = index; i < s.length(); i++) {
             if (isPalindrome[index][i]) {
                 tmp.addLast(s.substring(index, i + 1));
-                partition(isPalindrome, s, i + 1, tmp, res);
+                backtrackPartition(isPalindrome, s, i + 1, tmp, res);
                 tmp.removeLast();
             }
         }
