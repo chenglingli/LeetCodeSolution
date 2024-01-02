@@ -28,7 +28,6 @@ public class L2788_Split_Strings_by_Separator {
 
         int n = words.size();
         List<String> ans = new ArrayList<>();
-        
         for (int i = 0; i < n; i++) {
             String s = words.get(i);
             int l = s.length();
