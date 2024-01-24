@@ -39,8 +39,9 @@ public class L135_Candy {
     candy2的思路就是更为高效的candy1：
     1. 先从左到右遍历一遍，如果x+1的rating比x的rating大，那么x+1的count = x的count + 1
     2. 再从右到左遍历一遍，如果x+1的rating比x的rating小 && count反向关系，那么x的count = x+1的count + 1
+    (就是将上述2的动作合并在一块做)
     最后再累加一遍。
-  
+
      */
     public int candy(int[] ratings) {
         int n = ratings.length;
