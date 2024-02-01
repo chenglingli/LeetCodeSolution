@@ -45,30 +45,37 @@ public class L403_Frog_Jump {
     }
 
     public boolean canCross2(int[] stones) {
+
         // If distance from stones[0] to stones[1] is not exactly 1, then
         // frog cannot cross the river, because the problem requires the
         // first jump distance starting at stones[0] be k=1.  After this,
         // the code will ignore stones[0], and start everything from
         // stones[1].
-        if (stones[1] - stones[0] != 1) return false;
+        if (stones[1] - stones[0] != 1)
+            return false;
 
-        // Nuber of stones in the stones[] array.
+        // Number of stones in the stones[] array.
         int stonesCount = stones.length;
+
         // Absolute start position for starting at stones[1].  All other
         // stones positions will be converted to a relative position from
         // stones[1].
+        // actual == 1
         int stonesBase = stones[1];
+
         // Determine the worst-case farthest position the frog can try to
         // jump.  The first farthest position uses a worst case where the
         // jumps are 1,2,3,4,...n-2,n-1,n, where n is the number of stones.
         // Adding all these jumps together will give the sum of the first
         // n integers, or by formula: (n*(n-1))/2.
         int stonesFarthest = (stonesCount * (stonesCount + 1)) / 2;
+
         // If the distance between the last stone and the starting stone[1]
         // is greater than the farthest distance the frong can try to jump,
         // then the last stone is beyond the frog's range, so the frog fails.
         if (stones[stonesCount - 1] - stonesBase > stonesFarthest)
             return false;
+
         // Further limit the farthest position the frog can try to jump.
         // This is done AFTER the 'if' statement above, to prevent the
         // calculation from overflowing an int value, since the max stone
@@ -93,6 +100,7 @@ public class L403_Frog_Jump {
         // relative position, or contains false if no stone exists at that
         // relative position.
         boolean[] stonesArr = new boolean[stonesFarthest + 1];
+
         // Convert stones from the stones[] array of absolute stone positions,
         // to the stonesArr[] boolean array.
         for (int i = stones.length - 1; i > 0; i--)
@@ -106,37 +114,47 @@ public class L403_Frog_Jump {
                 stones[stonesCount - 1] - stonesBase);
     }
 
-
     // Recursive depth-first-search for a jump path to the last stone.  Within
     // this routine, the values from the stones[] array are no longer needed,
     // because the stonesArr[] boolean array indexed by relative position across
     // the river is easier for checking if a next stone to jump to actually exists.
+    //
     // Inputs:
     //      pos             Relative position across the river, of current stone.
     //                      Relative positions are relative to first stone stones[1].
+    //
     //      k               Distance of previous jump.
+    //
     //      stonesArr[]     Boolean array indexed by relative position, with a
     //                      value of true indicating if a stone exists at that
     //                      relative position.
+    //
     //      failedSet       Memorization data to indicate a stone with a specific
     //                      k value, does NOT have a path to the last stone.
     //                      Implemented as a HashSet referenced by a stone's
     //                      relative position combined with a specific.  If that stone
     //                      and k value exist in the set, then a path from that stone
     //                      to the last stone does NOT exist.
+    //
     //      lastStonePos    The relative position of the last stone, which is the
     //                      end-point for the frog's journey across the river.
     //                      I don't know why the frog has to stay dry on the stones,
     //                      then stop at the last stone, instead of swimming all
     //                      the way across the river.
+    //
     private boolean dfs(
             int pos, int k, boolean[] stonesArr,
             HashSet<Long> failedSet, int lastStonePos) {
+
         // If at the last stone, then the frog's journey is complete.
-        if (pos == lastStonePos) return true;
+        if (pos == lastStonePos)
+            return true;
+
         // If memorized that no valid path from current stone to the end, then
         // immediately return, reporting failure.
-        if (failedSet.contains((long) pos * 10_000 + k)) return false;
+        if (failedSet.contains((long) pos * 1000 + k))
+            return false;
+
         // If stone exists k+1 positions ahead, then recurse to try to find a path
         // to the final stone.  Then try k stones ahead.  Then k-1 stones ahead.
         if (stonesArr[pos + k + 1])
@@ -145,9 +163,11 @@ public class L403_Frog_Jump {
             if (dfs(pos + k, k, stonesArr, failedSet, lastStonePos)) return true;
         if (k > 1 && stonesArr[pos + k - 1])
             if (dfs(pos + k - 1, k - 1, stonesArr, failedSet, lastStonePos)) return true;
+
         // Failed to find a path from the current stone to the last stone with the
         // given value of k.  Memorize this failure, then return reporting the failure.
-        failedSet.add((long) pos * 10_000 + k);
+        failedSet.add((long) pos * 1000 + k);
+
         return false;
     }
 
