@@ -46,13 +46,58 @@ public class L005_Longest_Palindromic_Substring {
         return res;
     }
 
+    public String longestPalindrome2(String s) {
+
+        String res = "";
+        if (s == null || s.length() == 0) {
+            return res;
+        }
+
+        int[][] dp = new int[s.length()][s.length()];
+        int max = 0;
+        int right = 0, left = 0;
+
+        for (int j = 0; j < s.length(); j++) {
+
+            // i==j
+            dp[j][j] = 1;
+
+            for (int i = 0; i < j; i++) {
+
+                // i+1==j
+                if (i == j - 1) {
+                    if (s.charAt(i) == s.charAt(j)) {
+                        dp[i][j] = 1;
+                    }
+                }
+                // i+1<j
+                else {
+                    if (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1] == 1) {
+                        dp[i][j] = 1;
+                    }
+                }
+
+                // 记录当前最长串
+                if (dp[i][j] == 1 && max < j - i + 1) {
+                    max = j - i + 1;
+                    left = i;
+                    right = j;
+                }
+            }
+        }
+
+        res = s.substring(left, right + 1);
+
+        return res;
+    }
+
     public static void main(String[] args) {
 
         L005_Longest_Palindromic_Substring s = new L005_Longest_Palindromic_Substring();
 
         long sysDate1 = System.currentTimeMillis();
 
-        String input = "babad";
+        String input = "cbbd";
 
         String res = s.longestPalindrome(input);
 

@@ -35,6 +35,27 @@ public class L010_Regular_Expression_Matching {
      *
      *
      * 其中 2 和 3 只需满足一个即可匹配
+     *
+     * * 1, 如果 p[j-1] != ‘*’ && (s[i-1] == p[j-1] || p[j-1] == ‘.’) ，
+     * 说明当前两个字符可以匹配且没有遇到 '*'，
+     * 那么 dp[i][j] = dp[i-1][j-1]，也即若 s[0,i-1) 和 p[0,j-1) 匹配，则 s[0,i) 和 p[0,j) 也能匹配；
+
+
+     * 2, 如果 p[j-1] == ‘*’ 我们用其匹配零个字符，
+     * 那么 dp[i][j] = dp[i][j-2]，
+     * 也即若 s[0,i) 和 p[0,j-2) 匹配，则跳过 p[j-1]，p[j-2] 两个元素后 s[0,i) 和 p[0,j) 也能匹配；
+     *
+     * i = 1, j = 3
+     * s[0, 1) 和 p[0, 1) 匹配， p[2] == '*'
+     * s[0, 1) 和 p[0, 3) 匹配
+     * s = "x"
+     * p = "x2*"
+
+
+     * 3, 如果 p[j-1] == ‘*’ && (s[i-1] == p[j-2] || p[j-2] == ‘.’)
+     * 那么 dp[i][j] = dp[i-1][j]，
+     *
+     *
      */
 
     public boolean isMatch(String s, String p) {
@@ -82,6 +103,56 @@ public class L010_Regular_Expression_Matching {
         }
 
         return dp[m][n];
+    }
+
+    public boolean isMatch2(String s, String p) {
+
+        int m = s.length();
+        int n = p.length();
+
+        int[][] dp = new int[m + 1][n + 1];
+        dp[0][0] = 1;
+
+        // 2, 如果 p[j-1] == ‘*’
+        // 那么 dp[i][j] = dp[i][j-2]，
+        for (int j = 1; j <= n; j++) {
+            if (p.charAt(j - 1) == '*') {
+                dp[0][j] = dp[0][j - 2];
+            }
+        }
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+
+                // 2, 如果 p[j-1] == ‘*’
+                // 那么 dp[i][j] = dp[i][j-2]，
+                //
+                // 3, 如果 p[j-1] == ‘*’ && (s[i-1] == p[j-2] || p[j-2] == ‘.’)
+                // 那么 dp[i][j] = dp[i-1][j]，
+                if (p.charAt(j - 1) == '*') {
+
+                    int repeat_zero = 0;
+                    int repeat_one_more = 0;
+
+                    repeat_zero = dp[i][j - 2];
+                    if (s.charAt(i - 1) == p.charAt(j - 2) || p.charAt(j - 2) == '.') {
+                        repeat_one_more = dp[i - 1][j];
+                    }
+
+                    dp[i][j] = repeat_zero + repeat_one_more >= 1 ? 1 : 0;
+
+                } else {
+
+                    // 1, 如果 p[j-1] != ‘*’ && (s[i-1] == p[j-1] || p[j-1] == ‘.’) ，
+                    // 那么 dp[i][j] = dp[i-1][j-1]
+                    if (s.charAt(i - 1) == p.charAt(j - 1) || p.charAt(j - 1) == '.') {
+                        dp[i][j] = dp[i - 1][j - 1];
+                    }
+                }
+            }
+        }
+
+        return dp[m][n] == 1;
     }
 
     public static void main(String[] args) {

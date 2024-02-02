@@ -1,6 +1,9 @@
 public class L042_Trapping_Rain_Water {
 
 
+    // rain[i] 表示坐标i存储的水量
+    // leftMost[i] 表示坐标i左边最高的柱子
+    // rightMost[i] 表示坐标i右边最高的柱子
     // 遍历两遍数组，找到每一个位置所对应的leftMost 和 rightMost
     // rain[i] = min(leftMost[i], rightMost[i]) - height[i]
 
