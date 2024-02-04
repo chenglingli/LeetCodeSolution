@@ -8,6 +8,8 @@ public class L085_Maximal_Rectangle {
     1 <= row, cols <= 200
     matrix[i][j] is '0' or '1'.
 
+    --- 堆栈法
+
     将多维数组转化为一维数组：
     f[i, j] 表示以i和j为 行坐标，列坐标
     f[0,  j] 最长1
@@ -19,6 +21,14 @@ public class L085_Maximal_Rectangle {
     第2步：计算累计数组    cumu[k,i] 为 累积第k行往上，i为行个数
     第3步：计算一维数组值为k的最大长度
     第4步：计算最大面积
+
+    698ms
+    (m * n) +
+        (m * m) * ((n * m ) + n* n)
+    -> m^2 * n^2
+
+    特点：
+    理解简单
 
      */
     public int maximalRectangle(char[][] matrix) {
@@ -93,9 +103,10 @@ public class L085_Maximal_Rectangle {
     /*
     优化
 
+    --- 左右边界高度法
+
     左边界 leftBoundaries 的定义： 从0到该j位置， 第一个1的位置。
     右边界 rightBoundaries 的定义： 从j 到该行末尾，第一个0的位置
-
 
     类似于042雨水承接那题用类似办法
     1. 用一个一维数组记录每一行的高度
@@ -103,13 +114,19 @@ public class L085_Maximal_Rectangle {
     3. 用一个一维数组记录每一行的右边界（从右想做，第一个0）
     4. 用一个函数计算最大面积 = （右边界 - 左边界） *高度
 
-
     为什么可以这么计算：
         因为leftBoundaries 和 rightBoundaries 包含了历史信息
         例如：第一行的leftBoundaries[3] = 2，表示第一行的第3列的左边界是第一行的第2列
         第二行的leftBoundaries[3] = 3，表示第二行的第3列的左边界是第二行的第3列
 
         这里面不断取得最大值。
+
+   1ms
+   n + m * ( n + n + n)
+   -> mn
+
+   特点：
+    速度执行快
 
      */
     public int maximalRectangle2(char[][] matrix) {
@@ -128,14 +145,15 @@ public class L085_Maximal_Rectangle {
 
         int maxRectangle = 0;
 
-        for (int i = 0; i < m; i++) {
-            int left = 0;
-            int right = n;
+        for (char[] chars : matrix) {
 
-            updateHeightsAndLeftBoundaries(matrix[i], heights, leftBoundaries, left);
+            // 更新高度和左边界
+            updateHeightsAndLeftBoundaries(chars, heights, leftBoundaries, 0);
 
-            updateRightBoundaries(matrix[i], rightBoundaries, right);
+            // 更新右边界
+            updateRightBoundaries(chars, rightBoundaries, n);
 
+            // 计算最大面积
             maxRectangle = calculateMaxRectangle(heights, leftBoundaries, rightBoundaries, maxRectangle);
         }
 
@@ -175,6 +193,58 @@ public class L085_Maximal_Rectangle {
         return maxRectangle;
     }
 
+
+
+    /*
+      --- 动态规划法
+
+       dp[i][j] 表示以j为尾部的第i行的最大宽度
+       0 1 1 0 0 1 1 1 0 1
+    -> 0 1 2 0 0 1 2 3 0 1
+
+         1. 如果matrix[i][j] == 0, dp[i][j] = 0
+         2. 如果matrix[i][j] == 1, dp[i][j] = dp[i][j-1] + 1
+
+    18ms
+    时间复杂度：m * n * m
+    -> m^2 * n
+
+    特点：
+    代码简洁
+     */
+
+    public int maximalRectangle3(char[][] matrix) {
+
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
+
+        int ans = 0;
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int[][] dp = new int[m][n];
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (matrix[i][j] == '0') {
+                    continue;
+                }
+
+                dp[i][j] = j == 0 ? 1 : dp[i][j - 1] + 1;
+                int minWidth = dp[i][j];
+                for (int k = i; k >= 0; k--) {
+                    int height = i - k + 1;
+                    minWidth = Math.min(minWidth, dp[k][j]);
+                    ans = Math.max(ans, height * minWidth);
+                }
+            }
+        }
+
+        return ans;
+    }
+
+
     public static void main(String[] args) {
 
         L085_Maximal_Rectangle s = new L085_Maximal_Rectangle();
@@ -186,7 +256,7 @@ public class L085_Maximal_Rectangle {
                 {'1', '1', '1', '1', '1'},
                 {'1', '0', '0', '1', '0'}};
 
-        int res = s.maximalRectangle2(matrix);
+        int res = s.maximalRectangle3(matrix);
 
         System.out.println(res);
 
