@@ -28,8 +28,7 @@ public class L1909_Remove_One_Element_to_Make_the_Array_Strictly_Increasing {
                 if (nums[i - 1] < nums[i + 1]) {
                     return true;
                 }
-            }
-            else {
+            } else {
                 return true;
             }
         }

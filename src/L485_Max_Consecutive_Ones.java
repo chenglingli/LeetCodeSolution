@@ -31,9 +31,9 @@ public class L485_Max_Consecutive_Ones {
         L485_Max_Consecutive_Ones s = new L485_Max_Consecutive_Ones();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] nums = {1, 1, 0, 1, 1, 1};
-//        int[] nums = {1};
-        int[] nums = {0,1};
+        //        int[] nums = {1, 1, 0, 1, 1, 1};
+        //        int[] nums = {1};
+        int[] nums = {0, 1};
         int res = s.findMaxConsecutiveOnes(nums);
         System.out.println(res);
 

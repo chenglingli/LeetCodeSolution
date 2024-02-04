@@ -2,7 +2,7 @@ public class L2042_Check_if_Numbers_Are_Ascending_in_a_Sentence {
 
 
     public boolean areNumbersAscending(String s) {
-        
+
         String[] sList = s.split(" ");
 
         int preNum = -1;

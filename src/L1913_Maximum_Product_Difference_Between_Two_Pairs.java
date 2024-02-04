@@ -32,11 +32,11 @@ public class L1913_Maximum_Product_Difference_Between_Two_Pairs {
     }
 
 
-    public static int max_numbers(int nums[], int index){
+    public static int max_numbers(int nums[], int index) {
         int max = Integer.MIN_VALUE;
-        int ind =0;
-        for(int i =0; i<nums.length; i++){
-            if(nums[i] > max && i != index){
+        int ind = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > max && i != index) {
                 max = nums[i];
                 ind = i;
             }
@@ -45,11 +45,11 @@ public class L1913_Maximum_Product_Difference_Between_Two_Pairs {
     }
 
 
-    public static int min_numbers(int nums[], int index){
+    public static int min_numbers(int nums[], int index) {
         int min = Integer.MAX_VALUE;
-        int ind =0;
-        for(int i =0; i<nums.length; i++){
-            if(nums[i] < min && i != index){
+        int ind = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] < min && i != index) {
                 min = nums[i];
                 ind = i;
             }
@@ -63,7 +63,7 @@ public class L1913_Maximum_Product_Difference_Between_Two_Pairs {
         int max2 = max_numbers(nums, max1);
         int min1 = min_numbers(nums, -1);
         int min2 = min_numbers(nums, min1);
-        return (nums[max1]*nums[max2]) - (nums[min1]*nums[min2]);
+        return (nums[max1] * nums[max2]) - (nums[min1] * nums[min2]);
     }
 
 

@@ -9,11 +9,11 @@ public class L1154_Day_of_the_Year {
         int ans = 0;
 
         int[] monthDays = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        for (int i = 1 ; i < m ; i++) {
+        for (int i = 1; i < m; i++) {
             ans += monthDays[i];
         }
         if (isLeapYear(y) && m >= 3) {
-            ans +=1;
+            ans += 1;
         }
 
         ans += d;

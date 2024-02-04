@@ -61,8 +61,8 @@ public class L2073_Time_Needed_to_Buy_Tickets {
         L2073_Time_Needed_to_Buy_Tickets s = new L2073_Time_Needed_to_Buy_Tickets();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] tickets = {84, 49, 5, 24, 70, 77, 87, 8};
-//        int k = 3;
+        //        int[] tickets = {84, 49, 5, 24, 70, 77, 87, 8};
+        //        int k = 3;
 
         int[] tickets = {2, 3, 2};
         int k = 0;

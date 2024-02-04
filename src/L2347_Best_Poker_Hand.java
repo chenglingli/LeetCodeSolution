@@ -9,10 +9,10 @@ public class L2347_Best_Poker_Hand {
 
      */
     public String bestHand(int[] ranks, char[] suits) {
-//        "Flush": Five cards of the same suit.
-//        "Three of a Kind": Three cards of the same rank.
-//        "Pair": Two cards of the same rank.
-//        "High Card": Any single card.
+        //        "Flush": Five cards of the same suit.
+        //        "Three of a Kind": Three cards of the same rank.
+        //        "Pair": Two cards of the same rank.
+        //        "High Card": Any single card.
 
         if (suits[0] == suits[1]
                 && suits[0] == suits[2]

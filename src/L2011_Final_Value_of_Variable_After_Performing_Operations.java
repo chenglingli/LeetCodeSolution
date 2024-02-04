@@ -9,10 +9,9 @@ public class L2011_Final_Value_of_Variable_After_Performing_Operations {
         int res = 0;
         for (String cur : operations) {
             if (cur.charAt(1) == '+') {
-                res ++;
-            }
-            else {
-                res --;
+                res++;
+            } else {
+                res--;
             }
         }
 
@@ -24,7 +23,7 @@ public class L2011_Final_Value_of_Variable_After_Performing_Operations {
         L2011_Final_Value_of_Variable_After_Performing_Operations s = new L2011_Final_Value_of_Variable_After_Performing_Operations();
         long sysDate1 = System.currentTimeMillis();
 
-        String [] ops = {"++X","++X","X++"};
+        String[] ops = {"++X", "++X", "X++"};
         int res = s.finalValueAfterOperations(ops);
         System.out.println(res);
 

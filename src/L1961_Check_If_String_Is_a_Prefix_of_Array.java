@@ -18,9 +18,9 @@ public class L1961_Check_If_String_Is_a_Prefix_of_Array {
 
             // 二者同时到头
             if (i == s.length() && j == words[index].length()) return true;
-            // j到头
+                // j到头
             else if (j == words[index].length()) index++;
-            // 二者均未到头 或 i到头且j未到头
+                // 二者均未到头 或 i到头且j未到头
             else return false;
         }
 

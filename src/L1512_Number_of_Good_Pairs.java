@@ -2,10 +2,10 @@ public class L1512_Number_of_Good_Pairs {
 
     public int numIdenticalPairs(int[] nums) {
         int res = 0;
-        int []count = new int[101];
+        int[] count = new int[101];
 
         for (int x : nums) {
-            count[x] ++;
+            count[x]++;
         }
 
         for (int cur : count) {
@@ -18,7 +18,7 @@ public class L1512_Number_of_Good_Pairs {
     }
 
     private int countCTwo(int x) {
-        return x * (x-1) / 2;
+        return x * (x - 1) / 2;
     }
 
     public static void main(String[] args) {

@@ -19,7 +19,7 @@ public class L1588_Sum_of_All_Odd_Length_Subarrays {
                 new L1588_Sum_of_All_Odd_Length_Subarrays();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] arr = {1, 2, 3, 4, 5, 6,7,8}; //98
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8}; //98
         //        int[] arr = {1, 2, 3}; // 6
         //        int[] arr = {1, 4, 2, 5, 3}; // 58
         //        int[] arr = {6, 9, 14, 5, 3, 8, 7, 12, 13, 1}; // 878

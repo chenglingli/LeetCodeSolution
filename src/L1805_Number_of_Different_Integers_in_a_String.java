@@ -80,8 +80,8 @@ public class L1805_Number_of_Different_Integers_in_a_String {
         long sysDate1 = System.currentTimeMillis();
 
         // String word = "a123bc34d8ef34";
-//        String word = "0a0";
-                String word = "a023bc23d8ef8";
+        //        String word = "0a0";
+        String word = "a023bc23d8ef8";
         int res = s.numDifferentIntegers2(word);
         System.out.println(res);
 

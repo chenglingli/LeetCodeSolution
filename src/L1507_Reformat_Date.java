@@ -19,7 +19,7 @@ public class L1507_Reformat_Date {
         monthMap.put("Nov", "11");
         monthMap.put("Dec", "12");
 
-        String[] dateList =  date.split(" ");
+        String[] dateList = date.split(" ");
         String d = dateList[0];
         String m = dateList[1];
         String y = dateList[2];
@@ -33,11 +33,10 @@ public class L1507_Reformat_Date {
         res.append("-");
 
         if (d.length() == 4) {
-            res.append(d.substring(0,2));
-        }
-        else {
+            res.append(d.substring(0, 2));
+        } else {
             res.append("0");
-            res.append(d.substring(0,1));
+            res.append(d.substring(0, 1));
         }
 
 

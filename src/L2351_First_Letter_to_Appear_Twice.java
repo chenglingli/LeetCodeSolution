@@ -16,7 +16,7 @@ public class L2351_First_Letter_to_Appear_Twice {
             }
         }
 
-        return s.charAt(s.length() -1);
+        return s.charAt(s.length() - 1);
     }
 
     public static void main(String[] args) {

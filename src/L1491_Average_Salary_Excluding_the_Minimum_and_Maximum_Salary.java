@@ -13,7 +13,7 @@ public class L1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary {
         }
 
         sum = sum - max - min;
-        return  (sum * 1.0) / (salary.length - 2);
+        return (sum * 1.0) / (salary.length - 2);
     }
 
     public static void main(String[] args) {

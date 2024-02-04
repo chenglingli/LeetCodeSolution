@@ -3,13 +3,12 @@ public class L005_Longest_Palindromic_Substring {
     /**
      * 动态规划
      * dp[i, j]  1表示从i到j是否是回文[i, j]
-     *
+     * <p>
      * 那么，
      * dp[i, j] == 1, 如果 j == i
      * dp[i, j] == 1, 如果 j > i + 2 && dp[i+1, j-1]==1 && s.charAt[i] == s.charAt[j]
      * dp[i, j] == 1, 如果 j = i + 2 && s.charAt[i] == s.charAt[j]
      * dp 过程中记录最大duration对应的 left 和 right
-     *
      */
 
     public String longestPalindrome(String s) {

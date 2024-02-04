@@ -16,8 +16,8 @@ public class L2032_Two_Out_of_Three {
         fillCount(nums2, count);
         fillCount(nums3, count);
 
-        for (int i = 1; i <= 100 ;i ++) {
-            if (count[i] >=2) {
+        for (int i = 1; i <= 100; i++) {
+            if (count[i] >= 2) {
                 res.add(i);
             }
         }

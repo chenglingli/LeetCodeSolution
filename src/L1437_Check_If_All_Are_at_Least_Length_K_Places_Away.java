@@ -30,11 +30,11 @@ public class L1437_Check_If_All_Are_at_Least_Length_K_Places_Away {
         L1437_Check_If_All_Are_at_Least_Length_K_Places_Away s = new L1437_Check_If_All_Are_at_Least_Length_K_Places_Away();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] nums = {0, 1, 0, 1};
-//        int k = 1;
+        //        int[] nums = {0, 1, 0, 1};
+        //        int k = 1;
 
-        int[] nums = {1,0,0,0,1,0,0,1,0};
-        int k = 2 ;
+        int[] nums = {1, 0, 0, 0, 1, 0, 0, 1, 0};
+        int k = 2;
 
         boolean res = s.kLengthApart(nums, k);
         System.out.println(res);

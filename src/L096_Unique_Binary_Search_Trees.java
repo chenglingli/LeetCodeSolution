@@ -5,9 +5,9 @@ public class L096_Unique_Binary_Search_Trees {
      * f(2) = 2
      * f(3) = 5
      * f(4) = 12
-     *
+     * <p>
      * f(0) = 0
-     *
+     * <p>
      * for (left = o -> i)
      * f(i) = f(left) * f(right) (right + left  = i - 1)
      */

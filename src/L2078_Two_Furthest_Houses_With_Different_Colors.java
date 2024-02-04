@@ -15,12 +15,12 @@ public class L2078_Two_Furthest_Houses_With_Different_Colors {
         int i = 0;
         int j = colors.length - 1;
 
-        while (colors[i+1] == colors[i]) {
+        while (colors[i + 1] == colors[i]) {
             i++;
         }
         i++;
 
-        while (colors[j-1] == colors[j]) {
+        while (colors[j - 1] == colors[j]) {
             j--;
         }
         j--;

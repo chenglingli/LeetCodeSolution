@@ -15,14 +15,14 @@ public class L1684_Count_the_Number_of_Consistent_Strings {
         int res = 0;
 
         for (String cur : words) {
-            int  i = 0;
-            for (i = 0 ; i < cur.length(); i++) {
+            int i = 0;
+            for (i = 0; i < cur.length(); i++) {
                 if (allowed.indexOf(cur.charAt(i)) == -1) {
                     break;
                 }
             }
-            if ( i == cur.length()) {
-                res ++;
+            if (i == cur.length()) {
+                res++;
             }
         }
 

@@ -8,10 +8,10 @@ public class L2000_Reverse_Prefix_of_Word {
             return word;
         }
 
-        for (int i = index ; i >= 0; i--) {
+        for (int i = index; i >= 0; i--) {
             sb.append(word.charAt(i));
         }
-        if (index < word.length() -1) {
+        if (index < word.length() - 1) {
             sb.append(word.substring(index + 1));
         }
 

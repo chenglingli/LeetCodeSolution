@@ -41,6 +41,7 @@ public class L131_Palindrome_Partitioning {
 
         return rt;
     }
+
     static boolean isPal(String s) {
 
         int st = 0, ed = s.length() - 1;

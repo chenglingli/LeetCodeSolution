@@ -45,7 +45,7 @@ public class L2224_Minimum_Number_of_Operations_to_Convert_Time {
         int cuMinute = Integer.parseInt(currentTime[1]);
         int coMinute = Integer.parseInt(correctTime[1]);
 
-        int duration = (coHour * 60 + coMinute) - (cuHour * 60 +cuMinute);
+        int duration = (coHour * 60 + coMinute) - (cuHour * 60 + cuMinute);
 
         res += duration / 60;
         duration = duration % 60;

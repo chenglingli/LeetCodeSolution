@@ -17,7 +17,7 @@ public class L696_Count_Binary_Substrings {
     01
 
      */
-    
+
 
     /*
 

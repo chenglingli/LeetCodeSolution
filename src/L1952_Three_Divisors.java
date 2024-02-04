@@ -34,12 +34,12 @@ public class L1952_Three_Divisors {
             return false;
         }
 
-        int m = (int)Math.sqrt(n);
-        if(m * m != n) {
+        int m = (int) Math.sqrt(n);
+        if (m * m != n) {
             return false;
         }
 
-        for (int i = 2; i < m ;i++) {
+        for (int i = 2; i < m; i++) {
             if (n % i == 0) {
                 return false;
             }

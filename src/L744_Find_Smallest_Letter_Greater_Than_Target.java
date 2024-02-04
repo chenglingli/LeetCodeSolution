@@ -8,8 +8,8 @@ public class L744_Find_Smallest_Letter_Greater_Than_Target {
     target is a lowercase English letter.
      */
     public char nextGreatestLetter(char[] letters, char target) {
-        int i = 0 ;
-        while (i <letters.length && letters[i] <= target) {
+        int i = 0;
+        while (i < letters.length && letters[i] <= target) {
             i++;
         }
         if (i < letters.length) {

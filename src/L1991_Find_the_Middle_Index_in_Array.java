@@ -20,7 +20,7 @@ public class L1991_Find_the_Middle_Index_in_Array {
             i++;
         }
 
-        for (i = 0 ; i < nums.length ; i++) {
+        for (i = 0; i < nums.length; i++) {
             rightSum = sum - leftSum - nums[i];
             if (leftSum == rightSum) {
                 break;
@@ -31,8 +31,7 @@ public class L1991_Find_the_Middle_Index_in_Array {
 
         if (i == nums.length) {
             return -1;
-        }
-        else {
+        } else {
             return i;
         }
     }
@@ -43,8 +42,8 @@ public class L1991_Find_the_Middle_Index_in_Array {
         long sysDate1 = System.currentTimeMillis();
 
         // int[] patterns = {2, 3, -1, 8, 4};
-//        int[] patterns = {1,-1,4};
-        int[] patterns = {2,5};
+        //        int[] patterns = {1,-1,4};
+        int[] patterns = {2, 5};
         int res = s.findMiddleIndex(patterns);
         System.out.println(res);
 

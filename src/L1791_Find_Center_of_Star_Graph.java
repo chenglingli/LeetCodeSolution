@@ -13,8 +13,7 @@ public class L1791_Find_Center_of_Star_Graph {
             return edges[0][0];
         } else if (edges[0][0] == edges[1][1]) {
             return edges[0][0];
-        }
-        else {
+        } else {
             return edges[0][1];
         }
     }

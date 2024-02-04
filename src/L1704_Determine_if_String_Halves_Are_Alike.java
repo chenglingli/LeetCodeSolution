@@ -13,23 +13,23 @@ public class L1704_Determine_if_String_Halves_Are_Alike {
         vowels.add('o');
         vowels.add('u');
 
-        for(int i = 0 ; i < s.length() /2 ; i++) {
+        for (int i = 0; i < s.length() / 2; i++) {
             char cur = s.charAt(i);
             if (cur <= 'Z') {
                 cur += 'a' - 'A';
             }
 
-            if(vowels.contains(cur)) {
+            if (vowels.contains(cur)) {
                 count++;
             }
         }
 
-        for(int i = s.length() /2 ; i < s.length() ; i++) {
+        for (int i = s.length() / 2; i < s.length(); i++) {
             char cur = s.charAt(i);
             if (cur <= 'Z') {
                 cur += 'a' - 'A';
             }
-            if(vowels.contains(cur)) {
+            if (vowels.contains(cur)) {
                 count--;
             }
         }
@@ -37,21 +37,20 @@ public class L1704_Determine_if_String_Halves_Are_Alike {
         return count == 0;
     }
 
-    public boolean halvesAreAlike2(String s)
-    {
+    public boolean halvesAreAlike2(String s) {
         int len = s.length();
-        int mid = len/2;
+        int mid = len / 2;
         int count1 = countVowels(s.substring(0, mid));
         int count2 = countVowels(s.substring(mid, len));
         return count1 == count2;
     }
 
-    static int countVowels(String s){
+    static int countVowels(String s) {
         int count = 0;
-        for(char ch : s.toCharArray()){
-            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+        for (char ch : s.toCharArray()) {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
                     ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'
-            ){
+            ) {
                 count++;
             }
         }

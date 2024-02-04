@@ -156,11 +156,11 @@ public class L087_Scramble_String {
 
         return s1.substring(s1Start, s1Start + len).equals(s2.substring(s2Start, s2Start + len));
 
-//        for (int i = 0; i < len; i++) {
-//            if (s1.charAt(s1Start++) != s2.charAt(s2Start++))
-//                return false;
-//        }
-//        return true;
+        //        for (int i = 0; i < len; i++) {
+        //            if (s1.charAt(s1Start++) != s2.charAt(s2Start++))
+        //                return false;
+        //        }
+        //        return true;
     }
 
 

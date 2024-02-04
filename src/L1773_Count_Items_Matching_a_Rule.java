@@ -15,9 +15,15 @@ public class L1773_Count_Items_Matching_a_Rule {
 
         int index = 0;
         switch (ruleKey) {
-            case "type": index = 0; break;
-            case "color": index = 1; break;
-            case "name" : index = 2; break;
+            case "type":
+                index = 0;
+                break;
+            case "color":
+                index = 1;
+                break;
+            case "name":
+                index = 2;
+                break;
         }
 
         for (List<String> item : items) {
@@ -36,11 +42,11 @@ public class L1773_Count_Items_Matching_a_Rule {
 
 
         List<List<String>> items = new ArrayList<>();
-        List<String> item1 = new ArrayList<>(Arrays.asList("phone","blue","pixel"));
+        List<String> item1 = new ArrayList<>(Arrays.asList("phone", "blue", "pixel"));
         items.add(item1);
-        List<String> item2 = new ArrayList<>(Arrays.asList("computer","silver","phone"));
+        List<String> item2 = new ArrayList<>(Arrays.asList("computer", "silver", "phone"));
         items.add(item2);
-        List<String> item3 = new ArrayList<>(Arrays.asList("phone","gold","iphone"));
+        List<String> item3 = new ArrayList<>(Arrays.asList("phone", "gold", "iphone"));
         items.add(item3);
         String ruleKey = "type";
         String ruleValue = "phone";

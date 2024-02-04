@@ -8,13 +8,13 @@ public class L2278_Percentage_of_Letter_in_String {
     public int percentageLetter(String s, char letter) {
 
         int count = 0;
-        for(int i = 0 ; i < s.length();i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == letter) {
                 count++;
             }
         }
 
-        return (int)(count * 100 /s.length());
+        return (int) (count * 100 / s.length());
     }
 
     public static void main(String[] args) {

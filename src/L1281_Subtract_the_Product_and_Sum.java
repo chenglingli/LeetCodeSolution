@@ -10,7 +10,7 @@ public class L1281_Subtract_the_Product_and_Sum {
         int sum = 0;
         int product = 1;
         while (copy > 0) {
-            int temp = copy%10;
+            int temp = copy % 10;
             sum += temp;
             product *= temp;
             copy /= 10;

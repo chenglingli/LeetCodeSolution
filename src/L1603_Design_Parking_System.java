@@ -30,8 +30,9 @@ public class L1603_Design_Parking_System {
     public static class ParkingSystem {
 
         int size[];
+
         public ParkingSystem(int big, int medium, int small) {
-            size = new int[] {big, medium, small};
+            size = new int[]{big, medium, small};
         }
 
         public boolean addCar(int carType) {

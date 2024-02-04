@@ -1,5 +1,3 @@
-import org.omg.CORBA.MARSHAL;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,15 +14,15 @@ public class L2248_Intersection_of_Multiple_Arrays {
         int[] count = new int[1001];
         int max = 0;
 
-        for (int [] cur : nums) {
+        for (int[] cur : nums) {
             for (int x : cur) {
-                count[x] ++;
+                count[x]++;
                 max = Math.max(x, max);
             }
         }
 
         List<Integer> res = new ArrayList<>();
-        for (int i = 1 ; i <= max; i++) {
+        for (int i = 1; i <= max; i++) {
             if (count[i] == nums.length) {
                 res.add(i);
             }

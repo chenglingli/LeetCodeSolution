@@ -5,14 +5,13 @@ public class L482_License_Key_Formatting {
         StringBuilder sb = new StringBuilder();
         StringBuilder cur = new StringBuilder();
 
-        for(int i = s.length()-1 ; i >= 0; i--) {
+        for (int i = s.length() - 1; i >= 0; i--) {
 
             char curChar = s.charAt(i);
 
             if (curChar == '-') {
                 continue;
-            }
-            else {
+            } else {
                 if (curChar >= 'a' && curChar <= 'z') {
                     curChar = Character.toUpperCase(curChar);
                 }
@@ -20,7 +19,7 @@ public class L482_License_Key_Formatting {
             }
 
             if (cur.length() == k) {
-                if(sb.length() != 0) {
+                if (sb.length() != 0) {
                     sb.append('-');
                 }
                 sb.append(cur);
@@ -30,7 +29,7 @@ public class L482_License_Key_Formatting {
         }
 
         if (cur.length() > 0) {
-            if(sb.length() != 0) {
+            if (sb.length() != 0) {
                 sb.append('-');
             }
             sb.append(cur);

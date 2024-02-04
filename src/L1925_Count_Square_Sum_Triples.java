@@ -1,4 +1,3 @@
-
 public class L1925_Count_Square_Sum_Triples {
 
     /*

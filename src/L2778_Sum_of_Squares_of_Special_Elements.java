@@ -5,9 +5,9 @@ public class L2778_Sum_of_Squares_of_Special_Elements {
         int n = nums.length;
         int ans = 0;
         int i = 0;
-        
+
         while (i < n) {
-            if (n % (i+1) == 0) {
+            if (n % (i + 1) == 0) {
                 ans += nums[i] * nums[i];
             }
             i++;

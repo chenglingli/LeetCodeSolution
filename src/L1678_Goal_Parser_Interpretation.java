@@ -16,8 +16,7 @@ public class L1678_Goal_Parser_Interpretation {
             if (command.charAt(i) == 'G') {
                 sb.append("G");
                 i++;
-            }
-            else if (command.charAt(i) == '(') {
+            } else if (command.charAt(i) == '(') {
                 if (command.charAt(i + 1) == ')') {
                     sb.append("o");
                     i += 2;
@@ -36,7 +35,7 @@ public class L1678_Goal_Parser_Interpretation {
         L1678_Goal_Parser_Interpretation s = new L1678_Goal_Parser_Interpretation();
         long sysDate1 = System.currentTimeMillis();
 
-//        String command = "G()()()()(al)";
+        //        String command = "G()()()()(al)";
         String command = "(al)G(al)()()G";
         String res = s.interpret(command);
         System.out.println(res);

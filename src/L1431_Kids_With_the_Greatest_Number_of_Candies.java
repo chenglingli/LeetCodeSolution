@@ -27,7 +27,7 @@ public class L1431_Kids_With_the_Greatest_Number_of_Candies {
         L1431_Kids_With_the_Greatest_Number_of_Candies s = new L1431_Kids_With_the_Greatest_Number_of_Candies();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] candies = {2,3,5,1,3};
+        int[] candies = {2, 3, 5, 1, 3};
         int extraCandies = 3;
 
         List<Boolean> res = s.kidsWithCandies(candies, extraCandies);

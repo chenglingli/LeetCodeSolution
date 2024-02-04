@@ -30,10 +30,6 @@ public class L1935_Maximum_Number_of_Words_You_Can_Type {
     }
 
 
-
-
-
-
     public int canBeTypedWords2(String text, String brokenLetters) {
 
         if (brokenLetters.length() == 0)

@@ -33,8 +33,6 @@ public class L2558_Take_Gifts_From_the_Richest_Pile {
     }
 
 
-
-
     public int left(int index) {
         return (index * 2) + 1;
     }

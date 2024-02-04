@@ -9,7 +9,7 @@ public class L3005_Count_Elements_With_Maximum_Frequency {
         int[] count = new int[101];
         int max = 0;
 
-        for (int x: nums) {
+        for (int x : nums) {
             count[x]++;
             max = Math.max(max, count[x]);
         }
@@ -17,7 +17,7 @@ public class L3005_Count_Elements_With_Maximum_Frequency {
         int ans = 0;
         for (int i = 1; i <= 100; i++) {
             if (count[i] == max) {
-                ans+= count[i];
+                ans += count[i];
             }
         }
 

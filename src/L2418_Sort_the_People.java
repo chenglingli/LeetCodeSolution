@@ -43,7 +43,6 @@ public class L2418_Sort_the_People {
     }
 
 
-
     public String[] sortPeople2(String[] names, int[] heights) {
         quickSort(names, heights, 0, heights.length - 1);
         return names;

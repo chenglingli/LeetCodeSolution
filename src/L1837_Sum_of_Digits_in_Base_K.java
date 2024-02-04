@@ -12,7 +12,7 @@ public class L1837_Sum_of_Digits_in_Base_K {
         int x = n;
         int sum = 0;
         while (x > 0) {
-            sum += x%k;
+            sum += x % k;
             x /= k;
         }
         return sum;

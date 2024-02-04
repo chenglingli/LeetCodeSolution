@@ -3,18 +3,18 @@ import java.util.Arrays;
 public class L1304_Find_N_Unique_Integers_Sum_up_to_Zero {
 
     public int[] sumZero(int n) {
-        int x = n/2;
-        int [] res = new int[n];
+        int x = n / 2;
+        int[] res = new int[n];
         int count = 0;
-        for (int i = x*(-1) ; i <= x ; i++) {
+        for (int i = x * (-1); i <= x; i++) {
             if (i == 0) {
                 continue;
             }
             res[count++] = i;
         }
 
-        if (n %2 != 0) {
-            res[n-1] = 0;
+        if (n % 2 != 0) {
+            res[n - 1] = 0;
         }
         return res;
     }

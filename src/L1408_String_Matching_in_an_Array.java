@@ -8,10 +8,10 @@ public class L1408_String_Matching_in_an_Array {
 
         List<String> res = new ArrayList<>();
 
-        for (int i = 0 ; i < words.length; i++) {
+        for (int i = 0; i < words.length; i++) {
             String cur = words[i];
 
-            for (int j = 0 ; j < words.length ; j++) {
+            for (int j = 0; j < words.length; j++) {
                 if (i == j) {
                     continue;
                 }
@@ -51,7 +51,7 @@ public class L1408_String_Matching_in_an_Array {
         L1408_String_Matching_in_an_Array s = new L1408_String_Matching_in_an_Array();
         long sysDate1 = System.currentTimeMillis();
 
-        String[] words = {"mass","as","hero","superhero"};
+        String[] words = {"mass", "as", "hero", "superhero"};
 
         List<String> res = s.stringMatching(words);
         System.out.println(res);

@@ -13,7 +13,7 @@ public class L1880_Check_if_Word_Equals_Summation_of_Two_Words {
         int i = 0;
         while (i < word.length()) {
             res *= 10;
-            res += (word.charAt(i) - 'a' );
+            res += (word.charAt(i) - 'a');
             i++;
         }
 

@@ -31,7 +31,7 @@ public class L3010_Divide_an_Array_Into_Subarrays_With_Minimum_Cost_I {
         long sysDate1 = System.currentTimeMillis();
 
         //int[] nums = {1, 2, 3, 12};
-                int[] nums = {10, 3, 1, 1};
+        int[] nums = {10, 3, 1, 1};
         int res = s.minimumCost(nums);
         System.out.println(res);
 

@@ -130,10 +130,10 @@ public class L1337_The_K_Weakest_Rows_in_a_Matrix {
 
         System.out.println(Arrays.toString(res));
 
-//        int[] row = {1, 0};
-//        int x = s.countValue(row);
-//        System.out.println();
-//        System.out.println(x);
+        //        int[] row = {1, 0};
+        //        int x = s.countValue(row);
+        //        System.out.println();
+        //        System.out.println(x);
 
         long sysDate2 = System.currentTimeMillis();
         System.out.println("\ntime ");

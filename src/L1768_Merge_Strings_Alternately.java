@@ -24,7 +24,7 @@ public class L1768_Merge_Strings_Alternately {
 
     public String mergeAlternately2(String word1, String word2) {
         StringBuilder sb = new StringBuilder();
-        int min = Math.min(word1.length(),word2.length());
+        int min = Math.min(word1.length(), word2.length());
         for (int i = 0; i < min; i++) {
             sb.append(word1.charAt(i));
             sb.append(word2.charAt(i));

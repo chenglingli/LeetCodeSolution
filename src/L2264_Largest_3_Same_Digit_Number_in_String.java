@@ -37,8 +37,8 @@ public class L2264_Largest_3_Same_Digit_Number_in_String {
         if (num.contains("444")) return "444";
         if (num.contains("333")) return "333";
         if (num.contains("222")) return "222";
-        if (num.contains("111"))return "111";
-        if (num.contains("000"))return "000";
+        if (num.contains("111")) return "111";
+        if (num.contains("000")) return "000";
 
         return "";
     }

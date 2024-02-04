@@ -12,7 +12,7 @@ public class L1790_Check_if_One_String_Swap_Can_Make_Strings_Equal {
         }
 
         int i = 0;
-        int []diff  = new int[2];
+        int[] diff = new int[2];
         int diffCount = 0;
         while (i < s1.length()) {
             if (s1.charAt(i) != s2.charAt(i)) {

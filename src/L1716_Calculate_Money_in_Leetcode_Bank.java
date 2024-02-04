@@ -18,7 +18,7 @@ public class L1716_Calculate_Money_in_Leetcode_Bank {
         cur = 1 + x;
         for (int i = 0; i < y; i++) {
             sum += cur;
-            cur ++;
+            cur++;
         }
 
         return sum;

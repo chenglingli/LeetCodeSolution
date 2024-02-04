@@ -16,7 +16,7 @@ public class L1859_Sorting_the_Sentence {
         }
 
         StringBuilder res = new StringBuilder();
-        for (int i = 1 ; i < stringBuf.length - 1; i++) {
+        for (int i = 1; i < stringBuf.length - 1; i++) {
             res.append(stringBuf[i]);
             res.append(" ");
         }

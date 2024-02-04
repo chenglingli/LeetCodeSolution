@@ -23,9 +23,8 @@ public class L1399_Count_Largest_Group {
         for (int i = 1; i <= 36; i++) {
 
             if (digitSum[i] == max) {
-                count ++;
-            }
-            else if (digitSum[i] > max){
+                count++;
+            } else if (digitSum[i] > max) {
                 max = digitSum[i];
                 count = 1;
             }

@@ -16,7 +16,7 @@ public class L2341_Maximum_Number_of_Pairs_in_Array {
         }
 
         for (int i = 0; i < 101; i++) {
-            if (count[i] >= 2 ) {
+            if (count[i] >= 2) {
                 pairsCount += count[i] / 2;
             }
         }
@@ -33,7 +33,7 @@ public class L2341_Maximum_Number_of_Pairs_in_Array {
                 new L2341_Maximum_Number_of_Pairs_in_Array();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] nums = {1, 3, 2, 1, 3, 2, 2};
+        //        int[] nums = {1, 3, 2, 1, 3, 2, 2};
         int[] nums = {0};
         int[] res = s.numberOfPairs(nums);
         System.out.println(Arrays.toString(res));

@@ -8,12 +8,12 @@ public class L1528_Shuffle_String {
             res[indices[i]] = s.charAt(i);
         }
 
-//        StringBuilder sb = new StringBuilder();
-//        for (int i = 0; i < res.length; i++) {
-//            sb.append(res[i]);
-//        }
-//
-//        return sb.toString();
+        //        StringBuilder sb = new StringBuilder();
+        //        for (int i = 0; i < res.length; i++) {
+        //            sb.append(res[i]);
+        //        }
+        //
+        //        return sb.toString();
 
         return String.valueOf(res);
     }

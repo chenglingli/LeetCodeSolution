@@ -1,4 +1,3 @@
-
 class MyDate {
     int month;
     int day;

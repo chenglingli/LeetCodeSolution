@@ -39,7 +39,7 @@ public class L1640_Check_Array_Formation_Through_Concatenation {
                 // 字典子串是否到头。如到头，母串index需要退格
                 if (k != piece.length) return false;
                 else i--;
-                
+
             } else {
                 return false;
             }

@@ -12,17 +12,16 @@ public class L1317_Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers {
                 }
             }
         }
-        return new int[]{1, n-1};
+        return new int[]{1, n - 1};
     }
 
     private boolean containZero(int x) {
         int copy = x;
         if (copy <= 9) {
             return false;
-        }
-        else {
+        } else {
             while (copy > 0) {
-                int temp = copy%10;
+                int temp = copy % 10;
                 if (temp == 0) {
                     return true;
                 }

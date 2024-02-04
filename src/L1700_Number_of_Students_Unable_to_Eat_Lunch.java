@@ -1,4 +1,3 @@
-
 public class L1700_Number_of_Students_Unable_to_Eat_Lunch {
 
 

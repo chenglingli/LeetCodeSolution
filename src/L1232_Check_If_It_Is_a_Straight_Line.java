@@ -44,7 +44,7 @@ public class L1232_Check_If_It_Is_a_Straight_Line {
         L1232_Check_If_It_Is_a_Straight_Line s = new L1232_Check_If_It_Is_a_Straight_Line();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[][] coordinates = {{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}};
+        //        int[][] coordinates = {{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}};
         int[][] coordinates = {{0, 0}, {0, 1}, {0, -1}};
         boolean res = s.checkStraightLine(coordinates);
         System.out.println(res);

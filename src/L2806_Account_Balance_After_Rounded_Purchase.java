@@ -22,7 +22,7 @@ public class L2806_Account_Balance_After_Rounded_Purchase {
      */
     public int accountBalanceAfterPurchase(int purchaseAmount) {
         int initAmount = 100;
-        int res = initAmount -  ((purchaseAmount + 5) /10) * 10;
+        int res = initAmount - ((purchaseAmount + 5) / 10) * 10;
         return res;
     }
 

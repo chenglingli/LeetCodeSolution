@@ -23,8 +23,7 @@ public class L2154_Keep_Multiplying_Found_Values_by_Two {
         while (true) {
             if (find(nums, original)) {
                 original = original * 2;
-            }
-            else {
+            } else {
                 return original;
             }
         }

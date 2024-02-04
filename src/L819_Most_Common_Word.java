@@ -38,7 +38,7 @@ public class L819_Most_Common_Word {
             }
 
             int count = countMap.getOrDefault(cur, 0);
-            if(count == -1) {
+            if (count == -1) {
                 continue;
             }
             countMap.put(cur, count + 1);

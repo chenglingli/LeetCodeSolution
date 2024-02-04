@@ -27,7 +27,7 @@ public class L1103_Distribute_Candies_to_People {
         for (int i = 1; i <= n; i++) {
 
             // 整行可以获得的
-            res[i - 1] = ((i + (i + (j-1) * n)) * j) / 2;
+            res[i - 1] = ((i + (i + (j - 1) * n)) * j) / 2;
 
             // 最后一行的累加
             if (remained > 0) {

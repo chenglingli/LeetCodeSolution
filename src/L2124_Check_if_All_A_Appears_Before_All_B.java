@@ -22,9 +22,9 @@ public class L2124_Check_if_All_A_Appears_Before_All_B {
         L2124_Check_if_All_A_Appears_Before_All_B s = new L2124_Check_if_All_A_Appears_Before_All_B();
         long sysDate1 = System.currentTimeMillis();
 
-//        String num = "aaabbb";
+        //        String num = "aaabbb";
         String num = "ba";
-//        String num = "aaabbb";
+        //        String num = "aaabbb";
         boolean res = s.checkString(num);
         System.out.println(res);
 

@@ -1,4 +1,3 @@
-
 public class L680_Valid_Palindrome_II {
 
     /*

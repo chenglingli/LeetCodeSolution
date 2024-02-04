@@ -23,8 +23,8 @@ public class L2194_Cells_in_a_Range_on_an_Excel_Sheet {
         for (int i = x; i <= y; i++) {
             for (int j = a; j <= b; j++) {
                 StringBuilder temp = new StringBuilder();
-                temp.append((char)(i));
-                temp.append((char)j);
+                temp.append((char) (i));
+                temp.append((char) j);
                 res.add(temp.toString());
             }
         }

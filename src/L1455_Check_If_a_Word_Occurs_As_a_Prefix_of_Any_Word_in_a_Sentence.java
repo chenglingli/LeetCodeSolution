@@ -2,10 +2,10 @@ public class L1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence 
 
     public int isPrefixOfWord(String sentence, String searchWord) {
 
-        String[] strList= sentence.split(" ");
-        for (int i = 0 ; i < strList.length; i++) {
+        String[] strList = sentence.split(" ");
+        for (int i = 0; i < strList.length; i++) {
             if (strList[i].indexOf(searchWord) == 0) {
-                return i+1;
+                return i + 1;
             }
         }
 

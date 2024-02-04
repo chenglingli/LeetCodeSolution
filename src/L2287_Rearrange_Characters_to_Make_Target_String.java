@@ -1,5 +1,3 @@
-import javax.swing.text.MaskFormatter;
-
 public class L2287_Rearrange_Characters_to_Make_Target_String {
 
     /*
@@ -9,17 +7,17 @@ public class L2287_Rearrange_Characters_to_Make_Target_String {
      */
     public int rearrangeCharacters(String s, String target) {
         int[] count = new int[26];
-        for (int i = 0 ; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             count[s.charAt(i) - 'a']++;
         }
 
         int[] targetCount = new int[26];
-        for (int i = 0 ; i < target.length(); i++) {
+        for (int i = 0; i < target.length(); i++) {
             targetCount[target.charAt(i) - 'a']++;
         }
 
         int ans = Integer.MAX_VALUE;
-        for (int i = 0 ; i < 26 ; i++) {
+        for (int i = 0; i < 26; i++) {
             if (targetCount[i] != 0) {
                 ans = Math.min(ans, count[i] / targetCount[i]);
             }

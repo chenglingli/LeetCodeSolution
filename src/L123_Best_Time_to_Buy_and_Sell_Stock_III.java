@@ -4,22 +4,22 @@
  * DP int [m+1][n] m is the number of transactions, n is the number of days = prices.length;
  * dp[i][j] means maximum total profit gained when complete i transactions (0 means no transaction)
  * at day j (can only buy at day 0)
- *
+ * <p>
  * initialization:
  * dp[0][j] = 0, since if there is no transaction, no profit
  * dp[i][0] = 0, since it is at day[0], you can only buy, not sell, so no profit will be make.
  * final: return dp[m][n-1]
- *
+ * <p>
  * update:
  * dp[i][j] = max (dp[i][j-1], max(dp[i-1][k] + price[j] - price[k]) k from 0 to j-1;)
  * either at day j, no new transaction, or a transaction happened by sell the stock bought at day[k];
- *
- *
+ * <p>
+ * <p>
  * one trick to reduce time complexity from O(mn^2) to O(mn);
  * max(dp[i-1][k] + price[j] - price[k]) k from 0 to j-1, does not need to be compute from scratch every time
  * we can keep a maximum value (maxdiff) of part dp[i-1][k] - price[k] (k = 0 ~ j-1), and when j move to j + 1;
  * the maxdiff = Math.max(maxdiff, dp[i-1][j] - price[j]); maxdiff is initialized to be Integer.MIN_VALUE;
- *
+ * <p>
  * detailed instruction: https://www.youtube.com/watch?v=oDhu5uGq_ic&feature=youtu.be
  */
 

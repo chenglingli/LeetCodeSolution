@@ -63,8 +63,7 @@ public class L1422_Maximum_Score_After_Splitting_a_String {
         for (int i = 0; i < n; i++) {
             if (s.charAt(i) == '0') {
                 zeroCount++;
-            }
-            else {
+            } else {
                 oneCount++;
             }
 

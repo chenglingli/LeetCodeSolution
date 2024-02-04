@@ -33,7 +33,7 @@ public class L1800_Maximum_Ascending_Subarray_Sum {
         L1800_Maximum_Ascending_Subarray_Sum s = new L1800_Maximum_Ascending_Subarray_Sum();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] nums = {12, 17, 15, 13, 10, 11, 12};
+        //        int[] nums = {12, 17, 15, 13, 10, 11, 12};
         int[] nums = {12};
         int res = s.maxAscendingSum(nums);
         System.out.println(res);

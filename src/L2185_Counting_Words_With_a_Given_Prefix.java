@@ -4,7 +4,7 @@ public class L2185_Counting_Words_With_a_Given_Prefix {
         int ans = 0;
         for (String s : words) {
             if (s.indexOf(pref) == 0) {
-                ans ++;
+                ans++;
             }
         }
         return ans;

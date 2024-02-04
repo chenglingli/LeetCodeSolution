@@ -19,7 +19,7 @@ public class L1089_Duplicate_Zeros {
                     copy[j + 1] = 0;
                 }
                 i++;
-                j+=2;
+                j += 2;
             }
         }
 
@@ -38,8 +38,8 @@ public class L1089_Duplicate_Zeros {
         //                int[] arr = {1, 0, 2, 0, 3, 4};
         //        int[] arr = {1, 0, 2, 3, 0, 4, 5, 0};
         // {1, 0, 0, 2, 3, 0, 0, 4};
-                int[] arr = {8, 4, 5, 0, 0, 0, 0, 7};
-//        int[] arr = {1, 1, 0, 0, 0};
+        int[] arr = {8, 4, 5, 0, 0, 0, 0, 7};
+        //        int[] arr = {1, 1, 0, 0, 0};
 
         s.duplicateZeros(arr);
 

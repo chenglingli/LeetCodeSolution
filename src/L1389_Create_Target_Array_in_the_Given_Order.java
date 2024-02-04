@@ -27,8 +27,8 @@ public class L1389_Create_Target_Array_in_the_Given_Order {
         L1389_Create_Target_Array_in_the_Given_Order s = new L1389_Create_Target_Array_in_the_Given_Order();
         long sysDate1 = System.currentTimeMillis();
 
-        int[] nums = {1,2,3,4,0};
-        int[] index = {0,1,2,3,0};
+        int[] nums = {1, 2, 3, 4, 0};
+        int[] index = {0, 1, 2, 3, 0};
 
         int[] res = s.createTargetArray(nums, index);
         System.out.println(Arrays.toString(res));

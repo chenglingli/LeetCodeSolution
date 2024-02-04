@@ -19,8 +19,8 @@ public class L1189_Maximum_Number_of_Balloons {
 
         int ans = count[0];
         ans = Math.min(count['b' - 'a'], ans);
-        ans = Math.min(count['l' - 'a']/2, ans);
-        ans = Math.min(count['o' - 'a']/2, ans);
+        ans = Math.min(count['l' - 'a'] / 2, ans);
+        ans = Math.min(count['o' - 'a'] / 2, ans);
         ans = Math.min(count['n' - 'a'], ans);
 
         return ans;

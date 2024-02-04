@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class L1646_Get_Maximum_in_Generated_Array {
 
     /*
@@ -23,17 +20,16 @@ public class L1646_Get_Maximum_in_Generated_Array {
             return 0;
         }
 
-        int [] f = new int[101];
+        int[] f = new int[101];
         f[0] = 0;
         f[1] = 1;
         int max = 1;
 
-        for (int i = 2; i <= n ; i++) {
+        for (int i = 2; i <= n; i++) {
 
             if (i % 2 == 0) {
-                f[i] = f[i/2];
-            }
-            else {
+                f[i] = f[i / 2];
+            } else {
                 f[i] = f[i / 2] + f[i / 2 + 1];
             }
             max = Math.max(max, f[i]);

@@ -23,7 +23,7 @@ public class L1299_Replace_Elements_with_Greatest_Element_on_Right_Side {
         L1299_Replace_Elements_with_Greatest_Element_on_Right_Side s = new L1299_Replace_Elements_with_Greatest_Element_on_Right_Side();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] arr = {17, 18, 5, 4, 6, 1};
+        //        int[] arr = {17, 18, 5, 4, 6, 1};
         int[] arr = {17};
         int[] res = s.replaceElements(arr);
         System.out.println(Arrays.toString(res));

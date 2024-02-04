@@ -33,7 +33,7 @@ public class L1207_Unique_Number_of_Occurrences {
         L1207_Unique_Number_of_Occurrences s = new L1207_Unique_Number_of_Occurrences();
         long sysDate1 = System.currentTimeMillis();
 
-//        int[] arr = {-3, 0, 1, -3, 1, 1, 1, -3, 10, 0};
+        //        int[] arr = {-3, 0, 1, -3, 1, 1, 1, -3, 10, 0};
         int[] arr = {1, 2};
         boolean res = s.uniqueOccurrences(arr);
         System.out.println(res);

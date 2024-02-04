@@ -14,7 +14,7 @@ public class L2432_The_Employee_That_Worked_on_the_Longest_Task {
 
         int max = 0;
         int ans = 0;
-        for (int i = 0 ; i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             if (duration[i] > max) {
                 max = duration[i];
                 ans = i;

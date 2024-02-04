@@ -47,7 +47,7 @@ public class L2864_Maximum_Odd_Binary_Number {
             }
 
         }
-        
+
         while (zeroesCount > 0) {
             sb.append('0');
             zeroesCount--;

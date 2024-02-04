@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 public class L1309_Decrypt_String_from_Alphabet_to_Integer_Mapping {
 
 
@@ -34,17 +31,17 @@ public class L1309_Decrypt_String_from_Alphabet_to_Integer_Mapping {
 
                 int k = 0;
                 for (k = 0; k < tempStr.length() - 3; k++) {
-                    sb.append((char) ('a' + (tempStr.charAt(k) - '0') -1 ));
+                    sb.append((char) ('a' + (tempStr.charAt(k) - '0') - 1));
                 }
 
                 int a = tempStr.charAt(k) - '0';
-                int b = tempStr.charAt(k+1)- '0';
+                int b = tempStr.charAt(k + 1) - '0';
                 int c = a * 10 + b;
                 sb.append((char) ('a' + c - 1));
 
             } else {
                 for (int k = 0; k < tempStr.length(); k++) {
-                    sb.append((char) ('a' + (tempStr.charAt(k) - '0') -1 ));
+                    sb.append((char) ('a' + (tempStr.charAt(k) - '0') - 1));
                 }
             }
         }
@@ -81,8 +78,8 @@ public class L1309_Decrypt_String_from_Alphabet_to_Integer_Mapping {
         L1309_Decrypt_String_from_Alphabet_to_Integer_Mapping s = new L1309_Decrypt_String_from_Alphabet_to_Integer_Mapping();
         long sysDate1 = System.currentTimeMillis();
 
-                String input = "1326#";
-//        String input = "10#11#12";
+        String input = "1326#";
+        //        String input = "10#11#12";
         String res = s.freqAlphabets(input);
         System.out.println(res);
 
