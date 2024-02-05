@@ -12,6 +12,8 @@ public class L097_Interleaving_String {
     dp[i][j] = (dp[i - 1][j] == 1 && s1.charAt(i - 1) == s3.charAt(i + j - 1))
             || (dp[i][j - 1] == 1 && s2.charAt(j - 1) == s3.charAt(i + j - 1)) ? 1 : 0;
 
+    自底向上，Tabulation
+
      */
     public boolean isInterleave(String s1, String s2, String s3) {
 
@@ -76,7 +78,7 @@ public class L097_Interleaving_String {
 
 
     /*
-     递归方式
+     递归方式，自顶向下，Memorize
      */
     public boolean isInterleave3(String s1, String s2, String s3) {
         int m = s1.length(), n = s2.length(), l = s3.length();
