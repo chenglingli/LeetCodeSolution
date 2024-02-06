@@ -52,7 +52,7 @@ public class L074_Search_a_2D_Matrix {
 
         long sysDate2 = System.currentTimeMillis();
         System.out.println("\ntime ");
-        
+
         System.out.print(sysDate2 - sysDate1);
     }
 }
