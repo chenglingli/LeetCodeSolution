@@ -1,4 +1,4 @@
-public class L0134_Gas_Station {
+public class L134_Gas_Station {
 
     /*
     n == gas.length == cost.length
@@ -34,7 +34,7 @@ public class L0134_Gas_Station {
 
     public static void main(String[] args) {
 
-        L0134_Gas_Station s = new L0134_Gas_Station();
+        L134_Gas_Station s = new L134_Gas_Station();
         long sysDate1 = System.currentTimeMillis();
 
         //        int[] gas = {1, 2, 3, 4, 5};
