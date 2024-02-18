@@ -47,7 +47,7 @@ public class L300_Longest_Increasing_Subsequence {
         int len = 1;
 
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] > orderList.getLast()) {
+            if (nums[i] > orderList.get(len - 1)) {
                 // nums[i] > the last element of orderList array
                 orderList.add(nums[i]);
                 len++;
