@@ -1,93 +1,24 @@
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Given a string, find the length of the longest substring without
- * repeating characters.
- * <p>
- * Examples:
- * <p>
- * Given "abcabcbb", the answer is "abc", which the length is 3.
- * Given "bbbbb", the answer is "b", with the length of 1.
- * Given "pwwkew", the answer is "wke", with the length of 3.
- * Note that the answer must be a substring,
- * "pwke" is a subsequence and not a substring.
+/*
+说明
+以i结尾能够成的串长度计为count
+
+为什么 s[j] 和 s[i] 一样时候，后续匹配从j+1开始？
+
+因为假定 s[j] == s[尾部i]，那么对于以 i后续的某个位置结尾的任何字符串匹配，都不需要再看s[j]。
+
+简单来说，可以不用HashSet，因为对于任何一个当前 检测串，已经拥有完全信息
+
  */
-
-/*
-
-字符串维度操作
-
 public class L003_Longest_Substring_Without_Repeating_Characters {
 
-    public int L003_Longest_Substring_Without_Repeating_Characters(String s) {
-
-        int length = s.length();
-        if (length == 0) return 0;
-
-        int curRes = 1;
-        for (int start = 0; start < length; start++) {
-            for (int end = start + 1; end <= length; end++) {
-                String subString = s.substring(start, end);
-                if (end == length) {
-                    if (subString.length() > curRes) {
-                        curRes = subString.length();
-                    }
-                    break;
-                }
-
-                if (subString.indexOf(s.charAt(end)) != -1) {
-                    if (subString.length() > curRes) {
-                        curRes = subString.length();
-                    }
-                    end = length;
-                }
-            }
-        }
-        return curRes;
-    }
-}
-
-*/
-
-/*
-
-使用 hash map 替代String
-
-public class L003_Longest_Substring_Without_Repeating_Characters {
-
-    public int L003_Longest_Substring_Without_Repeating_Characters(String s) {
-
-        int length = s.length();
-        if (length == 0) return 0;
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
-
-        int curRes = 0;
-        for (int start = 0; start < length; start++) {
-            for (int end = start; end < length; end++) {
-                if (!map.containsKey(s.charAt(end))) {
-                    if (end - start + 1 > curRes) {
-                        curRes = end - start + 1;
-                    }
-                    map.put(s.charAt(end), 0);
-                } else {
-                    end = length;
-                    map.clear();
-                }
-            }
-        }
-        return curRes;
-    }
-}
-*/
-
-/*
-
-用HashSet，只需要控制左右两个index，当右index出现重复时候，左index前移
-
-public class L003_Longest_Substring_Without_Repeating_Characters {
-
-    public int L003_Longest_Substring_Without_Repeating_Characters(String s) {
+    /*
+    使用set
+    set size就是最大长度
+     */
+    public int lengthOfLongestSubstring2(String s) {
         int i = 0, j = 0, max = 0;
         Set<Character> set = new HashSet<>();
 
@@ -102,33 +33,26 @@ public class L003_Longest_Substring_Without_Repeating_Characters {
         return max;
     }
 
- */
+    public int lengthOfLongestSubstring3(String s) {
 
-/*
-说明
-以i结尾能够成的串长度计为count
+        int max = 0;
+        int left = 0, right = 0;
 
-为什么 s[j] 和 s[i] 一样时候，后续匹配从j+1开始？
+        while (right < s.length()) {
+            char ch = s.charAt(right);
 
-因为假定 s[j] == s[尾部i]，那么对于以 i后续的某个位置结尾的任何字符串匹配，都不需要再看s[j]。
-
-简单来说，可以不用HashSet，因为对于任何一个当前 检测串，已经拥有完全信息
-
- */
-public class L003_Longest_Substring_Without_Repeating_Characters {
-
-    public int lengthOfLongestSubstring2(String s) {
-        int i = 0, j = 0, max = 0;
-        Set<Character> set = new HashSet<>();
-
-        while (j < s.length()) {
-            if (!set.contains(s.charAt(j))) {
-                set.add(s.charAt(j++));
-                max = Math.max(max, set.size());
-            } else {
-                set.remove(s.charAt(i++));
+            for (int i = left; i < right; ++i) {
+                if (s.charAt(i) == ch) {
+                    left = i + 1;
+                    break;
+                }
             }
+
+            max = Math.max(max, right - left + 1);
+
+            ++right;
         }
+
         return max;
     }
 
