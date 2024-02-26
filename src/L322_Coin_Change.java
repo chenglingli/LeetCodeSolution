@@ -5,7 +5,9 @@ public class L322_Coin_Change {
     /*
 
     f[i, j] 表示前i个硬币凑成j元钱所需的最少硬币数量
-    f[i, j] = min(f[i-1, j], f[i, j-coins[i]] + 1)
+
+    如果j >= coins[i]，那么f[i, j] = min(f[i-1, j], f[i, j-coins[i]] + 1)
+    如果j < coins[i]，那么f[i, j] = f[i-1, j]
 
     Tabulation
 
