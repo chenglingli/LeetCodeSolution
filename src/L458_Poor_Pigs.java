@@ -11,7 +11,6 @@ public class L458_Poor_Pigs {
     有res头猪，可以测试x^res瓶水
     所以 x^res >= buckets
     也就是 res >= log(x, buckets)
-    
      */
     public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
 
