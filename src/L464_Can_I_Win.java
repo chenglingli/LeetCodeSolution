@@ -85,17 +85,17 @@ public class L464_Can_I_Win {
         return canIWin(0, maxChoosableInteger, desiredTotal, new Boolean[1 << maxChoosableInteger]);
     }
 
-    private boolean canIWin(int usedNumbers, int maxChoosableInteger, int desiredTotal, Boolean[] memo) {
+    private boolean canIWin(int usedNumbers, int mXN, int total, Boolean[] memo) {
 
         if (memo[usedNumbers] != null) {
             return memo[usedNumbers];
         }
 
-        for (int i = 1; i <= maxChoosableInteger; i++) {
+        for (int i = 1; i <= mXN; i++) {
             int currentMask = 1 << (i - 1);
             if ((usedNumbers & currentMask) == 0) { // Number i not used
-                if (i >= desiredTotal
-                        || !canIWin(usedNumbers | currentMask, maxChoosableInteger, desiredTotal - i, memo)) {
+                if (i >= total
+                        || !canIWin(usedNumbers | currentMask, mXN, total - i, memo)) {
                     memo[usedNumbers] = true;
                     return true;
                 }
