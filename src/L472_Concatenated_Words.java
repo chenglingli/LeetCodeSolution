@@ -190,7 +190,7 @@ public class L472_Concatenated_Words {
         return ans;
     }
 
-    
+
 
     /*
     第四种办法，使用字典树，优化
