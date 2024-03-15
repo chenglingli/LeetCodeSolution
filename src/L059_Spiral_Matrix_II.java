@@ -2,6 +2,15 @@ import java.util.Arrays;
 
 public class L059_Spiral_Matrix_II {
 
+
+    /*
+
+    基于n，生成n*n的旋转矩阵
+    主要是模拟，用i和j控制坐标，到头时候就转向，需要注意的是，转向需要调整下一个过界的坐标
+    一共是n*n个，所以k控制循环次数
+    k从1开始，到n*n结束
+
+     */
     public int[][] generateMatrix(int n) {
 
         int i = 0, j = 0, k = 1;
