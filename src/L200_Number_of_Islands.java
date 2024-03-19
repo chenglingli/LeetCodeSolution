@@ -1,4 +1,7 @@
-//import javafx.util.Pair;
+
+import javafx.util.Pair;
+
+import java.util.*;
 
 public class L200_Number_of_Islands {
 
@@ -13,7 +16,7 @@ public class L200_Number_of_Islands {
             for (int j = 0; j < N; ++j) {
                 if (grid[i][j] == '1') {
                     ++res;
-                    //                    dfs(grid, i, j);
+                    dfs(grid, i, j);
                 }
             }
         }
@@ -22,39 +25,39 @@ public class L200_Number_of_Islands {
     }
 
     // gird[x][y] = 1, delete it and its around.
-    //    void dfs(char[][] grid, int x, int y) {
-    //        int M = grid.length, N = grid[0].length;
-    //
-    //        List<Integer> dirs1 = new ArrayList<>(Arrays.asList(1, 0, -1, 0));
-    //        List<Integer> dirs2 = new ArrayList<>(Arrays.asList(0, 1, 0, -1));
-    //
-    //        Queue<Pair<Integer, Integer>> q = new LinkedList<>();
-    //
-    //        q.offer(new Pair(x, y));
-    //
-    //        while (!q.isEmpty()) {
-    //            Pair head = q.poll();
-    //
-    //            int a = (int) head.getKey();
-    //            int b = (int) head.getValue();
-    //
-    //            if (grid[a][b] != '1')
-    //                continue;
-    //
-    //            grid[a][b] = '0';
-    //
-    //            for (int index = 0; index < 4; index++) {
-    //                int i = a + dirs1.get(index);
-    //                int j = b + dirs2.get(index);
-    //
-    //                if (i < 0 || i >= M || j < 0 || j >= N || grid[i][j] != '1') {
-    //                    continue;
-    //                }
-    //
-    //                q.offer(new Pair(i, j));
-    //            }
-    //        }
-    //    }
+    void dfs(char[][] grid, int x, int y) {
+        int M = grid.length, N = grid[0].length;
+
+        List<Integer> dirs1 = new ArrayList<>(Arrays.asList(1, 0, -1, 0));
+        List<Integer> dirs2 = new ArrayList<>(Arrays.asList(0, 1, 0, -1));
+
+        Queue<Pair<Integer, Integer>> q = new LinkedList<>();
+
+        q.offer(new Pair(x, y));
+
+        while (!q.isEmpty()) {
+            Pair head = q.poll();
+
+            int a = (int) head.getKey();
+            int b = (int) head.getValue();
+
+            if (grid[a][b] != '1')
+                continue;
+
+            grid[a][b] = '0';
+
+            for (int index = 0; index < 4; index++) {
+                int i = a + dirs1.get(index);
+                int j = b + dirs2.get(index);
+
+                if (i < 0 || i >= M || j < 0 || j >= N || grid[i][j] != '1') {
+                    continue;
+                }
+
+                q.offer(new Pair(i, j));
+            }
+        }
+    }
 
     public static void main(String[] args) {
 
