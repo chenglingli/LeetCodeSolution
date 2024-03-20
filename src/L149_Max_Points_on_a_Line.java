@@ -9,6 +9,8 @@ public class L149_Max_Points_on_a_Line {
     -10^4 <= xi, yi <= 10^4
     All the points are unique.
 
+    时间复杂度：O(n^3)
+
      */
     public int maxPoints(int[][] points) {
 
@@ -62,6 +64,8 @@ public class L149_Max_Points_on_a_Line {
 
     /*
     和方法1比，使用和hashmap
+
+    时间复杂度：O(n^2)
      */
     public int maxPoints2(int[][] points) {
         int len = points.length;
