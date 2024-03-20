@@ -4,6 +4,9 @@ import java.util.HashMap;
 
 public class LRUCache {
 
+    // 使用双向链表 + map实现
+    // HashMap<Integer, ListNode>
+
     // 双向链表
     private class ListNode {
         int key;
@@ -24,6 +27,7 @@ public class LRUCache {
     private ListNode head;
     private ListNode tail;
 
+    // 构造函数
     public LRUCache(int capacity) {
         this.capacity = capacity;
         this.map = new HashMap<>();
@@ -34,27 +38,36 @@ public class LRUCache {
     }
 
     public int get(int key) {
+
+        // 看map是否存在，不存在返回-1
         if (!map.containsKey(key)) {
             return -1;
         }
 
+        // 存在的话，将节点移动到链表头部
         ListNode current = map.get(key);
         removeNode(current);
         moveToHead(current);
+
+        // 返回节点的值
         return current.value;
     }
 
     public void put(int key, int value) {
+
+        // 如果key已经存在，更新value
         if (get(key) != -1) {
             map.get(key).value = value;
             return;
         }
 
+        // 如果超出容量，删除链表尾部节点
         if (map.size() == capacity) {
             map.remove(tail.prev.key);
             removeNode(tail.prev);
         }
 
+        // 添加新节点到链表头部
         ListNode newNode = new ListNode(key, value);
         moveToHead(newNode);
         map.put(key, newNode);
