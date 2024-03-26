@@ -60,6 +60,41 @@ public class L316_Remove_Duplicate_Letters {
         return result.toString();
     }
 
+    public String smallestSubsequence2(String s) {
+
+        int[] frequency = new int[26];
+        boolean[] seen = new boolean[26];
+        char[] ans = new char[26];
+        int size = 0;
+
+        for (char c : s.toCharArray()) {
+            frequency[c - 'a']++;
+        }
+
+        for (char c : s.toCharArray()) {
+            int idx = c - 'a';
+            if (seen[idx]) {
+                frequency[idx]--;
+                continue;
+            }
+
+            // 如果栈不为空，且栈顶元素大于当前元素，且栈顶元素在后面还会出现
+            while (size != 0
+                    && frequency[ans[size - 1] - 'a'] > 0
+                    && ans[size - 1] > c) {
+                size--;
+                seen[ans[size] - 'a'] = false;
+            }
+
+            frequency[idx]--;
+            ans[size] = c;
+            size++;
+            seen[c - 'a'] = true;
+        }
+
+        return new String(ans, 0, size);
+    }
+
     public static void main(String[] args) {
 
 
