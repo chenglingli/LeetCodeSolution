@@ -44,6 +44,9 @@ public class L023_Merge_k_Sorted_Lists {
     }
 
 
+    /*
+    两两合并，循环实现
+     */
     public ListNode mergeKLists2(ListNode[] lists) {
 
         if (lists.length == 0) {
@@ -60,6 +63,32 @@ public class L023_Merge_k_Sorted_Lists {
         }
 
         return lists[0];
+    }
+
+    /*
+    两两合并，和方法2一样，只是用递归实现
+     */
+    public ListNode mergeKLists3(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+        return mergeKListsHelper(lists, 0, lists.length - 1);
+    }
+
+    private ListNode mergeKListsHelper(ListNode[] lists, int start, int end) {
+
+        if (start == end) {
+            return lists[start];
+        }
+        if (start + 1 == end) {
+            return mergeTwoLists(lists[start], lists[end]);
+        }
+
+        int mid = start + (end - start) / 2;
+        ListNode left = mergeKListsHelper(lists, start, mid);
+        ListNode right = mergeKListsHelper(lists, mid + 1, end);
+
+        return mergeTwoLists(left, right);
     }
 
 
