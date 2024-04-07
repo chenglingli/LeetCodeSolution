@@ -1,6 +1,5 @@
 public class L213_House_Robber_II {
 
-
     public int rob(int[] nums) {
 
         int n = nums.length;
@@ -39,7 +38,6 @@ public class L213_House_Robber_II {
 
         return Integer.max(curMax2[n - 1], curMax1[n - 2]);
     }
-
 
     public static void main(String[] args) {
 
