@@ -26,28 +26,29 @@ public class L315_Count_of_Smaller_Numbers_After_Self {
         }
 
         int n = nums.length;
-
         int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+
         // 先求出nums的最小值
         for (int num : nums) {
             min = Math.min(min, num);
         }
 
-        // 向右平移成非负数
+        // 向右平移成正数（从1开始）
         for (int i = 0; i < nums.length; i++) {
-            nums[i] -= min;
+            nums[i] -= min - 1;
             max = Math.max(max, nums[i]);
         }
 
-        // 构造树状数组，第0位不用，所以长度为max + 1
-        BIT bit = new BIT(max + 1);
+        // 构造树状数组
+        BIT bit = new BIT(max);
         for (int i = n - 1; i >= 0; i--) {
-            // 求出比nums[i]小的数的个数
-            res.add(bit.sum(nums[i]));
-            // 将数组的第nums[i] + 1个数增加1
-            bit.add(nums[i] + 1, 1);
+            // 求出比nums[i]小的数的个数，即比nums[i]小的数的个数
+            res.add(bit.sum(nums[i] - 1));
+            // 将数组的第nums[i]个数增加1
+            bit.add(nums[i], 1);
         }
 
+        // 结果逆向
         Collections.reverse(res);
 
         return res;
@@ -178,7 +179,7 @@ public class L315_Count_of_Smaller_Numbers_After_Self {
         long sysDate1 = System.currentTimeMillis();
 
         int[] nums = {5, 2, 6, 1};
-        List<Integer> res = s.countSmaller2(nums);
+        List<Integer> res = s.countSmaller(nums);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();
