@@ -40,8 +40,14 @@ public class L229_Majority_Element_II {
     }
 
     /*
-    优化
     使用排序逻辑
+    该方法可以在线性时间内，按照某个数将数组分为两部分，其中左边是比这个数小的数，右边是比这个数大的数。
+
+    在这个题目中，我们要找到出现次数超过1/3的数，那么这样的数最多有两个，
+    利用partition找出应该出现在数组1/3以及2/3处的值，则出现超过1/3的数必然在这两个数中。
+    然后再验证这两个数是不是解。
+
+    这种解法期望的时间复杂度是O(nlogn)，但是在最坏情况下时间复杂度依然是O(N^2)。
      */
     public List<Integer> majorityElement2(int[] nums) {
         List<Integer> ans = new ArrayList<>();
