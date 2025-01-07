@@ -56,25 +56,6 @@ Hence, half the customers have immediate first orders.
 
 
 
-WITH FirstOrder AS (
-    select
-        customer_id,
-        min(order_date) as order_date,
-        customer_pref_delivery_date
-    from
-        Delivery
-    group by
-        customer_id
-)
-
-select
-    round(avg(order_date = customer_pref_delivery_date)*100, 2)
-    as immediate_percentage
-from
-    FirstOrder
-
-
-
 
 with first_order as
 (
