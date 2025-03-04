@@ -50,26 +50,13 @@ public class L329_Longest_Increasing_Path_in_a_Matrix {
         int m = matrix.length, n = matrix[0].length;
         int[][] memo = new int[m][n];
 
-        // 初始化memo数组，-1表示未访问过
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                memo[i][j] = -1;
-            }
-        }
-
         // 遍历矩阵，对每个节点进行dfs搜索，并记录最长路径的长度
+        int max = 1;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (memo[i][j] == -1)
-                    dfs(matrix, i, j, memo);
-            }
-        }
-
-        // 遍历memo数组，找到最大值即为最长路径的长度
-        int max = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                max = Math.max(max, memo[i][j]);
+                if (memo[i][j] == 0) {
+                    max = Math.max(max, dfs(matrix, i, j, memo));
+                }
             }
         }
 
@@ -81,7 +68,7 @@ public class L329_Longest_Increasing_Path_in_a_Matrix {
     private int dfs(int[][] matrix, int i, int j, int[][] memo) {
 
         // 如果memo[i][j]不为-1，则说明已经访问过该节点，直接返回其值
-        if (memo[i][j] != -1)
+        if (memo[i][j] > 0)
             return memo[i][j];
 
         // 初始化最大路径长度为1，表示当前节点本身
