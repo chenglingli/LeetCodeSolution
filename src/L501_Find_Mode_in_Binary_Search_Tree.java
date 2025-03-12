@@ -94,21 +94,29 @@ public class L501_Find_Mode_in_Binary_Search_Tree {
 
     public int[] findMode2(TreeNode root) {
 
+        // 中序遍历，找出出现次数最多的元素
         inOrderTraversal(root);
 
+        // 转化为数组
         int[] result = new int[modes.size()];
         for (int i = 0; i < modes.size(); i++) {
             result[i] = modes.get(i);
         }
+
+        // 返回结果
         return result;
     }
 
     private void inOrderTraversal(TreeNode node) {
+
+        // 递归终止条件
         if (node == null)
             return;
 
+        // 递归遍历左子树
         inOrderTraversal(node.left);
 
+        // 遍历到当前节点，更新最大出现次数和模式列表
         currentCount = (node.val == currentVal) ? currentCount + 1 : 1;
         if (currentCount == maxCount) {
             modes.add(node.val);
@@ -117,8 +125,10 @@ public class L501_Find_Mode_in_Binary_Search_Tree {
             modes.clear();
             modes.add(node.val);
         }
+        // 更新当前节点值，用于下一次比较
         currentVal = node.val;
 
+        // 递归遍历右子树
         inOrderTraversal(node.right);
     }
 
