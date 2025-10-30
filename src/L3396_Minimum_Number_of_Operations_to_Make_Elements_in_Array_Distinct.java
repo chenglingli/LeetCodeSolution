@@ -75,10 +75,10 @@ public class L3396_Minimum_Number_of_Operations_to_Make_Elements_in_Array_Distin
         long sysDate1 = System.currentTimeMillis();
 
         int[] nums = {1, 2, 3, 4, 2, 3, 3, 5, 7};
-        int[] nums = {1, 2, 4, 4, 5, 6, 7}; // 2, 1
-        int[] nums = {1, 2, 3, 5, 5, 6, 7}; // 3, 2
-        int[] nums = {1, 2, 3, 4, 7, 6, 7}; // 4, 2
-        int[] nums = {1, 2, 3, 4, 5, 7, 7}; // 5, 2
+//        int[] nums = {1, 2, 4, 4, 5, 6, 7}; // 2, 1
+//        int[] nums = {1, 2, 3, 5, 5, 6, 7}; // 3, 2
+//        int[] nums = {1, 2, 3, 4, 7, 6, 7}; // 4, 2
+//        int[] nums = {1, 2, 3, 4, 5, 7, 7}; // 5, 2
 
 
         int res = s.minimumOperations(nums);
