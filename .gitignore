@@ -53,3 +53,6 @@ logback.xml
 /*/*/config/FirstSecondTierCity.properties
 /*/*/config/elog.xml
 soa-backup/
+
+
+.specstory/
