@@ -59,6 +59,40 @@ public class L910_Smallest_Range_II {
     For sorted A, say A[i] is the largest i that goes up.
     Then A[0] + K, A[i] + K, A[i+1] - K, A[A.length - 1] - K are the only relevant values for calculating the answer: every other value is between one of these extremal values.
 
+    核心直觉：排序后的"分水岭"
+    假设数组已排序。对于任意两个数 A[i] < A[j]：
+    表格
+    选择	结果区间
+    A[i] 上升, A[j] 下降	(A[i]+K, A[j]-K)
+    A[i] 下降, A[j] 上升	(A[i]-K, A[j]+K)
+
+    关键观察：第一个区间永远是第二个区间的子集（或相等）。
+    因为：
+    A[i]-K ≤ A[i]+K （显然）
+    A[j]-K ≤ A[j]+K （显然）
+    且 A[i]+K ≤ A[j]+K，A[i]-K ≤ A[j]-K
+    所以 (A[i]+K, A[j]-K) 的两端点都落在 (A[i]-K, A[j]+K) 内部，前者范围更小。
+
+    这意味着什么？
+    对于任意一对 A[i] < A[j]，让小的上升、大的下降，永远不会让结果更差。
+    因此最优策略一定是：排序后找一个分割点，左边全部上升，右边全部下降。
+    为什么只需考虑4个极值？
+    设分割点在 i 和 i+1 之间（A[i] 是最后一个上升的）：
+
+
+    上升组:  A[0], A[1], ..., A[i]      →  都变成 +K
+    下降组:  A[i+1], ..., A[n-1]        →  都变成 -K
+
+    上升组的最大值 = A[i] + K（因为排序后A[i]是上升组最大）
+    上升组的最小值 = A[0] + K（因为A[0]是全局最小）
+    下降组的最大值 = A[n-1] - K（A[n-1]是全局最大）
+    下降组的最小值 = A[i+1] - K
+
+    整个数组的最大值只可能是 max(A[i]+K, A[n-1]-K)
+    整个数组的最小值只可能是 min(A[0]+K, A[i+1]-K)
+    
+    其他所有值都被夹在这四个极值之间，对范围计算无贡献。
+
      */
     public int smallestRangeII(int[] nums, int k) {
         Arrays.sort(nums);
