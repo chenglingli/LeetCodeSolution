@@ -90,7 +90,7 @@ public class L910_Smallest_Range_II {
 
     整个数组的最大值只可能是 max(A[i]+K, A[n-1]-K)
     整个数组的最小值只可能是 min(A[0]+K, A[i+1]-K)
-    
+
     其他所有值都被夹在这四个极值之间，对范围计算无贡献。
 
      */
