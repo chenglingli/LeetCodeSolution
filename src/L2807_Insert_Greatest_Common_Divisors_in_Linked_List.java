@@ -80,12 +80,11 @@ public class L2807_Insert_Greatest_Common_Divisors_in_Linked_List {
 
         return head;
     }
-}
 
-private int gcd(int a, int b) {
-    if (b == 0) return a;
-    return gcd(b, a % b);
-}
+    private int gcd(int a, int b) {
+        if (b == 0) return a;
+        return gcd(b, a % b);
+    }
 
 public static void main(String[] args) {
 
