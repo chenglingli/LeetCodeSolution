@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class L4010_Maximize_Pair_Strength_Using_GCD {
 
     /*
