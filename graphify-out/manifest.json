@@ -1,0 +1,5722 @@
+{
+  "src/L001_Two_Sum.java": {
+    "mtime": 1652175249.2231452,
+    "ast_hash": "e93ff19521aa2ae158981a90ba3e5eb3",
+    "semantic_hash": ""
+  },
+  "src/L002_Add_Two_Numbers.java": {
+    "mtime": 1657012473.7423213,
+    "ast_hash": "7cf7ae63d201737c87d87abf55b3a4ed",
+    "semantic_hash": ""
+  },
+  "src/L003_Longest_Substring_Without_Repeating_Characters.java": {
+    "mtime": 1708573538.056008,
+    "ast_hash": "3172d6c7cdcacd0fd64d9c9d5871ded9",
+    "semantic_hash": ""
+  },
+  "src/L004_Median_of_Two_Sorted_Arrays.java": {
+    "mtime": 1647855437.4257994,
+    "ast_hash": "1e7372efebb9fc8bd3820140c7ee880a",
+    "semantic_hash": ""
+  },
+  "src/L005_Longest_Palindromic_Substring.java": {
+    "mtime": 1707036642.3359318,
+    "ast_hash": "bdaca249a406c56ecf8e8b3829a234b2",
+    "semantic_hash": ""
+  },
+  "src/L006_ZigZag_Conversion.java": {
+    "mtime": 1621650489.0523634,
+    "ast_hash": "59688cf8a84cdf5b718fb48e3ea4cb19",
+    "semantic_hash": ""
+  },
+  "src/L007_Reverse_Integer.java": {
+    "mtime": 1719821234.1713748,
+    "ast_hash": "e0489b329e98e988352a45e945dbb41f",
+    "semantic_hash": ""
+  },
+  "src/L008_String_to_Integer_atoi.java": {
+    "mtime": 1649209823.6847763,
+    "ast_hash": "0810c9e3a9e7d068fdcd516791d566d0",
+    "semantic_hash": ""
+  },
+  "src/L009_Palindrome_Number.java": {
+    "mtime": 1652175249.1770315,
+    "ast_hash": "d20eb8ae178a86b41a6a2d1bcbaf282a",
+    "semantic_hash": ""
+  },
+  "src/L010_Regular_Expression_Matching.java": {
+    "mtime": 1710334528.774674,
+    "ast_hash": "62931c5ff705f83f27996039d968a80d",
+    "semantic_hash": ""
+  },
+  "src/L011_Container_With_Most_Water.java": {
+    "mtime": 1652175249.2154846,
+    "ast_hash": "a6282e6ea6f7fa86fa4a815827fd7372",
+    "semantic_hash": ""
+  },
+  "src/L012_Integer_to_Roman.java": {
+    "mtime": 1640252950.9696226,
+    "ast_hash": "fe1745c942761b48c8c55660fe1384a0",
+    "semantic_hash": ""
+  },
+  "src/L013_Roman_to_int.java": {
+    "mtime": 1640593361.5507045,
+    "ast_hash": "962d83571c742bb437dc6fde052edf72",
+    "semantic_hash": ""
+  },
+  "src/L014_Longest_Common_Prefix.java": {
+    "mtime": 1621650370.3008265,
+    "ast_hash": "f252035e9f4ba798b4327351645cfa54",
+    "semantic_hash": ""
+  },
+  "src/L015_3Sum.java": {
+    "mtime": 1621650489.2107818,
+    "ast_hash": "eaca8e81246d3b3063ffd4a6f502c929",
+    "semantic_hash": ""
+  },
+  "src/L016_3_Sum_Closest.java": {
+    "mtime": 1649237273.2572138,
+    "ast_hash": "3b7b99807121c2d5f0490d7fde9ad600",
+    "semantic_hash": ""
+  },
+  "src/L017_Letter_Combinations_of_a_Phone_Number.java": {
+    "mtime": 1640843980.5143216,
+    "ast_hash": "a50992ac6c8d9aaf157a85f54e9ceda3",
+    "semantic_hash": ""
+  },
+  "src/L018_4Sum.java": {
+    "mtime": 1647855367.8276374,
+    "ast_hash": "91050f5281fcdb4214cf2b7c38591a86",
+    "semantic_hash": ""
+  },
+  "src/L019_Remove_Nth_Node_From_End_of_List.java": {
+    "mtime": 1649210111.3423886,
+    "ast_hash": "9a79c2733085606d220126c1235a10c9",
+    "semantic_hash": ""
+  },
+  "src/L020_Valid_Parentheses.java": {
+    "mtime": 1647496846.0599146,
+    "ast_hash": "5f700080665d8e3aaa7fadae2778ec08",
+    "semantic_hash": ""
+  },
+  "src/L021_Merge_Two_Sorted_Lists.java": {
+    "mtime": 1647497464.1414032,
+    "ast_hash": "6135a91f33afc2f9f1fab37a85bd3e5e",
+    "semantic_hash": ""
+  },
+  "src/L022_Generate_Parentheses.java": {
+    "mtime": 1707036642.3259015,
+    "ast_hash": "63e6a3c221b01907c2bc5340e8f5b8af",
+    "semantic_hash": ""
+  },
+  "src/L023_Merge_k_Sorted_Lists.java": {
+    "mtime": 1712044052.889404,
+    "ast_hash": "811ab8d841dd88531ba023447c3ab4f4",
+    "semantic_hash": ""
+  },
+  "src/L024_Swap_Nodes_in_Pairs.java": {
+    "mtime": 1649210188.1410012,
+    "ast_hash": "e834fc2fbcb0849e4b2ed039b4294863",
+    "semantic_hash": ""
+  },
+  "src/L025_Reverse_Nodes_in_k_Group.java": {
+    "mtime": 1645689789.1761503,
+    "ast_hash": "caceaa56a09f488f64957325d7150f7f",
+    "semantic_hash": ""
+  },
+  "src/L026_Remove_Duplicates_from_Sorted_Array.java": {
+    "mtime": 1649209992.5432456,
+    "ast_hash": "4623d4b37d8860040f37b1ace48ded97",
+    "semantic_hash": ""
+  },
+  "src/L027_Remove_Element.java": {
+    "mtime": 1649210022.9692945,
+    "ast_hash": "ebddf8b4685dfb47cf254cb6ca137982",
+    "semantic_hash": ""
+  },
+  "src/L028_Implement_strStr.java": {
+    "mtime": 1649236762.102032,
+    "ast_hash": "53bd9d44c2d43facd92844fbfcb1c528",
+    "semantic_hash": ""
+  },
+  "src/L029_Divide_Two_Integers.java": {
+    "mtime": 1649330866.4992678,
+    "ast_hash": "b2e85a76a4a2fef1c04d2daadc68df56",
+    "semantic_hash": ""
+  },
+  "src/L030_Substring_with_Concatenation_of_All_Words.java": {
+    "mtime": 1657012473.7445617,
+    "ast_hash": "ceef3fee6914e7c429af6d3cee720076",
+    "semantic_hash": ""
+  },
+  "src/L031_Next_Permutation.java": {
+    "mtime": 1621650489.1391025,
+    "ast_hash": "4cdd4ff8215b5acebe51e2a4bef058e7",
+    "semantic_hash": ""
+  },
+  "src/L032_Longest_Valid_Parentheses.java": {
+    "mtime": 1706779419.6437812,
+    "ast_hash": "4420c3841bc5046b8b74f5bc2b377569",
+    "semantic_hash": ""
+  },
+  "src/L033_Search_in_Rotated_Sorted_Array.java": {
+    "mtime": 1652175249.2551196,
+    "ast_hash": "653e93f60378bf4ebeabacb2a4fb079b",
+    "semantic_hash": ""
+  },
+  "src/L034_Find_First_and_Last_Position.java": {
+    "mtime": 1652175249.2791576,
+    "ast_hash": "917218f101af7d3e36dba49e43d4a470",
+    "semantic_hash": ""
+  },
+  "src/L035_Search_Insert_Position.java": {
+    "mtime": 1657012473.749007,
+    "ast_hash": "b912a926ed87b1675e778cc655dcbf20",
+    "semantic_hash": ""
+  },
+  "src/L036_Valid_Sudoku.java": {
+    "mtime": 1657012473.7394388,
+    "ast_hash": "d976c2295e5a3141d672c1be5c85c085",
+    "semantic_hash": ""
+  },
+  "src/L038_Count_and_Say.java": {
+    "mtime": 1641976978.622422,
+    "ast_hash": "eeb56f1334cddc076ebe3ea09b707267",
+    "semantic_hash": ""
+  },
+  "src/L039_Combination_Sum.java": {
+    "mtime": 1665195034.0250864,
+    "ast_hash": "37803ebcd6f691f6f3d525cbff7709ce",
+    "semantic_hash": ""
+  },
+  "src/L040_Combination_Sum_II.java": {
+    "mtime": 1621650489.2558484,
+    "ast_hash": "53f068319f298f558f6b00834bcd8052",
+    "semantic_hash": ""
+  },
+  "src/L041_First_Missing_Positive.java": {
+    "mtime": 1657012473.735631,
+    "ast_hash": "ce29fc592dfa138e023d457abe2c0e74",
+    "semantic_hash": ""
+  },
+  "src/L042_Trapping_Rain_Water.java": {
+    "mtime": 1706780699.788316,
+    "ast_hash": "5f07b59c7974ae74f7405f84b1233552",
+    "semantic_hash": ""
+  },
+  "src/L043_Multiply_Strings.java": {
+    "mtime": 1621650488.9867456,
+    "ast_hash": "490529a571986da4527ef9fa319d2eca",
+    "semantic_hash": ""
+  },
+  "src/L044_Wildcard_Matching.java": {
+    "mtime": 1706781383.608796,
+    "ast_hash": "a09fa502c325e3a2c33e162923f57b16",
+    "semantic_hash": ""
+  },
+  "src/L045_Jump_Game_II.java": {
+    "mtime": 1652175249.2806752,
+    "ast_hash": "55a2c85cf78944f6695d252d02fb084e",
+    "semantic_hash": ""
+  },
+  "src/L046_Permutations.java": {
+    "mtime": 1623674601.6165311,
+    "ast_hash": "ed0101de590ad95e0059c41bc1a17936",
+    "semantic_hash": ""
+  },
+  "src/L047_Permutations_II.java": {
+    "mtime": 1699798376.0975127,
+    "ast_hash": "57c995c8764b61604191d9b24b761f43",
+    "semantic_hash": ""
+  },
+  "src/L048_Rotate_Image.java": {
+    "mtime": 1649210255.146605,
+    "ast_hash": "e02c4cc53ca82a032822a94764be3152",
+    "semantic_hash": ""
+  },
+  "src/L049_Group_Anagrams.java": {
+    "mtime": 1652175249.2600777,
+    "ast_hash": "f99076d9dc3752276e47f6730ad10a03",
+    "semantic_hash": ""
+  },
+  "src/L050_Pow_x_n.java": {
+    "mtime": 1652175249.2763648,
+    "ast_hash": "177a05f2e74ffd11f926d43ec2356edf",
+    "semantic_hash": ""
+  },
+  "src/L053_Maximum_Subarray.java": {
+    "mtime": 1623674601.6171012,
+    "ast_hash": "7c777be788efe09a8b56f39faf77c94c",
+    "semantic_hash": ""
+  },
+  "src/L054_Spiral_Matrix.java": {
+    "mtime": 1656042877.7275677,
+    "ast_hash": "486ecca96036d0682cf4d958af1cc945",
+    "semantic_hash": ""
+  },
+  "src/L055_Jump_Game.java": {
+    "mtime": 1652175249.2141583,
+    "ast_hash": "f0399b04e86b462a1e95cbec9cc2468b",
+    "semantic_hash": ""
+  },
+  "src/L056_Merge_Intervals.java": {
+    "mtime": 1648034226.6661909,
+    "ast_hash": "29e9c52f21ffc18ac7830f3df770bc86",
+    "semantic_hash": ""
+  },
+  "src/L057_Insert_Interval.java": {
+    "mtime": 1657012473.6995065,
+    "ast_hash": "e4cc9423e7697576114323a19e260a79",
+    "semantic_hash": ""
+  },
+  "src/L058_Length_of_Last_Word.java": {
+    "mtime": 1647855594.2314517,
+    "ast_hash": "5b6ab16d48997ed283d8661af91598ca",
+    "semantic_hash": ""
+  },
+  "src/L059_Spiral_Matrix_II.java": {
+    "mtime": 1710473306.4165344,
+    "ast_hash": "e56163cb9e61fcdd3c834178c33244e8",
+    "semantic_hash": ""
+  },
+  "src/L060_Permutation_Sequence.java": {
+    "mtime": 1621650370.3024013,
+    "ast_hash": "4ae551b4c0eb89402fa5c58985fae2a6",
+    "semantic_hash": ""
+  },
+  "src/L061_Rotate_List.java": {
+    "mtime": 1645689789.197064,
+    "ast_hash": "b0b872a7dd706df647bf634cfc3da35a",
+    "semantic_hash": ""
+  },
+  "src/L062_Unique_Paths.java": {
+    "mtime": 1623845364.0972428,
+    "ast_hash": "c9fd17e25ce4921993526e5b590855e7",
+    "semantic_hash": ""
+  },
+  "src/L063_Unique_Paths_II.java": {
+    "mtime": 1624524730.7142076,
+    "ast_hash": "350b1b9e44de3e3d77efcb30993e67f4",
+    "semantic_hash": ""
+  },
+  "src/L064_Minimum_Path_Sum.java": {
+    "mtime": 1624524730.714497,
+    "ast_hash": "116d5c4fa341845151122cf9a20d5bdd",
+    "semantic_hash": ""
+  },
+  "src/L065_Valid_Number.java": {
+    "mtime": 1657012473.716662,
+    "ast_hash": "3f2017311c30d2964c240a7217f4d6fd",
+    "semantic_hash": ""
+  },
+  "src/L066_Plus_One.java": {
+    "mtime": 1648780619.637083,
+    "ast_hash": "f8be674da89a801641a545ac7a4daea5",
+    "semantic_hash": ""
+  },
+  "src/L067_Add_Binary.java": {
+    "mtime": 1621650489.2693756,
+    "ast_hash": "21b5961153560b4b41cc4bb1b3941de4",
+    "semantic_hash": ""
+  },
+  "src/L068_Text_Justification.java": {
+    "mtime": 1706150932.6721532,
+    "ast_hash": "5446dbfc647a4ad00651322656fdf6ed",
+    "semantic_hash": ""
+  },
+  "src/L069_Sqrt_x.java": {
+    "mtime": 1621650489.025127,
+    "ast_hash": "9abaa2ba5c5fe754196497cd4ceed53b",
+    "semantic_hash": ""
+  },
+  "src/L070_Climbing_Stairs.java": {
+    "mtime": 1621650488.9975567,
+    "ast_hash": "b35c40b1b7239e8fac9aa135094069eb",
+    "semantic_hash": ""
+  },
+  "src/L071_Simplify_Path.java": {
+    "mtime": 1652175249.1652267,
+    "ast_hash": "f5911fa23fdf94566043efacc2eaf6d6",
+    "semantic_hash": ""
+  },
+  "src/L072_Edit_Distance.java": {
+    "mtime": 1706782078.8611388,
+    "ast_hash": "a7e36f86bdb2a785b9ac271ad4503433",
+    "semantic_hash": ""
+  },
+  "src/L073_Set_Matrix_Zeroes.java": {
+    "mtime": 1710472482.675527,
+    "ast_hash": "aaf10ced06fe3be2f32b674c9a2e24f4",
+    "semantic_hash": ""
+  },
+  "src/L074_Search_a_2D_Matrix.java": {
+    "mtime": 1708223038.1181006,
+    "ast_hash": "a95c6a1b565e660a2cf2dff170244f73",
+    "semantic_hash": ""
+  },
+  "src/L075_Sort_Colors.java": {
+    "mtime": 1657012473.73694,
+    "ast_hash": "8d71b2be727ec9b974dc929ef5f430c6",
+    "semantic_hash": ""
+  },
+  "src/L076_Minimum_Window_Substring.java": {
+    "mtime": 1710813143.5741804,
+    "ast_hash": "4664e659e9a9f45a50c79d1699ea1e1a",
+    "semantic_hash": ""
+  },
+  "src/L077_Combinations.java": {
+    "mtime": 1652175249.175051,
+    "ast_hash": "e43535d27a075cdaed65f169e458dde9",
+    "semantic_hash": ""
+  },
+  "src/L078_Subsets.java": {
+    "mtime": 1649236723.1791527,
+    "ast_hash": "bce90678428748b7947ea6ff693a4ecf",
+    "semantic_hash": ""
+  },
+  "src/L079_Word_Search.java": {
+    "mtime": 1657012473.745836,
+    "ast_hash": "6df210f0f267aed4d69b2ee4e58f5edb",
+    "semantic_hash": ""
+  },
+  "src/L080_Remove_Duplicates_from_Sorted_Array_II.java": {
+    "mtime": 1710469482.9507117,
+    "ast_hash": "da0be0a384b94539da7ad20a0e8e2e15",
+    "semantic_hash": ""
+  },
+  "src/L081_Search_in_Rotated_Sorted_Array_II.java": {
+    "mtime": 1652175249.20036,
+    "ast_hash": "2b741ae30a25a0e66bc1c6d506481aef",
+    "semantic_hash": ""
+  },
+  "src/L082_Remove_Duplicates_from_Sorted_List_II.java": {
+    "mtime": 1652175249.2501564,
+    "ast_hash": "0073f5c272eb62abd3d47155aa444fd5",
+    "semantic_hash": ""
+  },
+  "src/L083_Remove_Duplicates_from_Sorted_List.java": {
+    "mtime": 1645689789.155012,
+    "ast_hash": "eaf9e0a9e000849054041acbdd985107",
+    "semantic_hash": ""
+  },
+  "src/L084_Largest_Rectangle_in_Histogram.java": {
+    "mtime": 1707036427.1021554,
+    "ast_hash": "9e4ed6879dceda9723aabd566886d04c",
+    "semantic_hash": ""
+  },
+  "src/L085_Maximal_Rectangle.java": {
+    "mtime": 1707027958.841563,
+    "ast_hash": "46c7a27fddd44aa9f8418612e62f7ff8",
+    "semantic_hash": ""
+  },
+  "src/L086_Partition_List.java": {
+    "mtime": 1645689789.16081,
+    "ast_hash": "f84ec51644692a80a24286611fe75641",
+    "semantic_hash": ""
+  },
+  "src/L087_Scramble_String.java": {
+    "mtime": 1707036642.3928657,
+    "ast_hash": "e54d5ff0f68c73d854a93fa06a2d39e4",
+    "semantic_hash": ""
+  },
+  "src/L088_Merge_Sorted_Array.java": {
+    "mtime": 1649209723.3682752,
+    "ast_hash": "f3f6ca11ee555f462edb9c76c72abff1",
+    "semantic_hash": ""
+  },
+  "src/L089_Gray_Code.java": {
+    "mtime": 1621650489.0029876,
+    "ast_hash": "a24de57bff51515063dc9c6a93d0a51e",
+    "semantic_hash": ""
+  },
+  "src/L090_Subsets_II.java": {
+    "mtime": 1623674601.6189969,
+    "ast_hash": "df186c39e0eb658001708c2d266c36df",
+    "semantic_hash": ""
+  },
+  "src/L091_Decode_Ways.java": {
+    "mtime": 1707036642.2487547,
+    "ast_hash": "b8c149cce543829f2f863fdc492f4ca0",
+    "semantic_hash": ""
+  },
+  "src/L092_Reverse_Linked_List_II.java": {
+    "mtime": 1652175249.2836397,
+    "ast_hash": "bee2f16842e55ba45df1de6d0d2b90af",
+    "semantic_hash": ""
+  },
+  "src/L093_Restore_IP_Addresses.java": {
+    "mtime": 1657012473.7142584,
+    "ast_hash": "b7eb01ab7a40d8c530e898fd0704ceda",
+    "semantic_hash": ""
+  },
+  "src/L094_Binary_Tree_Inorder_Traversal.java": {
+    "mtime": 1695886370.1581256,
+    "ast_hash": "5f2bc8a0bfd09c4c8ff6d310affb8d7d",
+    "semantic_hash": ""
+  },
+  "src/L095_Unique_Binary_Search_Trees_II.java": {
+    "mtime": 1739343338.5062475,
+    "ast_hash": "663b6a9d4f49afe4d3cf671cd22328d1",
+    "semantic_hash": ""
+  },
+  "src/L096_Unique_Binary_Search_Trees.java": {
+    "mtime": 1707036642.399909,
+    "ast_hash": "0e2d8f51551de98510bc4693c095e724",
+    "semantic_hash": ""
+  },
+  "src/L097_Interleaving_String.java": {
+    "mtime": 1707105762.522123,
+    "ast_hash": "4998ef64e7ea73b15d19a55bd94543fb",
+    "semantic_hash": ""
+  },
+  "src/L098_Validate_Binary_Search_Tree.java": {
+    "mtime": 1774575395.6804087,
+    "ast_hash": "f3c366405843bade5b3b5ebc3bb51a5a",
+    "semantic_hash": ""
+  },
+  "src/L099_Recover_Binary_Search_Tree.java": {
+    "mtime": 1774835412.848745,
+    "ast_hash": "58fe720a0c7f5125e271962707a29b33",
+    "semantic_hash": ""
+  },
+  "src/L1002_Find_Common_Characters.java": {
+    "mtime": 1667792836.7410727,
+    "ast_hash": "459590b8f0ee05c7a0b4789b2dca5ef2",
+    "semantic_hash": ""
+  },
+  "src/L1005_Maximize_Sum_Of_Array_After_K_Negations.java": {
+    "mtime": 1667983432.8650181,
+    "ast_hash": "c972060af38baac2ad259e84eabe7064",
+    "semantic_hash": ""
+  },
+  "src/L1008_Construct_Binary_Search_Tree_from_Preorder_Traversal.java": {
+    "mtime": 1785202150.7594006,
+    "ast_hash": "2196d5be6b2c3c1f6e14b113eb33fdbb",
+    "semantic_hash": ""
+  },
+  "src/L1009_Complement_of_Base_10_Integer.java": {
+    "mtime": 1667874443.8621473,
+    "ast_hash": "6e73554f059c916bea6a2c5cab2a85b1",
+    "semantic_hash": ""
+  },
+  "src/L100_Same_Tree.java": {
+    "mtime": 1695886370.1789508,
+    "ast_hash": "1285e38f918090d07b81d4e48b74bb01",
+    "semantic_hash": ""
+  },
+  "src/L1013_Partition_Array_Into_Three_Parts_With_Equal_Sum.java": {
+    "mtime": 1669257541.17883,
+    "ast_hash": "b6eca6975ce4698058dbcf89303dfb3e",
+    "semantic_hash": ""
+  },
+  "src/L1018_Binary_Prefix_Divisible_By_5.java": {
+    "mtime": 1669623346.4489486,
+    "ast_hash": "404f345edae415f8edef5b32f79828e8",
+    "semantic_hash": ""
+  },
+  "src/L101_Symmetric_Tree.java": {
+    "mtime": 1695886370.160586,
+    "ast_hash": "11cc261d0e34e104e6abb6d1c880df62",
+    "semantic_hash": ""
+  },
+  "src/L1021_Remove_Outermost_Parentheses.java": {
+    "mtime": 1668568224.7177022,
+    "ast_hash": "0eae72eef0fd7dcd566a6f5387b0698b",
+    "semantic_hash": ""
+  },
+  "src/L1022_Sum_of_Root_To_Leaf_Binary_Numbers.java": {
+    "mtime": 1744702393.148745,
+    "ast_hash": "4b5d7833cf5329bfbb258c6349d969bc",
+    "semantic_hash": ""
+  },
+  "src/L1025_Divisor_Game.java": {
+    "mtime": 1669257541.2728386,
+    "ast_hash": "32b7203608db9aeb83e70cf6fb289f03",
+    "semantic_hash": ""
+  },
+  "src/L102_Binary_Tree_Level_Order_Traversal.java": {
+    "mtime": 1695886370.1750093,
+    "ast_hash": "ac96918a5c05a1583047cf2a7f2334f4",
+    "semantic_hash": ""
+  },
+  "src/L1030_Matrix_Cells_in_Distance_Order.java": {
+    "mtime": 1691031250.5108788,
+    "ast_hash": "a97dae96dc804f32a4b191dc5e00fb53",
+    "semantic_hash": ""
+  },
+  "src/L1035_Uncrossed_Lines.java": {
+    "mtime": 1740563753.760759,
+    "ast_hash": "1fed46e2cdd76bd5a655a88904369eba",
+    "semantic_hash": ""
+  },
+  "src/L1037_Valid_Boomerang.java": {
+    "mtime": 1668753867.2882817,
+    "ast_hash": "84a43f4d855c5b72cfee4f3c4d7e0928",
+    "semantic_hash": ""
+  },
+  "src/L1038_Binary_Search_Tree_to_Greater_Sum_Tree.java": {
+    "mtime": 1695886370.1641738,
+    "ast_hash": "bc99fa22d5c9b70958075472cc961d80",
+    "semantic_hash": ""
+  },
+  "src/L103_Binary_Tree_Zigzag_Level_Order_Traversal.java": {
+    "mtime": 1695886370.1526341,
+    "ast_hash": "e42fac42f4faed9fa7e32d6d4d31ce9a",
+    "semantic_hash": ""
+  },
+  "src/L1045_Customers_Who_Bought_All_Products.sql": {
+    "mtime": 1735300608.9204547,
+    "ast_hash": "2c7e13cd232a3366a44b088f6412c9a1",
+    "semantic_hash": ""
+  },
+  "src/L1046_Last_Stone_Weight.java": {
+    "mtime": 1669003501.9708273,
+    "ast_hash": "e4b7d447700b3081db2bdde3e2d4c602",
+    "semantic_hash": ""
+  },
+  "src/L1047_Remove_All_Adjacent_Duplicates_In_String.java": {
+    "mtime": 1669097792.7741694,
+    "ast_hash": "3b04d049ff576897947ff4e212d46bcb",
+    "semantic_hash": ""
+  },
+  "src/L104_Maximum_Depth_of_Binary_Tree.java": {
+    "mtime": 1695886370.1801093,
+    "ast_hash": "d73753cef20f588a06dc9f07aec2cc03",
+    "semantic_hash": ""
+  },
+  "src/L1050_Actors_and_Directors_Who_Cooperated_At_Least_Three_Times.sql": {
+    "mtime": 1729834835.2493882,
+    "ast_hash": "ec20ca6d729ae3ef35f876c03753d1b4",
+    "semantic_hash": ""
+  },
+  "src/L1051_Height_Checker.java": {
+    "mtime": 1669257456.570192,
+    "ast_hash": "fae7fb4c0f06f66393b8299eca9d9aae",
+    "semantic_hash": ""
+  },
+  "src/L105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java": {
+    "mtime": 1774921050.2550106,
+    "ast_hash": "bcbd72ca02989598198e0250591818fb",
+    "semantic_hash": ""
+  },
+  "src/L1068_Product_Sales_Analysis_I.sql": {
+    "mtime": 1729681780.4129996,
+    "ast_hash": "36f4de3ebd0ddb33af209822006d0d42",
+    "semantic_hash": ""
+  },
+  "src/L106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java": {
+    "mtime": 1775007832.9169483,
+    "ast_hash": "8926cbdae25377592691959fbbe2958e",
+    "semantic_hash": ""
+  },
+  "src/L1070_Product_Sales_Analysis_III.sql": {
+    "mtime": 1735525333.75941,
+    "ast_hash": "630390a6acbb0ab1aeb922fa9db58f0e",
+    "semantic_hash": ""
+  },
+  "src/L1071_Greatest_Common_Divisor_of_Strings.java": {
+    "mtime": 1669693737.2610803,
+    "ast_hash": "0f0277e6bb436f8bed345de3b5ebd1f9",
+    "semantic_hash": ""
+  },
+  "src/L1075_Project_Employees_I.sql": {
+    "mtime": 1730342719.084621,
+    "ast_hash": "e8e1040fe7430d34b7a490b11e07268e",
+    "semantic_hash": ""
+  },
+  "src/L1078_Occurrences_After_Bigram.java": {
+    "mtime": 1669797441.1706388,
+    "ast_hash": "efdf458b4608bd4a2d21a668f0452ccb",
+    "semantic_hash": ""
+  },
+  "src/L1079_Letter_Tile_Possibilities.java": {
+    "mtime": 1739790453.9549835,
+    "ast_hash": "0d1b059df47ba6f2619319d575da8da3",
+    "semantic_hash": ""
+  },
+  "src/L107_Binary_Tree_Level_Order_Traversal_II.java": {
+    "mtime": 1775092616.2127311,
+    "ast_hash": "302031a114470d1d4fe33f24e2884391",
+    "semantic_hash": ""
+  },
+  "src/L1081_Smallest_Subsequence_of_Distinct_Characters.java": {
+    "mtime": 1711420147.3650782,
+    "ast_hash": "1970764bc329f250de101025059c97c6",
+    "semantic_hash": ""
+  },
+  "src/L1084_Sales_Analysis_III.sql": {
+    "mtime": 1730346042.74543,
+    "ast_hash": "a39d876d65acd495e3ae6c71fe491710",
+    "semantic_hash": ""
+  },
+  "src/L1089_Duplicate_Zeros.java": {
+    "mtime": 1707036642.3397517,
+    "ast_hash": "3ff0e0efe4b9219a0325990cf45d826d",
+    "semantic_hash": ""
+  },
+  "src/L108_Convert_Sorted_Array_to_Binary_Search_Tree.java": {
+    "mtime": 1695886370.1839647,
+    "ast_hash": "63976e7d21ecd94c5c061424d22e3db5",
+    "semantic_hash": ""
+  },
+  "src/L1092_Shortest_Common_Supersequence.java": {
+    "mtime": 1740714334.9166844,
+    "ast_hash": "579178c6c9608ae854dfffe47530de98",
+    "semantic_hash": ""
+  },
+  "src/L109_Convert_Sorted_List_to_Binary_Search_Tree.java": {
+    "mtime": 1695886370.1659822,
+    "ast_hash": "47db7ca5bf6d1150a5f7bd0eb9b9e57c",
+    "semantic_hash": ""
+  },
+  "src/L1103_Distribute_Candies_to_People.java": {
+    "mtime": 1707036642.2804396,
+    "ast_hash": "5013bc43de9d7d22bb40e5255864564f",
+    "semantic_hash": ""
+  },
+  "src/L1108_Defanging_an_IP_Address.java": {
+    "mtime": 1669257448.1979034,
+    "ast_hash": "6a141e2365035fa4694b4603fc4aaf0c",
+    "semantic_hash": ""
+  },
+  "src/L110_Balanced_Binary_Tree.java": {
+    "mtime": 1695886370.1763136,
+    "ast_hash": "9ca64c7e3da318a4647506ef52f3abc5",
+    "semantic_hash": ""
+  },
+  "src/L1114_Print_in_Order.java": {
+    "mtime": 1744595490.3001654,
+    "ast_hash": "0d4e823579ec2242f5ecf47a68903da2",
+    "semantic_hash": ""
+  },
+  "src/L111_Minimum_Depth_of_Binary_Tree.java": {
+    "mtime": 1695886370.1724916,
+    "ast_hash": "d9be455ccdbfabbbf7e4828c643470ec",
+    "semantic_hash": ""
+  },
+  "src/L1122_Relative_Sort_Array.java": {
+    "mtime": 1670227062.706972,
+    "ast_hash": "04a19f6a65c6ba71fae234e328582dc0",
+    "semantic_hash": ""
+  },
+  "src/L1128_Number_of_Equivalent_Domino_Pairs.java": {
+    "mtime": 1690250372.300456,
+    "ast_hash": "225be13b985a0b69c9180bf6eb1d93f7",
+    "semantic_hash": ""
+  },
+  "src/L112_Path_Sum.java": {
+    "mtime": 1695886370.1775386,
+    "ast_hash": "2ccccb041aff2b9d281a53085701e79b",
+    "semantic_hash": ""
+  },
+  "src/L1137_N_th_Tribonacci_Number.java": {
+    "mtime": 1690854289.5942595,
+    "ast_hash": "3bb359160fa859c41de56a426ad01f8d",
+    "semantic_hash": ""
+  },
+  "src/L113_Path_Sum_II.java": {
+    "mtime": 1695886370.1713924,
+    "ast_hash": "9b4defd9f22266f27ca8c4817f88a221",
+    "semantic_hash": ""
+  },
+  "src/L1141_User_Activity_for_the_Past_30_Days_I.sql": {
+    "mtime": 1730773101.763288,
+    "ast_hash": "25e20b51ae8000504afbcd2aa041a992",
+    "semantic_hash": ""
+  },
+  "src/L1148_Article_Views_I.sql": {
+    "mtime": 1730857375.2800603,
+    "ast_hash": "930faa537691916f793cd6b7b20289ef",
+    "semantic_hash": ""
+  },
+  "src/L114_Flatten_Binary_Tree_to_Linked_List.java": {
+    "mtime": 1775186980.03405,
+    "ast_hash": "5e51173e7695501c365dcc8761c701c1",
+    "semantic_hash": ""
+  },
+  "src/L1154_Day_of_the_Year.java": {
+    "mtime": 1707036642.2713456,
+    "ast_hash": "a372450125aec7aa8ef21c0a86b40d78",
+    "semantic_hash": ""
+  },
+  "src/L1158_Market_Analysis_I.sql": {
+    "mtime": 1735646644.4796133,
+    "ast_hash": "00af7f6fa36ecc3d0713afdd09dc04a2",
+    "semantic_hash": ""
+  },
+  "src/L115_Distinct_Subsequences.java": {
+    "mtime": 1708222050.590828,
+    "ast_hash": "3f34464c049b4c57867ed21771d80041",
+    "semantic_hash": ""
+  },
+  "src/L1160_Find_Words_That_Can_Be_Formed_by_Characters.java": {
+    "mtime": 1690511477.8838553,
+    "ast_hash": "215178e56aba617fec485aef2b42f251",
+    "semantic_hash": ""
+  },
+  "src/L1164_Product_Price_at_a_Given_Date.sql": {
+    "mtime": 1736167350.5268807,
+    "ast_hash": "77ee40715e4017c8bc923fc5460a4994",
+    "semantic_hash": ""
+  },
+  "src/L116_Populating_Next_Right_Pointers.java": {
+    "mtime": 1652175249.2456548,
+    "ast_hash": "affd64f9d855f0a77085fbac34b0dda3",
+    "semantic_hash": ""
+  },
+  "src/L1174_Immediate_Food_Delivery_II.sql": {
+    "mtime": 1736217710.3304822,
+    "ast_hash": "aff594a27a47a99839be05a889b850cb",
+    "semantic_hash": ""
+  },
+  "src/L1175_Prime_Arrangements.java": {
+    "mtime": 1683602954.1540575,
+    "ast_hash": "d40ef693b71ea01ec4deafde63869db3",
+    "semantic_hash": ""
+  },
+  "src/L1179_Reformat_Department_Table.sql": {
+    "mtime": 1730683487.8368652,
+    "ast_hash": "f0baf850a4d97655ad8d07f034d5d640",
+    "semantic_hash": ""
+  },
+  "src/L117_Populating_Next_Right_Pointers_in_Each_Node_II.java": {
+    "mtime": 1783474061.5221395,
+    "ast_hash": "eeee49115d9ee4670c282cd73a18cc81",
+    "semantic_hash": ""
+  },
+  "src/L1184_Distance_Between_Bus_Stops.java": {
+    "mtime": 1683794852.9466577,
+    "ast_hash": "e5d6210502b0225af972b3d73708c546",
+    "semantic_hash": ""
+  },
+  "src/L1185_Day_of_the_Week.java": {
+    "mtime": 1683515630.5530818,
+    "ast_hash": "3f69f072a1ed70a2906981af43ce8a93",
+    "semantic_hash": ""
+  },
+  "src/L1189_Maximum_Number_of_Balloons.java": {
+    "mtime": 1707036642.3313034,
+    "ast_hash": "5576e2c7036022d74472ff61adf3725e",
+    "semantic_hash": ""
+  },
+  "src/L118_Pascal_Triangle.java": {
+    "mtime": 1624524730.7147598,
+    "ast_hash": "7ea906b0ee7b722b21f22bb1811dcdc1",
+    "semantic_hash": ""
+  },
+  "src/L1193_Monthly_Transactions_I.sql": {
+    "mtime": 1736304443.2618296,
+    "ast_hash": "85b245b4312c9dd2cffc1e1ce6853a66",
+    "semantic_hash": ""
+  },
+  "src/L119_Pascal_Triangle_II.java": {
+    "mtime": 1624524730.715038,
+    "ast_hash": "91afb3a77a919f0142819c4fb689eb7d",
+    "semantic_hash": ""
+  },
+  "src/L1200_Minimum_Absolute_Difference.java": {
+    "mtime": 1683686552.639577,
+    "ast_hash": "1c23b3f8b14382b3d062e72ebd9e663d",
+    "semantic_hash": ""
+  },
+  "src/L1204_Last_Person_to_Fit_in_the_Bus.sql": {
+    "mtime": 1736394652.7120795,
+    "ast_hash": "e2b725bc4726cd181b3cd6a2f362fabb",
+    "semantic_hash": ""
+  },
+  "src/L1207_Unique_Number_of_Occurrences.java": {
+    "mtime": 1707036642.212814,
+    "ast_hash": "eae2f0dc4ac66eb14ed12521df7a545d",
+    "semantic_hash": ""
+  },
+  "src/L120_Triangle.java": {
+    "mtime": 1624524730.7153194,
+    "ast_hash": "aaa70b18b8825350fa87130211e3684d",
+    "semantic_hash": ""
+  },
+  "src/L1211_Queries_Quality_and_Percentage.sql": {
+    "mtime": 1731296553.4918962,
+    "ast_hash": "b0fff353954a91d56f6199a18ee09870",
+    "semantic_hash": ""
+  },
+  "src/L1217_Minimum_Cost_to_Move_Chips_to_The_Same_Position.java": {
+    "mtime": 1744767670.4608803,
+    "ast_hash": "491d2e43b53e38ae811a59badbd60bc5",
+    "semantic_hash": ""
+  },
+  "src/L121_Best_Time_to_Buy_and_Sell_Stock.java": {
+    "mtime": 1652175249.149699,
+    "ast_hash": "4a2e1909ca5ddae2796a1988101ffaae",
+    "semantic_hash": ""
+  },
+  "src/L1221_Split_a_String_in_Balanced_Strings.java": {
+    "mtime": 1690422558.8986504,
+    "ast_hash": "9a43a3d3b023fbb5b80f5642e593fd60",
+    "semantic_hash": ""
+  },
+  "src/L122_Best_Time_to_Buy_and_Sell_Stock_II.java": {
+    "mtime": 1623674601.621477,
+    "ast_hash": "1777fd4c14a6a0c044f91aa2d331aa14",
+    "semantic_hash": ""
+  },
+  "src/L1232_Check_If_It_Is_a_Straight_Line.java": {
+    "mtime": 1707036642.374824,
+    "ast_hash": "f8b11703e5f7610267156e1dd8aea541",
+    "semantic_hash": ""
+  },
+  "src/L123_Best_Time_to_Buy_and_Sell_Stock_III.java": {
+    "mtime": 1708567825.57477,
+    "ast_hash": "22f01667f8e42e81a8039f687b28fdda",
+    "semantic_hash": ""
+  },
+  "src/L124_Binary_Tree_Maximum_Path_Sum.java": {
+    "mtime": 1740393711.2228315,
+    "ast_hash": "93013dd3a7fe8243bfc66bdf629e1313",
+    "semantic_hash": ""
+  },
+  "src/L1251_Average_Selling_Price.sql": {
+    "mtime": 1730944397.7459273,
+    "ast_hash": "0bfe4b97a49ebf94f76e75586cb908a5",
+    "semantic_hash": ""
+  },
+  "src/L1252_Cells_with_Odd_Values_in_a_Matrix.java": {
+    "mtime": 1745293290.948347,
+    "ast_hash": "1828730e00d73dea13090f032af4c677",
+    "semantic_hash": ""
+  },
+  "src/L125_Valid_Palindrome.java": {
+    "mtime": 1649210496.45795,
+    "ast_hash": "995de6765fb1557edc16f01deb09848a",
+    "semantic_hash": ""
+  },
+  "src/L1260_Shift_2D_Grid.java": {
+    "mtime": 1745376650.2584481,
+    "ast_hash": "0654bd480ad4c00ae97b35255ab6a3e9",
+    "semantic_hash": ""
+  },
+  "src/L1261_Find_Elements_in_a_Contaminated_Binary_Tree.java": {
+    "mtime": 1785397594.8936627,
+    "ast_hash": "3e38c837e166a1cd2ee6420551262b75",
+    "semantic_hash": ""
+  },
+  "src/L1266_Minimum_Time_Visiting_All_Points.java": {
+    "mtime": 1745462783.435338,
+    "ast_hash": "eae1594ceb5e0e88b0623c4a3d78a47d",
+    "semantic_hash": ""
+  },
+  "src/L126_Word_Ladder_II.java": {
+    "mtime": 1657012473.7381294,
+    "ast_hash": "0e87ab8b55478498ae6d1d069fcc3578",
+    "semantic_hash": ""
+  },
+  "src/L1275_Find_Winner_on_a_Tic_Tac_Toe_Game.java": {
+    "mtime": 1745553525.5366976,
+    "ast_hash": "56afb4d8d1c3b3f1a3035957d0890bb6",
+    "semantic_hash": ""
+  },
+  "src/L127_Word_Ladder.java": {
+    "mtime": 1621650489.0457594,
+    "ast_hash": "301b6835656ae771596999f9a8dcb8fc",
+    "semantic_hash": ""
+  },
+  "src/L1280_Students_and_Examinations.sql": {
+    "mtime": 1731378056.1297534,
+    "ast_hash": "1c5500bd1e977c2632ebf51539239573",
+    "semantic_hash": ""
+  },
+  "src/L1281_Subtract_the_Product_and_Sum.java": {
+    "mtime": 1707036642.35622,
+    "ast_hash": "4ec734f0923d6518d0d800fc4ea4c3af",
+    "semantic_hash": ""
+  },
+  "src/L1282_Group_the_People_Given_the_Group_Size_They_Belong_To.java": {
+    "mtime": 1780623096.343673,
+    "ast_hash": "76a64f8e9637a03f83ea131cd584f3d3",
+    "semantic_hash": ""
+  },
+  "src/L1287_Element_Appearing_More_Than_In_Sorted_Array.java": {
+    "mtime": 1670898300.9892266,
+    "ast_hash": "6d57addc2318307d76a78f08d88244f1",
+    "semantic_hash": ""
+  },
+  "src/L128_Longest_Consecutive_Sequence.java": {
+    "mtime": 1705984693.930482,
+    "ast_hash": "388121fb9daaae7620821c9d8ff0f6ce",
+    "semantic_hash": ""
+  },
+  "src/L1290_Convert_Binary_Number_in_a_Linked.java": {
+    "mtime": 1670467703.2595582,
+    "ast_hash": "2dbef6ba4bd54964c100b0cd1b6cdd5d",
+    "semantic_hash": ""
+  },
+  "src/L1295_Find_Numbers_with_Even_Number_of_Digits.java": {
+    "mtime": 1670556556.8909488,
+    "ast_hash": "cb2e5f5f6abf3f5a18ddeacb3e680468",
+    "semantic_hash": ""
+  },
+  "src/L1299_Replace_Elements_with_Greatest_Element_on_Right_Side.java": {
+    "mtime": 1707036642.3431332,
+    "ast_hash": "50b351a9083973e1c4416709d4c71ca0",
+    "semantic_hash": ""
+  },
+  "src/L129_Sum_Root_to_Leaf_Numbers.java": {
+    "mtime": 1711075791.3199854,
+    "ast_hash": "333cdef4a84265f7a61a5ba420dada7a",
+    "semantic_hash": ""
+  },
+  "src/L1302_Deepest_Leaves_Sum.java": {
+    "mtime": 1782282509.2540703,
+    "ast_hash": "4de053bddcac65bcd77b5a4a28fb0786",
+    "semantic_hash": ""
+  },
+  "src/L1304_Find_N_Unique_Integers_Sum_up_to_Zero.java": {
+    "mtime": 1707036642.2314548,
+    "ast_hash": "0a38f1cbd142be075ffa0e4d453bbb4d",
+    "semantic_hash": ""
+  },
+  "src/L1309_Decrypt_String_from_Alphabet_to_Integer_Mapping.java": {
+    "mtime": 1707036642.3241732,
+    "ast_hash": "e9dceaf95a82706d4b186a1f3d47b147",
+    "semantic_hash": ""
+  },
+  "src/L130_Surrounded_Regions.java": {
+    "mtime": 1621650370.3065538,
+    "ast_hash": "07f36a27dc157021fbe943c989c94f90",
+    "semantic_hash": ""
+  },
+  "src/L1313_Decompress_Run_Length_Encoded_List.java": {
+    "mtime": 1673405342.3297079,
+    "ast_hash": "f7fcc3385026d1a1a140eefe18a62a03",
+    "semantic_hash": ""
+  },
+  "src/L1315_Sum_of_Nodes_with_Even_Valued_Grandparent.java": {
+    "mtime": 1783042476.672498,
+    "ast_hash": "6d962a51ad8edf43545dfdb5e1bb8d1c",
+    "semantic_hash": ""
+  },
+  "src/L1317_Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers.java": {
+    "mtime": 1707036642.2193444,
+    "ast_hash": "758935ba0eba064db63987a1fa17450d",
+    "semantic_hash": ""
+  },
+  "src/L131_Palindrome_Partitioning.java": {
+    "mtime": 1707036642.3450687,
+    "ast_hash": "fcb0cfe634f9f601c21d73a5fa1bc5fc",
+    "semantic_hash": ""
+  },
+  "src/L1321_Restaurant_Growth.sql": {
+    "mtime": 1736734464.8802896,
+    "ast_hash": "228384075c72a8d56659c642c47c1c82",
+    "semantic_hash": ""
+  },
+  "src/L1323_Maximum_69_Number.java": {
+    "mtime": 1671415790.3796356,
+    "ast_hash": "0f64a1ab5f9a0ef784168b64ea834b01",
+    "semantic_hash": ""
+  },
+  "src/L1327_List_the_Products_Ordered_in_a_Period.sql": {
+    "mtime": 1731068671.5870278,
+    "ast_hash": "fbb48beacbc0549969db091aeff12ee5",
+    "semantic_hash": ""
+  },
+  "src/L132_Palindrome_Partitioning_II.java": {
+    "mtime": 1652175249.2632914,
+    "ast_hash": "709a8ece978e294c009933b3eb6fcf0e",
+    "semantic_hash": ""
+  },
+  "src/L1331_Rank_Transform_of_an_Array.java": {
+    "mtime": 1671588968.732141,
+    "ast_hash": "e9c30f571df38e46b468ba572a095045",
+    "semantic_hash": ""
+  },
+  "src/L1332_Remove_Palindromic_Subsequences.java": {
+    "mtime": 1671676595.6295073,
+    "ast_hash": "ded92c822279323af5d8bd81ac2358d4",
+    "semantic_hash": ""
+  },
+  "src/L1337_The_K_Weakest_Rows_in_a_Matrix.java": {
+    "mtime": 1707036642.3076189,
+    "ast_hash": "4aa1dd5f6bb1a795da753096bd9bc5ec",
+    "semantic_hash": ""
+  },
+  "src/L133_Clone_Graph.java": {
+    "mtime": 1652175249.229231,
+    "ast_hash": "839932c57145be405472204f95c945dd",
+    "semantic_hash": ""
+  },
+  "src/L1341_Movie_Rating.sql": {
+    "mtime": 1736821519.5923872,
+    "ast_hash": "2072838e44af2b434037aa712fc52699",
+    "semantic_hash": ""
+  },
+  "src/L1342_Number_of_Steps_to_Reduce_a_Number_to_Zero.java": {
+    "mtime": 1707036642.3295834,
+    "ast_hash": "8e1c50161edb377e9bf23081bd9b4af6",
+    "semantic_hash": ""
+  },
+  "src/L1346_Check_If_N_and_Its_Double_Exist.java": {
+    "mtime": 1672107485.9391696,
+    "ast_hash": "9e26d1a04ee12041b731e3080832115a",
+    "semantic_hash": ""
+  },
+  "src/L134_Gas_Station.java": {
+    "mtime": 1708223385.586327,
+    "ast_hash": "2854ac2ddf767177b757ae0498afa5f9",
+    "semantic_hash": ""
+  },
+  "src/L1351_Count_Negative_Numbers_in_a_Sorted_Matrix.java": {
+    "mtime": 1669257541.2415495,
+    "ast_hash": "472908f0fee905f6e345f8b4b8adb184",
+    "semantic_hash": ""
+  },
+  "src/L1352_Product_of_the_Last_K_Numbers.java": {
+    "mtime": 1739532549.192554,
+    "ast_hash": "890ff2df050633e394cf91606540a5e2",
+    "semantic_hash": ""
+  },
+  "src/L1356_Sort_Integers_by_The_Number_of_1_Bits.java": {
+    "mtime": 1672195295.0607123,
+    "ast_hash": "328d3a2ee8ef2d602a698eee6a8d9359",
+    "semantic_hash": ""
+  },
+  "src/L135_Candy.java": {
+    "mtime": 1706064041.5001166,
+    "ast_hash": "e05534ea32e27423a1f493b1400adb57",
+    "semantic_hash": ""
+  },
+  "src/L1360_Number_of_Days_Between_Two_Dates.java": {
+    "mtime": 1668166338.8474038,
+    "ast_hash": "1064d0e8edf7738c63acaf3fdac108f9",
+    "semantic_hash": ""
+  },
+  "src/L1365_How_Many_Numbers_Are_Smaller_Than_the_Current_Number.java": {
+    "mtime": 1673505978.4803536,
+    "ast_hash": "bd662a90b1c00e1b5ac086e8734b2b4c",
+    "semantic_hash": ""
+  },
+  "src/L136_Single_Number.java": {
+    "mtime": 1628057917.409449,
+    "ast_hash": "34ae84b08b210ac1311799df10de11b1",
+    "semantic_hash": ""
+  },
+  "src/L136_Single_Number_II.java": {
+    "mtime": 1628058646.5500102,
+    "ast_hash": "f9da8ce537f5ff5ae1472e46191e4c9c",
+    "semantic_hash": ""
+  },
+  "src/L1370_Increasing_Decreasing_String.java": {
+    "mtime": 1673579764.8563251,
+    "ast_hash": "2763013b0768bf571a9e8f2e1b05b1de",
+    "semantic_hash": ""
+  },
+  "src/L1374_Generate_a_String_With_Characters_That_Have_Odd_Counts.java": {
+    "mtime": 1673836001.1551256,
+    "ast_hash": "a52a42ad0b8e1c6205366c5481a2cfd6",
+    "semantic_hash": ""
+  },
+  "src/L1378_Replace_Employee_ID_With_The_Unique_Identifier.sql": {
+    "mtime": 1731635568.0017462,
+    "ast_hash": "1ef3cb55a26353ad146ba861a531476c",
+    "semantic_hash": ""
+  },
+  "src/L1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree.java": {
+    "mtime": 1747375046.5564978,
+    "ast_hash": "e983365d705a207279f9bdf8c93cc15c",
+    "semantic_hash": ""
+  },
+  "src/L1380_Lucky_Numbers_in_a_Matrix.java": {
+    "mtime": 1673925223.5656643,
+    "ast_hash": "bdd51fc1ca202f9628369e8632712da4",
+    "semantic_hash": ""
+  },
+  "src/L1382_Balance_a_Binary_Search_Tree.java": {
+    "mtime": 1782785336.5919228,
+    "ast_hash": "a9338c80db4afbf1d0115142357ac5e4",
+    "semantic_hash": ""
+  },
+  "src/L1385_Find_the_Distance_Value_Between_Two_Arrays.java": {
+    "mtime": 1674011844.9491026,
+    "ast_hash": "40af59a2cac867efff7903f2a4ca98fe",
+    "semantic_hash": ""
+  },
+  "src/L1389_Create_Target_Array_in_the_Given_Order.java": {
+    "mtime": 1707036642.3843083,
+    "ast_hash": "31b75d068236d538eee4474bac42043b",
+    "semantic_hash": ""
+  },
+  "src/L138_Copy_List_with_Random_Pointer.java": {
+    "mtime": 1657012473.69678,
+    "ast_hash": "1bd1b9b960a0d4c7cf07b76fe4cf0fc5",
+    "semantic_hash": ""
+  },
+  "src/L1393_Capital_Gain_Loss.sql": {
+    "mtime": 1736913156.2139645,
+    "ast_hash": "3e652e0b096c9fa05c3490d1f8ccb09d",
+    "semantic_hash": ""
+  },
+  "src/L1394_Find_Lucky_Integer_in_an_Array.java": {
+    "mtime": 1674097229.5868585,
+    "ast_hash": "3813191cb2a68d61600e7fbee4dc87b1",
+    "semantic_hash": ""
+  },
+  "src/L1399_Count_Largest_Group.java": {
+    "mtime": 1707036642.2404656,
+    "ast_hash": "38997f0438d57a8ad416cc7eb3378c14",
+    "semantic_hash": ""
+  },
+  "src/L139_Word_Break.java": {
+    "mtime": 1659011346.4069176,
+    "ast_hash": "1f002e58e5c4ccc4cbbe0b399e2366fb",
+    "semantic_hash": ""
+  },
+  "src/L1403_Minimum_Subsequence_in_Non_Increasing_Order.java": {
+    "mtime": 1677552480.3401785,
+    "ast_hash": "736fa152d25ba17c9744e92a7e1d1094",
+    "semantic_hash": ""
+  },
+  "src/L1407_Top_Travellers.sql": {
+    "mtime": 1731896935.5926585,
+    "ast_hash": "fed6a62a64b2e32226e04f4e6da00bd8",
+    "semantic_hash": ""
+  },
+  "src/L1408_String_Matching_in_an_Array.java": {
+    "mtime": 1707036642.4014978,
+    "ast_hash": "4a02c0ba6860b1221c89ad5e8215cc72",
+    "semantic_hash": ""
+  },
+  "src/L1409_Queries_on_a_Permutation_With_Key.java": {
+    "mtime": 1783646501.2079043,
+    "ast_hash": "314bf721c668d9dc466584d2d7f868b1",
+    "semantic_hash": ""
+  },
+  "src/L140_Word_Break_II.java": {
+    "mtime": 1708309045.1867154,
+    "ast_hash": "631ec6a44127ab8e755d4b05f7461870",
+    "semantic_hash": ""
+  },
+  "src/L1413_Minimum_Value_to_Get_Positive_Step_by_Step_Sum.java": {
+    "mtime": 1707036642.2623584,
+    "ast_hash": "211875491ffb18ed57314c2d4b4fc26e",
+    "semantic_hash": ""
+  },
+  "src/L1415_The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n.java": {
+    "mtime": 1739957291.474997,
+    "ast_hash": "e1a476476cac62aaed53c6a30d29d21e",
+    "semantic_hash": ""
+  },
+  "src/L1417_Reformat_The_String.java": {
+    "mtime": 1677124141.5853605,
+    "ast_hash": "76ff641364bd1a000d40bb39fd24060e",
+    "semantic_hash": ""
+  },
+  "src/L141_Linked_List_Cycle.java": {
+    "mtime": 1647855203.7933953,
+    "ast_hash": "692fd0c1f191ef922bce4267964fe5ed",
+    "semantic_hash": ""
+  },
+  "src/L1422_Maximum_Score_After_Splitting_a_String.java": {
+    "mtime": 1707036642.2602503,
+    "ast_hash": "8ad790091aaae7cd7036e76dc34363b5",
+    "semantic_hash": ""
+  },
+  "src/L142_Linked_List_Cycle_II.java": {
+    "mtime": 1657012473.7115052,
+    "ast_hash": "f13bb1dcdb6a47595602a6d1f160b063",
+    "semantic_hash": ""
+  },
+  "src/L1431_Kids_With_the_Greatest_Number_of_Candies.java": {
+    "mtime": 1707036642.2545922,
+    "ast_hash": "838bf5d78259ef13e007610c69ebd303",
+    "semantic_hash": ""
+  },
+  "src/L1436_Destination_City.java": {
+    "mtime": 1678330563.8681924,
+    "ast_hash": "f5e21517d4c73b01fa57bb0bb9145f9f",
+    "semantic_hash": ""
+  },
+  "src/L1437_Check_If_All_Are_at_Least_Length_K_Places_Away.java": {
+    "mtime": 1707036642.3697338,
+    "ast_hash": "96df86fb9521b83df2b4aa31c857b64a",
+    "semantic_hash": ""
+  },
+  "src/L143_Reorder_List.java": {
+    "mtime": 1645689789.1786606,
+    "ast_hash": "f8794ffc3b0cf4d951b824d609ef7609",
+    "semantic_hash": ""
+  },
+  "src/L1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR.java": {
+    "mtime": 1784167635.47262,
+    "ast_hash": "a8bd01b3b818b61ea329a1fefc1e8879",
+    "semantic_hash": ""
+  },
+  "src/L1446_Consecutive_Characters.java": {
+    "mtime": 1707036642.2172186,
+    "ast_hash": "b9e52f99225b06a46a494456b8f867a0",
+    "semantic_hash": ""
+  },
+  "src/L144_Binary_Tree_Preorder_Traversal.java": {
+    "mtime": 1695886370.15928,
+    "ast_hash": "285e3c1abd822d7db281ca5214237924",
+    "semantic_hash": ""
+  },
+  "src/L1450_Number_of_Students_Doing_Homework_at_a_Give_Time.java": {
+    "mtime": 1678417075.4034772,
+    "ast_hash": "f39774cba4270095d43ffce069eafb9a",
+    "semantic_hash": ""
+  },
+  "src/L1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence.java": {
+    "mtime": 1707036677.7642112,
+    "ast_hash": "b27aa72f21148dbdee72b79b9033156b",
+    "semantic_hash": ""
+  },
+  "src/L145_Binary_Tree_Postorder_Traversal.java": {
+    "mtime": 1695886370.1686025,
+    "ast_hash": "f11b291ae79ee45bd85c64fd75d30e9e",
+    "semantic_hash": ""
+  },
+  "src/L1460_Make_Two_Arrays_Equal_by_Reversing_Subarrays.java": {
+    "mtime": 1678777970.1818078,
+    "ast_hash": "22f68e3aeb1cf67edae0904397eadcd6",
+    "semantic_hash": ""
+  },
+  "src/L1464_Maximum_Product_of_Two_Elements_in_an_Array.java": {
+    "mtime": 1678845919.7452397,
+    "ast_hash": "b697962e0f77a3fac594f531ffb5addb",
+    "semantic_hash": ""
+  },
+  "src/L146_LRU_Cache.java": {
+    "mtime": 1645689697.8786361,
+    "ast_hash": "706601b0febda3d9a28a4a8ee869ec47",
+    "semantic_hash": ""
+  },
+  "src/L1470_Shuffle_the_Array.java": {
+    "mtime": 1678933261.1654928,
+    "ast_hash": "b10c077df9c14b5f73310089046ff9a8",
+    "semantic_hash": ""
+  },
+  "src/L1475_Final_Prices_With_a_Special_Discount_in_a_Shop.java": {
+    "mtime": 1675925701.765791,
+    "ast_hash": "f7c49cf87a1969eb761840fce0e0c6b9",
+    "semantic_hash": ""
+  },
+  "src/L1476_Subrectangle_Queries.java": {
+    "mtime": 1782350589.6059468,
+    "ast_hash": "c9966a7c72a58efdfa1ad2d430a7a111",
+    "semantic_hash": ""
+  },
+  "src/L147_Insertion_Sort_List.java": {
+    "mtime": 1645689789.1809304,
+    "ast_hash": "997c8d26d53b0253241ed83d4bc5ddb9",
+    "semantic_hash": ""
+  },
+  "src/L1480_Running_Sum_of_1d_Array.java": {
+    "mtime": 1675925701.762371,
+    "ast_hash": "f24d268597de5ef310cb06b2763be188",
+    "semantic_hash": ""
+  },
+  "src/L1484_Group_Sold_Products_By_The_Date.sql": {
+    "mtime": 1731575101.6123447,
+    "ast_hash": "aa07406247f80a0405319c054127d9f0",
+    "semantic_hash": ""
+  },
+  "src/L1486_XOR_Operation_in_an_Array.java": {
+    "mtime": 1675826054.0914454,
+    "ast_hash": "e2d900236689393348281ae53474e18a",
+    "semantic_hash": ""
+  },
+  "src/L148_Sort_List.java": {
+    "mtime": 1649210215.2622511,
+    "ast_hash": "f8b518eb7bd99f09069950ab069f56f1",
+    "semantic_hash": ""
+  },
+  "src/L1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary.java": {
+    "mtime": 1707036642.373242,
+    "ast_hash": "894236d17ab9d5fb33c157e8ba0201fb",
+    "semantic_hash": ""
+  },
+  "src/L1496_Path_Crossing.java": {
+    "mtime": 1675405007.130371,
+    "ast_hash": "2ab426136c9ccce1f9c272dff926ff62",
+    "semantic_hash": ""
+  },
+  "src/L149_Max_Points_on_a_Line.java": {
+    "mtime": 1710913007.4678717,
+    "ast_hash": "e212ec0ee42261dde53361911c2082ee",
+    "semantic_hash": ""
+  },
+  "src/L1502_Can_Make_Arithmetic_Progression_From_Sequence.java": {
+    "mtime": 1675654059.3683035,
+    "ast_hash": "2c53df848c4f2f8f791007efe3c16a31",
+    "semantic_hash": ""
+  },
+  "src/L1507_Reformat_Date.java": {
+    "mtime": 1707036642.237693,
+    "ast_hash": "eeea0e87cdf39a0c9deb323ce6bd33c8",
+    "semantic_hash": ""
+  },
+  "src/L150_Evaluate_Reverse_Polish_Notation.java": {
+    "mtime": 1652175249.210866,
+    "ast_hash": "275c39ec227a62bfe1548687f77bcbaa",
+    "semantic_hash": ""
+  },
+  "src/L1512_Number_of_Good_Pairs.java": {
+    "mtime": 1707036642.2216694,
+    "ast_hash": "d5bdc160b7cead005f369f38b3094be3",
+    "semantic_hash": ""
+  },
+  "src/L1517_Find_Users_With_Valid_E_Mails.sql": {
+    "mtime": 1731463449.9770174,
+    "ast_hash": "ea9008a3ac49071ac3f6128dd67d5832",
+    "semantic_hash": ""
+  },
+  "src/L1518_Water_Bottles.java": {
+    "mtime": 1672801104.5108535,
+    "ast_hash": "26e1e873b62e330a026f554e8e6d6c19",
+    "semantic_hash": ""
+  },
+  "src/L151_Reverse_Words_in_a_String.java": {
+    "mtime": 1652175249.2212822,
+    "ast_hash": "92ac871374252b4767581f5421f9ee5f",
+    "semantic_hash": ""
+  },
+  "src/L1523_Count_Odd_Numbers_in_an_Interval_Range.java": {
+    "mtime": 1672886834.2661963,
+    "ast_hash": "1da8953025ef1551a8b41d6387a6cadd",
+    "semantic_hash": ""
+  },
+  "src/L1527_Patients_With_a_Condition.sql": {
+    "mtime": 1732067845.7546155,
+    "ast_hash": "d072d99461e8056f41a7e54215189f53",
+    "semantic_hash": ""
+  },
+  "src/L1528_Shuffle_String.java": {
+    "mtime": 1707036642.2464066,
+    "ast_hash": "8ce1466b8c30fef371d34e782ee3f3ad",
+    "semantic_hash": ""
+  },
+  "src/L152_Maximum_Product_Subarray.java": {
+    "mtime": 1652175249.2742507,
+    "ast_hash": "2ff23ce9b9246f44e8251c9094a76945",
+    "semantic_hash": ""
+  },
+  "src/L1534_Count_Good_Triplets.java": {
+    "mtime": 1675309038.4709177,
+    "ast_hash": "fc053faeecd4a125f2e4c6fc992472ea",
+    "semantic_hash": ""
+  },
+  "src/L1539_Kth_Missing_Positive_Number.java": {
+    "mtime": 1675222147.2965477,
+    "ast_hash": "4a70aea26785c9815409918408402c93",
+    "semantic_hash": ""
+  },
+  "src/L153_Find_Minimum_in_Rotated_Sorted_Array.java": {
+    "mtime": 1652175249.2386997,
+    "ast_hash": "670bacbd02fb98d324fc7f11d4b35730",
+    "semantic_hash": ""
+  },
+  "src/L1544_Make_The_String_Great.java": {
+    "mtime": 1675133452.9977882,
+    "ast_hash": "a5b2db412842a47b7f94da8bd25076b2",
+    "semantic_hash": ""
+  },
+  "src/L1550_Three_Consecutive_Odds.java": {
+    "mtime": 1679021085.7786324,
+    "ast_hash": "f57a6ef8315d65fff09950d4f826fe23",
+    "semantic_hash": ""
+  },
+  "src/L1556_Thousand_Separator.java": {
+    "mtime": 1674959846.4778004,
+    "ast_hash": "c9ae5fcef43b7783ac1c5f29aead2fc9",
+    "semantic_hash": ""
+  },
+  "src/L155_Min_Stack.java": {
+    "mtime": 1647854132.6192374,
+    "ast_hash": "d10cda00022989086ee3d84a34da2303",
+    "semantic_hash": ""
+  },
+  "src/L1560_Most_Visited_Sector_in_a_Circular_Track.java": {
+    "mtime": 1747377159.997613,
+    "ast_hash": "0a08c4224240bf61936fc8b8931d45f7",
+    "semantic_hash": ""
+  },
+  "src/L1561_Maximum_Number_of_Coins_You_Can_Get.java": {
+    "mtime": 1784078726.0684538,
+    "ast_hash": "bcb2869b0a7037113f9506650c58e86b",
+    "semantic_hash": ""
+  },
+  "src/L1566_Detect_Pattern_of_Length_M_Repeated_K_or_More_Times.java": {
+    "mtime": 1710296560.5067887,
+    "ast_hash": "05d0ce499526ef91da3e731218d63320",
+    "semantic_hash": ""
+  },
+  "src/L1572_Matrix_Diagonal_Sum.java": {
+    "mtime": 1747618834.6168609,
+    "ast_hash": "758654f55f12506e3c2b4b4baa76b317",
+    "semantic_hash": ""
+  },
+  "src/L1576_Replace_All_s_to_Avoid_Consecutive_Repeating_Characters.java": {
+    "mtime": 1718939210.4337134,
+    "ast_hash": "2fde1466dbeff514d7a6912c41aa95d6",
+    "semantic_hash": ""
+  },
+  "src/L1581_Customer_Who_Visited_but_Did_Not_Make_Any_Transactions.sql": {
+    "mtime": 1732153439.2193735,
+    "ast_hash": "21140408810f666d25a14c237143a2fd",
+    "semantic_hash": ""
+  },
+  "src/L1582_Special_Positions_in_a_Binary_Matrix.java": {
+    "mtime": 1675050493.619414,
+    "ast_hash": "8141114121b29da5e9ce2632bec40fa8",
+    "semantic_hash": ""
+  },
+  "src/L1587_Bank_Account_Summary_II.sql": {
+    "mtime": 1732239585.93892,
+    "ast_hash": "e253247d646a658fa92ba9c7c78bc05f",
+    "semantic_hash": ""
+  },
+  "src/L1588_Sum_of_All_Odd_Length_Subarrays.java": {
+    "mtime": 1707036642.2914948,
+    "ast_hash": "6755b46c5d060ce67e620231d2081359",
+    "semantic_hash": ""
+  },
+  "src/L1592_Rearrange_Spaces_Between_Words.java": {
+    "mtime": 1676607134.1655905,
+    "ast_hash": "9197b0bcec4af86e0d32ff3b1c557dd7",
+    "semantic_hash": ""
+  },
+  "src/L1598_Crawler_Log_Folder.java": {
+    "mtime": 1710299011.4055655,
+    "ast_hash": "0281dff4bc2bebcaa9c357fd8f55d9e0",
+    "semantic_hash": ""
+  },
+  "src/L1603_Design_Parking_System.java": {
+    "mtime": 1707036642.3097095,
+    "ast_hash": "c7a6bff025eb466537f8f7c2880f239b",
+    "semantic_hash": ""
+  },
+  "src/L1608_Special_Array_With_X_Elements_Greater_Than_or_Equal_X.java": {
+    "mtime": 1676430004.1372714,
+    "ast_hash": "7d83c95ea425a31b86a13c028e627fdc",
+    "semantic_hash": ""
+  },
+  "src/L160_Intersection_of_Two_Linked_Lists.java": {
+    "mtime": 1652175249.2245533,
+    "ast_hash": "6663ba266d73dd6ac2f030cdc888024c",
+    "semantic_hash": ""
+  },
+  "src/L1614_Maximum_Nesting_Depth_of_the_Parentheses.java": {
+    "mtime": 1676344099.4725552,
+    "ast_hash": "c47bf6744a8d894c9a69519dc0737c15",
+    "semantic_hash": ""
+  },
+  "src/L1619_Mean_of_Array_After_Removing_Some_Elements.java": {
+    "mtime": 1676000933.7867706,
+    "ast_hash": "3bbbc63f5137fda0218b98ad3aac426c",
+    "semantic_hash": ""
+  },
+  "src/L1624_Largest_Substring_Between_Two_Equal_Characters.java": {
+    "mtime": 1676259330.2083745,
+    "ast_hash": "8569c11d6dc82e5e946e01156986c4dc",
+    "semantic_hash": ""
+  },
+  "src/L1629_Slowest_Key.java": {
+    "mtime": 1684895491.073913,
+    "ast_hash": "1ba62de83cf90d0fbd091fdc369b4d11",
+    "semantic_hash": ""
+  },
+  "src/L162_Find_Peak_Element.java": {
+    "mtime": 1621650489.0287097,
+    "ast_hash": "04c50914f7dfe4d93ebeed7501ce610c",
+    "semantic_hash": ""
+  },
+  "src/L1630_Arithmetic_Subarrays.java": {
+    "mtime": 1786067600.2404013,
+    "ast_hash": "f2bee0b6c37ecce4e85a46f8d6de7085",
+    "semantic_hash": ""
+  },
+  "src/L1633_Percentage_of_Users_Attended_a_Contest.sql": {
+    "mtime": 1732499514.5323725,
+    "ast_hash": "3a09669480b254a37b86fe2a57e99f26",
+    "semantic_hash": ""
+  },
+  "src/L1636_Sort_Array_by_Increasing_Frequency.java": {
+    "mtime": 1677049059.117447,
+    "ast_hash": "e126d49abaa36590e38c3382ee4bd3fb",
+    "semantic_hash": ""
+  },
+  "src/L1637_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points.java": {
+    "mtime": 1744855402.8120542,
+    "ast_hash": "567e4d2dc9b1796d4d40a455f3dd843d",
+    "semantic_hash": ""
+  },
+  "src/L1640_Check_Array_Formation_Through_Concatenation.java": {
+    "mtime": 1707036642.3174376,
+    "ast_hash": "3aabd8530933b7e184fc6bbfbf9e6ec9",
+    "semantic_hash": ""
+  },
+  "src/L1646_Get_Maximum_in_Generated_Array.java": {
+    "mtime": 1707036642.3118117,
+    "ast_hash": "b2ee9f80329efccfbb56948fa4d519b9",
+    "semantic_hash": ""
+  },
+  "src/L164_Maximum_Gap.java": {
+    "mtime": 1710730342.1405535,
+    "ast_hash": "40b085dc13ccbfd822febe9b99b03e84",
+    "semantic_hash": ""
+  },
+  "src/L1652_Defuse_the_Bomb.java": {
+    "mtime": 1676950898.8638425,
+    "ast_hash": "bfa85a84598aa8c8bad433f7c3961ccb",
+    "semantic_hash": ""
+  },
+  "src/L1656_Design_an_Ordered_Stream.java": {
+    "mtime": 1774488285.1266031,
+    "ast_hash": "c1330a5b454a1600bd008e70e13ad834",
+    "semantic_hash": ""
+  },
+  "src/L165_Compare_Version_Numbers.java": {
+    "mtime": 1652175249.1621056,
+    "ast_hash": "41359190549cb23cc1f136f304658313",
+    "semantic_hash": ""
+  },
+  "src/L1661_Average_Time_of_Process_per_Machine.sql": {
+    "mtime": 1732597434.5457695,
+    "ast_hash": "c248a90678352e4fdee2ba65754593e2",
+    "semantic_hash": ""
+  },
+  "src/L1662_Check_If_Two_String_Arrays_are_Equivalent.java": {
+    "mtime": 1707036642.3482785,
+    "ast_hash": "cb1eb65a4cd9999b560cf72857689100",
+    "semantic_hash": ""
+  },
+  "src/L1667_Fix_Names_in_a_Table.sql": {
+    "mtime": 1732672299.339323,
+    "ast_hash": "2e4480574ea03377e4b74cacb14cedd6",
+    "semantic_hash": ""
+  },
+  "src/L1668_Maximum_Repeating_Substring.java": {
+    "mtime": 1678069776.1286337,
+    "ast_hash": "d5cee4c8b849d9f00432e16fd879a9fb",
+    "semantic_hash": ""
+  },
+  "src/L166_Fraction_to_Recurring_Decimal.java": {
+    "mtime": 1711079474.3707626,
+    "ast_hash": "01da45f458c9f9b86be8ee221ecc2d13",
+    "semantic_hash": ""
+  },
+  "src/L1672_Richest_Customer_Wealth.java": {
+    "mtime": 1677811970.001947,
+    "ast_hash": "99dfd39850739fee6032293ae35759ae",
+    "semantic_hash": ""
+  },
+  "src/L1678_Goal_Parser_Interpretation.java": {
+    "mtime": 1707036642.244246,
+    "ast_hash": "322383b4fe0265de491d33712cf95374",
+    "semantic_hash": ""
+  },
+  "src/L167_Two_Sum_II_Input_array_is_sorted.java": {
+    "mtime": 1625210623.3476682,
+    "ast_hash": "c4ed21baa1908c3d58c7f2913bff1708",
+    "semantic_hash": ""
+  },
+  "src/L1683_Invalid_Tweets.sql": {
+    "mtime": 1732758775.2846055,
+    "ast_hash": "a1b349fd22bac7edf8932ada674fb77b",
+    "semantic_hash": ""
+  },
+  "src/L1684_Count_the_Number_of_Consistent_Strings.java": {
+    "mtime": 1707036642.362542,
+    "ast_hash": "731c4987e5360fdeef10db3680ee98c8",
+    "semantic_hash": ""
+  },
+  "src/L1688_Count_of_Matches_in_Tournament.java": {
+    "mtime": 1685070333.5454552,
+    "ast_hash": "f176259dd5454888d610ec78ff21e527",
+    "semantic_hash": ""
+  },
+  "src/L1689_Partitioning_Into_Minimum_Number_Of_Deci_Binary_Numbers.java": {
+    "mtime": 1779068653.7582574,
+    "ast_hash": "8fc47d45dc52eda5659ab97246c506b3",
+    "semantic_hash": ""
+  },
+  "src/L168_Excel_Sheet_Column_Title.java": {
+    "mtime": 1652175249.2071202,
+    "ast_hash": "41672d90e76e69f3a56dc5d9000a0146",
+    "semantic_hash": ""
+  },
+  "src/L1693_Daily_Leads_and_Partners.sql": {
+    "mtime": 1732881211.2962117,
+    "ast_hash": "55dee5798e12bc271ae490b1054ff704",
+    "semantic_hash": ""
+  },
+  "src/L1694_Reformat_Phone_Number.java": {
+    "mtime": 1684981798.175406,
+    "ast_hash": "a934b9e4bd1a4b1a858145a6bc505c95",
+    "semantic_hash": ""
+  },
+  "src/L169_Majority_Element.java": {
+    "mtime": 1628058864.4236705,
+    "ast_hash": "38b9db4df5b22f18fd78c8f9646bb3a7",
+    "semantic_hash": ""
+  },
+  "src/L1700_Number_of_Students_Unable_to_Eat_Lunch.java": {
+    "mtime": 1707036642.3877342,
+    "ast_hash": "3f46132235018f1bc4e1c5eeae8d3db3",
+    "semantic_hash": ""
+  },
+  "src/L1704_Determine_if_String_Halves_Are_Alike.java": {
+    "mtime": 1707036642.3795812,
+    "ast_hash": "0f869739f6997d0c5f6770f99dd43410",
+    "semantic_hash": ""
+  },
+  "src/L1710_Maximum_Units_on_a_Truck.java": {
+    "mtime": 1679538993.1859093,
+    "ast_hash": "721203f4ae69ec766b7a0f4bf285b0d6",
+    "semantic_hash": ""
+  },
+  "src/L1716_Calculate_Money_in_Leetcode_Bank.java": {
+    "mtime": 1707036642.210487,
+    "ast_hash": "3c6a9ec3134183720f4578c3a3b36e0d",
+    "semantic_hash": ""
+  },
+  "src/L171_Excel_Sheet_Column_Number.java": {
+    "mtime": 1652175249.1677454,
+    "ast_hash": "40073b416dfe3ca12b2c4205741b77cb",
+    "semantic_hash": ""
+  },
+  "src/L1720_Decode_XORed_Array.java": {
+    "mtime": 1747808888.6503417,
+    "ast_hash": "2cf2a5bcf40bfd7c152b1cd94ebe2e87",
+    "semantic_hash": ""
+  },
+  "src/L1725_Number_Of_Rectangles_That_Can_Form_The_Square.java": {
+    "mtime": 1686102528.3645735,
+    "ast_hash": "2257d6f3d6455303a557de941daad875",
+    "semantic_hash": ""
+  },
+  "src/L1729_Find_Followers_Count.sql": {
+    "mtime": 1733103040.049848,
+    "ast_hash": "fca587ec46c781467abdc8925672f952",
+    "semantic_hash": ""
+  },
+  "src/L172_Factorial_Trailing_Zeroes.java": {
+    "mtime": 1649236650.1024358,
+    "ast_hash": "4b27192c14dd4a161d5a27c5b131ede7",
+    "semantic_hash": ""
+  },
+  "src/L1731_The_Number_of_Employees_Which_Report_to_Employee.sql": {
+    "mtime": 1733222490.167064,
+    "ast_hash": "2015a9670fc43bba6e9eb26453b5b1e9",
+    "semantic_hash": ""
+  },
+  "src/L1732_Find_the_Highest_Altitude.java": {
+    "mtime": 1680745957.697266,
+    "ast_hash": "66b20fe9e26a73f7146195153f6285ff",
+    "semantic_hash": ""
+  },
+  "src/L1736_Latest_Time_by_Replacing_Hidden_Digits.java": {
+    "mtime": 1680835552.1675706,
+    "ast_hash": "f58a679ce65d431f699d819006d84abf",
+    "semantic_hash": ""
+  },
+  "src/L1741_Find_Total_Time_Spent_by_Each_Employee.sql": {
+    "mtime": 1733313655.7707624,
+    "ast_hash": "92cb975afa34b82eeebe7bc0aece162a",
+    "semantic_hash": ""
+  },
+  "src/L1742_Maximum_Number_of_Balls_in_a_Box.java": {
+    "mtime": 1680059510.2095516,
+    "ast_hash": "3440ba1c2061bb9e0f5f9e71ea50967a",
+    "semantic_hash": ""
+  },
+  "src/L1748_Sum_of_Unique_Elements.java": {
+    "mtime": 1679971351.2432122,
+    "ast_hash": "5eb623de45519892c2d4a4f44e5171fb",
+    "semantic_hash": ""
+  },
+  "src/L174_Dungeon_Game.java": {
+    "mtime": 1708400218.4469497,
+    "ast_hash": "60e3ee26f50b43248c316e1ca37e84ab",
+    "semantic_hash": ""
+  },
+  "src/L1752_Check_if_Array_Is_Sorted_and_Rotated.java": {
+    "mtime": 1680574228.0283468,
+    "ast_hash": "d3dfbe2eec900d52f58e8bb3e5a042f7",
+    "semantic_hash": ""
+  },
+  "src/L1757_Recyclable_and_Low_Fat_Products.sql": {
+    "mtime": 1733708109.2353132,
+    "ast_hash": "960604482bbbc12ea6720563440e77bf",
+    "semantic_hash": ""
+  },
+  "src/L1758_Minimum_Changes_To_Make_Alternating_Binary_String.java": {
+    "mtime": 1680229461.5579994,
+    "ast_hash": "cd531218aeb2299044dc9e6e78b63c23",
+    "semantic_hash": ""
+  },
+  "src/L175_Combine_Two_Tables.sql": {
+    "mtime": 1727165761.5420294,
+    "ast_hash": "24f9e76e135913732d1df81d492ab129",
+    "semantic_hash": ""
+  },
+  "src/L1763_Longest_Nice_Substring.java": {
+    "mtime": 1680492681.0401268,
+    "ast_hash": "4b68898772c3449d6b961d7906fde2c2",
+    "semantic_hash": ""
+  },
+  "src/L1768_Merge_Strings_Alternately.java": {
+    "mtime": 1707036642.346687,
+    "ast_hash": "2fecace7f3a034c7901e008acc7218ae",
+    "semantic_hash": ""
+  },
+  "src/L1769_Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box.java": {
+    "mtime": 1779154884.9669588,
+    "ast_hash": "4691b6408ab58ef36f46f6c3ca54aae3",
+    "semantic_hash": ""
+  },
+  "src/L176_Second_Highest_Salary.sql": {
+    "mtime": 1727434622.669662,
+    "ast_hash": "f49dd8c8d165b380180b5600ce91718a",
+    "semantic_hash": ""
+  },
+  "src/L1773_Count_Items_Matching_a_Rule.java": {
+    "mtime": 1707036642.3582354,
+    "ast_hash": "41b123f3d9b3c9c1592a7537bfba6869",
+    "semantic_hash": ""
+  },
+  "src/L1774_Closest_Dessert_Cost.java": {
+    "mtime": 1777517141.992562,
+    "ast_hash": "5560f9f762e3c98d9648b60f0ec1483d",
+    "semantic_hash": ""
+  },
+  "src/L1779_Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate.java": {
+    "mtime": 1685944455.3414884,
+    "ast_hash": "ed96212ded3406a6540361b87a033098",
+    "semantic_hash": ""
+  },
+  "src/L177_Nth_Highest_Salary.sql": {
+    "mtime": 1728369042.1954272,
+    "ast_hash": "097a2011fd1af9feac23d816fb3cef30",
+    "semantic_hash": ""
+  },
+  "src/L1784_Check_if_Binary_String_Has_at_Most_One_Segment_of_Ones.java": {
+    "mtime": 1681872563.956532,
+    "ast_hash": "16c47689c18805693ed2b6808e6ee331",
+    "semantic_hash": ""
+  },
+  "src/L1789_Primary_Department_for_Each_Employee.sql": {
+    "mtime": 1733381328.8598883,
+    "ast_hash": "c6f36ac6c67c080348147e53d2c6f067",
+    "semantic_hash": ""
+  },
+  "src/L178_Rank_Scores.sql": {
+    "mtime": 1734329155.0343423,
+    "ast_hash": "21280b7f873f52bad07125f8048ed67d",
+    "semantic_hash": ""
+  },
+  "src/L1790_Check_if_One_String_Swap_Can_Make_Strings_Equal.java": {
+    "mtime": 1707036642.2338152,
+    "ast_hash": "8c976d349a6b9761f754b1453d0aa2b8",
+    "semantic_hash": ""
+  },
+  "src/L1791_Find_Center_of_Star_Graph.java": {
+    "mtime": 1707036642.2641537,
+    "ast_hash": "3b47e35c4f5153e32f14ab4464d77c91",
+    "semantic_hash": ""
+  },
+  "src/L1795_Rearrange_Products_Table.sql": {
+    "mtime": 1733452448.3333054,
+    "ast_hash": "62d9f3381e46e4574d7d96e717aaad98",
+    "semantic_hash": ""
+  },
+  "src/L1796_Second_Largest_Digit_in_a_String.java": {
+    "mtime": 1685525703.1313124,
+    "ast_hash": "ca9613e6c2a7d0ab27906f13d205e227",
+    "semantic_hash": ""
+  },
+  "src/L179_Largest_Number.java": {
+    "mtime": 1710731571.9925025,
+    "ast_hash": "d08434381a344f75e5dc644516550d6b",
+    "semantic_hash": ""
+  },
+  "src/L1800_Maximum_Ascending_Subarray_Sum.java": {
+    "mtime": 1707036642.3134806,
+    "ast_hash": "cc34c09fa35faf0492d121abe1fecb4c",
+    "semantic_hash": ""
+  },
+  "src/L1805_Number_of_Different_Integers_in_a_String.java": {
+    "mtime": 1707036642.360166,
+    "ast_hash": "32236677ae110d2bbfcbdd595059dba7",
+    "semantic_hash": ""
+  },
+  "src/L180_Consecutive_Numbers.sql": {
+    "mtime": 1734434711.8227847,
+    "ast_hash": "dc61750ac8b41caf45fe3457f2329deb",
+    "semantic_hash": ""
+  },
+  "src/L1812_Determine_Color_of_a_Chessboard_Square.java": {
+    "mtime": 1747742872.2163773,
+    "ast_hash": "e7536da9f85dae2dd32f302a922d92be",
+    "semantic_hash": ""
+  },
+  "src/L1816_Truncate_Sentence.java": {
+    "mtime": 1686191576.9426239,
+    "ast_hash": "88cdc7ec023ed022e40fcc5f37b5693b",
+    "semantic_hash": ""
+  },
+  "src/L181_Employees_Earning_More_Than_Their_Managers.sql": {
+    "mtime": 1727165761.5477078,
+    "ast_hash": "8a16babb5f391aefc47a1a1cd386b7f8",
+    "semantic_hash": ""
+  },
+  "src/L1822_Sign_of_the_Product_of_an_Array.java": {
+    "mtime": 1687138127.4097445,
+    "ast_hash": "dc8d24ea49959a50900c7e16aaa914ad",
+    "semantic_hash": ""
+  },
+  "src/L1827_Minimum_Operations_to_Make_the_Array_Increasing.java": {
+    "mtime": 1687227448.164092,
+    "ast_hash": "cc0baaee03cf079183be1eb5384cbe9d",
+    "semantic_hash": ""
+  },
+  "src/L1828_Queries_on_Number_of_Points_Inside_a_Circle.java": {
+    "mtime": 1781659199.4770455,
+    "ast_hash": "4afac9134442c3368af7fc7daf314935",
+    "semantic_hash": ""
+  },
+  "src/L1829_Maximum_XOR_for_Each_Query.java": {
+    "mtime": 1784770420.416083,
+    "ast_hash": "d9b57c92f158985db645c356f5f539b5",
+    "semantic_hash": ""
+  },
+  "src/L182_Duplicate_Emails.sql": {
+    "mtime": 1727247048.683499,
+    "ast_hash": "bf202a26ccdf0eec76cffaaa9025d79e",
+    "semantic_hash": ""
+  },
+  "src/L1832_Check_if_the_Sentence_Is_Pangram.java": {
+    "mtime": 1687138195.8936093,
+    "ast_hash": "acd49afd0636895d4c725e6b1e51cdec",
+    "semantic_hash": ""
+  },
+  "src/L1837_Sum_of_Digits_in_Base_K.java": {
+    "mtime": 1707036642.305505,
+    "ast_hash": "7a7aaf31f2a9e62d753c5f9e87b4acb6",
+    "semantic_hash": ""
+  },
+  "src/L183_Customers_Who_Never_Order.sql": {
+    "mtime": 1727322746.896963,
+    "ast_hash": "3f655533a45be7656e66bdf7879087a8",
+    "semantic_hash": ""
+  },
+  "src/L1844_Replace_All_Digits_with_Characters.java": {
+    "mtime": 1686797822.4703345,
+    "ast_hash": "c207e00d975f2450a67e6bed6cc66138",
+    "semantic_hash": ""
+  },
+  "src/L1848_Minimum_Distance_to_the_Target_Element.java": {
+    "mtime": 1686709707.4654965,
+    "ast_hash": "23188a46880332a56a7d7fef83ad94e5",
+    "semantic_hash": ""
+  },
+  "src/L184_Department_Highest_Salary.sql": {
+    "mtime": 1734491980.945617,
+    "ast_hash": "ecfdbd96ff12b4f5fa95ca0b7e2e2837",
+    "semantic_hash": ""
+  },
+  "src/L1854_Maximum_Population_Year.java": {
+    "mtime": 1707036642.321719,
+    "ast_hash": "2ecb7722d8d89724acf408cf979fe2ab",
+    "semantic_hash": ""
+  },
+  "src/L1859_Sorting_the_Sentence.java": {
+    "mtime": 1707036642.2780046,
+    "ast_hash": "e241f228f28dba728f3a586d348d4f76",
+    "semantic_hash": ""
+  },
+  "src/L185_Department_Top_Three_Salaries.sql": {
+    "mtime": 1738812331.3651009,
+    "ast_hash": "2df0f77510567c3116d361f1bf4fc040",
+    "semantic_hash": ""
+  },
+  "src/L1863_Sum_of_All_Subset_XOR_Totals.java": {
+    "mtime": 1747893134.6616066,
+    "ast_hash": "910e7329918f2799fa07b50a6a35534e",
+    "semantic_hash": ""
+  },
+  "src/L1869_Longer_Contiguous_Segments_of_Ones_than_Zeros.java": {
+    "mtime": 1687830689.319911,
+    "ast_hash": "c2a9149b385be4e8884103b945985aef",
+    "semantic_hash": ""
+  },
+  "src/L1873_Calculate_Special_Bonus.sql": {
+    "mtime": 1733828969.5220816,
+    "ast_hash": "c949ac35a563d96a933277f2b6f2c47c",
+    "semantic_hash": ""
+  },
+  "src/L1876_Substrings_of_Size_Three_with_Distinct_Characters.java": {
+    "mtime": 1687834419.7067814,
+    "ast_hash": "1fc88edff0d770d4878cf7158556efca",
+    "semantic_hash": ""
+  },
+  "src/L187_Repeated_DNA_Sequences.java": {
+    "mtime": 1711077329.7844687,
+    "ast_hash": "e2feba613430eb8409e3067193072dbe",
+    "semantic_hash": ""
+  },
+  "src/L1880_Check_if_Word_Equals_Summation_of_Two_Words.java": {
+    "mtime": 1707036642.3660085,
+    "ast_hash": "b479952f561cb4f4690d9c42f1158478",
+    "semantic_hash": ""
+  },
+  "src/L1886_Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation.java": {
+    "mtime": 1747970059.0229461,
+    "ast_hash": "242bde86d6a93bb982389212e2a36a3c",
+    "semantic_hash": ""
+  },
+  "src/L188_Best_Time_to_Buy_and_Sell_Stock_IV.java": {
+    "mtime": 1708568242.3877997,
+    "ast_hash": "ad6bb1338d0e053d35c9c9e14ff0b511",
+    "semantic_hash": ""
+  },
+  "src/L1890_The_Latest_Login_in_2020.sql": {
+    "mtime": 1733882685.8124583,
+    "ast_hash": "19385137afa3a6d03598b2e469fda440",
+    "semantic_hash": ""
+  },
+  "src/L1893_Check_if_All_the_Integers_in_a_Range_Are_Covered.java": {
+    "mtime": 1688005588.481428,
+    "ast_hash": "41a4be494cd290e4a8a31187710691c5",
+    "semantic_hash": ""
+  },
+  "src/L1897_Redistribute_Characters_to_Make_All_Strings_Equal.java": {
+    "mtime": 1688349232.332254,
+    "ast_hash": "3b30343b69452ca794aa829d9a74ba5b",
+    "semantic_hash": ""
+  },
+  "src/L189_Rotate_Array.java": {
+    "mtime": 1657012473.7188196,
+    "ast_hash": "9bbc3e16e68c21853c92c55480910ed6",
+    "semantic_hash": ""
+  },
+  "src/L1903_Largest_Odd_Number_in_String.java": {
+    "mtime": 1688091182.331003,
+    "ast_hash": "fcf008897f78cd91aedaf1c1de858eb4",
+    "semantic_hash": ""
+  },
+  "src/L1907_Count_Salary_Categories.sql": {
+    "mtime": 1736998902.1930015,
+    "ast_hash": "5283a72d15669bb2233e1c3af988c27e",
+    "semantic_hash": ""
+  },
+  "src/L1909_Remove_One_Element_to_Make_the_Array_Strictly_Increasing.java": {
+    "mtime": 1707036642.2825243,
+    "ast_hash": "d299e9413efe2e227b3ca795f8007f69",
+    "semantic_hash": ""
+  },
+  "src/L190_Reverse_Bits.java": {
+    "mtime": 1628672027.7162058,
+    "ast_hash": "7b4af5008c2986bd14652c9cdd8b1216",
+    "semantic_hash": ""
+  },
+  "src/L1910_Remove_All_Occurrences_of_a_Substring.java": {
+    "mtime": 1739267240.7226083,
+    "ast_hash": "19971d50885a83c4deba5bf93b3b82ef",
+    "semantic_hash": ""
+  },
+  "src/L1913_Maximum_Product_Difference_Between_Two_Pairs.java": {
+    "mtime": 1707036642.2506313,
+    "ast_hash": "efbb661d7de45b990652e6f409be1eec",
+    "semantic_hash": ""
+  },
+  "src/L191_Number_of_1_Bits.java": {
+    "mtime": 1628672105.99419,
+    "ast_hash": "46ade2955aae8805f5e87c149e002e74",
+    "semantic_hash": ""
+  },
+  "src/L1920_Build_Array_from_Permutation.java": {
+    "mtime": 1688610507.9207678,
+    "ast_hash": "f0210e5daaaaa1ff1f34ab142af4e5b3",
+    "semantic_hash": ""
+  },
+  "src/L1925_Count_Square_Sum_Triples.java": {
+    "mtime": 1707036642.2857265,
+    "ast_hash": "0ea85b36e8162d4ad35087eb43473ed7",
+    "semantic_hash": ""
+  },
+  "src/L1929_Concatenation_of_Array.java": {
+    "mtime": 1688953804.3549056,
+    "ast_hash": "e0c6d834d53f36e19d45797d58eba98d",
+    "semantic_hash": ""
+  },
+  "src/L1934_Confirmation_Rate.sql": {
+    "mtime": 1737084508.1632702,
+    "ast_hash": "0fada5b82083fe000f2754a18722c2eb",
+    "semantic_hash": ""
+  },
+  "src/L1935_Maximum_Number_of_Words_You_Can_Type.java": {
+    "mtime": 1707036642.397929,
+    "ast_hash": "58ced475155ba733f5ee4b3ee21acdf6",
+    "semantic_hash": ""
+  },
+  "src/L1941_Check_if_All_Characters_Have_Equal_Number_of_Occurrences.java": {
+    "mtime": 1681784956.2424068,
+    "ast_hash": "167e343f0d5e1e4fdfe7c24989124946",
+    "semantic_hash": ""
+  },
+  "src/L1945_Sum_of_Digits_of_String_After_Convert.java": {
+    "mtime": 1681438956.5619292,
+    "ast_hash": "3b3698d996c71c5956b31807c0f640d8",
+    "semantic_hash": ""
+  },
+  "src/L1952_Three_Divisors.java": {
+    "mtime": 1707036642.3379192,
+    "ast_hash": "c53dd414942871fa1584466f154cf0dd",
+    "semantic_hash": ""
+  },
+  "src/L1957_Delete_Characters_to_Make_Fancy_String.java": {
+    "mtime": 1681365722.1121128,
+    "ast_hash": "1db5b7c7cd0a852f6f10539113afad63",
+    "semantic_hash": ""
+  },
+  "src/L1961_Check_If_String_Is_a_Prefix_of_Array.java": {
+    "mtime": 1707036642.2695315,
+    "ast_hash": "ff1c3857655ff0f8d526b76a3b646d35",
+    "semantic_hash": ""
+  },
+  "src/L1965_Employees_With_Missing_Information.sql": {
+    "mtime": 1733970718.172968,
+    "ast_hash": "45815fdee59ffa0eee3344eb62e7a2d2",
+    "semantic_hash": ""
+  },
+  "src/L1967_Number_of_Strings_That_Appear_as_Substrings_in_Word.java": {
+    "mtime": 1707036642.3810651,
+    "ast_hash": "79e48d2dfb3523246ada88ba4432c8a9",
+    "semantic_hash": ""
+  },
+  "src/L196_Delete_Duplicate_Emails.sql": {
+    "mtime": 1728369852.484482,
+    "ast_hash": "86562514e46ff3644a5c6e8999589a48",
+    "semantic_hash": ""
+  },
+  "src/L1971_Find_if_Path_Exists_in_Graph.java": {
+    "mtime": 1774409127.476037,
+    "ast_hash": "30f7b185fe6e6268d62b2fbcd6491eb7",
+    "semantic_hash": ""
+  },
+  "src/L1974_Minimum_Time_to_Type_Word_Using_Special_Typewriter.java": {
+    "mtime": 1748224176.639605,
+    "ast_hash": "d5cc6c8f6ac94d79ac542997fe3950e9",
+    "semantic_hash": ""
+  },
+  "src/L1978_Employees_Whose_Manager_Left_the_Company.sql": {
+    "mtime": 1734090167.2295635,
+    "ast_hash": "dd1e34eed3537922aaa0aca2c35f46d9",
+    "semantic_hash": ""
+  },
+  "src/L1979_Find_Greatest_Common_Divisor_of_Array.java": {
+    "mtime": 1689128625.629686,
+    "ast_hash": "f806ce669515fb8a43cd73fd4dbd324c",
+    "semantic_hash": ""
+  },
+  "src/L197_Rising_Temperature.sql": {
+    "mtime": 1728541881.4352636,
+    "ast_hash": "7743db41d62ccd68af2a028efd377916",
+    "semantic_hash": ""
+  },
+  "src/L1980_Find_Unique_Binary_String.java": {
+    "mtime": 1740020769.9912262,
+    "ast_hash": "89a70fa610bf2f891be1d3e148a47fca",
+    "semantic_hash": ""
+  },
+  "src/L1984_Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.java": {
+    "mtime": 1689215083.1236346,
+    "ast_hash": "00e10f9f5ed5d81524e71db22c7986a7",
+    "semantic_hash": ""
+  },
+  "src/L198_House_Robber.java": {
+    "mtime": 1623845364.0976655,
+    "ast_hash": "e95543ab7ffb31dc5bc4d7bcaadafd0b",
+    "semantic_hash": ""
+  },
+  "src/L1991_Find_the_Middle_Index_in_Array.java": {
+    "mtime": 1707036642.3500547,
+    "ast_hash": "baf7580dcf53f08099274e8ba37c6864",
+    "semantic_hash": ""
+  },
+  "src/L1995_Count_Special_Quadruplets.java": {
+    "mtime": 1689304027.5365534,
+    "ast_hash": "fb9627b1a3b68269b2ddef56b87a791e",
+    "semantic_hash": ""
+  },
+  "src/L199_Binary_Tree_Right_Side_View.java": {
+    "mtime": 1695886370.1698236,
+    "ast_hash": "46efd45522800fa033ca14320c6ca2d9",
+    "semantic_hash": ""
+  },
+  "src/L2000_Reverse_Prefix_of_Word.java": {
+    "mtime": 1707036642.3715427,
+    "ast_hash": "f7d16724edef4c0e52343ec96d9c20da",
+    "semantic_hash": ""
+  },
+  "src/L2006_Count_Number_of_Pairs_With_Absolute_Difference_K.java": {
+    "mtime": 1690162048.3652456,
+    "ast_hash": "daeea582a6c1e82bce0e9556ecab8701",
+    "semantic_hash": ""
+  },
+  "src/L200_Number_of_Islands.java": {
+    "mtime": 1710813752.1097069,
+    "ast_hash": "91b6afe601af58e17dd825b43b60313e",
+    "semantic_hash": ""
+  },
+  "src/L2011_Final_Value_of_Variable_After_Performing_Operations.java": {
+    "mtime": 1707036642.3642983,
+    "ast_hash": "4ad700233bf322a32945801293c9cbf6",
+    "semantic_hash": ""
+  },
+  "src/L2016_Maximum_Difference_Between_Increasing_Elements.java": {
+    "mtime": 1689819660.6966462,
+    "ast_hash": "26e1d63cf75e44e935914149580afa08",
+    "semantic_hash": ""
+  },
+  "src/L201_Bitwise_AND_of_Numbers_Range.java": {
+    "mtime": 1710820728.2313435,
+    "ast_hash": "243ff9c8591a2b9cc669bb5892769eb4",
+    "semantic_hash": ""
+  },
+  "src/L2022_Convert_1D_Array_Into_2D_Array.java": {
+    "mtime": 1748313734.6093132,
+    "ast_hash": "8a9b86546719e8e2f31efda95ee10f4b",
+    "semantic_hash": ""
+  },
+  "src/L2027_Minimum_Moves_to_Convert_String.java": {
+    "mtime": 1689736234.624184,
+    "ast_hash": "a35cb4a0cb278555d48521caf7e0b3ee",
+    "semantic_hash": ""
+  },
+  "src/L202_Happy_Number.java": {
+    "mtime": 1652339740.5847406,
+    "ast_hash": "a3d61309da910524ee1a8beef0ac655a",
+    "semantic_hash": ""
+  },
+  "src/L2032_Two_Out_of_Three.java": {
+    "mtime": 1707036642.3910015,
+    "ast_hash": "1651c063f74f17a98aa61a7d1607e6c7",
+    "semantic_hash": ""
+  },
+  "src/L2037_Minimum_Number_of_Moves_to_Seat_Everyone.java": {
+    "mtime": 1690941008.3924658,
+    "ast_hash": "3577c8e34326c88786b98d7c6a248c58",
+    "semantic_hash": ""
+  },
+  "src/L203_Remove_Linked_List_Elements.java": {
+    "mtime": 1652175249.2436645,
+    "ast_hash": "2d56bcc9947c5e8bf48950f4c1398bcc",
+    "semantic_hash": ""
+  },
+  "src/L2042_Check_if_Numbers_Are_Ascending_in_a_Sentence.java": {
+    "mtime": 1707036642.2674341,
+    "ast_hash": "fcbc458e8f754b209e745e20aaea68a2",
+    "semantic_hash": ""
+  },
+  "src/L2044_Count_Number_of_Maximum_Bitwise_OR_Subsets.java": {
+    "mtime": 1779415024.7948904,
+    "ast_hash": "9ad1231fce7949d9fc1b64247505cb77",
+    "semantic_hash": ""
+  },
+  "src/L2047_Number_of_Valid_Words_in_a_Sentence.java": {
+    "mtime": 1692153165.7358987,
+    "ast_hash": "964fcfa8c30852693964addd2e16ca2b",
+    "semantic_hash": ""
+  },
+  "src/L204_Count_Primes.java": {
+    "mtime": 1642664992.9151824,
+    "ast_hash": "7c3ec355d906a75bc3b95757803cbeea",
+    "semantic_hash": ""
+  },
+  "src/L2053_Kth_Distinct_String_in_an_Array.java": {
+    "mtime": 1691113888.3387005,
+    "ast_hash": "01c9029d2b5d9b1fd124ddc6bdd9101f",
+    "semantic_hash": ""
+  },
+  "src/L2057_Smallest_Index_With_Equal_Value.java": {
+    "mtime": 1691373463.1711297,
+    "ast_hash": "a2b2741faf1b7d66001cafe82c6d0f03",
+    "semantic_hash": ""
+  },
+  "src/L205_Isomorphic_Strings.java": {
+    "mtime": 1652175249.268919,
+    "ast_hash": "b7c10c3dcb4e7f11cd9b84d484ba2bc8",
+    "semantic_hash": ""
+  },
+  "src/L2062_Count_Vowel_Substrings_of_a_String.java": {
+    "mtime": 1691465873.8561194,
+    "ast_hash": "1eace919d5324002e166b3764bd15873",
+    "semantic_hash": ""
+  },
+  "src/L2068_Check_Whether_Two_Strings_are_Almost_Equivalent.java": {
+    "mtime": 1691546479.0592892,
+    "ast_hash": "779105c50c964438fa4faa68db1e4024",
+    "semantic_hash": ""
+  },
+  "src/L206_Reverse_Linked_List.java": {
+    "mtime": 1645689789.173034,
+    "ast_hash": "457555d63145b022a7ffc70f037418f6",
+    "semantic_hash": ""
+  },
+  "src/L2073_Time_Needed_to_Buy_Tickets.java": {
+    "mtime": 1707036642.403596,
+    "ast_hash": "66e48539630b7d30680c98f7a5447296",
+    "semantic_hash": ""
+  },
+  "src/L2078_Two_Furthest_Houses_With_Different_Colors.java": {
+    "mtime": 1707036642.2425508,
+    "ast_hash": "1014daeff8701f1f06899ab1009ac109",
+    "semantic_hash": ""
+  },
+  "src/L207_Course_Schedule.java": {
+    "mtime": 1652175249.2086618,
+    "ast_hash": "573c501a8b460ccb42f3a6443e92cfbc",
+    "semantic_hash": ""
+  },
+  "src/L2085_Count_Common_Words_With_One_Occurrence.java": {
+    "mtime": 1691718879.7953053,
+    "ast_hash": "660a24395a6e4b3b596e05bd5ccdab6e",
+    "semantic_hash": ""
+  },
+  "src/L2089_Find_Target_Indices_After_Sorting_Array.java": {
+    "mtime": 1692843570.9651005,
+    "ast_hash": "b8e38c117364ac2f053ce4120d88792d",
+    "semantic_hash": ""
+  },
+  "src/L208_Course_Schedule_II.java": {
+    "mtime": 1652175249.1734958,
+    "ast_hash": "d55a051dc7f8d129eecb97ce11d7352d",
+    "semantic_hash": ""
+  },
+  "src/L208_Implement_Trie_Prefix_Tree.java": {
+    "mtime": 1645690466.9012887,
+    "ast_hash": "6f92487fff3ad477f6bc7844422e85f7",
+    "semantic_hash": ""
+  },
+  "src/L2094_Finding_3_Digit_Even_Numbers.java": {
+    "mtime": 1694397673.5189016,
+    "ast_hash": "53845b1b614c6fe51105214b27608f0b",
+    "semantic_hash": ""
+  },
+  "src/L2099_Find_Subsequence_of_Length_K_With_the_Largest_Sum.java": {
+    "mtime": 1692238862.539892,
+    "ast_hash": "cbc7e9e29b383bd97361947e28846ed1",
+    "semantic_hash": ""
+  },
+  "src/L209_Minimum_Size_Subarray_Sum.java": {
+    "mtime": 1652175249.2777343,
+    "ast_hash": "7b57d507793e5183bc5ce81c6d190912",
+    "semantic_hash": ""
+  },
+  "src/L2103_Rings_and_Rods.java": {
+    "mtime": 1774315640.207694,
+    "ast_hash": "0eb2a6a7e682dd914fb078560f63d99d",
+    "semantic_hash": ""
+  },
+  "src/L2108_Find_First_Palindromic_String_in_Array.java": {
+    "mtime": 1692583866.185344,
+    "ast_hash": "fe2168cf1c079a165690ef2e23f8e368",
+    "semantic_hash": ""
+  },
+  "src/L2114_Maximum_Number_of_Words_Found_in_Sentences.java": {
+    "mtime": 1692669350.1149867,
+    "ast_hash": "f9cd4e7453cc36751926d8172925fcde",
+    "semantic_hash": ""
+  },
+  "src/L2119_A_Number_After_a_Double_Reversal.java": {
+    "mtime": 1692766684.2214215,
+    "ast_hash": "cbb8d7cb193f6b37972d416793bad375",
+    "semantic_hash": ""
+  },
+  "src/L2124_Check_if_All_A_Appears_Before_All_B.java": {
+    "mtime": 1707036642.315123,
+    "ast_hash": "6c611d6a90b464ad557d702fb86d64a5",
+    "semantic_hash": ""
+  },
+  "src/L2125_Number_of_Laser_Beams_in_a_Bank.java": {
+    "mtime": 1781142318.9801676,
+    "ast_hash": "617e1c5881d1ff6a24bdaec63b9bb3c2",
+    "semantic_hash": ""
+  },
+  "src/L2129_Capitalize_the_Title.java": {
+    "mtime": 1693275169.8777459,
+    "ast_hash": "b06d3c89415f161753dcebbdd783dc32",
+    "semantic_hash": ""
+  },
+  "src/L2133_Check_if_Every_Row_and_Column_Contains_All_Numbers.java": {
+    "mtime": 1693879614.2815526,
+    "ast_hash": "a2b85b03beb34994d18276f6dbfab174",
+    "semantic_hash": ""
+  },
+  "src/L2138_Divide_a_String_Into_Groups_of_Size_k.java": {
+    "mtime": 1693453295.7770393,
+    "ast_hash": "7cd4a764f72c298b0fa5dc0d77924b97",
+    "semantic_hash": ""
+  },
+  "src/L213_House_Robber_II.java": {
+    "mtime": 1712456122.680856,
+    "ast_hash": "d626ba77bb5d9b04a0959fdd20c4cc7b",
+    "semantic_hash": ""
+  },
+  "src/L2144_Minimum_Cost_of_Buying_Candies_With_Discount.java": {
+    "mtime": 1693966150.9765806,
+    "ast_hash": "04ec8139141c720596ddc2af87db2d37",
+    "semantic_hash": ""
+  },
+  "src/L2148_Count_Elements_With_Strictly_Smaller_and_Greater_Elements.java": {
+    "mtime": 1693362179.636235,
+    "ast_hash": "0164070ec43a3935a34921bc48360f82",
+    "semantic_hash": ""
+  },
+  "src/L2149_Rearrange_Array_Elements_by_Sign.java": {
+    "mtime": 1784252646.7048266,
+    "ast_hash": "76746ad8673b4eb4637d0bb0c0b44bc8",
+    "semantic_hash": ""
+  },
+  "src/L214_Shortest_Palindrome.java": {
+    "mtime": 1712464419.0009263,
+    "ast_hash": "2f8bbf0a423c04c8c5d96401fb300a4b",
+    "semantic_hash": ""
+  },
+  "src/L2154_Keep_Multiplying_Found_Values_by_Two.java": {
+    "mtime": 1707036642.2276173,
+    "ast_hash": "b3fb193741f722f22baef3046c236e06",
+    "semantic_hash": ""
+  },
+  "src/L215_Kth_Largest_Element_in_an_Array.java": {
+    "mtime": 1710901385.8983257,
+    "ast_hash": "81b3c07c28011840883c88adbe428ac9",
+    "semantic_hash": ""
+  },
+  "src/L2160_Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits.java": {
+    "mtime": 1707036642.3195179,
+    "ast_hash": "b355a677586b3d01a0570be42612b4b8",
+    "semantic_hash": ""
+  },
+  "src/L2161_Partition_Array_According_to_Given_Pivot.java": {
+    "mtime": 1779240255.102923,
+    "ast_hash": "3ecb1de3f55d71e9a9cd0833090c313a",
+    "semantic_hash": ""
+  },
+  "src/L2164_Sort_Even_and_Odd_Indices_Independently.java": {
+    "mtime": 1694743747.0562038,
+    "ast_hash": "d2c09ca1e1619d852714170d5b5ef5a2",
+    "semantic_hash": ""
+  },
+  "src/L2169_Count_Operations_to_Obtain_Zero.java": {
+    "mtime": 1693533890.5908756,
+    "ast_hash": "03d8d924e797a1e8f6c0573ade5ed4d5",
+    "semantic_hash": ""
+  },
+  "src/L216_Combination_Sum_III.java": {
+    "mtime": 1623674601.622523,
+    "ast_hash": "64e3c6da9292729ed3583b83e3036174",
+    "semantic_hash": ""
+  },
+  "src/L2176_Count_Equal_and_Divisible_Pairs_in_an_Array.java": {
+    "mtime": 1693793908.2166955,
+    "ast_hash": "c6e84998a43731551880d7900511f05c",
+    "semantic_hash": ""
+  },
+  "src/L217_Contains_Duplicate.java": {
+    "mtime": 1652175249.2715182,
+    "ast_hash": "4cabfcb88c38a83c29207d5bd986f78b",
+    "semantic_hash": ""
+  },
+  "src/L2180_Count_Integers_With_Even_Digit_Sum.java": {
+    "mtime": 1694138399.911645,
+    "ast_hash": "10b46e5dccd13bfa88cd2589f8fbe0a4",
+    "semantic_hash": ""
+  },
+  "src/L2181_Merge_Nodes_in_Between_Zeros.java": {
+    "mtime": 1779328305.341816,
+    "ast_hash": "24ae4c332bc9382c3f989b5552665e51",
+    "semantic_hash": ""
+  },
+  "src/L2185_Counting_Words_With_a_Given_Prefix.java": {
+    "mtime": 1707036642.3543901,
+    "ast_hash": "28f7583dad88062b6eadbd379a3c5a7f",
+    "semantic_hash": ""
+  },
+  "src/L2190_Most_Frequent_Number_Following_Key_In_an_Array.java": {
+    "mtime": 1694657686.6080039,
+    "ast_hash": "52c3cd11e52fb2a63233253ac1c84344",
+    "semantic_hash": ""
+  },
+  "src/L2194_Cells_in_a_Range_on_an_Excel_Sheet.java": {
+    "mtime": 1707036642.2879188,
+    "ast_hash": "cf4c49573a4edc42861bee7b02ee16e9",
+    "semantic_hash": ""
+  },
+  "src/L2196_Create_Binary_Tree_From_Descriptions.java": {
+    "mtime": 1785463148.6478775,
+    "ast_hash": "88b699e54153200c6a701c5b2db65b92",
+    "semantic_hash": ""
+  },
+  "src/L219_Contains_Duplicate_II.java": {
+    "mtime": 1652175249.2924016,
+    "ast_hash": "1ab26563fc640ca63ebd07fe5cb42b21",
+    "semantic_hash": ""
+  },
+  "src/L2200_Find_All_K_Distant_Indices_in_an_Array.java": {
+    "mtime": 1694571205.5454316,
+    "ast_hash": "84b79e820a070504725563ec5ded8abc",
+    "semantic_hash": ""
+  },
+  "src/L2206_Divide_Array_Into_Equal_Pairs.java": {
+    "mtime": 1694484732.0337052,
+    "ast_hash": "b53c8d4bafd1fb4d9190032975a02447",
+    "semantic_hash": ""
+  },
+  "src/L220_Contains_Duplicate_III.java": {
+    "mtime": 1652175249.217988,
+    "ast_hash": "f835b14d3a8c438e71d6c55ee8e70a6c",
+    "semantic_hash": ""
+  },
+  "src/L2210_Count_Hills_and_Valleys_in_an_Array.java": {
+    "mtime": 1713410056.8111043,
+    "ast_hash": "f885affdd033903d24cd9d8e542cac75",
+    "semantic_hash": ""
+  },
+  "src/L2215_Find_the_Difference_of_Two_Arrays.java": {
+    "mtime": 1695176910.493733,
+    "ast_hash": "e4117fd8f719e11fd1a48251c4f84261",
+    "semantic_hash": ""
+  },
+  "src/L221_Maximal_Square.java": {
+    "mtime": 1621650489.264011,
+    "ast_hash": "0a6cc4e28aabd030322d60ea2f3f93fb",
+    "semantic_hash": ""
+  },
+  "src/L2220_Minimum_Bit_Flips_to_Convert_Number.java": {
+    "mtime": 1696904152.3928473,
+    "ast_hash": "bae4a16129ad35d3130a6112f875d5d6",
+    "semantic_hash": ""
+  },
+  "src/L2224_Minimum_Number_of_Operations_to_Convert_Time.java": {
+    "mtime": 1707036642.3520775,
+    "ast_hash": "1339ddf2072776e468ab5f10264112cf",
+    "semantic_hash": ""
+  },
+  "src/L222_Count_Complete_Tree_Nodes.java": {
+    "mtime": 1741003030.9364865,
+    "ast_hash": "50ae65bedefa3f8eeb4fcd0c8f547291",
+    "semantic_hash": ""
+  },
+  "src/L2231_Largest_Number_After_Digit_Swaps_by_Parity.java": {
+    "mtime": 1695111917.5450668,
+    "ast_hash": "26c21811956035b1d3bdac46ad1f5a8c",
+    "semantic_hash": ""
+  },
+  "src/L2235_Add_Two_Integers.java": {
+    "mtime": 1695088502.4687972,
+    "ast_hash": "549dcff2c38d9cdb11d49b3ba1174e0e",
+    "semantic_hash": ""
+  },
+  "src/L2236_Root_Equals_Sum_of_Children.java": {
+    "mtime": 1748402419.3220685,
+    "ast_hash": "9f813ce0112778661b0b741cb068f34b",
+    "semantic_hash": ""
+  },
+  "src/L2239_Find_Closest_Number_to_Zero.java": {
+    "mtime": 1697076588.8753238,
+    "ast_hash": "005c7b9cee9ad0f84e60d9ec8ea7b54e",
+    "semantic_hash": ""
+  },
+  "src/L223_Rectangle_Area.java": {
+    "mtime": 1711334694.31655,
+    "ast_hash": "4cf94cb361494470bae170dac01c40aa",
+    "semantic_hash": ""
+  },
+  "src/L2243_Calculate_Digit_Sum_of_a_String.java": {
+    "mtime": 1697421941.5506527,
+    "ast_hash": "2931efe82f56111162962f5aac275e3b",
+    "semantic_hash": ""
+  },
+  "src/L2248_Intersection_of_Multiple_Arrays.java": {
+    "mtime": 1707036642.3860106,
+    "ast_hash": "a65ea0ff7db1f1114f576ba7d1880c37",
+    "semantic_hash": ""
+  },
+  "src/L224_Basic_Calculator.java": {
+    "mtime": 1710819637.0821533,
+    "ast_hash": "bfcbe6ed4ef98e576250ce4e62b118fb",
+    "semantic_hash": ""
+  },
+  "src/L2255_Count_Prefixes_of_a_Given_String.java": {
+    "mtime": 1698112598.444591,
+    "ast_hash": "5d2eebfc482a1eda0ff7db47dd139174",
+    "semantic_hash": ""
+  },
+  "src/L2259_Remove_Digit_From_Number_to_Maximize_Result.java": {
+    "mtime": 1698027473.4779174,
+    "ast_hash": "98d0c1983b5b7d1f39725a40cbafeb60",
+    "semantic_hash": ""
+  },
+  "src/L225_Implement_Stack_using_Queues.java": {
+    "mtime": 1648113954.9883277,
+    "ast_hash": "3c7820a228af999a0712ec8ffac87712",
+    "semantic_hash": ""
+  },
+  "src/L2264_Largest_3_Same_Digit_Number_in_String.java": {
+    "mtime": 1707036642.2296112,
+    "ast_hash": "1e72cc705ec77399910586e2e5a33c82",
+    "semantic_hash": ""
+  },
+  "src/L2265_Count_Nodes_Equal_to_Average_of_Subtree.java": {
+    "mtime": 1781750994.8231602,
+    "ast_hash": "72a2b4b135fd1c484e6c30469e4669a7",
+    "semantic_hash": ""
+  },
+  "src/L2269_Find_the_K_Beauty_of_a_Number.java": {
+    "mtime": 1697681611.4386926,
+    "ast_hash": "6651a61fd0f6bc4060667c4698f2a5f7",
+    "semantic_hash": ""
+  },
+  "src/L226_Invert_Binary_Tree.java": {
+    "mtime": 1695886370.1569479,
+    "ast_hash": "90823c1755c2d39c75569ae944c1ddf1",
+    "semantic_hash": ""
+  },
+  "src/L2273_Find_Resultant_Array_After_Removing_Anagrams.java": {
+    "mtime": 1697601246.1063812,
+    "ast_hash": "ddb31e0ea8db0e4fb7d23d23dbf6f6cc",
+    "semantic_hash": ""
+  },
+  "src/L2278_Percentage_of_Letter_in_String.java": {
+    "mtime": 1707036642.2839422,
+    "ast_hash": "7e7785cd0426c3e94416c8fd8c171849",
+    "semantic_hash": ""
+  },
+  "src/L227_Basic_Calculator_II.java": {
+    "mtime": 1775699059.4267757,
+    "ast_hash": "8f13fe958175271e23fb73929eccc579",
+    "semantic_hash": ""
+  },
+  "src/L2283_Check_if_Number_Has_Equal_Digit_Count_and_Digit_Value.java": {
+    "mtime": 1707036642.2254164,
+    "ast_hash": "40bc934519e365b344e8049d97221898",
+    "semantic_hash": ""
+  },
+  "src/L2287_Rearrange_Characters_to_Make_Target_String.java": {
+    "mtime": 1707036642.2237358,
+    "ast_hash": "fd920bf2c7733bb1c45d65e568a4d05f",
+    "semantic_hash": ""
+  },
+  "src/L228_Summary_Ranges.java": {
+    "mtime": 1657012473.708777,
+    "ast_hash": "6b30c970be616ad0c633d7e44bd3f207",
+    "semantic_hash": ""
+  },
+  "src/L2293_Min_Max_Game.java": {
+    "mtime": 1698631742.5354347,
+    "ast_hash": "092bc1429136f7541b60d88145168af5",
+    "semantic_hash": ""
+  },
+  "src/L2299_Strong_Password_Checker_II.java": {
+    "mtime": 1698717169.6185386,
+    "ast_hash": "3d8fc4b69b14f72ae91f573c35c8a454",
+    "semantic_hash": ""
+  },
+  "src/L229_Majority_Element_II.java": {
+    "mtime": 1713773198.052877,
+    "ast_hash": "cdc38e46652c07b18c307a36a6024c44",
+    "semantic_hash": ""
+  },
+  "src/L2303_Calculate_Amount_Paid_in_Taxes.java": {
+    "mtime": 1698804545.6424234,
+    "ast_hash": "0778ffef37b006691bcd9a28119bc4eb",
+    "semantic_hash": ""
+  },
+  "src/L2309_Greatest_English_Letter_in_Upper_and_Lower_Case.java": {
+    "mtime": 1698897354.354361,
+    "ast_hash": "dd7ecfd8fe7397d054960fd128bf3fc2",
+    "semantic_hash": ""
+  },
+  "src/L2315_Count_Asterisks.java": {
+    "mtime": 1698976156.8454092,
+    "ast_hash": "4ea6f3d68af42ff570d1351c5a6348a3",
+    "semantic_hash": ""
+  },
+  "src/L2319_Check_if_Matrix_Is_X_Matrix.java": {
+    "mtime": 1757071397.985221,
+    "ast_hash": "c95d8c04f2803053676cd7887ef4b89f",
+    "semantic_hash": ""
+  },
+  "src/L231_Power_of_Two.java": {
+    "mtime": 1652868815.697852,
+    "ast_hash": "02efe2f4436586740942c82362965abc",
+    "semantic_hash": ""
+  },
+  "src/L2325_Decode_the_Message.java": {
+    "mtime": 1699322101.3710525,
+    "ast_hash": "b187bac7ae93fb9eded018dd1e82ed9f",
+    "semantic_hash": ""
+  },
+  "src/L232_Implement_Queue_using_Stacks.java": {
+    "mtime": 1652175249.2374036,
+    "ast_hash": "5c058e897f9681b65f1e2fec145bc86d",
+    "semantic_hash": ""
+  },
+  "src/L2331_Evaluate_Boolean_Binary_Tree.java": {
+    "mtime": 1748614245.5857773,
+    "ast_hash": "26722762323deebeede2f7fa25096c67",
+    "semantic_hash": ""
+  },
+  "src/L2335_Minimum_Amount_of_Time_to_Fill_Cups.java": {
+    "mtime": 1699235749.7587695,
+    "ast_hash": "fccd079c18a32c845a67dd74b8eb2b16",
+    "semantic_hash": ""
+  },
+  "src/L233_Number_of_Digit_One.java": {
+    "mtime": 1708484056.9962533,
+    "ast_hash": "13d34f413131658388c907c3f5800eaf",
+    "semantic_hash": ""
+  },
+  "src/L2341_Maximum_Number_of_Pairs_in_Array.java": {
+    "mtime": 1707036642.301099,
+    "ast_hash": "4eb9882122241da036e309ebec083cec",
+    "semantic_hash": ""
+  },
+  "src/L2347_Best_Poker_Hand.java": {
+    "mtime": 1707036642.2988062,
+    "ast_hash": "9b520ec77134dde7ce1f977995a1af1d",
+    "semantic_hash": ""
+  },
+  "src/L234_Palindrome_Linked_List.java": {
+    "mtime": 1652175249.1859567,
+    "ast_hash": "4854f19fe32f0b60d52d082b90c96b39",
+    "semantic_hash": ""
+  },
+  "src/L2351_First_Letter_to_Appear_Twice.java": {
+    "mtime": 1707036642.2525742,
+    "ast_hash": "3b4e2837e377648d425b287a4bcbd29d",
+    "semantic_hash": ""
+  },
+  "src/L2356_Number_of_Unique_Subjects_Taught_by_Each_Teacher.sql": {
+    "mtime": 1731982622.5600204,
+    "ast_hash": "305e6b0a4b4537fe710c16074403b4a4",
+    "semantic_hash": ""
+  },
+  "src/L2357_Make_Array_Zero_by_Subtracting_Equal_Amounts.java": {
+    "mtime": 1695606770.8895981,
+    "ast_hash": "d9bd0dc663532eb6e1d721d9e50c4b6e",
+    "semantic_hash": ""
+  },
+  "src/L235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java": {
+    "mtime": 1695886370.1549404,
+    "ast_hash": "6345eea6da17cc04a6808050e043ed6a",
+    "semantic_hash": ""
+  },
+  "src/L2363_Merge_Similar_Items.java": {
+    "mtime": 1695693499.2200587,
+    "ast_hash": "6f3715e3095e308ca4ea7ba3b1fecd74",
+    "semantic_hash": ""
+  },
+  "src/L2367_Number_of_Arithmetic_Triplets.java": {
+    "mtime": 1701396990.1385005,
+    "ast_hash": "5556a3c04b90fea4dc32ca16d890def5",
+    "semantic_hash": ""
+  },
+  "src/L236_Lowest_Common_Ancestor_of_a_Binary_Tree.java": {
+    "mtime": 1695886370.18554,
+    "ast_hash": "c1179be01b22579cc1da567e285e0dc5",
+    "semantic_hash": ""
+  },
+  "src/L2373_Largest_Local_Values_in_a_Matrix.java": {
+    "mtime": 1748482394.2657537,
+    "ast_hash": "cf132dbce71091ee109b3bfca68dd950",
+    "semantic_hash": ""
+  },
+  "src/L2375_Construct_Smallest_Number_From_DI_String.java": {
+    "mtime": 1739848380.8485594,
+    "ast_hash": "2e211580ef48322ccb5adc9e88f41019",
+    "semantic_hash": ""
+  },
+  "src/L2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.java": {
+    "mtime": 1701654430.82729,
+    "ast_hash": "ae05c3f8b25e92a1c4d743ed800baa36",
+    "semantic_hash": ""
+  },
+  "src/L237_Delete_Node_in_a_Linked_List.java": {
+    "mtime": 1645689789.1954594,
+    "ast_hash": "15e137d3e65202436540018b12c0b298",
+    "semantic_hash": ""
+  },
+  "src/L2383_Minimum_Hours_of_Training_to_Win_a_Competition.java": {
+    "mtime": 1701762458.9223888,
+    "ast_hash": "3902124bbe3b802f6b47c42f0df02286",
+    "semantic_hash": ""
+  },
+  "src/L2389_Longest_Subsequence_With_Limited_Sum.java": {
+    "mtime": 1700624504.4009495,
+    "ast_hash": "51c02c07d51c4dfb18a62b40ac9616d7",
+    "semantic_hash": ""
+  },
+  "src/L238_Product_of_Array_Except_Self.java": {
+    "mtime": 1710814663.4659443,
+    "ast_hash": "63057787ba3de6e688b3ccda4e1a6679",
+    "semantic_hash": ""
+  },
+  "src/L2391_Minimum_Amount_of_Time_to_Collect_Garbage.java": {
+    "mtime": 1783569388.9719634,
+    "ast_hash": "48612a517c75e80e27b1a0db12aed779",
+    "semantic_hash": ""
+  },
+  "src/L2395_Find_Subarrays_With_Equal_Sum.java": {
+    "mtime": 1701843543.4137633,
+    "ast_hash": "d7f5fe59a4295b59c9d4d5dc995ff28c",
+    "semantic_hash": ""
+  },
+  "src/L2396_Strictly_Palindromic_Number.java": {
+    "mtime": 1778742687.2264602,
+    "ast_hash": "f4b3e76f6d76703e43db8829fd39a758",
+    "semantic_hash": ""
+  },
+  "src/L2399_Check_Distances_Between_Same_Letters.java": {
+    "mtime": 1702013469.0964038,
+    "ast_hash": "ed4b5114f83c2d3ea274458c0effb832",
+    "semantic_hash": ""
+  },
+  "src/L2404_Most_Frequent_Even_Element.java": {
+    "mtime": 1701050721.7946603,
+    "ast_hash": "19cb8de2eff7866e794e75f958c8cb36",
+    "semantic_hash": ""
+  },
+  "src/L2409_Count_Days_Spent_Together.java": {
+    "mtime": 1707036642.3893557,
+    "ast_hash": "f17d581480ebc0e52758bc2a110a67fd",
+    "semantic_hash": ""
+  },
+  "src/L240_Search_a_2D_Matrix_II.java": {
+    "mtime": 1669257541.1745386,
+    "ast_hash": "6ff294f6d2ffbcc0a5c70c785bf63ec0",
+    "semantic_hash": ""
+  },
+  "src/L2413_Smallest_Even_Multiple.java": {
+    "mtime": 1695779434.165442,
+    "ast_hash": "306bb09e9cde3875c7a2a5538f1856ce",
+    "semantic_hash": ""
+  },
+  "src/L2414_Length_of_the_Longest_Alphabetical_Continuous_Substring.java": {
+    "mtime": 1705544485.1764994,
+    "ast_hash": "95cbd0833f3213a4cdb173ddf63b457a",
+    "semantic_hash": ""
+  },
+  "src/L2415_Reverse_Odd_Levels_of_Binary_Tree.java": {
+    "mtime": 1782098011.7902634,
+    "ast_hash": "28551bb1b12b5c0452855be052136764",
+    "semantic_hash": ""
+  },
+  "src/L2418_Sort_the_People.java": {
+    "mtime": 1707036642.25644,
+    "ast_hash": "a172290bb2f64d96acba0245a3602c39",
+    "semantic_hash": ""
+  },
+  "src/L241_Different_Ways_to_Add_Parentheses.java": {
+    "mtime": 1669257541.2433636,
+    "ast_hash": "668d5a30de3fddeafab032c8f7f3d26b",
+    "semantic_hash": ""
+  },
+  "src/L2423_Remove_Letter_To_Equalize_Frequency.java": {
+    "mtime": 1696822059.0869896,
+    "ast_hash": "219f1937a06c79a741c0ced135954d3f",
+    "semantic_hash": ""
+  },
+  "src/L2427_Number_of_Common_Factors.java": {
+    "mtime": 1665542653.4558048,
+    "ast_hash": "91494237b7717c22a736617b79f92ea0",
+    "semantic_hash": ""
+  },
+  "src/L242_Valid_Anagram.java": {
+    "mtime": 1647855051.7138343,
+    "ast_hash": "069e723056342823489a355ed12cc739",
+    "semantic_hash": ""
+  },
+  "src/L2432_The_Employee_That_Worked_on_the_Longest_Task.java": {
+    "mtime": 1707036642.295451,
+    "ast_hash": "eeb4c57fd82d4c4294460c3e319158bf",
+    "semantic_hash": ""
+  },
+  "src/L2433_Find_The_Original_Array_of_Prefix_Xor.java": {
+    "mtime": 1780451972.5552223,
+    "ast_hash": "2c2c0f421aac9c5fde9f80d8bb4372ba",
+    "semantic_hash": ""
+  },
+  "src/L2437_Number_of_Valid_Clock_Times.java": {
+    "mtime": 1702261078.9719734,
+    "ast_hash": "2a086d9b86da6c33afb58e49b2537e0d",
+    "semantic_hash": ""
+  },
+  "src/L2441_Largest_Positive_Integer_That_Exists_With_Its_Negative.java": {
+    "mtime": 1702347223.8930733,
+    "ast_hash": "3ef43319d8bf063a84b90180cccdf840",
+    "semantic_hash": ""
+  },
+  "src/L2446_Determine_if_Two_Events_Have_Conflict.java": {
+    "mtime": 1695887351.2618084,
+    "ast_hash": "87ab87378d30c69236ee325b9faa1fb6",
+    "semantic_hash": ""
+  },
+  "src/L2451_Odd_String_Difference.java": {
+    "mtime": 1702433345.7839174,
+    "ast_hash": "f8e351de3e25c99e3d42ac2fa8493c1d",
+    "semantic_hash": ""
+  },
+  "src/L2455_Average_Value_of_Even_Numbers_That_Are_Divisible_by_Three.java": {
+    "mtime": 1702518906.2666528,
+    "ast_hash": "9b457857a4f8992eafae018f89e4ac95",
+    "semantic_hash": ""
+  },
+  "src/L2460_Apply_Operations_to_an_Array.java": {
+    "mtime": 1696730656.4488256,
+    "ast_hash": "fe70c86cec514cab0769d177afefdcda",
+    "semantic_hash": ""
+  },
+  "src/L2465_Number_of_Distinct_Averages.java": {
+    "mtime": 1696642700.848506,
+    "ast_hash": "f568c323fff871c0c1fbd81f650d1f25",
+    "semantic_hash": ""
+  },
+  "src/L2469_Convert_the_Temperature.java": {
+    "mtime": 1702865972.0129263,
+    "ast_hash": "3408c18c263a5ac7b7c35e749e5bf5a8",
+    "semantic_hash": ""
+  },
+  "src/L2481_Minimum_Cuts_to_Divide_a_Circle.java": {
+    "mtime": 1702952764.5268917,
+    "ast_hash": "cb4147bc44a97c33b7f00c3655ab026c",
+    "semantic_hash": ""
+  },
+  "src/L2482_Difference_Between_Ones_and_Zeros_in_Row_and_Column.java": {
+    "mtime": 1785288836.8976097,
+    "ast_hash": "210552b2388332091de4d6b6bf766233",
+    "semantic_hash": ""
+  },
+  "src/L2485_Find_the_Pivot_Integer.java": {
+    "mtime": 1703037256.6528196,
+    "ast_hash": "4b3295a22b3654c403a4e3d523369bf6",
+    "semantic_hash": ""
+  },
+  "src/L2490_Circular_Sentence.java": {
+    "mtime": 1720665673.805806,
+    "ast_hash": "320cbad576701e9f2338876743d47af3",
+    "semantic_hash": ""
+  },
+  "src/L2496_Maximum_Value_of_a_String_in_an_Array.java": {
+    "mtime": 1749519470.205623,
+    "ast_hash": "a81761afe0c8d7ebaf834b90adce9543",
+    "semantic_hash": ""
+  },
+  "src/L2500_Delete_Greatest_Value_in_Each_Row.java": {
+    "mtime": 1749437372.4599245,
+    "ast_hash": "a3f8186871e7feb518b507502e167f06",
+    "semantic_hash": ""
+  },
+  "src/L2506_Count_Pairs_Of_Similar_Strings.java": {
+    "mtime": 1719886269.1605544,
+    "ast_hash": "92159f5eb1577027f2842996680ad43a",
+    "semantic_hash": ""
+  },
+  "src/L2511_Maximum_Enemy_Forts_That_Can_Be_Captured.java": {
+    "mtime": 1750040140.9074154,
+    "ast_hash": "3a7f66d472335e7e84fe14c973f68262",
+    "semantic_hash": ""
+  },
+  "src/L2515_Shortest_Distance_to_Target_String_in_a_Circular_Array.java": {
+    "mtime": 1750161911.2798007,
+    "ast_hash": "2b8c6bd298a4d0461d2c012bacd667b0",
+    "semantic_hash": ""
+  },
+  "src/L2520_Count_the_Digits_That_Divide_a_Number.java": {
+    "mtime": 1750226853.9188588,
+    "ast_hash": "59cf8e4c71969fd2f9176786e74fe30e",
+    "semantic_hash": ""
+  },
+  "src/L2525_Categorize_Box_According_to_Criteria.java": {
+    "mtime": 1750312389.7572207,
+    "ast_hash": "21f178dbcba5bfb205b1bf665e8550c8",
+    "semantic_hash": ""
+  },
+  "src/L2529_Maximum_Count_of_Positive_Integer_and_Negative_Integer.java": {
+    "mtime": 1750400241.5831728,
+    "ast_hash": "e9e21dd05b328770f1d2ff59ccd708c6",
+    "semantic_hash": ""
+  },
+  "src/L2535_Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array.java": {
+    "mtime": 1750659841.9817674,
+    "ast_hash": "a8c2ab4ade2a0df4b7bdca45ab5ccda8",
+    "semantic_hash": ""
+  },
+  "src/L2540_Minimum_Common_Value.java": {
+    "mtime": 1750816909.8283587,
+    "ast_hash": "30cc4fd8a656ea2f5ebe6207d765e3ef",
+    "semantic_hash": ""
+  },
+  "src/L2544_Alternating_Digit_Sum.java": {
+    "mtime": 1750817342.6859915,
+    "ast_hash": "efa0d535d8e933125ee0542c21b0a72e",
+    "semantic_hash": ""
+  },
+  "src/L2545_Sort_the_Students_by_Their_Kth_Score.java": {
+    "mtime": 1782956028.5944963,
+    "ast_hash": "fa117426f1212c8a92dbb28dc2c53a8a",
+    "semantic_hash": ""
+  },
+  "src/L2549_Count_Distinct_Numbers_on_Board.java": {
+    "mtime": 1707036642.3826158,
+    "ast_hash": "005fd5746e9c60b1580a751a41283592",
+    "semantic_hash": ""
+  },
+  "src/L2553_Separate_the_Digits_in_an_Array.java": {
+    "mtime": 1700099749.0343099,
+    "ast_hash": "43592fa938d42ee08db0bf7934ba91a3",
+    "semantic_hash": ""
+  },
+  "src/L2558_Take_Gifts_From_the_Richest_Pile.java": {
+    "mtime": 1707036642.2933838,
+    "ast_hash": "37e0a98e387348f82976fd365b16a018",
+    "semantic_hash": ""
+  },
+  "src/L2562_Find_the_Array_Concatenation_Value.java": {
+    "mtime": 1699926291.5531533,
+    "ast_hash": "6c999b068d60df1e7680a03af52c0fee",
+    "semantic_hash": ""
+  },
+  "src/L2566_Maximum_Difference_by_Remapping_a_Digit.java": {
+    "mtime": 1699841158.684322,
+    "ast_hash": "02cb3c09cb1dd69bb8317c25ea3e2a78",
+    "semantic_hash": ""
+  },
+  "src/L2570_Merge_Two_2D_Arrays_by_Summing_Values.java": {
+    "mtime": 1750902439.2916822,
+    "ast_hash": "f969bd67a2c4e07ceea06420fe90f45d",
+    "semantic_hash": ""
+  },
+  "src/L2574_Left_and_Right_Sum_Differences.java": {
+    "mtime": 1751247055.8393726,
+    "ast_hash": "0eb49ddb999311f8f21f1fa9c7af4270",
+    "semantic_hash": ""
+  },
+  "src/L2578_Split_With_Minimum_Sum.java": {
+    "mtime": 1699580650.930225,
+    "ast_hash": "8c76fd51448436b07338804adadf3636",
+    "semantic_hash": ""
+  },
+  "src/L257_Binary_Tree_Paths.java": {
+    "mtime": 1695886370.1624343,
+    "ast_hash": "7d50da16774941160e8d8efe030b2212",
+    "semantic_hash": ""
+  },
+  "src/L2582_Pass_the_Pillow.java": {
+    "mtime": 1699495132.7820818,
+    "ast_hash": "4500d956d6eb5adcb17d61681bc589be",
+    "semantic_hash": ""
+  },
+  "src/L2586_Count_the_Number_of_Vowel_Strings_in_Range.java": {
+    "mtime": 1751333983.1968913,
+    "ast_hash": "cdb1e77ae7a48b3f4b52a3991e5a34e1",
+    "semantic_hash": ""
+  },
+  "src/L258_Add_Digits.java": {
+    "mtime": 1652973797.4752958,
+    "ast_hash": "4f45577a799e3ac0e66e49aaf35f46c9",
+    "semantic_hash": ""
+  },
+  "src/L2591_Distribute_Money_to_Maximum_Children.java": {
+    "mtime": 1751423208.0050101,
+    "ast_hash": "df751d1b8f3fb355bbffd4f6225185bf",
+    "semantic_hash": ""
+  },
+  "src/L2595_Number_of_Even_and_Odd_Bits.java": {
+    "mtime": 1751608574.04846,
+    "ast_hash": "024a5d46723f76b5253f8672f96cae1b",
+    "semantic_hash": ""
+  },
+  "src/L2600_K_Items_With_the_Maximum_Sum.java": {
+    "mtime": 1751851893.466729,
+    "ast_hash": "8fb51124a7fb83088299b1d6facb5f9c",
+    "semantic_hash": ""
+  },
+  "src/L2605_Form_Smallest_Number_From_Two_Digit_Arrays.java": {
+    "mtime": 1751954351.068087,
+    "ast_hash": "97570ce7611e8fe4524c23fb994ac6f0",
+    "semantic_hash": ""
+  },
+  "src/L2609_Find_the_Longest_Balanced_Substring_of_a_Binary_String.java": {
+    "mtime": 1701325787.3200028,
+    "ast_hash": "53bfaf1cade86bf0be1cc980e3949331",
+    "semantic_hash": ""
+  },
+  "src/L260_Single_Number_III.java": {
+    "mtime": 1657012473.7331283,
+    "ast_hash": "e1cb4ca186fcc564cdaf2796a62716b3",
+    "semantic_hash": ""
+  },
+  "src/L2610_Convert_an_Array_Into_a_2D_Array_With_Conditions.java": {
+    "mtime": 1782870418.304805,
+    "ast_hash": "db343c318a015894195ddd84f670c057",
+    "semantic_hash": ""
+  },
+  "src/L2614_Prime_In_Diagonal.java": {
+    "mtime": 1701222358.3086755,
+    "ast_hash": "bdc9a159b5bf846691a5985795a4e86f",
+    "semantic_hash": ""
+  },
+  "src/L262_Trips_and_Users.sql": {
+    "mtime": 1738899693.1059566,
+    "ast_hash": "70b88594e2b54709767a34fc98a195ff",
+    "semantic_hash": ""
+  },
+  "src/L2639_Find_the_Width_of_Columns_of_a_Grid.java": {
+    "mtime": 1752030456.5916798,
+    "ast_hash": "9687595406fffddda6bab8c3b4c56181",
+    "semantic_hash": ""
+  },
+  "src/L263_Ugly_Number.java": {
+    "mtime": 1657012473.7246113,
+    "ast_hash": "49b3d307e18ed1083f07bb3eb9b5b92a",
+    "semantic_hash": ""
+  },
+  "src/L2643_Row_With_Maximum_Ones.java": {
+    "mtime": 1752111946.4809132,
+    "ast_hash": "c25db1125b4f087ab41dd409c5f6909f",
+    "semantic_hash": ""
+  },
+  "src/L2644_Find_the_Maximum_Divisibility_Score.java": {
+    "mtime": 1752203798.530661,
+    "ast_hash": "47367827a213e6718079c3d1ffed4410",
+    "semantic_hash": ""
+  },
+  "src/L264_Ugly_Number_II.java": {
+    "mtime": 1708223038.1191947,
+    "ast_hash": "ff84a5cffe056e6977b5ca2c155bed52",
+    "semantic_hash": ""
+  },
+  "src/L2651_Calculate_Delayed_Arrival_Time.java": {
+    "mtime": 1752197734.5829372,
+    "ast_hash": "c9d4e6ca033974ac92a6d0bbe51dfb21",
+    "semantic_hash": ""
+  },
+  "src/L2652_Sum_Multiples.java": {
+    "mtime": 1700451371.5217113,
+    "ast_hash": "9a4eb654a4dd4b90d8835c31a632297c",
+    "semantic_hash": ""
+  },
+  "src/L2656_Maximum_Sum_With_Exactly_K_Elements.java": {
+    "mtime": 1753234647.5644002,
+    "ast_hash": "522efd32b95bbf028449d3137230945d",
+    "semantic_hash": ""
+  },
+  "src/L2657_Find_the_Prefix_Common_Array_of_Two_Arrays.java": {
+    "mtime": 1780546012.7424767,
+    "ast_hash": "39c12df072f9604d25e2885130f3634d",
+    "semantic_hash": ""
+  },
+  "src/L2660_Determine_the_Winner_of_a_Bowling_Game.java": {
+    "mtime": 1752457814.0961561,
+    "ast_hash": "2043db1edaf6ef9df110e839a0952c2b",
+    "semantic_hash": ""
+  },
+  "src/L2670_Find_the_Distinct_Difference_Array.java": {
+    "mtime": 1748916365.3334236,
+    "ast_hash": "4adbd7d651daf6bf5f2fe7c6a5a79f62",
+    "semantic_hash": ""
+  },
+  "src/L2678_Number_of_Senior_Citizens.java": {
+    "mtime": 1749005991.1000164,
+    "ast_hash": "e96821a5eaba01c9a35a24315f1c13ed",
+    "semantic_hash": ""
+  },
+  "src/L2682_Find_the_Losers_of_the_Circular_Game.java": {
+    "mtime": 1749176887.2877784,
+    "ast_hash": "2cd20adec2c17eca98029ad3bb0ce492",
+    "semantic_hash": ""
+  },
+  "src/L268_Missing_Number.java": {
+    "mtime": 1657012473.7265587,
+    "ast_hash": "282bef07e639220b9152e55cd0e86d3c",
+    "semantic_hash": ""
+  },
+  "src/L2696_Minimum_String_Length_After_Removing_Substrings.java": {
+    "mtime": 1754275536.5032926,
+    "ast_hash": "e9dd6075ffa5559d8e1809335d82a164",
+    "semantic_hash": ""
+  },
+  "src/L2697_Lexicographically_Smallest_Palindrome.java": {
+    "mtime": 1754358848.363317,
+    "ast_hash": "86eb5bf58d7fa012602efb8e87f256f2",
+    "semantic_hash": ""
+  },
+  "src/L2706_Buy_Two_Chocolates.java": {
+    "mtime": 1754532506.9536898,
+    "ast_hash": "70262152af1756ec5f59f2e94211bd4a",
+    "semantic_hash": ""
+  },
+  "src/L2710_Remove_Trailing_Zeros_From_a_String.java": {
+    "mtime": 1754617844.2836764,
+    "ast_hash": "b80a909005772947386dd3be621a7472",
+    "semantic_hash": ""
+  },
+  "src/L2716_Minimize_String_Length.java": {
+    "mtime": 1756084908.8496325,
+    "ast_hash": "5decb2c8fd55d437dd46e6e9260de30a",
+    "semantic_hash": ""
+  },
+  "src/L2717_Semi_Ordered_Permutation.java": {
+    "mtime": 1756180069.5965707,
+    "ast_hash": "0119efd0436ebc5b338910e11cb317cd",
+    "semantic_hash": ""
+  },
+  "src/L2729_Check_if_The_Number_is_Fascinating.java": {
+    "mtime": 1703126296.3216746,
+    "ast_hash": "e3310c6aeedf0ca0b1ce0865e63c09bd",
+    "semantic_hash": ""
+  },
+  "src/L2733_Neither_Minimum_nor_Maximum.java": {
+    "mtime": 1703211811.9117696,
+    "ast_hash": "3590b19e5f2be4ce04a2341467a3f844",
+    "semantic_hash": ""
+  },
+  "src/L2739_Total_Distance_Traveled.java": {
+    "mtime": 1754885168.0822563,
+    "ast_hash": "da6b74fd18708a3e70176874223f02e1",
+    "semantic_hash": ""
+  },
+  "src/L273_Integer_to_English_Words.java": {
+    "mtime": 1712641672.8681471,
+    "ast_hash": "24fb4117284088b247ffcfcd8466806f",
+    "semantic_hash": ""
+  },
+  "src/L2744_Find_Maximum_Number_of_String_Pairs.java": {
+    "mtime": 1754966950.1611192,
+    "ast_hash": "01083ee578113dcbf6842f3bca1745d6",
+    "semantic_hash": ""
+  },
+  "src/L2748_Number_of_Beautiful_Pairs.java": {
+    "mtime": 1755049845.634325,
+    "ast_hash": "8cee013ac3b60b0fa79ab67d171058df",
+    "semantic_hash": ""
+  },
+  "src/L274_H_Index.java": {
+    "mtime": 1621650489.131071,
+    "ast_hash": "f8c3735ec0bcdca696481ddc81137fb6",
+    "semantic_hash": ""
+  },
+  "src/L275_H_Index_II.java": {
+    "mtime": 1621650489.2474866,
+    "ast_hash": "e3e40a6a315277403fcca30a9b28759c",
+    "semantic_hash": ""
+  },
+  "src/L2760_Longest_Even_Odd_Subarray_With_Threshold.java": {
+    "mtime": 1755228110.8604846,
+    "ast_hash": "d5da8bc2a8f8e82fb8123a3e46f181a4",
+    "semantic_hash": ""
+  },
+  "src/L2765_Longest_Alternating_Subarray.java": {
+    "mtime": 1754017636.1271627,
+    "ast_hash": "d54fefeff88af0723883cd2d1ca62c11",
+    "semantic_hash": ""
+  },
+  "src/L2769_Find_the_Maximum_Achievable_Number.java": {
+    "mtime": 1755152779.484868,
+    "ast_hash": "52186dc229ac942d7904687aa517d625",
+    "semantic_hash": ""
+  },
+  "src/L2778_Sum_of_Squares_of_Special_Elements.java": {
+    "mtime": 1707036642.3779995,
+    "ast_hash": "19b5e93175f747713e6515f1fb68100a",
+    "semantic_hash": ""
+  },
+  "src/L2784_Check_if_Array_is_Good.java": {
+    "mtime": 1703732747.389775,
+    "ast_hash": "9d3f1d2bcee4784bf8735dc8f43e3e20",
+    "semantic_hash": ""
+  },
+  "src/L2785_Sort_Vowels_in_a_String.java": {
+    "mtime": 1786344918.0870605,
+    "ast_hash": "9250a4670709363b4c8a3fa870bb9f3b",
+    "semantic_hash": ""
+  },
+  "src/L2788_Split_Strings_by_Separator.java": {
+    "mtime": 1704160395.0085626,
+    "ast_hash": "86a9727ce8e67aa06a8a52acd65a5633",
+    "semantic_hash": ""
+  },
+  "src/L278_First_Bad_Version.java": {
+    "mtime": 1621650489.295272,
+    "ast_hash": "3526cd633bb93b4071058a994d90f2ec",
+    "semantic_hash": ""
+  },
+  "src/L2798_Number_of_Employees_Who_Met_the_Target.java": {
+    "mtime": 1704333029.5259392,
+    "ast_hash": "6ca31b8a1987befae150867e943275ab",
+    "semantic_hash": ""
+  },
+  "src/L279_Perfect_Squares.java": {
+    "mtime": 1669257541.2241082,
+    "ast_hash": "6ecacb3cbe7bb512be94b4e889d9440a",
+    "semantic_hash": ""
+  },
+  "src/L2806_Account_Balance_After_Rounded_Purchase.java": {
+    "mtime": 1707036642.3343873,
+    "ast_hash": "cd82d1e1acc0a497b1c2672cb53b01a5",
+    "semantic_hash": ""
+  },
+  "src/L2807_Insert_Greatest_Common_Divisors_in_Linked_List.java": {
+    "mtime": 1778742519.8162107,
+    "ast_hash": "71a230af9451566a39ef244b39331763",
+    "semantic_hash": ""
+  },
+  "src/L2810_Faulty_Keyboard.java": {
+    "mtime": 1704160807.411701,
+    "ast_hash": "f4dc294221cdc1ad6f81f2f36fe002af",
+    "semantic_hash": ""
+  },
+  "src/L2815_Max_Pair_Sum_in_an_Array.java": {
+    "mtime": 1704420187.4513445,
+    "ast_hash": "07f01890ae2bb3c046df638f2863b34c",
+    "semantic_hash": ""
+  },
+  "src/L2824_Count_Pairs_Whose_Sum_is_Less_than_Target.java": {
+    "mtime": 1707036642.3033712,
+    "ast_hash": "13d55d923795f129ec96564c9fc9a987",
+    "semantic_hash": ""
+  },
+  "src/L2828_Check_if_a_String_Is_an_Acronym_of_Words.java": {
+    "mtime": 1703469845.1340537,
+    "ast_hash": "1f05bfca283bdead56e2b68da756e6f7",
+    "semantic_hash": ""
+  },
+  "src/L2833_Furthest_Point_From_Origin.java": {
+    "mtime": 1756273685.653551,
+    "ast_hash": "c62502fbcb1c24c9e0b3cec408946218",
+    "semantic_hash": ""
+  },
+  "src/L2839_Check_if_Strings_Can_be_Made_Equal_With_Operations_I.java": {
+    "mtime": 1706621131.3958902,
+    "ast_hash": "8bfa55271bc2e206801da41a16990727",
+    "semantic_hash": ""
+  },
+  "src/L283_Move_Zeroes.java": {
+    "mtime": 1657012452.3379664,
+    "ast_hash": "0adc37ed7d261735b68a274a112ebe19",
+    "semantic_hash": ""
+  },
+  "src/L2843_Count_Symmetric_Integers.java": {
+    "mtime": 1756349330.2600133,
+    "ast_hash": "f9801b2d669ed323864c6ff4322f48ee",
+    "semantic_hash": ""
+  },
+  "src/L2848_Points_That_Intersect_With_Cars.java": {
+    "mtime": 1756434551.7007704,
+    "ast_hash": "5596cc608e25f49a03660912f4561930",
+    "semantic_hash": ""
+  },
+  "src/L284_Peeking_Iterator.java": {
+    "mtime": 1712715974.5742025,
+    "ast_hash": "c9e5db5fb415cb4e29bcada3a36bb362",
+    "semantic_hash": ""
+  },
+  "src/L2855_Minimum_Right_Shifts_to_Sort_the_Array.java": {
+    "mtime": 1756691570.6653664,
+    "ast_hash": "5eab1c6de28c4f13c6b206b59526335e",
+    "semantic_hash": ""
+  },
+  "src/L2859_Sum_of_Values_at_Indices_With_K_Set_Bits.java": {
+    "mtime": 1713852016.7070994,
+    "ast_hash": "d8731af90d6d6aff47dfc3a6d5a28414",
+    "semantic_hash": ""
+  },
+  "src/L2864_Maximum_Odd_Binary_Number.java": {
+    "mtime": 1707036642.2357647,
+    "ast_hash": "2dcf3e01bf6701f0a20396abf88c0bfc",
+    "semantic_hash": ""
+  },
+  "src/L2869_Minimum_Operations_to_Collect_Elements.java": {
+    "mtime": 1713757023.576664,
+    "ast_hash": "0cadf5bd00b42c5e7dcf35bf72bcbe47",
+    "semantic_hash": ""
+  },
+  "src/L2873_Maximum_Value_of_an_Ordered_Triplet_I.java": {
+    "mtime": 1756951115.311406,
+    "ast_hash": "842c594d09a7a1255d482fe0ee257eb6",
+    "semantic_hash": ""
+  },
+  "src/L287_Find_the_Duplicate_Number.java": {
+    "mtime": 1669257541.2639089,
+    "ast_hash": "c803fcda3e5926d852ef998338dd61c3",
+    "semantic_hash": ""
+  },
+  "src/L2894_Divisible_and_Non_divisible_Sums_Difference.java": {
+    "mtime": 1714442324.8624437,
+    "ast_hash": "5b11f501242c79e9243c385645ef5782",
+    "semantic_hash": ""
+  },
+  "src/L2899_Last_Visited_Integers.java": {
+    "mtime": 1707036642.2730453,
+    "ast_hash": "af727b5a8fbab107a34191f4dffd2853",
+    "semantic_hash": ""
+  },
+  "src/L289_Game_of_Life.java": {
+    "mtime": 1669257541.255055,
+    "ast_hash": "bb7f7c2994df9ca11c7ffd89a983e270",
+    "semantic_hash": ""
+  },
+  "src/L2900_Longest_Unequal_Adjacent_Groups_Subsequence_I.java": {
+    "mtime": 1740487366.7152956,
+    "ast_hash": "dd91bb1fb120c9e6223ce6795b90f2d2",
+    "semantic_hash": ""
+  },
+  "src/L2903_Find_Indices_With_Index_and_Value_Difference_I.java": {
+    "mtime": 1756863399.952868,
+    "ast_hash": "906b2549deeba9b04238f451a3c78757",
+    "semantic_hash": ""
+  },
+  "src/L2908_Minimum_Sum_of_Mountain_Triplets_I.java": {
+    "mtime": 1756778056.8532276,
+    "ast_hash": "447437f82203466f9dde46d982a09ca6",
+    "semantic_hash": ""
+  },
+  "src/L290_Word_Pattern.java": {
+    "mtime": 1653895118.0495353,
+    "ast_hash": "7d0f9e057d204836072114094de5025f",
+    "semantic_hash": ""
+  },
+  "src/L2913_Subarrays_Distinct_Element_Sum_of_Squares_I.java": {
+    "mtime": 1758505588.690421,
+    "ast_hash": "6bbc39ed975d660ef51705f44cfd19c0",
+    "semantic_hash": ""
+  },
+  "src/L2917_Find_the_K_or_of_an_Array.java": {
+    "mtime": 1749781090.1555405,
+    "ast_hash": "71caa7e64922bf2aa2e7c9d55e9486c8",
+    "semantic_hash": ""
+  },
+  "src/L2923_Find_Champion_I.java": {
+    "mtime": 1713944427.003219,
+    "ast_hash": "d4af72d76f87b715548081f514ffee30",
+    "semantic_hash": ""
+  },
+  "src/L2928_Distribute_Candies_Among_Children_I.java": {
+    "mtime": 1758594683.0926669,
+    "ast_hash": "47a72057f06e88c5b500ffff1e639395",
+    "semantic_hash": ""
+  },
+  "src/L292_Nim_Game.java": {
+    "mtime": 1669257541.249888,
+    "ast_hash": "1d4c11a72e1d6af6a172ab777016eb7f",
+    "semantic_hash": ""
+  },
+  "src/L2932_Maximum_Strong_Pair_XOR_I.java": {
+    "mtime": 1758676746.3163252,
+    "ast_hash": "7ecb029e27b48770f8f00ed94b0269c5",
+    "semantic_hash": ""
+  },
+  "src/L2937_Make_Three_Strings_Equal.java": {
+    "mtime": 1758767954.5163753,
+    "ast_hash": "af0dffc3170618daeb6c3d628c81ced4",
+    "semantic_hash": ""
+  },
+  "src/L2942_Find_Words_Containing_Character.java": {
+    "mtime": 1755844906.3190484,
+    "ast_hash": "0cf2f0db9b6be75194764d40eba01e0c",
+    "semantic_hash": ""
+  },
+  "src/L2946_Matrix_Similarity_After_Cyclic_Shifts.java": {
+    "mtime": 1755748582.3290982,
+    "ast_hash": "70902bd1bb1502812c5f7cfdd5ff33d6",
+    "semantic_hash": ""
+  },
+  "src/L2951_Find_the_Peaks.java": {
+    "mtime": 1705285273.3770628,
+    "ast_hash": "3b6ddf1c2e454ff0208b299b8b034068",
+    "semantic_hash": ""
+  },
+  "src/L2956_Find_Common_Elements_Between_Two_Arrays.java": {
+    "mtime": 1705630269.1684806,
+    "ast_hash": "d09f68c328c1631a12e1bc4ac158050c",
+    "semantic_hash": ""
+  },
+  "src/L295_Find_Median_from_Data_Stream.java": {
+    "mtime": 1711002449.4932425,
+    "ast_hash": "7e6361525e080fb9599e9404c9563825",
+    "semantic_hash": ""
+  },
+  "src/L2960_Count_Tested_Devices_After_Test_Operations.java": {
+    "mtime": 1705024717.4326158,
+    "ast_hash": "b3a17256917c1fddc8f562d04ee0bae1",
+    "semantic_hash": ""
+  },
+  "src/L2965_Find_Missing_and_Repeated_Values.java": {
+    "mtime": 1704938851.0437634,
+    "ast_hash": "d30422d097130ed447a755684f7ef977",
+    "semantic_hash": ""
+  },
+  "src/L2970_Count_the_Number_of_Incremovable_Subarrays_I.java": {
+    "mtime": 1703557621.7709787,
+    "ast_hash": "059cab27f0f22aa86f2ee322e660590f",
+    "semantic_hash": ""
+  },
+  "src/L2974_Minimum_Number_Game.java": {
+    "mtime": 1703660158.9304037,
+    "ast_hash": "e4e46747ba12721c8fba786f0947080d",
+    "semantic_hash": ""
+  },
+  "src/L2980_Check_if_Bitwise_OR_Has_Trailing_Zeros.java": {
+    "mtime": 1704852095.164409,
+    "ast_hash": "542452864f851c8777e23f438dbb2f25",
+    "semantic_hash": ""
+  },
+  "src/L2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.java": {
+    "mtime": 1704801746.3721013,
+    "ast_hash": "20244b68713c6f6c40786e61c89cfbdb",
+    "semantic_hash": ""
+  },
+  "src/L2997_Minimum_Number_of_Operations_to_Make_Array_XOR_Equal_to_K.java": {
+    "mtime": 1783992098.2477994,
+    "ast_hash": "fd5111bcec9dc693d81af80d74cf48ee",
+    "semantic_hash": ""
+  },
+  "src/L299_Bulls_and_Cows.java": {
+    "mtime": 1710815582.7046452,
+    "ast_hash": "0ac385995cc79b31a13a970d38bdd305",
+    "semantic_hash": ""
+  },
+  "src/L3000_Maximum_Area_of_Longest_Diagonal_Rectangle.java": {
+    "mtime": 1705457406.561084,
+    "ast_hash": "a3f5be03a74762c032b8237e95bae879",
+    "semantic_hash": ""
+  },
+  "src/L3005_Count_Elements_With_Maximum_Frequency.java": {
+    "mtime": 1707036642.2970119,
+    "ast_hash": "f52b5c51f0f88f680b51ab8f96e8dda1",
+    "semantic_hash": ""
+  },
+  "src/L300_Longest_Increasing_Subsequence.java": {
+    "mtime": 1708223266.9260268,
+    "ast_hash": "5abc5235b8d61b691aac5579b26af3b4",
+    "semantic_hash": ""
+  },
+  "src/L3010_Divide_an_Array_Into_Subarrays_With_Minimum_Cost_I.java": {
+    "mtime": 1707036642.3329248,
+    "ast_hash": "11a266c68e953eb5f4e3437fb47f36e3",
+    "semantic_hash": ""
+  },
+  "src/L3014_Minimum_Number_of_Pushes_to_Type_Word_I.java": {
+    "mtime": 1755655402.535023,
+    "ast_hash": "6337c819fce17d0f7043df35e4539db6",
+    "semantic_hash": ""
+  },
+  "src/L3019_Number_of_Changing_Keys.java": {
+    "mtime": 1706496709.108572,
+    "ast_hash": "5471b7a6a4db678d0088d22d53d13c69",
+    "semantic_hash": ""
+  },
+  "src/L3024_Type_of_Triangle.java": {
+    "mtime": 1755489317.0999734,
+    "ast_hash": "534684c95114c915a15cc03b4e0617ed",
+    "semantic_hash": ""
+  },
+  "src/L3028_Ant_on_the_Boundary.java": {
+    "mtime": 1755570663.2942288,
+    "ast_hash": "d7c0b9a7b132ec093ab02b17b7e78284",
+    "semantic_hash": ""
+  },
+  "src/L3033_Modify_the_Matrix.java": {
+    "mtime": 1768527444.3742616,
+    "ast_hash": "ff8f60ec1153b92d1760bd3677f941eb",
+    "semantic_hash": ""
+  },
+  "src/L3038_Maximum_Number_of_Operations_With_the_Same_Score_I.java": {
+    "mtime": 1753840140.079748,
+    "ast_hash": "de5ec760926d1ec8d93539aaa4949b9a",
+    "semantic_hash": ""
+  },
+  "src/L303_Range_Sum_Query_Immutable.java": {
+    "mtime": 1652175249.2304027,
+    "ast_hash": "e8a7d8d4f810f8769fb9544c462ad4ae",
+    "semantic_hash": ""
+  },
+  "src/L3042_Count_Prefix_and_Suffix_Pairs_I.java": {
+    "mtime": 1759974952.9306948,
+    "ast_hash": "fb7217113cd7be94fe3a1bb57c0dc9ca",
+    "semantic_hash": ""
+  },
+  "src/L3046_Split_the_Array.java": {
+    "mtime": 1753926839.2437713,
+    "ast_hash": "ff1608a78355aa87b9c7fdf401a77875",
+    "semantic_hash": ""
+  },
+  "src/L3065_Minimum_Operations_to_Exceed_Threshold_Value_I.java": {
+    "mtime": 1758251698.7913468,
+    "ast_hash": "71dba9e282152a2dc8124a44cd9fb896",
+    "semantic_hash": ""
+  },
+  "src/L3066_Minimum_Operations_to_Exceed_Threshold_Value_II.java": {
+    "mtime": 1739414578.9499202,
+    "ast_hash": "7ff42a24ce95953516268221add22c50",
+    "semantic_hash": ""
+  },
+  "src/L3069_Distribute_Elements_Into_Two_Arrays_I.java": {
+    "mtime": 1760060160.9614122,
+    "ast_hash": "2c0c24404e676aadf0c6725ebd1bb7d0",
+    "semantic_hash": ""
+  },
+  "src/L306_Additive_Number.java": {
+    "mtime": 1658300724.6233675,
+    "ast_hash": "8b73089c891cd5e42ac690dc3070bddd",
+    "semantic_hash": ""
+  },
+  "src/L3074_Apple_Redistribution_into_Boxes.java": {
+    "mtime": 1760145130.2994854,
+    "ast_hash": "dbac70b471fc33e6187a9171e7bcfca6",
+    "semantic_hash": ""
+  },
+  "src/L3079_Find_the_Sum_of_Encrypted_Integers.java": {
+    "mtime": 1760319323.4827344,
+    "ast_hash": "25aee1e9289903f3651efc962fa4cb0e",
+    "semantic_hash": ""
+  },
+  "src/L307_Range_Sum_Query_Mutable.java": {
+    "mtime": 1712808740.9224565,
+    "ast_hash": "4ec6248d8a95970e7bb9d0db19147429",
+    "semantic_hash": ""
+  },
+  "src/L3083_Existence_of_a_Substring_in_a_String_and_Its_Reverse.java": {
+    "mtime": 1760410110.8106391,
+    "ast_hash": "ed32bcb3e52f7de088c58784e763e011",
+    "semantic_hash": ""
+  },
+  "src/L3090_Maximum_Length_Substring_With_Two_Occurrences.java": {
+    "mtime": 1760493541.3620214,
+    "ast_hash": "68c32cc731aed142856c602f26b94658",
+    "semantic_hash": ""
+  },
+  "src/L3095_Shortest_Subarray_With_OR_at_Least_K_I.java": {
+    "mtime": 1760581447.7487028,
+    "ast_hash": "c5507a787238fd6ca7982ba8a28d6e79",
+    "semantic_hash": ""
+  },
+  "src/L3099_Harshad_Number.java": {
+    "mtime": 1762738462.7300458,
+    "ast_hash": "b4c9fd2c303f1b3753de273ac110651b",
+    "semantic_hash": ""
+  },
+  "src/L309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.java": {
+    "mtime": 1708571859.6070385,
+    "ast_hash": "b40d137bf9bac60a5e48e122edae7f5f",
+    "semantic_hash": ""
+  },
+  "src/L3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray.java": {
+    "mtime": 1763002504.6271043,
+    "ast_hash": "262e0b38abd7099acea94e6dfff0f2d8",
+    "semantic_hash": ""
+  },
+  "src/L310_Minimum_Height_Trees.java": {
+    "mtime": 1776147013.0178814,
+    "ast_hash": "1c31204c3187355934d2c3cf2eea3e75",
+    "semantic_hash": ""
+  },
+  "src/L3110_Score_of_a_String.java": {
+    "mtime": 1762911375.9407556,
+    "ast_hash": "9bdb2e21047b8815e5c4295f9ecb6a31",
+    "semantic_hash": ""
+  },
+  "src/L3114_Latest_Time_You_Can_Obtain_After_Replacing_Characters.java": {
+    "mtime": 1763114851.438384,
+    "ast_hash": "40f61e3ae08b0256e0124fe50886026c",
+    "semantic_hash": ""
+  },
+  "src/L3120_Count_the_Number_of_Special_Characters_I.java": {
+    "mtime": 1762824835.4555302,
+    "ast_hash": "04a2ae1f1be52880b74623127498cfbb",
+    "semantic_hash": ""
+  },
+  "src/L3127_Make_a_Square_with_the_Same_Color.java": {
+    "mtime": 1763344631.0482187,
+    "ast_hash": "72e2a03baf1c50f3a842011a4434ac1c",
+    "semantic_hash": ""
+  },
+  "src/L312_Burst_Balloons.java": {
+    "mtime": 1708688338.2481663,
+    "ast_hash": "b276b5333e7cf9ab155bc3ddecca281c",
+    "semantic_hash": ""
+  },
+  "src/L3131_Find_the_Integer_Added_to_Array_I.java": {
+    "mtime": 1763430172.005076,
+    "ast_hash": "2ddbfefd9cad4773cf75d7682bc258b9",
+    "semantic_hash": ""
+  },
+  "src/L3136_Valid_Word.java": {
+    "mtime": 1762219969.3818414,
+    "ast_hash": "aa202ad3dfce887f6f11301158e9d479",
+    "semantic_hash": ""
+  },
+  "src/L313_Super_Ugly_Number.java": {
+    "mtime": 1708223038.1197844,
+    "ast_hash": "b0b1a713b129f4902341466e59f7fd63",
+    "semantic_hash": ""
+  },
+  "src/L3142_Check_if_Grid_Satisfies_Conditions.java": {
+    "mtime": 1762341615.472556,
+    "ast_hash": "704ed2edde4c14bedb2fc61d9809adce",
+    "semantic_hash": ""
+  },
+  "src/L3146_Permutation_Difference_between_Two_Strings.java": {
+    "mtime": 1762395245.7957988,
+    "ast_hash": "1f2fe34f155a84ddf677f7a528b08ae0",
+    "semantic_hash": ""
+  },
+  "src/L3151_Special_Array_I.java": {
+    "mtime": 1762487407.2406292,
+    "ast_hash": "5e3af8b6d09d1bcfc88822508f1bb2c5",
+    "semantic_hash": ""
+  },
+  "src/L3158_Find_the_XOR_of_Numbers_Which_Appear_Twice.java": {
+    "mtime": 1763519877.8603864,
+    "ast_hash": "e1cacaf1b575d4db681400f43ed8269e",
+    "semantic_hash": ""
+  },
+  "src/L315_Count_of_Smaller_Numbers_After_Self.java": {
+    "mtime": 1713322064.6983805,
+    "ast_hash": "f8c085f1665d5dba9d4a8094df66a762",
+    "semantic_hash": ""
+  },
+  "src/L3162_Find_the_Number_of_Good_Pairs_I.java": {
+    "mtime": 1760923310.5836258,
+    "ast_hash": "d530ce86660e040ca8319e4381cb5912",
+    "semantic_hash": ""
+  },
+  "src/L3168_Minimum_Number_of_Chairs_in_a_Waiting_Room.java": {
+    "mtime": 1761010876.3202324,
+    "ast_hash": "476ec0ffc2eb82b5257439ed2c60ddd2",
+    "semantic_hash": ""
+  },
+  "src/L316_Remove_Duplicate_Letters.java": {
+    "mtime": 1711420021.9654307,
+    "ast_hash": "041f79c7e4d0ed307971f65df96a7189",
+    "semantic_hash": ""
+  },
+  "src/L3174_Clear_Digits.java": {
+    "mtime": 1724643290.0930936,
+    "ast_hash": "a66acd1f0823911995a0b38f9b99f04d",
+    "semantic_hash": ""
+  },
+  "src/L3178_Find_the_Child_Who_Has_the_Ball_After_K_Seconds.java": {
+    "mtime": 1761097630.696087,
+    "ast_hash": "94e545414467b2e50f3b3bb7714feaad",
+    "semantic_hash": ""
+  },
+  "src/L3184_Count_Pairs_That_Form_a_Complete_Day_I.java": {
+    "mtime": 1761184523.1807554,
+    "ast_hash": "bf2f251ce5e586bc948ea8e7d6ae8a5a",
+    "semantic_hash": ""
+  },
+  "src/L318_Maximum_Product_of_Word_Lengths.java": {
+    "mtime": 1711507359.3720105,
+    "ast_hash": "5b0eeea76bc12c922b1c10ddba1963c6",
+    "semantic_hash": ""
+  },
+  "src/L3190_Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three.java": {
+    "mtime": 1724033090.3257294,
+    "ast_hash": "ed16d67714ffb034a4835210f8bc4af3",
+    "semantic_hash": ""
+  },
+  "src/L3194_Minimum_Average_of_Smallest_and_Largest_Elements.java": {
+    "mtime": 1723017347.5016537,
+    "ast_hash": "c86a16eaa00c5cbb1a9b8a4a2bfea8b6",
+    "semantic_hash": ""
+  },
+  "src/L319_Bulb_Switcher.java": {
+    "mtime": 1711509246.2563312,
+    "ast_hash": "2b5f93d244e3f9698070cf1c91ebd81a",
+    "semantic_hash": ""
+  },
+  "src/L3200_Maximum_Height_of_a_Triangle.java": {
+    "mtime": 1722490537.707847,
+    "ast_hash": "ae0c26e0aae9534f5c5a1e79e5e61836",
+    "semantic_hash": ""
+  },
+  "src/L3206_Alternating_Groups_I.java": {
+    "mtime": 1722393230.3888493,
+    "ast_hash": "63f0b993f937382ab48939b575a11a1e",
+    "semantic_hash": ""
+  },
+  "src/L3210_Find_the_Encrypted_String.java": {
+    "mtime": 1722306088.3770902,
+    "ast_hash": "9913547189c59c4058325b085a17db14",
+    "semantic_hash": ""
+  },
+  "src/L3211_Generate_Binary_Strings_Without_Adjacent_Zeros.java": {
+    "mtime": 1780364279.432275,
+    "ast_hash": "b7530fc2f9c8f38459c5d67a8bb0ce66",
+    "semantic_hash": ""
+  },
+  "src/L3216_Lexicographically_Smallest_String_After_a_Swap.java": {
+    "mtime": 1721962859.8472803,
+    "ast_hash": "965e512ce8d83a2e9c9920527e1bce62",
+    "semantic_hash": ""
+  },
+  "src/L3220_Odd_and_Even_Transactions.sql": {
+    "mtime": 1737361555.5198255,
+    "ast_hash": "14a7cd3455a5ac4778e9899018cc0056",
+    "semantic_hash": ""
+  },
+  "src/L3222_Find_the_Winning_Player_in_Coin_Game.java": {
+    "mtime": 1721875241.9927526,
+    "ast_hash": "50d55de040c05989385b74330252553a",
+    "semantic_hash": ""
+  },
+  "src/L3226_Number_of_Bit_Changes_to_Make_Two_Integers_Equal.java": {
+    "mtime": 1721616076.815007,
+    "ast_hash": "0279d1b0363e3fe15f4dd8372556b2cb",
+    "semantic_hash": ""
+  },
+  "src/L322_Coin_Change.java": {
+    "mtime": 1708926097.5301707,
+    "ast_hash": "bacb010e16bda2f44ecdfee678de97bd",
+    "semantic_hash": ""
+  },
+  "src/L3232_Find_if_Digit_Game_Can_Be_Won.java": {
+    "mtime": 1722219295.2247725,
+    "ast_hash": "05a8a0af99d1c508d3c348f1b37f3221",
+    "semantic_hash": ""
+  },
+  "src/L3238_Find_the_Number_of_Winning_Players.java": {
+    "mtime": 1722825818.7425654,
+    "ast_hash": "96ac83de53cda41f51f1509520a176c2",
+    "semantic_hash": ""
+  },
+  "src/L3242_Design_Neighbor_Sum_Service.java": {
+    "mtime": 1723431702.1703176,
+    "ast_hash": "23eb89d3f0749c8bdf59fba35cf2da94",
+    "semantic_hash": ""
+  },
+  "src/L3248_Snake_in_Matrix.java": {
+    "mtime": 1761269986.9409165,
+    "ast_hash": "aafa8c33b92ce9a8473f748bb8fa9193",
+    "semantic_hash": ""
+  },
+  "src/L324_Wiggle_Sort_II.java": {
+    "mtime": 1775784943.2357802,
+    "ast_hash": "75c73f4afa204742ffcf9ff9f6c8219b",
+    "semantic_hash": ""
+  },
+  "src/L3258_Count_Substrings_That_Satisfy_K_Constraint_I.java": {
+    "mtime": 1763603289.788536,
+    "ast_hash": "a87adb19b5d94b69b494917bb02f5ec6",
+    "semantic_hash": ""
+  },
+  "src/L3264_Final_Array_State_After_K_Multiplication_Operations_I.java": {
+    "mtime": 1724647678.7889018,
+    "ast_hash": "610df9966c8fc78407b22c873a6e794e",
+    "semantic_hash": ""
+  },
+  "src/L326_Power_of_Three.java": {
+    "mtime": 1669257541.2624884,
+    "ast_hash": "f11ec986af705ccd56874a7423be0ad7",
+    "semantic_hash": ""
+  },
+  "src/L3270_Find_the_Key_of_the_Numbers.java": {
+    "mtime": 1764241912.450629,
+    "ast_hash": "8791261eae4904ab41c5a1776d02cd18",
+    "semantic_hash": ""
+  },
+  "src/L3274_Check_if_Two_Chessboard_Squares_Have_the_Same_Color.java": {
+    "mtime": 1725256740.6421661,
+    "ast_hash": "eb7dff61d8aa0ee4c72fd65a327f0b9e",
+    "semantic_hash": ""
+  },
+  "src/L3280_Convert_Date_to_Binary.java": {
+    "mtime": 1725879712.8620508,
+    "ast_hash": "fe9b99004b2f9280430ce24ab2958a9a",
+    "semantic_hash": ""
+  },
+  "src/L3285_Find_Indices_of_Stable_Mountains.java": {
+    "mtime": 1764294306.9458785,
+    "ast_hash": "07181ebcf336e4f6378c1dd20a0f7d64",
+    "semantic_hash": ""
+  },
+  "src/L3289_The_Two_Sneaky_Numbers_of_Digitville.java": {
+    "mtime": 1726733513.392834,
+    "ast_hash": "94f2c74b71898ca299c22da7ba2fe12a",
+    "semantic_hash": ""
+  },
+  "src/L328_Odd_Even_Linked_List.java": {
+    "mtime": 1645689789.2041125,
+    "ast_hash": "83cfa825ad1e8dc7bdeecf1d14d89ed4",
+    "semantic_hash": ""
+  },
+  "src/L329_Longest_Increasing_Path_in_a_Matrix.java": {
+    "mtime": 1741071772.704018,
+    "ast_hash": "0758ff6a91536319a39097764a1746f6",
+    "semantic_hash": ""
+  },
+  "src/L3300_Minimum_Element_After_Replacement_With_Digit_Sum.java": {
+    "mtime": 1764556574.4023986,
+    "ast_hash": "c3f2f625ac207ccff29936db8d46ab88",
+    "semantic_hash": ""
+  },
+  "src/L3304_Find_the_K_th_Character_in_String_Game_I.java": {
+    "mtime": 1768786703.0348895,
+    "ast_hash": "ec5f58157163a2f8711836a30c0487a1",
+    "semantic_hash": ""
+  },
+  "src/L3314_Construct_the_Minimum_Bitwise_Array_I.java": {
+    "mtime": 1770099080.2283356,
+    "ast_hash": "4d199f092cae9f0dff13d009b0d1057b",
+    "semantic_hash": ""
+  },
+  "src/L3318_Find_X_Sum_of_All_K_Long_Subarrays_I.java": {
+    "mtime": 1770169399.3823202,
+    "ast_hash": "a50862d68487ac1eae55f016a05a36f4",
+    "semantic_hash": ""
+  },
+  "src/L331_Verify_Preorder_Serialization_of_a_Binary_Tree.java": {
+    "mtime": 1776217711.0466259,
+    "ast_hash": "44b297fdfae576393fc4ed6a3008ec66",
+    "semantic_hash": ""
+  },
+  "src/L3330_Find_the_Original_Typed_String_I.java": {
+    "mtime": 1757382101.5845642,
+    "ast_hash": "81c0af51404b76dffd0441500b7ec328",
+    "semantic_hash": ""
+  },
+  "src/L3340_Check_Balanced_String.java": {
+    "mtime": 1757640422.7422774,
+    "ast_hash": "c3b3bca979e243452b40b6fab735048c",
+    "semantic_hash": ""
+  },
+  "src/L3345_Smallest_Divisible_Digit_Product_I.java": {
+    "mtime": 1757554628.5761485,
+    "ast_hash": "ea7213057268bf5036e063d13e3b330b",
+    "semantic_hash": ""
+  },
+  "src/L3349_Adjacent_Increasing_Subarrays_Detection_I.java": {
+    "mtime": 1757469195.080547,
+    "ast_hash": "4aa945ed5de0dfedc268727dcc24bde1",
+    "semantic_hash": ""
+  },
+  "src/L334_Increasing_Triplet_Subsequence.java": {
+    "mtime": 1711506302.172461,
+    "ast_hash": "19cf574c1c4ccdecc01cef2c5b234620",
+    "semantic_hash": ""
+  },
+  "src/L3354_Make_Array_Elements_Equal_to_Zero.java": {
+    "mtime": 1757296446.4841537,
+    "ast_hash": "623fea2ac5bde16411f7f07367f02b7f",
+    "semantic_hash": ""
+  },
+  "src/L3356_Zero_Array_Transformation_II.java": {
+    "mtime": 1741943452.5801835,
+    "ast_hash": "b010dc5c5c54877c976986b6e0a5b391",
+    "semantic_hash": ""
+  },
+  "src/L3360_Stone_Removal_Game.java": {
+    "mtime": 1749606678.6411862,
+    "ast_hash": "4afd8e8a2bd474f62c3eaa5fbaf10f0e",
+    "semantic_hash": ""
+  },
+  "src/L3364_Minimum_Positive_Sum_Subarray.java": {
+    "mtime": 1757900674.5606506,
+    "ast_hash": "51be0e1c4c6c9537ba92dbaa54e5b00d",
+    "semantic_hash": ""
+  },
+  "src/L3370_Smallest_Number_With_All_Set_Bits.java": {
+    "mtime": 1757987196.2590501,
+    "ast_hash": "a3062a3249ac9ef21665f4ef6fd550c1",
+    "semantic_hash": ""
+  },
+  "src/L3374_First_Letter_Capitalization_II.sql": {
+    "mtime": 1737534354.078154,
+    "ast_hash": "8a08e87a8485483d9f387e0998c771b5",
+    "semantic_hash": ""
+  },
+  "src/L3375_Minimum_Operations_to_Make_Array_Values_Equal_to_K.java": {
+    "mtime": 1758073921.2948375,
+    "ast_hash": "253efe93b46eb07ac466489da80f0173",
+    "semantic_hash": ""
+  },
+  "src/L3379_Transformed_Array.java": {
+    "mtime": 1753419643.5894828,
+    "ast_hash": "987d778498453d76a3d818788764b31d",
+    "semantic_hash": ""
+  },
+  "src/L337_House_Robber_III.java": {
+    "mtime": 1776310137.6054034,
+    "ast_hash": "e11dd5a5e83a89b55d71b7cff5488594",
+    "semantic_hash": ""
+  },
+  "src/L3386_Button_with_Longest_Push_Time.java": {
+    "mtime": 1758159882.1996,
+    "ast_hash": "6e9301f6506cc4876b157c9654efb668",
+    "semantic_hash": ""
+  },
+  "src/L338_Counting_Bits.java": {
+    "mtime": 1659517274.200705,
+    "ast_hash": "1a0688e2032a7975a3add01ca6d070d0",
+    "semantic_hash": ""
+  },
+  "src/L3392_Count_Subarrays_of_Length_Three_With_a_Condition.java": {
+    "mtime": 1761616186.357819,
+    "ast_hash": "9d2183ba3a01ca96e516136bddbac67c",
+    "semantic_hash": ""
+  },
+  "src/L3396_Minimum_Number_of_Operations_to_Make_Elements_in_Array_Distinct.java": {
+    "mtime": 1761792383.0705986,
+    "ast_hash": "94a2d8fea32447e6ba64e60276b29725",
+    "semantic_hash": ""
+  },
+  "src/L3402_Minimum_Operations_to_Make_Columns_Increasing.java": {
+    "mtime": 1761792886.7309859,
+    "ast_hash": "42bf6b8d5172f540b60e4ba415b69fe9",
+    "semantic_hash": ""
+  },
+  "src/L3407_Substring_Matching_Pattern.java": {
+    "mtime": 1762133907.8251233,
+    "ast_hash": "d42c9ab859dab003e56be854157bec94",
+    "semantic_hash": ""
+  },
+  "src/L3411_Maximum_Subarray_With_Equal_Products.java": {
+    "mtime": 1761532303.605456,
+    "ast_hash": "64ff23bf343e6927f99aa1364eb60248",
+    "semantic_hash": ""
+  },
+  "src/L3417_Zigzag_Grid_Traversal_With_Skip.java": {
+    "mtime": 1773973046.402008,
+    "ast_hash": "d461e885dd922554152498b127d3432b",
+    "semantic_hash": ""
+  },
+  "src/L341_Flatten_Nested_List_Iterator.java": {
+    "mtime": 1776397640.840668,
+    "ast_hash": "1437622ab70457e18870fa51902605bb",
+    "semantic_hash": ""
+  },
+  "src/L3421_Find_Students_Who_Improved.sql": {
+    "mtime": 1737429330.358572,
+    "ast_hash": "5c8bf5098ae19d51a7cbd96521fa7d48",
+    "semantic_hash": ""
+  },
+  "src/L3423_Maximum_Difference_Between_Adjacent_Elements_in_a_Circular_Array.java": {
+    "mtime": 1764638450.0866914,
+    "ast_hash": "0e5f6b5eb1a282d5b35f4af5879b21d2",
+    "semantic_hash": ""
+  },
+  "src/L3427_Sum_of_Variable_Length_Subarrays.java": {
+    "mtime": 1753678072.1723886,
+    "ast_hash": "42842d1af7cd98611db6a39cfe951bc2",
+    "semantic_hash": ""
+  },
+  "src/L342_Power_of_Four.java": {
+    "mtime": 1669257541.2059014,
+    "ast_hash": "90c041d0962917afa34a0900cb90d6b0",
+    "semantic_hash": ""
+  },
+  "src/L3432_Count_Partitions_with_Even_Sum_Difference.java": {
+    "mtime": 1753753376.4018261,
+    "ast_hash": "8514243ef6665f50a2781376168f4204",
+    "semantic_hash": ""
+  },
+  "src/L3436_Find_Valid_Emails.sql": {
+    "mtime": 1738736177.3138013,
+    "ast_hash": "1d66a59ca132aaade8eb2d4f9f58fead",
+    "semantic_hash": ""
+  },
+  "src/L3438_Find_Valid_Pair_of_Adjacent_Digits_in_String.java": {
+    "mtime": 1764725452.7023473,
+    "ast_hash": "9a9641ed4af77cefa6a9b57fa24eda4a",
+    "semantic_hash": ""
+  },
+  "src/L343_Integer_Break.java": {
+    "mtime": 1621650489.2279572,
+    "ast_hash": "3e8bd89713f70a4a256f669ff0338ad6",
+    "semantic_hash": ""
+  },
+  "src/L3442_Maximum_Difference_Between_Even_and_Odd_Frequency_I.java": {
+    "mtime": 1764813954.5026536,
+    "ast_hash": "5efd1b5def00e275d0941726da0f75a9",
+    "semantic_hash": ""
+  },
+  "src/L3446_Sort_Matrix_by_Diagonals.java": {
+    "mtime": 1784770515.0018861,
+    "ast_hash": "2df4116cc6d09b53d16b510d8583163b",
+    "semantic_hash": ""
+  },
+  "src/L344_Reverse_String.java": {
+    "mtime": 1669257541.259001,
+    "ast_hash": "32e44cd2545b94b7a861087cb38dec5a",
+    "semantic_hash": ""
+  },
+  "src/L3452_Sum_of_Good_Numbers.java": {
+    "mtime": 1753323393.6990218,
+    "ast_hash": "15b622a79a5e7491edb25c65030dad61",
+    "semantic_hash": ""
+  },
+  "src/L3456_Find_Special_Substring_of_Length_K.java": {
+    "mtime": 1764904071.2783048,
+    "ast_hash": "422c2a26fb2aabc72c631abe39590e55",
+    "semantic_hash": ""
+  },
+  "src/L345_Reverse_Vowels_of_a_String.java": {
+    "mtime": 1669257541.2571325,
+    "ast_hash": "8c13ebb4be14a6d1a59e631d5ac3c107",
+    "semantic_hash": ""
+  },
+  "src/L3461_Check_If_Digits_Are_Equal_in_String_After_Operations_I.java": {
+    "mtime": 1765763382.6595705,
+    "ast_hash": "18097657e181ca6a04adee50767a161c",
+    "semantic_hash": ""
+  },
+  "src/L3467_Transform_Array_by_Parity.java": {
+    "mtime": 1765854645.4287274,
+    "ast_hash": "a1424578993af24cb9205228550327c5",
+    "semantic_hash": ""
+  },
+  "src/L3471_Find_the_Largest_Almost_Missing_Integer.java": {
+    "mtime": 1766028172.2642968,
+    "ast_hash": "b6eb104926e429c9ba3d49f1f376c409",
+    "semantic_hash": ""
+  },
+  "src/L3477_Fruits_Into_Baskets_II.java": {
+    "mtime": 1770688779.1064734,
+    "ast_hash": "366fa1003c31836ae88df03a02549ba1",
+    "semantic_hash": ""
+  },
+  "src/L347_Top_K_Frequent_Elements.java": {
+    "mtime": 1712546394.8626306,
+    "ast_hash": "e6c524c36c277038cc685d6064285d78",
+    "semantic_hash": ""
+  },
+  "src/L3483_Unique_3_Digit_Even_Numbers.java": {
+    "mtime": 1771078303.3352962,
+    "ast_hash": "0a9af1de212f8c21050296c419bd40b9",
+    "semantic_hash": ""
+  },
+  "src/L3487_Maximum_Unique_Subarray_Sum_After_Deletion.java": {
+    "mtime": 1771984790.7108097,
+    "ast_hash": "e6efb0c2d59e283bd09daea31180e2cd",
+    "semantic_hash": ""
+  },
+  "src/L3492_Maximum_Containers_on_a_Ship.java": {
+    "mtime": 1766127371.675258,
+    "ast_hash": "ddb879268e922d49b516301db5c92a3b",
+    "semantic_hash": ""
+  },
+  "src/L3498_Reverse_Degree_of_a_String.java": {
+    "mtime": 1766367402.707359,
+    "ast_hash": "7ac973ed757372bff4b37b3a0833a101",
+    "semantic_hash": ""
+  },
+  "src/L3502_Minimum_Cost_to_Reach_Every_Position.java": {
+    "mtime": 1766545084.0653067,
+    "ast_hash": "d5c89c6210c3465bdcc01d25d16e3c2f",
+    "semantic_hash": ""
+  },
+  "src/L3507_Minimum_Pair_Removal_to_Sort_Array_I.java": {
+    "mtime": 1766627384.8259342,
+    "ast_hash": "916c88b22618efd9b49e60fe0c73e7ae",
+    "semantic_hash": ""
+  },
+  "src/L350_Intersection_of_Two_Arrays_II.java": {
+    "mtime": 1669257541.2682304,
+    "ast_hash": "ee980761df79c6406361108c06449019",
+    "semantic_hash": ""
+  },
+  "src/L3512_Minimum_Operations_to_Make_Array_Sum_Divisible_by_K.java": {
+    "mtime": 1766711441.3968081,
+    "ast_hash": "2dbcc108268d1f1d744970927617db05",
+    "semantic_hash": ""
+  },
+  "src/L3516_Find_Closest_Person.java": {
+    "mtime": 1767490543.6173027,
+    "ast_hash": "2546e85166b1b5ad8841b7bc14018e45",
+    "semantic_hash": ""
+  },
+  "src/L352_Data_Stream_as_Disjoint_Intervals.java": {
+    "mtime": 1740118712.7798593,
+    "ast_hash": "dd530e8024abfcef78fe841f5aeb0137",
+    "semantic_hash": ""
+  },
+  "src/L3536_Maximum_Product_of_Two_Digits.java": {
+    "mtime": 1767576946.6352942,
+    "ast_hash": "d590cb6f2087aee3051c8adb5e9ed290",
+    "semantic_hash": ""
+  },
+  "src/L3541_Find_Most_Frequent_Vowel_and_Consonant.java": {
+    "mtime": 1767663972.656332,
+    "ast_hash": "98f2156e780b48da1c799b19583c270e",
+    "semantic_hash": ""
+  },
+  "src/L3545_Minimum_Deletions_for_At_Most_K_Distinct_Characters.java": {
+    "mtime": 1767758288.6726313,
+    "ast_hash": "c33456cee30fbef1ecbcdb8fc6660ddc",
+    "semantic_hash": ""
+  },
+  "src/L354_Russian_Doll_Envelopes.java": {
+    "mtime": 1621650370.3134775,
+    "ast_hash": "589106bb99ace13a9b670da3df943b7f",
+    "semantic_hash": ""
+  },
+  "src/L3550_Smallest_Index_With_Digit_Sum_Equal_to_Index.java": {
+    "mtime": 1767836542.7420967,
+    "ast_hash": "a3db5c453882713cdb4456ef8893d2d4",
+    "semantic_hash": ""
+  },
+  "src/L355_Design_Twitter.java": {
+    "mtime": 1712142442.078879,
+    "ast_hash": "dad6cf4ef1dbd6950c908711c62ee073",
+    "semantic_hash": ""
+  },
+  "src/L3560_Find_Minimum_Log_Transportation_Cost.java": {
+    "mtime": 1767925914.4406002,
+    "ast_hash": "140c4a3fc46d1aba3078f82b7a5b7ad2",
+    "semantic_hash": ""
+  },
+  "src/L357_Count_Numbers_with_Unique_Digits.java": {
+    "mtime": 1652175249.234576,
+    "ast_hash": "ae643cd3518f2a124279e5c17124740c",
+    "semantic_hash": ""
+  },
+  "src/L3582_Generate_Tag_for_Video_Caption.java": {
+    "mtime": 1765158247.382699,
+    "ast_hash": "60e473504d465852efd896a2797f049b",
+    "semantic_hash": ""
+  },
+  "src/L3591_Check_if_Any_Element_Has_Prime_Frequency.java": {
+    "mtime": 1765247193.4321992,
+    "ast_hash": "8523ad0557a9d5b1ef55582cae328e51",
+    "semantic_hash": ""
+  },
+  "src/L3602_Hexadecimal_and_Hexatrigesimal_Conversion.java": {
+    "mtime": 1765331349.506625,
+    "ast_hash": "fa5a9742854f48a02984efae9e409bbb",
+    "semantic_hash": ""
+  },
+  "src/L3606_Coupon_Code_Validator.java": {
+    "mtime": 1765459553.6059215,
+    "ast_hash": "551c7cf219c0415ef40fd42abf9a35ad",
+    "semantic_hash": ""
+  },
+  "src/L3622_Check_Divisibility_by_Digit_Sum_and_Product.java": {
+    "mtime": 1765521263.1353836,
+    "ast_hash": "3975e681e1e007d0bc22798a2caed67b",
+    "semantic_hash": ""
+  },
+  "src/L3633_Earliest_Finish_Time_for_Land_and_Water_Rides_I.java": {
+    "mtime": 1769998729.0866718,
+    "ast_hash": "6377e7e95c68afabe8e5abbb7e45318c",
+    "semantic_hash": ""
+  },
+  "src/L3637_Trionic_Array_I.java": {
+    "mtime": 1759110291.8545024,
+    "ast_hash": "752b694e5b31bafb12666e387a59bfda",
+    "semantic_hash": ""
+  },
+  "src/L363_Max_Sum_of_Rectangle_No_Larger_Than_K.java": {
+    "mtime": 1652175249.2849276,
+    "ast_hash": "0ae97a4f1d6580fc08a104125a5c01d6",
+    "semantic_hash": ""
+  },
+  "src/L3643_Flip_Square_Submatrix_Vertically.java": {
+    "mtime": 1770378803.5832868,
+    "ast_hash": "125c9da9f71082e683ad5f7f979f00a4",
+    "semantic_hash": ""
+  },
+  "src/L3658_GCD_of_Odd_and_Even_Sums.java": {
+    "mtime": 1772087927.1666422,
+    "ast_hash": "1cb803099e0d2cbb96db9446e7b2cb23",
+    "semantic_hash": ""
+  },
+  "src/L365_Water_and_Jug_Problem.java": {
+    "mtime": 1713163964.682134,
+    "ast_hash": "b0038832508bb522a00e922124d3aa4d",
+    "semantic_hash": ""
+  },
+  "src/L3663_Find_The_Least_Frequent_Digit.java": {
+    "mtime": 1770255991.3493783,
+    "ast_hash": "293becf472b9be2ed9d2133fdebcb8d5",
+    "semantic_hash": ""
+  },
+  "src/L3668_Restore_Finishing_Order.java": {
+    "mtime": 1768182599.016385,
+    "ast_hash": "d78ed71bbfb6a68a11f65067d22af36a",
+    "semantic_hash": ""
+  },
+  "src/L3674_Minimum_Operations_to_Equalize_Array.java": {
+    "mtime": 1768268267.7437809,
+    "ast_hash": "edb42d6df5207fbce77dff66fa6f36dc",
+    "semantic_hash": ""
+  },
+  "src/L3678_Smallest_Absent_Positive_Greater_Average.java": {
+    "mtime": 1768354192.0711317,
+    "ast_hash": "dc81a714bfa06af091ee27284624f8b6",
+    "semantic_hash": ""
+  },
+  "src/L367_Valid_Perfect_Square.java": {
+    "mtime": 1621650370.3143713,
+    "ast_hash": "25c26e8afeedd76fb1cd8d75f73773cf",
+    "semantic_hash": ""
+  },
+  "src/L3683_Earliest_Time_to_Finish_One_Task.java": {
+    "mtime": 1758853939.9204328,
+    "ast_hash": "65c2ff12ef43d972e1b3739889a3a106",
+    "semantic_hash": ""
+  },
+  "src/L3684_Maximize_Sum_of_At_Most_K_Distinct_Elements.java": {
+    "mtime": 1770602498.6532848,
+    "ast_hash": "7f05d2195e03d9d3455470a2e43b9319",
+    "semantic_hash": ""
+  },
+  "src/L3688_Bitwise_OR_of_Even_Numbers_in_an_Array.java": {
+    "mtime": 1759218200.8961723,
+    "ast_hash": "95260eb4370bfaa7ae98272e46e3295e",
+    "semantic_hash": ""
+  },
+  "src/L368_Largest_Divisible_Subset.java": {
+    "mtime": 1709089290.0953252,
+    "ast_hash": "a2243edfabd78bf950bde4efaa669b11",
+    "semantic_hash": ""
+  },
+  "src/L3692_Majority_Frequency_Characters.java": {
+    "mtime": 1759030977.789991,
+    "ast_hash": "4bea18f345e85e187686d644fa3a0a24",
+    "semantic_hash": ""
+  },
+  "src/L3697_Compute_Decimal_Representation.java": {
+    "mtime": 1766971440.5514078,
+    "ast_hash": "0c9a5429f547a1b2d60cea5abbf91e85",
+    "semantic_hash": ""
+  },
+  "src/L3701_Compute_Alternating_Sum.java": {
+    "mtime": 1767057572.1420772,
+    "ast_hash": "2c2394401041de39de0c5c9628d09700",
+    "semantic_hash": ""
+  },
+  "src/L3707_Equal_Score_Substrings.java": {
+    "mtime": 1767170159.1826417,
+    "ast_hash": "7c61dee7b88cb81d097ddad585aad540",
+    "semantic_hash": ""
+  },
+  "src/L3712_Sum_of_Elements_With_Frequency_Divisible_by_K.java": {
+    "mtime": 1768872119.865263,
+    "ast_hash": "98cd6adf34cab80a86a59cb3d6a7b102",
+    "semantic_hash": ""
+  },
+  "src/L3718_Smallest_Missing_Multiple_of_K.java": {
+    "mtime": 1768959737.0818386,
+    "ast_hash": "0d3d3d137d3a3f91b7bb5ad7e5bada73",
+    "semantic_hash": ""
+  },
+  "src/L371_Sum_of_Two_Integers.java": {
+    "mtime": 1776044995.881923,
+    "ast_hash": "5c4e39aedab8f45fdd79e312675b4bab",
+    "semantic_hash": ""
+  },
+  "src/L3726_Remove_Zeros_in_Decimal_Representation.java": {
+    "mtime": 1769132190.7349527,
+    "ast_hash": "426a861564b104e0e1ee008f461a4330",
+    "semantic_hash": ""
+  },
+  "src/L3731_Find_Missing_Elements.java": {
+    "mtime": 1769132778.4189456,
+    "ast_hash": "4f3d6745a713a40dc19f894446a6ff73",
+    "semantic_hash": ""
+  },
+  "src/L3736_Minimum_Moves_to_Equal_Array_Elements_III.java": {
+    "mtime": 1769390239.5894516,
+    "ast_hash": "13a3ca92106c5b962854f4cac3a2be4e",
+    "semantic_hash": ""
+  },
+  "src/L373_Find_K_Pairs_with_Smallest_Sums.java": {
+    "mtime": 1710907509.1995475,
+    "ast_hash": "88d79f228c37440aae2f20b321320f5b",
+    "semantic_hash": ""
+  },
+  "src/L3740_Minimum_Distance_Between_Three_Equal_Elements_I.java": {
+    "mtime": 1769496001.4100025,
+    "ast_hash": "8d82d7fb20c8081be18bd400ae9780ae",
+    "semantic_hash": ""
+  },
+  "src/L3745_Maximize_Expression_of_Three_Elements.java": {
+    "mtime": 1769570676.346919,
+    "ast_hash": "781f2101388bc4ad600f1222c234b606",
+    "semantic_hash": ""
+  },
+  "src/L374_Guess_Number_Higher_or_Lower.java": {
+    "mtime": 1652175249.19643,
+    "ast_hash": "a0d155e0e94123476567da09db0968a8",
+    "semantic_hash": ""
+  },
+  "src/L3750_Minimum_Number_of_Flips_to_Reverse_Binary_String.java": {
+    "mtime": 1769650698.0139086,
+    "ast_hash": "e8ea9e9917adadcdf673d86d888306ad",
+    "semantic_hash": ""
+  },
+  "src/L3751_Total_Waviness_of_Numbers_in_Range_I.java": {
+    "mtime": 1781054923.4832025,
+    "ast_hash": "8df670c6ae748aefea7b314126b997f9",
+    "semantic_hash": ""
+  },
+  "src/L3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.java": {
+    "mtime": 1769737811.880141,
+    "ast_hash": "a83964a9f2e642697de1776d1713ad80",
+    "semantic_hash": ""
+  },
+  "src/L3760_Maximum_Substrings_With_Distinct_Start.java": {
+    "mtime": 1778810485.631129,
+    "ast_hash": "5c7b9e54d872ffdbdb0e1ce03318af19",
+    "semantic_hash": ""
+  },
+  "src/L3769_Sort_Integers_by_Binary_Reflection.java": {
+    "mtime": 1772157039.2575464,
+    "ast_hash": "6e3aa2a1d04d5c92182b36e6f3065aa4",
+    "semantic_hash": ""
+  },
+  "src/L376_Wiggle_Subsequence.java": {
+    "mtime": 1709519064.9973738,
+    "ast_hash": "2ec19a4182d1094d39a096a1a502a437",
+    "semantic_hash": ""
+  },
+  "src/L3774_Absolute_Difference_Between_Maximum_and_Minimum_K_Elements.java": {
+    "mtime": 1772242501.25671,
+    "ast_hash": "ce118bf2b2191a319e163efd2b457b88",
+    "semantic_hash": ""
+  },
+  "src/L377_Combination_Sum_IV.java": {
+    "mtime": 1709612723.5444481,
+    "ast_hash": "3b28ac746edf41c8010fdd29b0f57532",
+    "semantic_hash": ""
+  },
+  "src/L3783_Mirror_Distance_of_an_Integer.java": {
+    "mtime": 1772415681.4834337,
+    "ast_hash": "dce37ae9f02b6a6831892d65b9f3e773",
+    "semantic_hash": ""
+  },
+  "src/L378_Kth_Smallest_Element_in_a_Sorted_Matrix.java": {
+    "mtime": 1652175249.2401,
+    "ast_hash": "cab1b22f102a6ef271a154a38e6ac052",
+    "semantic_hash": ""
+  },
+  "src/L3794_Reverse_String_Prefix.java": {
+    "mtime": 1770810035.109355,
+    "ast_hash": "ac0104cc1688be9135d3935895d6259a",
+    "semantic_hash": ""
+  },
+  "src/L3798_Largest_Even_Number.java": {
+    "mtime": 1772501593.3276634,
+    "ast_hash": "0e7a95dade7f44176d8192391222beb5",
+    "semantic_hash": ""
+  },
+  "src/L3803_Count_Residue_Prefixes.java": {
+    "mtime": 1772588446.7275736,
+    "ast_hash": "8d17d4911a44d7f9946ca2f24d67ca74",
+    "semantic_hash": ""
+  },
+  "src/L380_Insert_Delete_GetRandom_O1.java": {
+    "mtime": 1711074399.9073822,
+    "ast_hash": "739ff4c9708da02fe1b5fc6961b85ea7",
+    "semantic_hash": ""
+  },
+  "src/L3813_Vowel_Consonant_Score.java": {
+    "mtime": 1772679629.638624,
+    "ast_hash": "b754c6a1225c32a2d6d438449f3ba023",
+    "semantic_hash": ""
+  },
+  "src/L3823_Reverse_Letters_Then_Special_Characters_in_a_String.java": {
+    "mtime": 1772764337.2495267,
+    "ast_hash": "9ab2d00462caa9fa41719bd30ce447c9",
+    "semantic_hash": ""
+  },
+  "src/L3827_Count_Monobit_Integers.java": {
+    "mtime": 1773020398.0654807,
+    "ast_hash": "7a5d166e5ffdeee3555e39d38eb0a8e9",
+    "semantic_hash": ""
+  },
+  "src/L3833_Count_Dominant_Indices.java": {
+    "mtime": 1773106264.4297442,
+    "ast_hash": "c6bb9b2637a8bfddeec29a76d098c09b",
+    "semantic_hash": ""
+  },
+  "src/L3838_Weighted_Word_Mapping.java": {
+    "mtime": 1773195470.3160925,
+    "ast_hash": "2bdd05901d21b1b4815361af9c6ce21a",
+    "semantic_hash": ""
+  },
+  "src/L383_Ransom_Note.java": {
+    "mtime": 1669257541.2188687,
+    "ast_hash": "17ea344f36bd5f768c3427098a6cd537",
+    "semantic_hash": ""
+  },
+  "src/L3842_Toggle_Light_Bulbs.java": {
+    "mtime": 1773284453.8642466,
+    "ast_hash": "ab75f1d7f0f73be8d5672fdc0c8aca24",
+    "semantic_hash": ""
+  },
+  "src/L3852_Smallest_Pair_With_Different_Frequencies.java": {
+    "mtime": 1773366272.462974,
+    "ast_hash": "3409eda1d417650b06fb3bcf6ae2ad12",
+    "semantic_hash": ""
+  },
+  "src/L3856_Trim_Trailing_Vowels.java": {
+    "mtime": 1773624179.0671165,
+    "ast_hash": "7a0f9dd60e6f4659d6167e3d8e2ed138",
+    "semantic_hash": ""
+  },
+  "src/L3861_Minimum_Capacity_Box.java": {
+    "mtime": 1773710987.7868106,
+    "ast_hash": "cf062f6ef44553a758accf5dcadc6b6c",
+    "semantic_hash": ""
+  },
+  "src/L3866_First_Unique_Even_Element.java": {
+    "mtime": 1773796854.6521878,
+    "ast_hash": "473728b8573c4e53e236d5f6cf51c5d7",
+    "semantic_hash": ""
+  },
+  "src/L386_Lexicographical_Numbers.java": {
+    "mtime": 1713246005.7390766,
+    "ast_hash": "29853e2a0d18815b150d33653735858b",
+    "semantic_hash": ""
+  },
+  "src/L3870_Count_Commas_in_Range.java": {
+    "mtime": 1773887118.3488169,
+    "ast_hash": "c379fb94f50b5f1c526f9a0c2faff6c6",
+    "semantic_hash": ""
+  },
+  "src/L3875_Construct_Uniform_Parity_Array_I.java": {
+    "mtime": 1774228886.3210669,
+    "ast_hash": "7d27d93f75edc05a5a6ddbc41038794b",
+    "semantic_hash": ""
+  },
+  "src/L387_First_Unique_Character_in_a_String.java": {
+    "mtime": 1663208778.044281,
+    "ast_hash": "7323e2606b98286374f7c68535e38370",
+    "semantic_hash": ""
+  },
+  "src/L3880_Minimum_Absolute_Difference_Between_Two_Values.java": {
+    "mtime": 1775524805.5031796,
+    "ast_hash": "a87945be01756130d7ade46f1b41bb66",
+    "semantic_hash": ""
+  },
+  "src/L3884_First_Matching_Character_From_Both_Ends.java": {
+    "mtime": 1775619613.4631197,
+    "ast_hash": "5a5e30c7bb3c651cb6fb7877e60b8ae8",
+    "semantic_hash": ""
+  },
+  "src/L3894_Traffic_Signal_Color.java": {
+    "mtime": 1776648122.171067,
+    "ast_hash": "48347fdb4ab55dd1cb6c08417b14cd97",
+    "semantic_hash": ""
+  },
+  "src/L3895_Count_Digit_Appearances.java": {
+    "mtime": 1781573160.583262,
+    "ast_hash": "25059355cbd7ca49e615fb18142472ab",
+    "semantic_hash": ""
+  },
+  "src/L3898_Find_the_Degree_of_Each_Vertex.java": {
+    "mtime": 1776735263.1023786,
+    "ast_hash": "8f5968de78538ee38b8d33b863b554ad",
+    "semantic_hash": ""
+  },
+  "src/L389_Find_the_Difference.java": {
+    "mtime": 1684116021.2901244,
+    "ast_hash": "0d95401bb3681cc78d9d294b7c5d4270",
+    "semantic_hash": ""
+  },
+  "src/L3903_Smallest_Stable_Index_I.java": {
+    "mtime": 1776822246.9038045,
+    "ast_hash": "53960e857bae304e76bf77b7d0de2e20",
+    "semantic_hash": ""
+  },
+  "src/L3908_Valid_Digit_Number.java": {
+    "mtime": 1777339511.7751262,
+    "ast_hash": "0369ca6dd30f8bc43437e457b940edaf",
+    "semantic_hash": ""
+  },
+  "src/L3912_Valid_Elements_in_an_Array.java": {
+    "mtime": 1777427803.9753852,
+    "ast_hash": "066921da2a130f198011caa207a91b5f",
+    "semantic_hash": ""
+  },
+  "src/L3917_Count_Indices_With_Opposite_Parity.java": {
+    "mtime": 1778032893.7687063,
+    "ast_hash": "c6f5d3c1c89d1dacfe7d3b10c4bd69bc",
+    "semantic_hash": ""
+  },
+  "src/L3921_Score_Validator.java": {
+    "mtime": 1778461669.4818332,
+    "ast_hash": "4eb3e59780438f77eeac38a5163471bf",
+    "semantic_hash": ""
+  },
+  "src/L3925_Concatenate_Array_With_Reverse.java": {
+    "mtime": 1778552999.855368,
+    "ast_hash": "b2923d169fbb35ef3f166ddf1dcae5f2",
+    "semantic_hash": ""
+  },
+  "src/L392_Is_Subsequence.java": {
+    "mtime": 1621650489.0138617,
+    "ast_hash": "44d73c2e7d4c2bc86121bb84d3b3b3fe",
+    "semantic_hash": ""
+  },
+  "src/L3931_Check_Adjacent_Digit_Differences.java": {
+    "mtime": 1779673293.161161,
+    "ast_hash": "b46a8eab951c66a503f490c196da71ec",
+    "semantic_hash": ""
+  },
+  "src/L3936_Minimum_Swaps_to_Move_Zeros_to_End.java": {
+    "mtime": 1779935997.9230268,
+    "ast_hash": "4b8e0de3ed056b7e5dd0d19ce1590034",
+    "semantic_hash": ""
+  },
+  "src/L393_UTF_8_Validation.java": {
+    "mtime": 1669257541.2451024,
+    "ast_hash": "e7fffa79ce1fe126731db5b8863ef26f",
+    "semantic_hash": ""
+  },
+  "src/L3940_Limit_Occurrences_in_Sorted_Array.java": {
+    "mtime": 1780022071.1759598,
+    "ast_hash": "53db9b1c5af6540dcaa137511dd83a97",
+    "semantic_hash": ""
+  },
+  "src/L3945_Digit_Frequency_Score.java": {
+    "mtime": 1780276963.8680391,
+    "ast_hash": "cbf7c90fc436e2f99514171d27e9eff2",
+    "semantic_hash": ""
+  },
+  "src/L394_Decode_String.java": {
+    "mtime": 1669257541.2667892,
+    "ast_hash": "7721e31dbaff235bd96bf55dc384c379",
+    "semantic_hash": ""
+  },
+  "src/L3950_Exactly_One_Consecutive_Set_Bits_Pair.java": {
+    "mtime": 1780883660.1088326,
+    "ast_hash": "64f001900c7822a847615e5517e080f8",
+    "semantic_hash": ""
+  },
+  "src/L3954_Sum_of_Compatible_Numbers_in_Range_I.java": {
+    "mtime": 1780967879.9296267,
+    "ast_hash": "932738c141a0ec34536da99124dd08ba",
+    "semantic_hash": ""
+  },
+  "src/L3959_Check_Good_Integer.java": {
+    "mtime": 1781487105.9885178,
+    "ast_hash": "4ddbb2b9e81b7fee5ea8f88d4b2fbefd",
+    "semantic_hash": ""
+  },
+  "src/L3963_Create_Grid_With_Exactly_One_Path.java": {
+    "mtime": 1782697040.1519523,
+    "ast_hash": "716de84975352115edfba00f18c2692e",
+    "semantic_hash": ""
+  },
+  "src/L396_Rotate_Function.java": {
+    "mtime": 1709173692.6802318,
+    "ast_hash": "520ae6414a24bc7a4478d5f3c0d98b49",
+    "semantic_hash": ""
+  },
+  "src/L3978_Unique_Middle_Element.java": {
+    "mtime": 1783300430.2454035,
+    "ast_hash": "7a9ebb7741f41a5e1f99450c1e173639",
+    "semantic_hash": ""
+  },
+  "src/L397_Integer_Replacement.java": {
+    "mtime": 1709267554.6367092,
+    "ast_hash": "742a5ad8ccb8f90d407018cea9899e1b",
+    "semantic_hash": ""
+  },
+  "src/L3982_Sum_of_Integers_with_Maximum_Digit_Range.java": {
+    "mtime": 1783386661.4336503,
+    "ast_hash": "1ac859488f93c105891be64d376f79a6",
+    "semantic_hash": ""
+  },
+  "src/L3986_Number_of_Elapsed_Seconds_Between_Two_Times.java": {
+    "mtime": 1783906142.4485495,
+    "ast_hash": "4036e656609817105096d83e3c04ca1a",
+    "semantic_hash": ""
+  },
+  "src/L3992_Rearrange_String_to_Avoid_Character_Pair.java": {
+    "mtime": 1784537620.3403187,
+    "ast_hash": "5e6ad4244d75756fd84ffe7f2083bd4c",
+    "semantic_hash": ""
+  },
+  "src/L3996_Even_Number_of_Knight_Moves.java": {
+    "mtime": 1784597654.9945045,
+    "ast_hash": "47b918a3bd5edd9378073746a40b4f3c",
+    "semantic_hash": ""
+  },
+  "src/L4000_Largest_Integer_With_Given_Digit_Sum.java": {
+    "mtime": 1785115664.188174,
+    "ast_hash": "0bf0a4b9acde5d420b1b2d83ab8df88b",
+    "semantic_hash": ""
+  },
+  "src/L4006_Count_Valid_Prefixes.java": {
+    "mtime": 1785720282.7630002,
+    "ast_hash": "1cd108026ee930799066ed60a98c2ec0",
+    "semantic_hash": ""
+  },
+  "src/L400_Nth_Digit.java": {
+    "mtime": 1712118963.18389,
+    "ast_hash": "3de5c1d58c8ead2d60be268b343cb1ef",
+    "semantic_hash": ""
+  },
+  "src/L4010_Maximize_Pair_Strength_Using_GCD.java": {
+    "mtime": 1785893420.3911655,
+    "ast_hash": "98cbeedd156900e0ffb12c92a4e4316a",
+    "semantic_hash": ""
+  },
+  "src/L401_Binary_Watch.java": {
+    "mtime": 1741140463.7077498,
+    "ast_hash": "d21370c19a61123750260a671ea60a99",
+    "semantic_hash": ""
+  },
+  "src/L402_Remove_K_Digits.java": {
+    "mtime": 1649210056.6527205,
+    "ast_hash": "5ffaf140ed4b432b244276c6389155be",
+    "semantic_hash": ""
+  },
+  "src/L403_Frog_Jump.java": {
+    "mtime": 1706708151.3212504,
+    "ast_hash": "730fe949d3c35fad0c21dae14d56c803",
+    "semantic_hash": ""
+  },
+  "src/L404_Sum_of_Left_Leaves.java": {
+    "mtime": 1741250376.4314802,
+    "ast_hash": "cf022e005bbcc483695cee7691611f2c",
+    "semantic_hash": ""
+  },
+  "src/L405_Convert_a_Number_to_Hexadecimal.java": {
+    "mtime": 1669257541.2335413,
+    "ast_hash": "492bc42d0f8d2ee3790ed425aea632dc",
+    "semantic_hash": ""
+  },
+  "src/L409_Longest_Palindrome.java": {
+    "mtime": 1669257541.251842,
+    "ast_hash": "84925b9750e64e8ec9992f17f43087a5",
+    "semantic_hash": ""
+  },
+  "src/L410_Split_Array_Largest_Sum.java": {
+    "mtime": 1652175249.1948662,
+    "ast_hash": "5c86971924572121805c3a026999ebfd",
+    "semantic_hash": ""
+  },
+  "src/L412_Fizz_Buzz.java": {
+    "mtime": 1621650489.061047,
+    "ast_hash": "f9ab567d9fbea634be2f4cc14f55a631",
+    "semantic_hash": ""
+  },
+  "src/L413_Arithmetic_Slices.java": {
+    "mtime": 1621650489.261283,
+    "ast_hash": "2e990e6c7d80e7f43e681a95e438bbe0",
+    "semantic_hash": ""
+  },
+  "src/L414_Third_Maximum_Number.java": {
+    "mtime": 1669257541.2380347,
+    "ast_hash": "6b015af7b2644438111fe717f7ffde0d",
+    "semantic_hash": ""
+  },
+  "src/L415_Add_Strings.java": {
+    "mtime": 1669257541.2824597,
+    "ast_hash": "ef89ebb4eef5f99b9bc63a7ebe8b7f53",
+    "semantic_hash": ""
+  },
+  "src/L416_Partition_Equal_Subset_Sum.java": {
+    "mtime": 1709002119.14269,
+    "ast_hash": "af6468678af109ed44c6573896ddb3f0",
+    "semantic_hash": ""
+  },
+  "src/L424_Longest_Repeating_Character_Replacement.java": {
+    "mtime": 1713326219.5737126,
+    "ast_hash": "c44d538656ac8cbe738d512ef6009b35",
+    "semantic_hash": ""
+  },
+  "src/L433_Minimum_Genetic_Mutation.java": {
+    "mtime": 1711679030.6012795,
+    "ast_hash": "86278f2291ddd0aa5b508bceb3fcf72a",
+    "semantic_hash": ""
+  },
+  "src/L434_Number_of_Segments_in_a_String.java": {
+    "mtime": 1669257541.2810123,
+    "ast_hash": "09850c0d888791a08e003536a2275d09",
+    "semantic_hash": ""
+  },
+  "src/L435_Non_overlapping_Intervals.java": {
+    "mtime": 1709696231.0211537,
+    "ast_hash": "9ce31bf527e1838709a9da2a2a502bac",
+    "semantic_hash": ""
+  },
+  "src/L436_Find_Right_Interval.java": {
+    "mtime": 1711594542.775554,
+    "ast_hash": "761de3593a19a60f42cb45ccbc99e5e7",
+    "semantic_hash": ""
+  },
+  "src/L438_Find_All_Anagrams_in_a_String.java": {
+    "mtime": 1711540033.5560727,
+    "ast_hash": "eca3cf7ee1385640ace757584c8a23a5",
+    "semantic_hash": ""
+  },
+  "src/L441_Arranging_Coins.java": {
+    "mtime": 1621650489.2531774,
+    "ast_hash": "707822f1b0c134df00e2957343137a8a",
+    "semantic_hash": ""
+  },
+  "src/L442_Find_All_Duplicates_in_an_Array.java": {
+    "mtime": 1711339084.1401668,
+    "ast_hash": "db9cfd4282e13bfd8ca10a28efefc5c9",
+    "semantic_hash": ""
+  },
+  "src/L443_String_Compression.java": {
+    "mtime": 1711941277.150292,
+    "ast_hash": "2e74387901588c707f9269709e70ba5f",
+    "semantic_hash": ""
+  },
+  "src/L445_Add_Two_Numbers_II.java": {
+    "mtime": 1711939723.5862434,
+    "ast_hash": "fea2d570a4b06083b2bd7d0fde3a7a7e",
+    "semantic_hash": ""
+  },
+  "src/L446_Arithmetic_Slices_II_Subsequence.java": {
+    "mtime": 1709867963.4461377,
+    "ast_hash": "ca6452ad5b0e5d417a5b88f6051b2cdf",
+    "semantic_hash": ""
+  },
+  "src/L447_Number_of_Boomerangs.java": {
+    "mtime": 1712030189.2415023,
+    "ast_hash": "f6db7ec6a949c86409454d1696fcfaf2",
+    "semantic_hash": ""
+  },
+  "src/L448_Find_All_Numbers_Disappeared_in_an_Array.java": {
+    "mtime": 1669257541.2265613,
+    "ast_hash": "23735db8d9acb07a233860995febb99b",
+    "semantic_hash": ""
+  },
+  "src/L452_Minimum_Number_of_Arrows_to_Burst_Balloons.java": {
+    "mtime": 1710816784.6297965,
+    "ast_hash": "7a018572d0dd812b04dcdc2e760bb2aa",
+    "semantic_hash": ""
+  },
+  "src/L455_Assign_Cookies.java": {
+    "mtime": 1661155920.9576957,
+    "ast_hash": "2dec20088362470ea22e056e994d6d03",
+    "semantic_hash": ""
+  },
+  "src/L458_Poor_Pigs.java": {
+    "mtime": 1709863647.1515455,
+    "ast_hash": "ccae7a423d628b64fea28ea97f668403",
+    "semantic_hash": ""
+  },
+  "src/L459_Repeated_Substring_Pattern.java": {
+    "mtime": 1661235046.4054775,
+    "ast_hash": "d0f68caab7da4bea0533e527fdfa4f22",
+    "semantic_hash": ""
+  },
+  "src/L461_Hamming_Distance.java": {
+    "mtime": 1647854982.933673,
+    "ast_hash": "401b4df1016477a4a1fbe506adb074d2",
+    "semantic_hash": ""
+  },
+  "src/L463_Island_Perimeter.java": {
+    "mtime": 1741334508.2932405,
+    "ast_hash": "63a479af2dd966033ff510a42e1e436a",
+    "semantic_hash": ""
+  },
+  "src/L464_Can_I_Win.java": {
+    "mtime": 1710126297.1522079,
+    "ast_hash": "1132def2bb29689561810bfb9c06bb09",
+    "semantic_hash": ""
+  },
+  "src/L466_Count_The_Repetitions.java": {
+    "mtime": 1710213296.7581673,
+    "ast_hash": "ecaad4d20a781fe304dd9d919f7bc02c",
+    "semantic_hash": ""
+  },
+  "src/L467_Unique_Substrings_in_Wraparound_String.java": {
+    "mtime": 1710214866.6929216,
+    "ast_hash": "970ecd886f978b4ab8299f05394f5e2b",
+    "semantic_hash": ""
+  },
+  "src/L472_Concatenated_Words.java": {
+    "mtime": 1710384664.2175407,
+    "ast_hash": "7f6cef7b9fdf30f7c715236df70401d5",
+    "semantic_hash": ""
+  },
+  "src/L473_Matchsticks_to_Square.java": {
+    "mtime": 1710387233.020063,
+    "ast_hash": "d41699cbd608f9db9b434360ce46de59",
+    "semantic_hash": ""
+  },
+  "src/L475_Heaters.java": {
+    "mtime": 1621650489.201656,
+    "ast_hash": "529bec09dd7eb24b8a7f8427080d76fc",
+    "semantic_hash": ""
+  },
+  "src/L476_Number_Complement.java": {
+    "mtime": 1661324802.799313,
+    "ast_hash": "500e5369d0912931a11bd6590e9dba72",
+    "semantic_hash": ""
+  },
+  "src/L482_License_Key_Formatting.java": {
+    "mtime": 1707036642.3414934,
+    "ast_hash": "835a96afaf29333962f908015e707b60",
+    "semantic_hash": ""
+  },
+  "src/L485_Max_Consecutive_Ones.java": {
+    "mtime": 1707036642.289551,
+    "ast_hash": "74a7dff3b90c40a358b8cce254fbe537",
+    "semantic_hash": ""
+  },
+  "src/L486_Predict_the_Winner.java": {
+    "mtime": 1621650489.198547,
+    "ast_hash": "5896f013678f415a371513807ce675e3",
+    "semantic_hash": ""
+  },
+  "src/L492_Construct_the_Rectangle.java": {
+    "mtime": 1741572267.898795,
+    "ast_hash": "50c3afef02472a0ea43cbead5b7ca8c0",
+    "semantic_hash": ""
+  },
+  "src/L495_Teemo_Attacking.java": {
+    "mtime": 1663740951.825739,
+    "ast_hash": "14255793c0972cefcec826d8c997531b",
+    "semantic_hash": ""
+  },
+  "src/L496_Next_Greater_Element_I.java": {
+    "mtime": 1662634335.404148,
+    "ast_hash": "adffebce63631a3b3ef48edf0a6c47a9",
+    "semantic_hash": ""
+  },
+  "src/L500_Keyboard_Row.java": {
+    "mtime": 1669257541.2697601,
+    "ast_hash": "90b70552b55e1b5af137026bdbecf6cd",
+    "semantic_hash": ""
+  },
+  "src/L501_Find_Mode_in_Binary_Search_Tree.java": {
+    "mtime": 1741750481.7105699,
+    "ast_hash": "22290691d3bd6b35aecbbe3827aec98b",
+    "semantic_hash": ""
+  },
+  "src/L502_IPO.java": {
+    "mtime": 1711000141.6409574,
+    "ast_hash": "44e06a988705eeff132acf6a7ab050d0",
+    "semantic_hash": ""
+  },
+  "src/L504_Base_7.java": {
+    "mtime": 1669257541.209679,
+    "ast_hash": "ccdc534f6652534e781a552ca4166681",
+    "semantic_hash": ""
+  },
+  "src/L506_Relative_Ranks.java": {
+    "mtime": 1669257541.191452,
+    "ast_hash": "ad66ea3c19ccd798a55b7e3b12406f0f",
+    "semantic_hash": ""
+  },
+  "src/L507_Perfect_Number.java": {
+    "mtime": 1669257541.221527,
+    "ast_hash": "4b7d58e7249caa9561d59f8b2c0391bb",
+    "semantic_hash": ""
+  },
+  "src/L509_Fibonacci_Number.java": {
+    "mtime": 1669257541.2140574,
+    "ast_hash": "d7261164559196db98644e4f4eca4f69",
+    "semantic_hash": ""
+  },
+  "src/L511_Game_Play_Analysis_I.sql": {
+    "mtime": 1728631850.5458984,
+    "ast_hash": "f19edcd505ce41ec570d9e10f7457642",
+    "semantic_hash": ""
+  },
+  "src/L520_Detect_Capital.java": {
+    "mtime": 1669257541.2316725,
+    "ast_hash": "6c241c08ce2b236820193342a7f4a019",
+    "semantic_hash": ""
+  },
+  "src/L521_Longest_Uncommon_Subsequence_I.java": {
+    "mtime": 1661395407.4669704,
+    "ast_hash": "c557273ce1be919a56963b576face789",
+    "semantic_hash": ""
+  },
+  "src/L530_Minimum_Absolute_Difference_in_BST.java": {
+    "mtime": 1741750440.1721237,
+    "ast_hash": "bf687c9109a66257c316fcf8f3835b13",
+    "semantic_hash": ""
+  },
+  "src/L535_Encode_and_Decode_TinyURL.java": {
+    "mtime": 1782179151.608096,
+    "ast_hash": "7c023ae627aa7ffd54386298fb368035",
+    "semantic_hash": ""
+  },
+  "src/L541_Reverse_String_II.java": {
+    "mtime": 1669257541.260848,
+    "ast_hash": "55b3cc6c29080494ade509dbae678a73",
+    "semantic_hash": ""
+  },
+  "src/L543_Diameter_of_Binary_Tree.java": {
+    "mtime": 1741838393.1754217,
+    "ast_hash": "37e8b01bb9c0c7678c7c33757e2b8ae0",
+    "semantic_hash": ""
+  },
+  "src/L550_Game_Play_Analysis_IV.sql": {
+    "mtime": 1734579988.744384,
+    "ast_hash": "1025b5a25e819c7eb1b92958b4116c75",
+    "semantic_hash": ""
+  },
+  "src/L551_Student_Attendance_Record_I.java": {
+    "mtime": 1669257541.2760558,
+    "ast_hash": "cb7abec2f8c64405e0ab451497b8f3b0",
+    "semantic_hash": ""
+  },
+  "src/L557_Reverse_Words_in_a_String_III.java": {
+    "mtime": 1669257541.2163374,
+    "ast_hash": "8781262892a2f5c1c34fb52f920a9347",
+    "semantic_hash": ""
+  },
+  "src/L559_Maximum_Depth_of_N_ary_Tree.java": {
+    "mtime": 1742206973.047562,
+    "ast_hash": "92c6f8fbabd6475e0f2b2e389e186f80",
+    "semantic_hash": ""
+  },
+  "src/L560_Subarray_Sum_Equals_K.java": {
+    "mtime": 1669257541.277768,
+    "ast_hash": "060abc0aaac8744828de7bd6003aefa9",
+    "semantic_hash": ""
+  },
+  "src/L561_Array_Partition.java": {
+    "mtime": 1669257541.2396429,
+    "ast_hash": "c0f4202edf33d37a74ce86790c50fed9",
+    "semantic_hash": ""
+  },
+  "src/L563_Binary_Tree_Tilt.java": {
+    "mtime": 1742263843.3533072,
+    "ast_hash": "de4244a7299cfae6a849d6a2a3986bd1",
+    "semantic_hash": ""
+  },
+  "src/L566_Reshape_the_Matrix.java": {
+    "mtime": 1742351862.6412075,
+    "ast_hash": "c252afdcbb262d08aedaed70705eba77",
+    "semantic_hash": ""
+  },
+  "src/L567_Permutation_in_String.java": {
+    "mtime": 1657012473.7030544,
+    "ast_hash": "a8fa5dff6f3f25d64e4cfdb987474b56",
+    "semantic_hash": ""
+  },
+  "src/L570_Managers_with_at_Least_5_Direct_Reports.sql": {
+    "mtime": 1734662554.1501777,
+    "ast_hash": "5056b0f6ec85facc60dd27f34eefad1d",
+    "semantic_hash": ""
+  },
+  "src/L572_Subtree_of_Another_Tree.java": {
+    "mtime": 1742439038.9227204,
+    "ast_hash": "5265b1d9cc431fbb0af788c34873fa04",
+    "semantic_hash": ""
+  },
+  "src/L575_Distribute_Candies.java": {
+    "mtime": 1669257541.2795336,
+    "ast_hash": "45d5b824af01ae32565bb953a1632e7b",
+    "semantic_hash": ""
+  },
+  "src/L577_Employee_Bonus.sql": {
+    "mtime": 1728721796.6250353,
+    "ast_hash": "d157031d98364e301a4cc7aa25eb6d43",
+    "semantic_hash": ""
+  },
+  "src/L581_Shortest_Unsorted_Continuous_Subarray.java": {
+    "mtime": 1647854885.0800085,
+    "ast_hash": "ea5620a2df70ea758d99240f4ecdd3d0",
+    "semantic_hash": ""
+  },
+  "src/L584_Find_Customer_Referee.sql": {
+    "mtime": 1728871609.704105,
+    "ast_hash": "37cf1739d19eedadb18f3c2bc952093a",
+    "semantic_hash": ""
+  },
+  "src/L585_Investments_in_2016.sql": {
+    "mtime": 1734924728.344754,
+    "ast_hash": "3924fc6b83f1a094368d033fdcd3241f",
+    "semantic_hash": ""
+  },
+  "src/L586_Customer_Placing_the_Largest_Number_of_Orders.sql": {
+    "mtime": 1728961031.1639712,
+    "ast_hash": "116828755382ff3d37650b5f700d095e",
+    "semantic_hash": ""
+  },
+  "src/L589_N_ary_Tree_Preorder_Traversal.java": {
+    "mtime": 1746495828.4065487,
+    "ast_hash": "864196c9f89d6bfabf9e779465d48abd",
+    "semantic_hash": ""
+  },
+  "src/L590_N_ary_Tree_Postorder_Traversal.java": {
+    "mtime": 1746596666.71692,
+    "ast_hash": "67ca58438e7fcc1c173d5e4b05efc4a4",
+    "semantic_hash": ""
+  },
+  "src/L594_Longest_Harmonious_Subsequence.java": {
+    "mtime": 1663581056.8290083,
+    "ast_hash": "c73f19ea42824bda33be7ff16125b7d1",
+    "semantic_hash": ""
+  },
+  "src/L595_Big_Countries.sql": {
+    "mtime": 1729134515.107063,
+    "ast_hash": "5c3b90a3e534bee887f6f3ee1c704d08",
+    "semantic_hash": ""
+  },
+  "src/L596_Classes_More_Than_5_Students.sql": {
+    "mtime": 1729134892.326955,
+    "ast_hash": "d3330e369cf142a2a1d11a237caf07f4",
+    "semantic_hash": ""
+  },
+  "src/L598_Range_Addition_II.java": {
+    "mtime": 1743385961.6992416,
+    "ast_hash": "c79154b5ac7796274594c8892fb254bb",
+    "semantic_hash": ""
+  },
+  "src/L599_Minimum_Index_Sum_of_Two_Lists.java": {
+    "mtime": 1684203983.6506042,
+    "ast_hash": "ecb39e30d550a40deac3a3e2a50fe2c8",
+    "semantic_hash": ""
+  },
+  "src/L601_Human_Traffic_of_Stadium.sql": {
+    "mtime": 1737607614.9227233,
+    "ast_hash": "edee76fcccc60f69ee905c9445d899b5",
+    "semantic_hash": ""
+  },
+  "src/L602_Friend Requests_II_Who_Has_the_Most_Friends.sql": {
+    "mtime": 1735127455.2211926,
+    "ast_hash": "b3b4330020c0648b33fdb045b873c770",
+    "semantic_hash": ""
+  },
+  "src/L605_Can_Place_Flowers.java": {
+    "mtime": 1663912345.5416985,
+    "ast_hash": "af706955a2822d9f0e924c420d124750",
+    "semantic_hash": ""
+  },
+  "src/L607_Sales_Person.sql": {
+    "mtime": 1729223521.5192244,
+    "ast_hash": "705c2b5c104ddc6b71815f4a6f515450",
+    "semantic_hash": ""
+  },
+  "src/L608_Tree_Node.sql": {
+    "mtime": 1735022787.2145324,
+    "ast_hash": "a2ac376a42c4caeb03e8a77858adb5f6",
+    "semantic_hash": ""
+  },
+  "src/L610_Triangle_Judgement.sql": {
+    "mtime": 1729479511.7743404,
+    "ast_hash": "1f6e3b8d86172ff7e80f7508467105d2",
+    "semantic_hash": ""
+  },
+  "src/L611_Valid_Triangle_Number.java": {
+    "mtime": 1652175249.286509,
+    "ast_hash": "fa3e02267c999389304a6c1c329e4460",
+    "semantic_hash": ""
+  },
+  "src/L617_Merge_Two_Binary_Trees.java": {
+    "mtime": 1742558052.0661764,
+    "ast_hash": "16c4c7f2763d2dc55eb329554c495c7b",
+    "semantic_hash": ""
+  },
+  "src/L619_Biggest_Single_Number.sql": {
+    "mtime": 1729738165.444331,
+    "ast_hash": "5e9a8883d7fe0672543471479957d460",
+    "semantic_hash": ""
+  },
+  "src/L620_Not_Boring_Movies.sql": {
+    "mtime": 1730082974.4400415,
+    "ast_hash": "c152eb2d8a7df3ce17d5637126b1e6c8",
+    "semantic_hash": ""
+  },
+  "src/L626_Exchange_Seats.sql": {
+    "mtime": 1735179419.3321488,
+    "ast_hash": "ac8023ccd0c6766a64e283d8243a7bc7",
+    "semantic_hash": ""
+  },
+  "src/L627_Swap_Salary.sql": {
+    "mtime": 1730204469.1915479,
+    "ast_hash": "2d2b43c87c6f22071c0c3e5478d4fae5",
+    "semantic_hash": ""
+  },
+  "src/L628_Maximum_Product_of_Three_Numbers.java": {
+    "mtime": 1669257541.2124536,
+    "ast_hash": "61895c503a04ae0f8c191ff52322534a",
+    "semantic_hash": ""
+  },
+  "src/L637_Average_of_Levels_in_Binary_Tree.java": {
+    "mtime": 1743127561.741471,
+    "ast_hash": "3b8f0cda9e18d8c9a40caa17c48f71bf",
+    "semantic_hash": ""
+  },
+  "src/L643_Maximum_Average_Subarray_I.java": {
+    "mtime": 1652175249.1838403,
+    "ast_hash": "9feaa16ef54c4e513c8caefd13627f41",
+    "semantic_hash": ""
+  },
+  "src/L645_Set_Mismatch.java": {
+    "mtime": 1684378731.995736,
+    "ast_hash": "17bc8b59a010dc41eb235637c8af3fb0",
+    "semantic_hash": ""
+  },
+  "src/L646_Maximum_Length_of_Pair_Chain.java": {
+    "mtime": 1652175249.2665987,
+    "ast_hash": "ef519b97fc829019d34a96587b50e2f8",
+    "semantic_hash": ""
+  },
+  "src/L647_Palindromic_Substrings.java": {
+    "mtime": 1652175249.2957687,
+    "ast_hash": "bf0e4fb5e3a4918153df9c0919b4f3f4",
+    "semantic_hash": ""
+  },
+  "src/L650_2_Keys_Keyboard.java": {
+    "mtime": 1621650489.155326,
+    "ast_hash": "da6c93f89680f3cdd5a38fdba8e24ab0",
+    "semantic_hash": ""
+  },
+  "src/L653_Two_Sum_IV_Input_is_a_BST.java": {
+    "mtime": 1743042409.4413154,
+    "ast_hash": "cd0584050c02dfa655e7a59a144fdc97",
+    "semantic_hash": ""
+  },
+  "src/L654_Maximum_Binary_Tree.java": {
+    "mtime": 1782437640.634236,
+    "ast_hash": "fdf8ea2b83298ef62f8e3a2c7ded0166",
+    "semantic_hash": ""
+  },
+  "src/L657_Robot_Return_to_Origin.java": {
+    "mtime": 1669257541.274645,
+    "ast_hash": "3c1672bfdfe3f76a1cefd0a762044a27",
+    "semantic_hash": ""
+  },
+  "src/L658_Find_K_Closest_Elements.java": {
+    "mtime": 1652175249.2617223,
+    "ast_hash": "0288644f125e667fa4ad8dda01a89fae",
+    "semantic_hash": ""
+  },
+  "src/L661_Image_Smoother.java": {
+    "mtime": 1743478277.6846044,
+    "ast_hash": "3f93d375febb3eaa24efe87e145cca65",
+    "semantic_hash": ""
+  },
+  "src/L668_Kth_Smallest_Number_in_Multiplication_Table.java": {
+    "mtime": 1652175249.2648757,
+    "ast_hash": "810e2f0f6f9d08d73a399ec748086dd7",
+    "semantic_hash": ""
+  },
+  "src/L670_Maximum_Swap.java": {
+    "mtime": 1648034197.0312023,
+    "ast_hash": "aa3267dac74f91fc0d7c2d34d2974a41",
+    "semantic_hash": ""
+  },
+  "src/L671_Second_Minimum_Node_In_a_Binary_Tree.java": {
+    "mtime": 1742788287.096931,
+    "ast_hash": "59888b1e54a5061f823277842fb130f0",
+    "semantic_hash": ""
+  },
+  "src/L674_Longest_Continuous_Increasing_Subsequence.java": {
+    "mtime": 1652175249.2534022,
+    "ast_hash": "108ef3a93c107a877044dc9695897d75",
+    "semantic_hash": ""
+  },
+  "src/L680_Valid_Palindrome_II.java": {
+    "mtime": 1707036642.376475,
+    "ast_hash": "4c53702e6558025efab5ce32028b359d",
+    "semantic_hash": ""
+  },
+  "src/L682_Baseball_Game.java": {
+    "mtime": 1669257541.2299619,
+    "ast_hash": "7e2fc547cce19e242fe87ec98b7378c8",
+    "semantic_hash": ""
+  },
+  "src/L693_Binary_Number_with_Alternating_Bits.java": {
+    "mtime": 1682214510.0395868,
+    "ast_hash": "de0f0b6781ea50dc0b9f3b93f93505db",
+    "semantic_hash": ""
+  },
+  "src/L696_Count_Binary_Substrings.java": {
+    "mtime": 1707036642.3679552,
+    "ast_hash": "9cd1ab4b138e41bff4a8f7929b9fdf71",
+    "semantic_hash": ""
+  },
+  "src/L697_Degree_of_an_Array.java": {
+    "mtime": 1665456941.3669128,
+    "ast_hash": "e1836aceab5613fa5c2038b12dbf7bdd",
+    "semantic_hash": ""
+  },
+  "src/L700_Search_in_a_Binary_Search_Tree.java": {
+    "mtime": 1742954883.553192,
+    "ast_hash": "119d7b27ff5f4d3d2b2f3e9a17803b88",
+    "semantic_hash": ""
+  },
+  "src/L703_Kth_Largest_Element_in_a_Stream.java": {
+    "mtime": 1742869258.0481842,
+    "ast_hash": "7525031bc8f742de48ba21c10c549d23",
+    "semantic_hash": ""
+  },
+  "src/L704_Binary_Search.java": {
+    "mtime": 1669257541.271464,
+    "ast_hash": "e4b528066058d5268010a7b3524adb2c",
+    "semantic_hash": ""
+  },
+  "src/L705_Design_HashSet.java": {
+    "mtime": 1743659979.7895389,
+    "ast_hash": "4d09128575dbaf0ba937ae40641f177b",
+    "semantic_hash": ""
+  },
+  "src/L706_Design_HashMap.java": {
+    "mtime": 1744013359.7400644,
+    "ast_hash": "5a16e47fe881f1afd89d5f38fce6c202",
+    "semantic_hash": ""
+  },
+  "src/L709_To_Lower_Case.java": {
+    "mtime": 1621650489.1095705,
+    "ast_hash": "ed3ca40ac7a3975026134df287355319",
+    "semantic_hash": ""
+  },
+  "src/L712_Minimum_ASCII_Delete_Sum_for_Two_Strings.java": {
+    "mtime": 1652175249.2420945,
+    "ast_hash": "ffe6bd4b919d9c5c078068eb3f11a76c",
+    "semantic_hash": ""
+  },
+  "src/L717_1_bit_and_2_bit_Characters.java": {
+    "mtime": 1746669271.2368724,
+    "ast_hash": "f3016305834a0c8300b3c85d1097d1cb",
+    "semantic_hash": ""
+  },
+  "src/L719_Find_K_th_Smallest_Pair_Distance.java": {
+    "mtime": 1652175249.1810086,
+    "ast_hash": "76fc21f88d90351b37a85b95700ec546",
+    "semantic_hash": ""
+  },
+  "src/L722_Remove_Comments.java": {
+    "mtime": 1776913019.558719,
+    "ast_hash": "78bc9bcecce01ed8b4c47bdeb0294437",
+    "semantic_hash": ""
+  },
+  "src/L724_Find_Pivot_Index.java": {
+    "mtime": 1665715571.464741,
+    "ast_hash": "9372df64dee45e3a6d654119ed600a1c",
+    "semantic_hash": ""
+  },
+  "src/L728_Self_Dividing_Numbers.java": {
+    "mtime": 1647855023.741237,
+    "ast_hash": "5e063a1a55607949c1569924814e630e",
+    "semantic_hash": ""
+  },
+  "src/L733_Flood_Fill.java": {
+    "mtime": 1665973499.993731,
+    "ast_hash": "d5ec3f2c09397bfeae30bb5ddaf2d6ea",
+    "semantic_hash": ""
+  },
+  "src/L744_Find_Smallest_Letter_Greater_Than_Target.java": {
+    "mtime": 1707036642.2150087,
+    "ast_hash": "7618cdf3ffddf085aa14115fa4b83c5c",
+    "semantic_hash": ""
+  },
+  "src/L746_Min_Cost_Climbing_Stairs.java": {
+    "mtime": 1652175249.1527047,
+    "ast_hash": "6700f6492c6a09fecc01dc696d6af6d1",
+    "semantic_hash": ""
+  },
+  "src/L747_Largest_Number_At_Least_Twice_of_Others.java": {
+    "mtime": 1746761581.000168,
+    "ast_hash": "1ad19c1f0bd962796ff8b05123b8b598",
+    "semantic_hash": ""
+  },
+  "src/L748_Shortest_Completing_Word.java": {
+    "mtime": 1666163267.8888638,
+    "ast_hash": "c9216bda6b8bdf5161924aca3b7e8db2",
+    "semantic_hash": ""
+  },
+  "src/L762_Prime_Number_of_Set_Bits_in_Binary_Representation.java": {
+    "mtime": 1666059771.0517144,
+    "ast_hash": "3f4489383b983372600157f40548e248",
+    "semantic_hash": ""
+  },
+  "src/L766_Toeplitz_Matrix.java": {
+    "mtime": 1745804647.7077172,
+    "ast_hash": "cc4f91e3d2b06f68218d0186259450a9",
+    "semantic_hash": ""
+  },
+  "src/L771_Jewels_and_Stones.java": {
+    "mtime": 1649209857.3897643,
+    "ast_hash": "f9da42c98717965f248f296c469be048",
+    "semantic_hash": ""
+  },
+  "src/L778_Swim_in_Rising_Water.java": {
+    "mtime": 1621650489.1957204,
+    "ast_hash": "021d306a35f296a31540e3ad63feeb49",
+    "semantic_hash": ""
+  },
+  "src/L783_Minimum_Distance_Between_BST_Nodes.java": {
+    "mtime": 1747013485.603663,
+    "ast_hash": "2c7e4271f4571b1f3228e3363a4ea16f",
+    "semantic_hash": ""
+  },
+  "src/L796_Rotate_String.java": {
+    "mtime": 1669257541.196839,
+    "ast_hash": "17a890572bc6c2001e8112bc6f973f4c",
+    "semantic_hash": ""
+  },
+  "src/L797_All_Paths_From_Source_to_Target.java": {
+    "mtime": 1785893410.7981644,
+    "ast_hash": "e80439f10746e78c5c3d726559a1a985",
+    "semantic_hash": ""
+  },
+  "src/L804_Unique_Morse_Code_Words.java": {
+    "mtime": 1652175249.2881513,
+    "ast_hash": "7cd07326ce97550e859e8871b028e96f",
+    "semantic_hash": ""
+  },
+  "src/L806_Number_of_Lines_To_Write_String.java": {
+    "mtime": 1669256642.602621,
+    "ast_hash": "9c7d852b1979f892d042c2261c3e78ae",
+    "semantic_hash": ""
+  },
+  "src/L807_Max_Increase_to_Keep_City_Skyline.java": {
+    "mtime": 1652175249.1693566,
+    "ast_hash": "2bbf8cb908b758156455de4798e5af0d",
+    "semantic_hash": ""
+  },
+  "src/L812_Largest_Triangle_Area.java": {
+    "mtime": 1669185546.7327812,
+    "ast_hash": "03774a92233f0e175b17311d03f67e12",
+    "semantic_hash": ""
+  },
+  "src/L819_Most_Common_Word.java": {
+    "mtime": 1707036642.2582154,
+    "ast_hash": "bee02939d71d1b029f629bfc90408573",
+    "semantic_hash": ""
+  },
+  "src/L821_Shortest_Distance_to_a_Character.java": {
+    "mtime": 1669257541.1831074,
+    "ast_hash": "3798db8f1c7278e48c9cb52a9a2224f9",
+    "semantic_hash": ""
+  },
+  "src/L824_Goat_Latin.java": {
+    "mtime": 1683167891.2503293,
+    "ast_hash": "703176752a4e5d92793c6d1f00b24039",
+    "semantic_hash": ""
+  },
+  "src/L830_Positions_of_Large_Groups.java": {
+    "mtime": 1682650323.194082,
+    "ast_hash": "04032585157fb6d01899e9439760e9b5",
+    "semantic_hash": ""
+  },
+  "src/L832_Flipping_an_Image.java": {
+    "mtime": 1682563944.1409385,
+    "ast_hash": "2e41606cc4f8dd08def0dfd53a8be2f8",
+    "semantic_hash": ""
+  },
+  "src/L836_Rectangle_Overlap.java": {
+    "mtime": 1669257541.2467387,
+    "ast_hash": "d4b2f7a627f75497dd5a48a798292538",
+    "semantic_hash": ""
+  },
+  "src/L844_Backspace_String_Compare.java": {
+    "mtime": 1682475387.2231011,
+    "ast_hash": "da092ddfa756b4cd50b71490ad9fc893",
+    "semantic_hash": ""
+  },
+  "src/L859_Buddy_Strings.java": {
+    "mtime": 1669257541.1868598,
+    "ast_hash": "8db28f1de50bfa7f644b8041030c3aa1",
+    "semantic_hash": ""
+  },
+  "src/L860_Lemonade_Change.java": {
+    "mtime": 1665154317.6645377,
+    "ast_hash": "545190e3db520fa3ff75820c5cf82c8e",
+    "semantic_hash": ""
+  },
+  "src/L867_Transpose_Matrix.java": {
+    "mtime": 1745910570.85601,
+    "ast_hash": "9ea871bcc20b956a261606c447cae925",
+    "semantic_hash": ""
+  },
+  "src/L868_Binary_Gap.java": {
+    "mtime": 1669257541.2533655,
+    "ast_hash": "0bfda72ce09f854fd5506d8e4c3806ea",
+    "semantic_hash": ""
+  },
+  "src/L872_Leaf_Similar_Trees.java": {
+    "mtime": 1743563754.883622,
+    "ast_hash": "33db0f73c3b509b18181835ba50e58e8",
+    "semantic_hash": ""
+  },
+  "src/L873_Length_of_Longest_Fibonacci_Subsequence.java": {
+    "mtime": 1740637850.265018,
+    "ast_hash": "ccaa8b56278b4228965dd5336bea0346",
+    "semantic_hash": ""
+  },
+  "src/L875_Koko_Eating_Bananas.java": {
+    "mtime": 1669257541.2647252,
+    "ast_hash": "71ce2a44d320e3fbeaa934375fdabb94",
+    "semantic_hash": ""
+  },
+  "src/L876_Middle_of_the_Linked_List.java": {
+    "mtime": 1684461231.1024303,
+    "ast_hash": "ec8f8e2521c29f17d37333736c1bd5c9",
+    "semantic_hash": ""
+  },
+  "src/L878_Nth_Magical_Number.java": {
+    "mtime": 1669257541.2655442,
+    "ast_hash": "4f22cca11d13745b95bd6b95b19860c1",
+    "semantic_hash": ""
+  },
+  "src/L883_Projection_Area_of_3D_Shapes.java": {
+    "mtime": 1745995397.6661923,
+    "ast_hash": "e398a57d869e7382bc473d6a7fefc8fa",
+    "semantic_hash": ""
+  },
+  "src/L884_Uncommon_Words_from_Two_Sentences.java": {
+    "mtime": 1683354867.7863998,
+    "ast_hash": "f13325ae1024456eb6647286a0ec6eb9",
+    "semantic_hash": ""
+  },
+  "src/L885_Spiral_Matrix_III.java": {
+    "mtime": 1784864282.8167617,
+    "ast_hash": "22e876cc8a5ed5df58d4d096dae9ac69",
+    "semantic_hash": ""
+  },
+  "src/L888_Fair_Candy_Swap.java": {
+    "mtime": 1667479154.536934,
+    "ast_hash": "dabbedff0a823241bae385573dcf8e88",
+    "semantic_hash": ""
+  },
+  "src/L892_Surface_Area_of_3D_Shapes.java": {
+    "mtime": 1669347122.764556,
+    "ast_hash": "50e3f0c6a92a29db259756633ce21721",
+    "semantic_hash": ""
+  },
+  "src/L896_Monotonic_Array.java": {
+    "mtime": 1667307733.277415,
+    "ast_hash": "372f04bffaf7e4af1ad2e12cbca706df",
+    "semantic_hash": ""
+  },
+  "src/L897_Increasing_Order_Search_Tree.java": {
+    "mtime": 1747099675.7500188,
+    "ast_hash": "c745c32d9124b3f4326fda76348221e7",
+    "semantic_hash": ""
+  },
+  "src/L905_Sort_Array_By_Parity.java": {
+    "mtime": 1649236944.846213,
+    "ast_hash": "5ec9fcef7ba5df71b2c9fed4a67a8925",
+    "semantic_hash": ""
+  },
+  "src/L907_Sum_of_Subarray_Minimums.java": {
+    "mtime": 1778123990.8737493,
+    "ast_hash": "bc7a858a1ccbf90abf5de417fb510e75",
+    "semantic_hash": ""
+  },
+  "src/L908_Smallest_Range_I.java": {
+    "mtime": 1666332591.639067,
+    "ast_hash": "c970830670e56fd87210bf0ae10b7181",
+    "semantic_hash": ""
+  },
+  "src/L910_Smallest_Range_II.java": {
+    "mtime": 1778290484.28934,
+    "ast_hash": "8145bc021f36d58f07b5454708e2ac32",
+    "semantic_hash": ""
+  },
+  "src/L914_X_of_a_Kind_in_a_Deck_of_Cards.java": {
+    "mtime": 1747202566.888704,
+    "ast_hash": "13dd2bf8a911febc898f5eb550a56f22",
+    "semantic_hash": ""
+  },
+  "src/L917_Reverse_Only_Letters.java": {
+    "mtime": 1666262394.685479,
+    "ast_hash": "9d13f4130940f53251556f02fbcb6ebc",
+    "semantic_hash": ""
+  },
+  "src/L918_Maximum_Sum_Circular_Subarray.java": {
+    "mtime": 1710928991.2076979,
+    "ast_hash": "9643ef8b0afd5b508e737a12c18eccf1",
+    "semantic_hash": ""
+  },
+  "src/L922_Sort_Array_By_ParityII.java": {
+    "mtime": 1667205210.93426,
+    "ast_hash": "d99cd7f1248802bb5c51598b7235e516",
+    "semantic_hash": ""
+  },
+  "src/L925_Long_Pressed_Name.java": {
+    "mtime": 1655174654.1924887,
+    "ast_hash": "3dcc9e45cee8c3bb18d007da1997eb8a",
+    "semantic_hash": ""
+  },
+  "src/L929_Unique_Email_Addresses.java": {
+    "mtime": 1666930089.6878586,
+    "ast_hash": "45f4eb8b802146918be5de9ffeb459ea",
+    "semantic_hash": ""
+  },
+  "src/L933_Number_of_Recent_Calls.java": {
+    "mtime": 1744200095.1143246,
+    "ast_hash": "b677f31fd960a0b58fd40e832cf7f6ea",
+    "semantic_hash": ""
+  },
+  "src/L938_Range_Sum_of_BST.java": {
+    "mtime": 1695886370.1673317,
+    "ast_hash": "08c9a4f030bd43774a9b126d4de00a93",
+    "semantic_hash": ""
+  },
+  "src/L941_Valid_Mountain_Array.java": {
+    "mtime": 1669257541.2352073,
+    "ast_hash": "757ea244832d4151f776ed480353773c",
+    "semantic_hash": ""
+  },
+  "src/L942_DI_String_Match.java": {
+    "mtime": 1647854741.729609,
+    "ast_hash": "f315f8c1a401f75a913a8ee583c47a25",
+    "semantic_hash": ""
+  },
+  "src/L944_Delete_Columns_to_Make_Sorted.java": {
+    "mtime": 1652175249.2991402,
+    "ast_hash": "cb980188ed0551fb972eee006c98f5f9",
+    "semantic_hash": ""
+  },
+  "src/L950_Reveal_Cards_In_Increasing_Order.java": {
+    "mtime": 1785983250.2898319,
+    "ast_hash": "e5d83463dcf987356f456d71fbc8ed10",
+    "semantic_hash": ""
+  },
+  "src/L953_Verifying_an_Alien_Dictionary.java": {
+    "mtime": 1669257541.2482333,
+    "ast_hash": "98ee27f8e3ae147081ef8d55d5d24edf",
+    "semantic_hash": ""
+  },
+  "src/L961_N_Repeated_Element_in_Size_2N_Array.java": {
+    "mtime": 1669257541.228126,
+    "ast_hash": "6c4dd7f14a814dd3422ad528cde7c6c2",
+    "semantic_hash": ""
+  },
+  "src/L965_Univalued_Binary_Tree.java": {
+    "mtime": 1744274338.3331246,
+    "ast_hash": "fa9980d1b0afab21346068e4722cf271",
+    "semantic_hash": ""
+  },
+  "src/L976_Largest_Perimeter_Triangle.java": {
+    "mtime": 1666757827.3703105,
+    "ast_hash": "dbe4dd23c6bb24377de0c66f43296c58",
+    "semantic_hash": ""
+  },
+  "src/L977_Squares_of_a_Sorted_Array.java": {
+    "mtime": 1666868110.0253844,
+    "ast_hash": "b39f8c05264d361099362a0e2477c1ff",
+    "semantic_hash": ""
+  },
+  "src/L989_Add_to_Array_Form_of_Integer.java": {
+    "mtime": 1667356573.9192338,
+    "ast_hash": "d61747153d2f47c91db68f272c10101e",
+    "semantic_hash": ""
+  },
+  "src/L993_Cousins_in_Binary_Tree.java": {
+    "mtime": 1744109235.995704,
+    "ast_hash": "10879aad3288f2d55555496e90ff725a",
+    "semantic_hash": ""
+  },
+  "src/L996_Number_of_Squareful_Arrays.java": {
+    "mtime": 1656612051.947231,
+    "ast_hash": "f057e9dff47092449a76b65f4003da9a",
+    "semantic_hash": ""
+  },
+  "src/L997_Find_the_Town_Judge.java": {
+    "mtime": 1667549672.172617,
+    "ast_hash": "54d5d154111cebeb089db037dda484c2",
+    "semantic_hash": ""
+  },
+  "src/L999_Available_Captures_for_Rook.java": {
+    "mtime": 1744338882.6286974,
+    "ast_hash": "6e9d74700c0f1499780cd805174b44ac",
+    "semantic_hash": ""
+  },
+  "src/Template/BackTrack.java": {
+    "mtime": 1665228099.9631805,
+    "ast_hash": "c1395b3ae634b48f75f9e3e57fa15378",
+    "semantic_hash": ""
+  },
+  "src/struct/GraphNode.java": {
+    "mtime": 1652175249.2359703,
+    "ast_hash": "0bf20983e776732c036a4cf11c180fb7",
+    "semantic_hash": ""
+  },
+  "src/struct/Interval.java": {
+    "mtime": 1621650489.2585318,
+    "ast_hash": "7fc3ba1bb3d82ec593920a8a9d2dd58e",
+    "semantic_hash": ""
+  },
+  "src/struct/LRUCache.java": {
+    "mtime": 1710929746.5457492,
+    "ast_hash": "aa190d26b8d1a0bad373d390ac8e8384",
+    "semantic_hash": ""
+  },
+  "src/struct/ListNode.java": {
+    "mtime": 1645691599.7701998,
+    "ast_hash": "0124d1bcac7cf40bbe1a293268459fc2",
+    "semantic_hash": ""
+  },
+  "src/struct/MinStack.java": {
+    "mtime": 1652175249.2197073,
+    "ast_hash": "c7f3b94a5a9e45ef5ec2a2910360ef09",
+    "semantic_hash": ""
+  },
+  "src/struct/MyQueue.java": {
+    "mtime": 1652175249.2976372,
+    "ast_hash": "1d99ad7b8aa5c1e4b41fbd074a521c27",
+    "semantic_hash": ""
+  },
+  "src/struct/MyStack.java": {
+    "mtime": 1652175249.204812,
+    "ast_hash": "9284f889841c54d076fb43d953f5750f",
+    "semantic_hash": ""
+  },
+  "src/struct/NestedInteger.java": {
+    "mtime": 1776397105.5777273,
+    "ast_hash": "82194e75fc5eeaa50cc238aab114a61d",
+    "semantic_hash": ""
+  },
+  "src/struct/NestedIntegerImpl.java": {
+    "mtime": 1776397583.8658848,
+    "ast_hash": "950ce9940ff35cecc52229fa4a130554",
+    "semantic_hash": ""
+  },
+  "src/struct/NestedIterator.java": {
+    "mtime": 1776398209.5344865,
+    "ast_hash": "0eebf511a71cad3e9cc267ac818ec188",
+    "semantic_hash": ""
+  },
+  "src/struct/NextNode.java": {
+    "mtime": 1652175249.1715972,
+    "ast_hash": "1cbc89a39936eaf2548a470a04eda9a1",
+    "semantic_hash": ""
+  },
+  "src/struct/Node.java": {
+    "mtime": 1621650489.3031135,
+    "ast_hash": "35833821e887c4fbb55cf26581bf15ea",
+    "semantic_hash": ""
+  },
+  "src/struct/NodeN.java": {
+    "mtime": 1742206637.833865,
+    "ast_hash": "57f8f0d57c1fa8446c4535a1208d1861",
+    "semantic_hash": ""
+  },
+  "src/struct/TreeNode.java": {
+    "mtime": 1695886370.1737764,
+    "ast_hash": "43df07cab91319cfa755b7b52a2a11d8",
+    "semantic_hash": ""
+  },
+  "src/struct/Trie.java": {
+    "mtime": 1645691526.426777,
+    "ast_hash": "fe5d4a3829b8e5519e0f828708a1259e",
+    "semantic_hash": ""
+  },
+  "src/struct/TrieNode.java": {
+    "mtime": 1652175249.2263725,
+    "ast_hash": "fb29ea561c88405f3f8c22b374ac7b22",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1621650370.2966204,
+    "ast_hash": "13d3a47ec75fd5699594b2968b7bbeb5",
+    "semantic_hash": ""
+  }
+}

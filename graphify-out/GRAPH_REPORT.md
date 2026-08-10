@@ -1,0 +1,1178 @@
+# Graph Report - LeetCodeSolution  (2026-08-10)
+
+## Corpus Check
+- 1144 files · ~306,164 words
+- Verdict: corpus is large enough that graph structure adds value.
+
+## Summary
+- 5334 nodes · 6219 edges · 1035 communities (19 shown, 1016 thin omitted)
+- Extraction: 83% EXTRACTED · 17% INFERRED · 0% AMBIGUOUS · INFERRED: 1075 edges (avg confidence: 0.8)
+- Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `71285380`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
+
+## Community Hubs (Navigation)
+- NestedInteger
+- TreeNode
+- Trie
+- NodeN
+- L472_Concatenated_Words
+- MyHashMap2
+- Twitter
+- PeekingIterator
+- NumArray2
+- Node
+- Foo
+- MyDate
+- L2418_Sort_the_People
+- L2558_Take_Gifts_From_the_Richest_Pile
+- L315_Count_of_Smaller_Numbers_After_Self
+- Interval
+- L085_Maximal_Rectangle
+- L1352_Product_of_the_Last_K_Numbers
+- LRUCache
+- .main
+- L3606_Coupon_Code_Validator
+- L733_Flood_Fill
+- ListNode
+- L087_Scramble_String
+- MinStack
+- MyStack
+- MyQueue
+- L3411_Maximum_Subarray_With_Equal_Products
+- Codec
+- L097_Interleaving_String
+- L1002_Find_Common_Characters
+- GraphNode
+- L1656_Design_an_Ordered_Stream
+- L174_Dungeon_Game
+- L2273_Find_Resultant_Array_After_Removing_Anagrams
+- L996_Number_of_Squareful_Arrays
+- L089_Gray_Code
+- L1175_Prime_Arrangements
+- L131_Palindrome_Partitioning
+- L1360_Number_of_Days_Between_Two_Dates
+- L1380_Lucky_Numbers_in_a_Matrix
+- L149_Max_Points_on_a_Line
+- L1619_Mean_of_Array_After_Removing_Some_Elements
+- L166_Fraction_to_Recurring_Decimal
+- L1763_Longest_Nice_Substring
+- L1774_Closest_Dessert_Cost
+- L1971_Find_if_Path_Exists_in_Graph
+- L2047_Number_of_Valid_Words_in_a_Sentence
+- L2099_Find_Subsequence_of_Length_K_With_the_Largest_Sum
+- L214_Shortest_Palindrome
+- L229_Majority_Element_II
+- L309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown
+- L312_Burst_Balloons
+- L322_Coin_Change
+- L329_Longest_Increasing_Path_in_a_Matrix
+- L3318_Find_X_Sum_of_All_K_Long_Subarrays_I
+- L365_Water_and_Jug_Problem
+- L373_Find_K_Pairs_with_Smallest_Sums
+- L3769_Sort_Integers_by_Binary_Reflection
+- L377_Combination_Sum_IV
+- .main
+- L4010_Maximize_Pair_Strength_Using_GCD
+- L403_Frog_Jump
+- L447_Number_of_Boomerangs
+- L464_Can_I_Win
+- L611_Valid_Triangle_Number
+- .main
+- L748_Shortest_Completing_Word
+- L762_Prime_Number_of_Set_Bits_in_Binary_Representation
+- L812_Largest_Triangle_Area
+- L976_Largest_Perimeter_Triangle
+- L065_Valid_Number
+- L077_Combinations
+- L093_Restore_IP_Addresses
+- L1030_Matrix_Cells_in_Distance_Order
+- L1079_Letter_Tile_Possibilities
+- L110_Balanced_Binary_Tree
+- L1185_Day_of_the_Week
+- L124_Binary_Tree_Maximum_Path_Sum
+- FindElements
+- L126_Word_Ladder_II
+- L1287_Element_Appearing_More_Than_In_Sorted_Array
+- L128_Longest_Consecutive_Sequence
+- L1315_Sum_of_Nodes_with_Even_Valued_Grandparent
+- L1337_The_K_Weakest_Rows_in_a_Matrix
+- L1409_Queries_on_a_Permutation_With_Key
+- L140_Word_Break_II
+- SubrectangleQueries
+- L1828_Queries_on_Number_of_Points_Inside_a_Circle
+- L1863_Sum_of_All_Subset_XOR_Totals
+- L1913_Maximum_Product_Difference_Between_Two_Pairs
+- L2044_Count_Number_of_Maximum_Bitwise_OR_Subsets
+- L2133_Check_if_Every_Row_and_Column_Contains_All_Numbers
+- L233_Number_of_Digit_One
+- L2423_Remove_Letter_To_Equalize_Frequency
+- L2545_Sort_the_Students_by_Their_Kth_Score
+- L257_Binary_Tree_Paths
+- L2733_Neither_Minimum_nor_Maximum
+- L273_Integer_to_English_Words
+- L279_Perfect_Squares
+- L2807_Insert_Greatest_Common_Divisors_in_Linked_List
+- .main
+- L3356_Zero_Array_Transformation_II
+- L337_House_Robber_III
+- L3446_Sort_Matrix_by_Diagonals
+- L345_Reverse_Vowels_of_a_String
+- L347_Top_K_Frequent_Elements
+- L378_Kth_Smallest_Element_in_a_Sorted_Matrix
+- L397_Integer_Replacement
+- L402_Remove_K_Digits
+- L441_Arranging_Coins
+- L445_Add_Two_Numbers_II
+- L473_Matchsticks_to_Square
+- L501_Find_Mode_in_Binary_Search_Tree
+- L543_Diameter_of_Binary_Tree
+- L572_Subtree_of_Another_Tree
+- L647_Palindromic_Substrings
+- L680_Valid_Palindrome_II
+- L778_Swim_in_Rising_Water
+- L821_Shortest_Distance_to_a_Character
+- L929_Unique_Email_Addresses
+- L002_Add_Two_Numbers
+- L003_Longest_Substring_Without_Repeating_Characters
+- L015_3Sum
+- L022_Generate_Parentheses
+- .reverseKGroup
+- L031_Next_Permutation
+- L045_Jump_Game_II
+- L072_Edit_Distance
+- L074_Search_a_2D_Matrix
+- L095_Unique_Binary_Search_Trees_II
+- L1005_Maximize_Sum_Of_Array_After_K_Negations
+- L1022_Sum_of_Root_To_Leaf_Binary_Numbers
+- L1037_Valid_Boomerang
+- L1038_Binary_Search_Tree_to_Greater_Sum_Tree
+- L105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal
+- L106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal
+- L1071_Greatest_Common_Divisor_of_Strings
+- L1092_Shortest_Common_Supersequence
+- L114_Flatten_Binary_Tree_to_Linked_List
+- L115_Distinct_Subsequences
+- L1160_Find_Words_That_Can_Be_Formed_by_Characters
+- L1200_Minimum_Absolute_Difference
+- L1302_Deepest_Leaves_Sum
+- L1346_Check_If_N_and_Its_Double_Exist
+- L1356_Sort_Integers_by_The_Number_of_1_Bits
+- L1365_How_Many_Numbers_Are_Smaller_Than_the_Current_Number
+- L1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree
+- L1382_Balance_a_Binary_Search_Tree
+- L1415_The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n
+- L1417_Reformat_The_String
+- L1422_Maximum_Score_After_Splitting_a_String
+- .insertionSortList
+- L152_Maximum_Product_Subarray
+- L1544_Make_The_String_Great
+- L1582_Special_Positions_in_a_Binary_Matrix
+- L1603_Design_Parking_System
+- L1652_Defuse_the_Bomb
+- L1684_Count_the_Number_of_Consistent_Strings
+- L1704_Determine_if_String_Halves_Are_Alike
+- L1758_Minimum_Changes_To_Make_Alternating_Binary_String
+- L1829_Maximum_XOR_for_Each_Query
+- L1886_Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation
+- L188_Best_Time_to_Buy_and_Sell_Stock_IV
+- L189_Rotate_Array
+- L1925_Count_Square_Sum_Triples
+- L1935_Maximum_Number_of_Words_You_Can_Type
+- L1945_Sum_of_Digits_of_String_After_Convert
+- L1980_Find_Unique_Binary_String
+- L202_Happy_Number
+- L2114_Maximum_Number_of_Words_Found_in_Sentences
+- L2125_Number_of_Laser_Beams_in_a_Bank
+- L2154_Keep_Multiplying_Found_Values_by_Two
+- L2180_Count_Integers_With_Even_Digit_Sum
+- L2181_Merge_Nodes_in_Between_Zeros
+- L2200_Find_All_K_Distant_Indices_in_an_Array
+- L2243_Calculate_Digit_Sum_of_a_String
+- L224_Basic_Calculator
+- L227_Basic_Calculator_II
+- L2309_Greatest_English_Letter_in_Upper_and_Lower_Case
+- L234_Palindrome_Linked_List
+- L2375_Construct_Smallest_Number_From_DI_String
+- L2391_Minimum_Amount_of_Time_to_Collect_Garbage
+- L2396_Strictly_Palindromic_Number
+- L240_Search_a_2D_Matrix_II
+- L2415_Reverse_Odd_Levels_of_Binary_Tree
+- L2427_Number_of_Common_Factors
+- L2446_Determine_if_Two_Events_Have_Conflict
+- L2451_Odd_String_Difference
+- L2469_Convert_the_Temperature
+- L2500_Delete_Greatest_Value_in_Each_Row
+- L2535_Difference_Between_Element_Sum_and_Digit_Sum_of_an_Array
+- L2562_Find_the_Array_Concatenation_Value
+- L2591_Distribute_Money_to_Maximum_Children
+- L2760_Longest_Even_Odd_Subarray_With_Threshold
+- L2785_Sort_Vowels_in_a_String
+- L2815_Max_Pair_Sum_in_an_Array
+- L283_Move_Zeroes
+- L287_Find_the_Duplicate_Number
+- L289_Game_of_Life
+- L2928_Distribute_Candies_Among_Children_I
+- L2946_Matrix_Similarity_After_Cyclic_Shifts
+- L2970_Count_the_Number_of_Incremovable_Subarrays_I
+- L300_Longest_Increasing_Subsequence
+- L3200_Maximum_Height_of_a_Triangle
+- L324_Wiggle_Sort_II
+- L3349_Adjacent_Increasing_Subarrays_Detection_I
+- L334_Increasing_Triplet_Subsequence
+- L3370_Smallest_Number_With_All_Set_Bits
+- L343_Integer_Break
+- .main
+- L354_Russian_Doll_Envelopes
+- L3658_GCD_of_Odd_and_Even_Sums
+- L3684_Maximize_Sum_of_At_Most_K_Distinct_Elements
+- L368_Largest_Divisible_Subset
+- L3751_Total_Waviness_of_Numbers_in_Range_I
+- L376_Wiggle_Subsequence
+- L392_Is_Subsequence
+- L394_Decode_String
+- L3982_Sum_of_Integers_with_Maximum_Digit_Range
+- L3996_Even_Number_of_Knight_Moves
+- L401_Binary_Watch
+- L410_Split_Array_Largest_Sum
+- L416_Partition_Equal_Subset_Sum
+- L446_Arithmetic_Slices_II_Subsequence
+- L496_Next_Greater_Element_I
+- L507_Perfect_Number
+- L541_Reverse_String_II
+- L557_Reverse_Words_in_a_String_III
+- L581_Shortest_Unsorted_Continuous_Subarray
+- L628_Maximum_Product_of_Three_Numbers
+- L653_Two_Sum_IV_Input_is_a_BST
+- L668_Kth_Smallest_Number_in_Multiplication_Table
+- KthLargest
+- L719_Find_K_th_Smallest_Pair_Distance
+- L804_Unique_Morse_Code_Words
+- L819_Most_Common_Word
+- L836_Rectangle_Overlap
+- L844_Backspace_String_Compare
+- L873_Length_of_Longest_Fibonacci_Subsequence
+- L875_Koko_Eating_Bananas
+- L892_Surface_Area_of_3D_Shapes
+- L914_X_of_a_Kind_in_a_Deck_of_Cards
+- L918_Maximum_Sum_Circular_Subarray
+- .main
+- L989_Add_to_Array_Form_of_Integer
+- L001_Two_Sum
+- L005_Longest_Palindromic_Substring
+- L010_Regular_Expression_Matching
+- L011_Container_With_Most_Water
+- L013_Roman_to_int
+- L017_Letter_Combinations_of_a_Phone_Number
+- L019_Remove_Nth_Node_From_End_of_List
+- .mergeTwoLists
+- L024_Swap_Nodes_in_Pairs
+- L039_Combination_Sum
+- L040_Combination_Sum_II
+- L041_First_Missing_Positive
+- L042_Trapping_Rain_Water
+- L044_Wildcard_Matching
+- L046_Permutations
+- L047_Permutations_II
+- L050_Pow_x_n
+- L055_Jump_Game
+- .rotateRight
+- L068_Text_Justification
+- L071_Simplify_Path
+- L073_Set_Matrix_Zeroes
+- L075_Sort_Colors
+- L078_Subsets
+- L079_Word_Search
+- L082_Remove_Duplicates_from_Sorted_List_II
+- L083_Remove_Duplicates_from_Sorted_List
+- L084_Largest_Rectangle_in_Histogram
+- .partition
+- L090_Subsets_II
+- .reverseBetween
+- L1008_Construct_Binary_Search_Tree_from_Preorder_Traversal
+- L1013_Partition_Array_Into_Three_Parts_With_Equal_Sum
+- L1018_Binary_Prefix_Divisible_By_5
+- L101_Symmetric_Tree
+- L1021_Remove_Outermost_Parentheses
+- L1025_Divisor_Game
+- L1046_Last_Stone_Weight
+- L1047_Remove_All_Adjacent_Duplicates_In_String
+- L104_Maximum_Depth_of_Binary_Tree
+- L108_Convert_Sorted_Array_to_Binary_Search_Tree
+- .sortedListToBST
+- L111_Minimum_Depth_of_Binary_Tree
+- L1122_Relative_Sort_Array
+- L1128_Number_of_Equivalent_Domino_Pairs
+- L113_Path_Sum_II
+- L1154_Day_of_the_Year
+- L120_Triangle
+- L121_Best_Time_to_Buy_and_Sell_Stock
+- L1252_Cells_with_Odd_Values_in_a_Matrix
+- L1260_Shift_2D_Grid
+- L1266_Minimum_Time_Visiting_All_Points
+- L1275_Find_Winner_on_a_Tic_Tac_Toe_Game
+- L1282_Group_the_People_Given_the_Group_Size_They_Belong_To
+- L1290_Convert_Binary_Number_in_a_Linked
+- L129_Sum_Root_to_Leaf_Numbers
+- L1309_Decrypt_String_from_Alphabet_to_Integer_Mapping
+- L130_Surrounded_Regions
+- L1317_Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers
+- L1351_Count_Negative_Numbers_in_a_Sorted_Matrix
+- L135_Candy
+- L1374_Generate_a_String_With_Characters_That_Have_Odd_Counts
+- L1385_Find_the_Distance_Value_Between_Two_Arrays
+- L1399_Count_Largest_Group
+- L139_Word_Break
+- L1403_Minimum_Subsequence_in_Non_Increasing_Order
+- L1408_String_Matching_in_an_Array
+- L141_Linked_List_Cycle
+- L142_Linked_List_Cycle_II
+- L1436_Destination_City
+- L143_Reorder_List
+- L1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR
+- L1475_Final_Prices_With_a_Special_Discount_in_a_Shop
+- .sortList
+- L1496_Path_Crossing
+- L1502_Can_Make_Arithmetic_Progression_From_Sequence
+- L150_Evaluate_Reverse_Polish_Notation
+- L1512_Number_of_Good_Pairs
+- L1534_Count_Good_Triplets
+- L1561_Maximum_Number_of_Coins_You_Can_Get
+- L1576_Replace_All_s_to_Avoid_Consecutive_Repeating_Characters
+- L1592_Rearrange_Spaces_Between_Words
+- L1608_Special_Array_With_X_Elements_Greater_Than_or_Equal_X
+- L160_Intersection_of_Two_Linked_Lists
+- L1614_Maximum_Nesting_Depth_of_the_Parentheses
+- L162_Find_Peak_Element
+- L1630_Arithmetic_Subarrays
+- L1636_Sort_Array_by_Increasing_Frequency
+- L164_Maximum_Gap
+- L1694_Reformat_Phone_Number
+- L1710_Maximum_Units_on_a_Truck
+- L1725_Number_Of_Rectangles_That_Can_Form_The_Square
+- L1742_Maximum_Number_of_Balls_in_a_Box
+- L1752_Check_if_Array_Is_Sorted_and_Rotated
+- L1768_Merge_Strings_Alternately
+- L1769_Minimum_Number_of_Operations_to_Move_All_Balls_to_Each_Box
+- L1805_Number_of_Different_Integers_in_a_String
+- L1816_Truncate_Sentence
+- L1827_Minimum_Operations_to_Make_the_Array_Increasing
+- L1832_Check_if_the_Sentence_Is_Pangram
+- L1848_Minimum_Distance_to_the_Target_Element
+- L1854_Maximum_Population_Year
+- L1869_Longer_Contiguous_Segments_of_Ones_than_Zeros
+- L1876_Substrings_of_Size_Three_with_Distinct_Characters
+- L187_Repeated_DNA_Sequences
+- L1880_Check_if_Word_Equals_Summation_of_Two_Words
+- L1893_Check_if_All_the_Integers_in_a_Range_Are_Covered
+- L1909_Remove_One_Element_to_Make_the_Array_Strictly_Increasing
+- L1910_Remove_All_Occurrences_of_a_Substring
+- L1929_Concatenation_of_Array
+- L1952_Three_Divisors
+- L1957_Delete_Characters_to_Make_Fancy_String
+- L1961_Check_If_String_Is_a_Prefix_of_Array
+- L1995_Count_Special_Quadruplets
+- L200_Number_of_Islands
+- L2016_Maximum_Difference_Between_Increasing_Elements
+- L2022_Convert_1D_Array_Into_2D_Array
+- L2027_Minimum_Moves_to_Convert_String
+- L2032_Two_Out_of_Three
+- L2037_Minimum_Number_of_Moves_to_Seat_Everyone
+- .removeElements
+- L2042_Check_if_Numbers_Are_Ascending_in_a_Sentence
+- L2053_Kth_Distinct_String_in_an_Array
+- L205_Isomorphic_Strings
+- L2068_Check_Whether_Two_Strings_are_Almost_Equivalent
+- .reverseList
+- L2073_Time_Needed_to_Buy_Tickets
+- L2085_Count_Common_Words_With_One_Occurrence
+- L2094_Finding_3_Digit_Even_Numbers
+- L2103_Rings_and_Rods
+- L2108_Find_First_Palindromic_String_in_Array
+- L2129_Capitalize_the_Title
+- L2138_Divide_a_String_Into_Groups_of_Size_k
+- L2144_Minimum_Cost_of_Buying_Candies_With_Discount
+- L2148_Count_Elements_With_Strictly_Smaller_and_Greater_Elements
+- L215_Kth_Largest_Element_in_an_Array
+- L2164_Sort_Even_and_Odd_Indices_Independently
+- L216_Combination_Sum_III
+- L2190_Most_Frequent_Number_Following_Key_In_an_Array
+- L2196_Create_Binary_Tree_From_Descriptions
+- L2206_Divide_Array_Into_Equal_Pairs
+- L220_Contains_Duplicate_III
+- L2224_Minimum_Number_of_Operations_to_Convert_Time
+- L2231_Largest_Number_After_Digit_Swaps_by_Parity
+- L2239_Find_Closest_Number_to_Zero
+- L2255_Count_Prefixes_of_a_Given_String
+- L2264_Largest_3_Same_Digit_Number_in_String
+- L2265_Count_Nodes_Equal_to_Average_of_Subtree
+- L2293_Min_Max_Game
+- L2315_Count_Asterisks
+- L2325_Decode_the_Message
+- L2335_Minimum_Amount_of_Time_to_Fill_Cups
+- L235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree
+- L2367_Number_of_Arithmetic_Triplets
+- L2373_Largest_Local_Values_in_a_Matrix
+- L2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks
+- L237_Delete_Node_in_a_Linked_List
+- L2389_Longest_Subsequence_With_Limited_Sum
+- L2395_Find_Subarrays_With_Equal_Sum
+- L2404_Most_Frequent_Even_Element
+- L2414_Length_of_the_Longest_Alphabetical_Continuous_Substring
+- L242_Valid_Anagram
+- L2460_Apply_Operations_to_an_Array
+- L2465_Number_of_Distinct_Averages
+- L2482_Difference_Between_Ones_and_Zeros_in_Row_and_Column
+- L2485_Find_the_Pivot_Integer
+- L2490_Circular_Sentence
+- L2496_Maximum_Value_of_a_String_in_an_Array
+- L2506_Count_Pairs_Of_Similar_Strings
+- L2511_Maximum_Enemy_Forts_That_Can_Be_Captured
+- L2529_Maximum_Count_of_Positive_Integer_and_Negative_Integer
+- L2540_Minimum_Common_Value
+- L2553_Separate_the_Digits_in_an_Array
+- L2570_Merge_Two_2D_Arrays_by_Summing_Values
+- L2578_Split_With_Minimum_Sum
+- L258_Add_Digits
+- L2595_Number_of_Even_and_Odd_Bits
+- L2600_K_Items_With_the_Maximum_Sum
+- L2605_Form_Smallest_Number_From_Two_Digit_Arrays
+- L2610_Convert_an_Array_Into_a_2D_Array_With_Conditions
+- L2614_Prime_In_Diagonal
+- L2639_Find_the_Width_of_Columns_of_a_Grid
+- L2643_Row_With_Maximum_Ones
+- L2644_Find_the_Maximum_Divisibility_Score
+- L2652_Sum_Multiples
+- L2657_Find_the_Prefix_Common_Array_of_Two_Arrays
+- L2660_Determine_the_Winner_of_a_Bowling_Game
+- L2670_Find_the_Distinct_Difference_Array
+- L2682_Find_the_Losers_of_the_Circular_Game
+- L268_Missing_Number
+- L2697_Lexicographically_Smallest_Palindrome
+- L2729_Check_if_The_Number_is_Fascinating
+- L2739_Total_Distance_Traveled
+- L2744_Find_Maximum_Number_of_String_Pairs
+- L2748_Number_of_Beautiful_Pairs
+- L274_H_Index
+- L2765_Longest_Alternating_Subarray
+- L2784_Check_if_Array_is_Good
+- L2788_Split_Strings_by_Separator
+- L278_First_Bad_Version
+- L2810_Faulty_Keyboard
+- L2843_Count_Symmetric_Integers
+- L2848_Points_That_Intersect_With_Cars
+- L2864_Maximum_Odd_Binary_Number
+- L2873_Maximum_Value_of_an_Ordered_Triplet_I
+- L290_Word_Pattern
+- L2913_Subarrays_Distinct_Element_Sum_of_Squares_I
+- L2917_Find_the_K_or_of_an_Array
+- L2923_Find_Champion_I
+- L2932_Maximum_Strong_Pair_XOR_I
+- L2974_Minimum_Number_Game
+- L2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum
+- L3024_Type_of_Triangle
+- L303_Range_Sum_Query_Immutable
+- L3042_Count_Prefix_and_Suffix_Pairs_I
+- L3066_Minimum_Operations_to_Exceed_Threshold_Value_II
+- L306_Additive_Number
+- L3074_Apple_Redistribution_into_Boxes
+- L3079_Find_the_Sum_of_Encrypted_Integers
+- L3090_Maximum_Length_Substring_With_Two_Occurrences
+- L3095_Shortest_Subarray_With_OR_at_Least_K_I
+- L3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray
+- L313_Super_Ugly_Number
+- L3158_Find_the_XOR_of_Numbers_Which_Appear_Twice
+- L316_Remove_Duplicate_Letters
+- L3184_Count_Pairs_That_Form_a_Complete_Day_I
+- L318_Maximum_Product_of_Word_Lengths
+- L3211_Generate_Binary_Strings_Without_Adjacent_Zeros
+- L3222_Find_the_Winning_Player_in_Coin_Game
+- L3248_Snake_in_Matrix
+- L3258_Count_Substrings_That_Satisfy_K_Constraint_I
+- .oddEvenList
+- L3300_Minimum_Element_After_Replacement_With_Digit_Sum
+- L3330_Find_the_Original_Typed_String_I
+- L3354_Make_Array_Elements_Equal_to_Zero
+- L3364_Minimum_Positive_Sum_Subarray
+- L3386_Button_with_Longest_Push_Time
+- L3407_Substring_Matching_Pattern
+- L3427_Sum_of_Variable_Length_Subarrays
+- L3442_Maximum_Difference_Between_Even_and_Odd_Frequency_I
+- L3456_Find_Special_Substring_of_Length_K
+- L3461_Check_If_Digits_Are_Equal_in_String_After_Operations_I
+- L3507_Minimum_Pair_Removal_to_Sort_Array_I
+- L3545_Minimum_Deletions_for_At_Most_K_Distinct_Characters
+- L3550_Smallest_Index_With_Digit_Sum_Equal_to_Index
+- L357_Count_Numbers_with_Unique_Digits
+- L3582_Generate_Tag_for_Video_Caption
+- L3591_Check_if_Any_Element_Has_Prime_Frequency
+- L3602_Hexadecimal_and_Hexatrigesimal_Conversion
+- L3633_Earliest_Finish_Time_for_Land_and_Water_Rides_I
+- L3678_Smallest_Absent_Positive_Greater_Average
+- L367_Valid_Perfect_Square
+- L3731_Find_Missing_Elements
+- L3740_Minimum_Distance_Between_Three_Equal_Elements_I
+- L374_Guess_Number_Higher_or_Lower
+- L3750_Minimum_Number_of_Flips_to_Reverse_Binary_String
+- L3760_Maximum_Substrings_With_Distinct_Start
+- L3774_Absolute_Difference_Between_Maximum_and_Minimum_K_Elements
+- L3783_Mirror_Distance_of_an_Integer
+- L3794_Reverse_String_Prefix
+- L3803_Count_Residue_Prefixes
+- L3823_Reverse_Letters_Then_Special_Characters_in_a_String
+- L3827_Count_Monobit_Integers
+- L383_Ransom_Note
+- L3856_Trim_Trailing_Vowels
+- L3866_First_Unique_Even_Element
+- L386_Lexicographical_Numbers
+- L387_First_Unique_Character_in_a_String
+- L3880_Minimum_Absolute_Difference_Between_Two_Values
+- L3898_Find_the_Degree_of_Each_Vertex
+- L389_Find_the_Difference
+- L3917_Count_Indices_With_Opposite_Parity
+- L3936_Minimum_Swaps_to_Move_Zeros_to_End
+- L3940_Limit_Occurrences_in_Sorted_Array
+- L3963_Create_Grid_With_Exactly_One_Path
+- L400_Nth_Digit
+- L413_Arithmetic_Slices
+- L424_Longest_Repeating_Character_Replacement
+- L433_Minimum_Genetic_Mutation
+- L436_Find_Right_Interval
+- L466_Count_The_Repetitions
+- L467_Unique_Substrings_in_Wraparound_String
+- L476_Number_Complement
+- L486_Predict_the_Winner
+- L495_Teemo_Attacking
+- L502_IPO
+- L506_Relative_Ranks
+- L509_Fibonacci_Number
+- L530_Minimum_Absolute_Difference_in_BST
+- L560_Subarray_Sum_Equals_K
+- L561_Array_Partition
+- L563_Binary_Tree_Tilt
+- L566_Reshape_the_Matrix
+- L567_Permutation_in_String
+- L575_Distribute_Candies
+- L594_Longest_Harmonious_Subsequence
+- L599_Minimum_Index_Sum_of_Two_Lists
+- L645_Set_Mismatch
+- L646_Maximum_Length_of_Pair_Chain
+- L650_2_Keys_Keyboard
+- L654_Maximum_Binary_Tree
+- L658_Find_K_Closest_Elements
+- L661_Image_Smoother
+- L670_Maximum_Swap
+- L682_Baseball_Game
+- L696_Count_Binary_Substrings
+- L697_Degree_of_an_Array
+- L709_To_Lower_Case
+- L712_Minimum_ASCII_Delete_Sum_for_Two_Strings
+- L722_Remove_Comments
+- L728_Self_Dividing_Numbers
+- L783_Minimum_Distance_Between_BST_Nodes
+- L796_Rotate_String
+- L797_All_Paths_From_Source_to_Target
+- L872_Leaf_Similar_Trees
+- L876_Middle_of_the_Linked_List
+- L878_Nth_Magical_Number
+- L883_Projection_Area_of_3D_Shapes
+- L885_Spiral_Matrix_III
+- L897_Increasing_Order_Search_Tree
+- L907_Sum_of_Subarray_Minimums
+- L922_Sort_Array_By_ParityII
+- L953_Verifying_an_Alien_Dictionary
+- L961_N_Repeated_Element_in_Size_2N_Array
+- BackTrack
+- L004_Median_of_Two_Sorted_Arrays
+- L006_ZigZag_Conversion
+- L007_Reverse_Integer
+- L008_String_to_Integer_atoi
+- L009_Palindrome_Number
+- L012_Integer_to_Roman
+- L014_Longest_Common_Prefix
+- L016_3_Sum_Closest
+- L018_4Sum
+- L020_Valid_Parentheses
+- L026_Remove_Duplicates_from_Sorted_Array
+- L027_Remove_Element
+- L028_Implement_strStr
+- L029_Divide_Two_Integers
+- L030_Substring_with_Concatenation_of_All_Words
+- L032_Longest_Valid_Parentheses
+- L033_Search_in_Rotated_Sorted_Array
+- L034_Find_First_and_Last_Position
+- L035_Search_Insert_Position
+- L036_Valid_Sudoku
+- L038_Count_and_Say
+- L043_Multiply_Strings
+- L048_Rotate_Image
+- L049_Group_Anagrams
+- L053_Maximum_Subarray
+- L054_Spiral_Matrix
+- L057_Insert_Interval
+- L058_Length_of_Last_Word
+- L059_Spiral_Matrix_II
+- L060_Permutation_Sequence
+- L062_Unique_Paths
+- L063_Unique_Paths_II
+- L064_Minimum_Path_Sum
+- L066_Plus_One
+- L067_Add_Binary
+- L069_Sqrt_x
+- L070_Climbing_Stairs
+- L076_Minimum_Window_Substring
+- L080_Remove_Duplicates_from_Sorted_Array_II
+- L081_Search_in_Rotated_Sorted_Array_II
+- L088_Merge_Sorted_Array
+- L091_Decode_Ways
+- L094_Binary_Tree_Inorder_Traversal
+- L096_Unique_Binary_Search_Trees
+- L1009_Complement_of_Base_10_Integer
+- L100_Same_Tree
+- L102_Binary_Tree_Level_Order_Traversal
+- L1035_Uncrossed_Lines
+- L1051_Height_Checker
+- L1078_Occurrences_After_Bigram
+- L1081_Smallest_Subsequence_of_Distinct_Characters
+- L1089_Duplicate_Zeros
+- L1103_Distribute_Candies_to_People
+- L1108_Defanging_an_IP_Address
+- L1137_N_th_Tribonacci_Number
+- L1184_Distance_Between_Bus_Stops
+- L1189_Maximum_Number_of_Balloons
+- L118_Pascal_Triangle
+- L119_Pascal_Triangle_II
+- L1207_Unique_Number_of_Occurrences
+- L1217_Minimum_Cost_to_Move_Chips_to_The_Same_Position
+- L1221_Split_a_String_in_Balanced_Strings
+- L122_Best_Time_to_Buy_and_Sell_Stock_II
+- L1232_Check_If_It_Is_a_Straight_Line
+- L123_Best_Time_to_Buy_and_Sell_Stock_III
+- L125_Valid_Palindrome
+- L127_Word_Ladder
+- L1281_Subtract_the_Product_and_Sum
+- L1295_Find_Numbers_with_Even_Number_of_Digits
+- L1299_Replace_Elements_with_Greatest_Element_on_Right_Side
+- L1304_Find_N_Unique_Integers_Sum_up_to_Zero
+- L1313_Decompress_Run_Length_Encoded_List
+- L1323_Maximum_69_Number
+- L132_Palindrome_Partitioning_II
+- L1331_Rank_Transform_of_an_Array
+- L1332_Remove_Palindromic_Subsequences
+- L1342_Number_of_Steps_to_Reduce_a_Number_to_Zero
+- L134_Gas_Station
+- L136_Single_Number
+- L136_Single_Number_II
+- L1370_Increasing_Decreasing_String
+- L1389_Create_Target_Array_in_the_Given_Order
+- L1394_Find_Lucky_Integer_in_an_Array
+- L1413_Minimum_Value_to_Get_Positive_Step_by_Step_Sum
+- L1431_Kids_With_the_Greatest_Number_of_Candies
+- L1437_Check_If_All_Are_at_Least_Length_K_Places_Away
+- L1446_Consecutive_Characters
+- L144_Binary_Tree_Preorder_Traversal
+- L1450_Number_of_Students_Doing_Homework_at_a_Give_Time
+- L1455_Check_If_a_Word_Occurs_As_a_Prefix_of_Any_Word_in_a_Sentence
+- L145_Binary_Tree_Postorder_Traversal
+- L1460_Make_Two_Arrays_Equal_by_Reversing_Subarrays
+- L1464_Maximum_Product_of_Two_Elements_in_an_Array
+- L1470_Shuffle_the_Array
+- L1480_Running_Sum_of_1d_Array
+- L1486_XOR_Operation_in_an_Array
+- L1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary
+- L1507_Reformat_Date
+- L1518_Water_Bottles
+- L151_Reverse_Words_in_a_String
+- L1523_Count_Odd_Numbers_in_an_Interval_Range
+- L1528_Shuffle_String
+- L1539_Kth_Missing_Positive_Number
+- L153_Find_Minimum_in_Rotated_Sorted_Array
+- L1550_Three_Consecutive_Odds
+- L1556_Thousand_Separator
+- L1560_Most_Visited_Sector_in_a_Circular_Track
+- L1566_Detect_Pattern_of_Length_M_Repeated_K_or_More_Times
+- L1572_Matrix_Diagonal_Sum
+- L1588_Sum_of_All_Odd_Length_Subarrays
+- L1598_Crawler_Log_Folder
+- L1624_Largest_Substring_Between_Two_Equal_Characters
+- L1629_Slowest_Key
+- L1637_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points
+- L1640_Check_Array_Formation_Through_Concatenation
+- L1646_Get_Maximum_in_Generated_Array
+- L165_Compare_Version_Numbers
+- L1662_Check_If_Two_String_Arrays_are_Equivalent
+- L1668_Maximum_Repeating_Substring
+- L1672_Richest_Customer_Wealth
+- L1678_Goal_Parser_Interpretation
+- L167_Two_Sum_II_Input_array_is_sorted
+- L1688_Count_of_Matches_in_Tournament
+- L1689_Partitioning_Into_Minimum_Number_Of_Deci_Binary_Numbers
+- L168_Excel_Sheet_Column_Title
+- L169_Majority_Element
+- L1700_Number_of_Students_Unable_to_Eat_Lunch
+- L1716_Calculate_Money_in_Leetcode_Bank
+- L171_Excel_Sheet_Column_Number
+- L1720_Decode_XORed_Array
+- L172_Factorial_Trailing_Zeroes
+- L1732_Find_the_Highest_Altitude
+- L1736_Latest_Time_by_Replacing_Hidden_Digits
+- L1748_Sum_of_Unique_Elements
+- L1773_Count_Items_Matching_a_Rule
+- L1779_Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate
+- L1784_Check_if_Binary_String_Has_at_Most_One_Segment_of_Ones
+- L1790_Check_if_One_String_Swap_Can_Make_Strings_Equal
+- L1791_Find_Center_of_Star_Graph
+- L1796_Second_Largest_Digit_in_a_String
+- L179_Largest_Number
+- L1800_Maximum_Ascending_Subarray_Sum
+- L1812_Determine_Color_of_a_Chessboard_Square
+- L1822_Sign_of_the_Product_of_an_Array
+- L1837_Sum_of_Digits_in_Base_K
+- L1844_Replace_All_Digits_with_Characters
+- L1859_Sorting_the_Sentence
+- L1897_Redistribute_Characters_to_Make_All_Strings_Equal
+- L1903_Largest_Odd_Number_in_String
+- L190_Reverse_Bits
+- L191_Number_of_1_Bits
+- L1920_Build_Array_from_Permutation
+- L1941_Check_if_All_Characters_Have_Equal_Number_of_Occurrences
+- L1967_Number_of_Strings_That_Appear_as_Substrings_in_Word
+- L1974_Minimum_Time_to_Type_Word_Using_Special_Typewriter
+- L1979_Find_Greatest_Common_Divisor_of_Array
+- L1984_Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores
+- L198_House_Robber
+- L1991_Find_the_Middle_Index_in_Array
+- L199_Binary_Tree_Right_Side_View
+- L2000_Reverse_Prefix_of_Word
+- L2006_Count_Number_of_Pairs_With_Absolute_Difference_K
+- L2011_Final_Value_of_Variable_After_Performing_Operations
+- L201_Bitwise_AND_of_Numbers_Range
+- L204_Count_Primes
+- L2057_Smallest_Index_With_Equal_Value
+- L2062_Count_Vowel_Substrings_of_a_String
+- L2078_Two_Furthest_Houses_With_Different_Colors
+- L207_Course_Schedule
+- L2089_Find_Target_Indices_After_Sorting_Array
+- L208_Course_Schedule_II
+- L209_Minimum_Size_Subarray_Sum
+- L2119_A_Number_After_a_Double_Reversal
+- L2124_Check_if_All_A_Appears_Before_All_B
+- L213_House_Robber_II
+- L2149_Rearrange_Array_Elements_by_Sign
+- L2160_Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits
+- L2161_Partition_Array_According_to_Given_Pivot
+- L2169_Count_Operations_to_Obtain_Zero
+- L2176_Count_Equal_and_Divisible_Pairs_in_an_Array
+- L217_Contains_Duplicate
+- L2185_Counting_Words_With_a_Given_Prefix
+- L2194_Cells_in_a_Range_on_an_Excel_Sheet
+- L219_Contains_Duplicate_II
+- L2210_Count_Hills_and_Valleys_in_an_Array
+- L2215_Find_the_Difference_of_Two_Arrays
+- L221_Maximal_Square
+- L2220_Minimum_Bit_Flips_to_Convert_Number
+- L222_Count_Complete_Tree_Nodes
+- L2235_Add_Two_Integers
+- L2236_Root_Equals_Sum_of_Children
+- L223_Rectangle_Area
+- L2248_Intersection_of_Multiple_Arrays
+- L2259_Remove_Digit_From_Number_to_Maximize_Result
+- L2269_Find_the_K_Beauty_of_a_Number
+- L226_Invert_Binary_Tree
+- L2278_Percentage_of_Letter_in_String
+- L2283_Check_if_Number_Has_Equal_Digit_Count_and_Digit_Value
+- L2287_Rearrange_Characters_to_Make_Target_String
+- L228_Summary_Ranges
+- L2299_Strong_Password_Checker_II
+- L2303_Calculate_Amount_Paid_in_Taxes
+- L2319_Check_if_Matrix_Is_X_Matrix
+- L231_Power_of_Two
+- L2331_Evaluate_Boolean_Binary_Tree
+- L2341_Maximum_Number_of_Pairs_in_Array
+- L2347_Best_Poker_Hand
+- L2351_First_Letter_to_Appear_Twice
+- L2357_Make_Array_Zero_by_Subtracting_Equal_Amounts
+- L2363_Merge_Similar_Items
+- L2383_Minimum_Hours_of_Training_to_Win_a_Competition
+- L238_Product_of_Array_Except_Self
+- L2399_Check_Distances_Between_Same_Letters
+- L2413_Smallest_Even_Multiple
+- L241_Different_Ways_to_Add_Parentheses
+- L2432_The_Employee_That_Worked_on_the_Longest_Task
+- L2433_Find_The_Original_Array_of_Prefix_Xor
+- L2437_Number_of_Valid_Clock_Times
+- L2441_Largest_Positive_Integer_That_Exists_With_Its_Negative
+- L2455_Average_Value_of_Even_Numbers_That_Are_Divisible_by_Three
+- L2481_Minimum_Cuts_to_Divide_a_Circle
+- L2515_Shortest_Distance_to_Target_String_in_a_Circular_Array
+- L2520_Count_the_Digits_That_Divide_a_Number
+- L2525_Categorize_Box_According_to_Criteria
+- L2544_Alternating_Digit_Sum
+- L2549_Count_Distinct_Numbers_on_Board
+- L2566_Maximum_Difference_by_Remapping_a_Digit
+- L2574_Left_and_Right_Sum_Differences
+- L2582_Pass_the_Pillow
+- L2586_Count_the_Number_of_Vowel_Strings_in_Range
+- L2609_Find_the_Longest_Balanced_Substring_of_a_Binary_String
+- L260_Single_Number_III
+- L263_Ugly_Number
+- L264_Ugly_Number_II
+- L2651_Calculate_Delayed_Arrival_Time
+- L2656_Maximum_Sum_With_Exactly_K_Elements
+- L2678_Number_of_Senior_Citizens
+- L2706_Buy_Two_Chocolates
+- L2710_Remove_Trailing_Zeros_From_a_String
+- L2716_Minimize_String_Length
+- L2717_Semi_Ordered_Permutation
+- L275_H_Index_II
+- L2769_Find_the_Maximum_Achievable_Number
+- L2778_Sum_of_Squares_of_Special_Elements
+- L2798_Number_of_Employees_Who_Met_the_Target
+- L2806_Account_Balance_After_Rounded_Purchase
+- L2824_Count_Pairs_Whose_Sum_is_Less_than_Target
+- L2828_Check_if_a_String_Is_an_Acronym_of_Words
+- L2833_Furthest_Point_From_Origin
+- L2839_Check_if_Strings_Can_be_Made_Equal_With_Operations_I
+- L2855_Minimum_Right_Shifts_to_Sort_the_Array
+- L2859_Sum_of_Values_at_Indices_With_K_Set_Bits
+- L2869_Minimum_Operations_to_Collect_Elements
+- L2894_Divisible_and_Non_divisible_Sums_Difference
+- L2899_Last_Visited_Integers
+- L2900_Longest_Unequal_Adjacent_Groups_Subsequence_I
+- L2903_Find_Indices_With_Index_and_Value_Difference_I
+- L2908_Minimum_Sum_of_Mountain_Triplets_I
+- L292_Nim_Game
+- L2937_Make_Three_Strings_Equal
+- L2942_Find_Words_Containing_Character
+- L2951_Find_the_Peaks
+- L2956_Find_Common_Elements_Between_Two_Arrays
+- L2960_Count_Tested_Devices_After_Test_Operations
+- L2965_Find_Missing_and_Repeated_Values
+- L2980_Check_if_Bitwise_OR_Has_Trailing_Zeros
+- L2997_Minimum_Number_of_Operations_to_Make_Array_XOR_Equal_to_K
+- L299_Bulls_and_Cows
+- L3000_Maximum_Area_of_Longest_Diagonal_Rectangle
+- L3005_Count_Elements_With_Maximum_Frequency
+- L3010_Divide_an_Array_Into_Subarrays_With_Minimum_Cost_I
+- L3014_Minimum_Number_of_Pushes_to_Type_Word_I
+- L3019_Number_of_Changing_Keys
+- L3028_Ant_on_the_Boundary
+- L3033_Modify_the_Matrix
+- L3038_Maximum_Number_of_Operations_With_the_Same_Score_I
+- L3046_Split_the_Array
+- L3065_Minimum_Operations_to_Exceed_Threshold_Value_I
+- L3069_Distribute_Elements_Into_Two_Arrays_I
+- L3083_Existence_of_a_Substring_in_a_String_and_Its_Reverse
+- L3099_Harshad_Number
+- L310_Minimum_Height_Trees
+- L3110_Score_of_a_String
+- L3114_Latest_Time_You_Can_Obtain_After_Replacing_Characters
+- L3120_Count_the_Number_of_Special_Characters_I
+- L3127_Make_a_Square_with_the_Same_Color
+- L3131_Find_the_Integer_Added_to_Array_I
+- L3136_Valid_Word
+- L3142_Check_if_Grid_Satisfies_Conditions
+- L3146_Permutation_Difference_between_Two_Strings
+- L3151_Special_Array_I
+- L3162_Find_the_Number_of_Good_Pairs_I
+- L3168_Minimum_Number_of_Chairs_in_a_Waiting_Room
+- L3174_Clear_Digits
+- L3178_Find_the_Child_Who_Has_the_Ball_After_K_Seconds
+- L3190_Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three
+- L3194_Minimum_Average_of_Smallest_and_Largest_Elements
+- L319_Bulb_Switcher
+- L3206_Alternating_Groups_I
+- L3210_Find_the_Encrypted_String
+- L3216_Lexicographically_Smallest_String_After_a_Swap
+- L3226_Number_of_Bit_Changes_to_Make_Two_Integers_Equal
+- L3232_Find_if_Digit_Game_Can_Be_Won
+- L3238_Find_the_Number_of_Winning_Players
+- L3264_Final_Array_State_After_K_Multiplication_Operations_I
+- L326_Power_of_Three
+- L3270_Find_the_Key_of_the_Numbers
+- L3274_Check_if_Two_Chessboard_Squares_Have_the_Same_Color
+- L3280_Convert_Date_to_Binary
+- L3285_Find_Indices_of_Stable_Mountains
+- L3289_The_Two_Sneaky_Numbers_of_Digitville
+- L3304_Find_the_K_th_Character_in_String_Game_I
+- L3314_Construct_the_Minimum_Bitwise_Array_I
+- L331_Verify_Preorder_Serialization_of_a_Binary_Tree
+- L3340_Check_Balanced_String
+- L3345_Smallest_Divisible_Digit_Product_I
+- L3360_Stone_Removal_Game
+- L3375_Minimum_Operations_to_Make_Array_Values_Equal_to_K
+- L3379_Transformed_Array
+- L338_Counting_Bits
+- L3392_Count_Subarrays_of_Length_Three_With_a_Condition
+- L3396_Minimum_Number_of_Operations_to_Make_Elements_in_Array_Distinct
+- L3402_Minimum_Operations_to_Make_Columns_Increasing
+- L3417_Zigzag_Grid_Traversal_With_Skip
+- L3423_Maximum_Difference_Between_Adjacent_Elements_in_a_Circular_Array
+- L342_Power_of_Four
+- L3432_Count_Partitions_with_Even_Sum_Difference
+- L3438_Find_Valid_Pair_of_Adjacent_Digits_in_String
+- L344_Reverse_String
+- L3452_Sum_of_Good_Numbers
+- L3467_Transform_Array_by_Parity
+- L3471_Find_the_Largest_Almost_Missing_Integer
+- L3477_Fruits_Into_Baskets_II
+- L3483_Unique_3_Digit_Even_Numbers
+- L3487_Maximum_Unique_Subarray_Sum_After_Deletion
+- L3492_Maximum_Containers_on_a_Ship
+- L3498_Reverse_Degree_of_a_String
+- L3502_Minimum_Cost_to_Reach_Every_Position
+- L350_Intersection_of_Two_Arrays_II
+- L3512_Minimum_Operations_to_Make_Array_Sum_Divisible_by_K
+- L3516_Find_Closest_Person
+- L3536_Maximum_Product_of_Two_Digits
+- L3541_Find_Most_Frequent_Vowel_and_Consonant
+- L3560_Find_Minimum_Log_Transportation_Cost
+- L3622_Check_Divisibility_by_Digit_Sum_and_Product
+- L3637_Trionic_Array_I
+- L363_Max_Sum_of_Rectangle_No_Larger_Than_K
+- L3643_Flip_Square_Submatrix_Vertically
+- L3663_Find_The_Least_Frequent_Digit
+- L3668_Restore_Finishing_Order
+- L3674_Minimum_Operations_to_Equalize_Array
+- L3683_Earliest_Time_to_Finish_One_Task
+- L3688_Bitwise_OR_of_Even_Numbers_in_an_Array
+- L3692_Majority_Frequency_Characters
+- L3697_Compute_Decimal_Representation
+- L3701_Compute_Alternating_Sum
+- L3707_Equal_Score_Substrings
+- L3712_Sum_of_Elements_With_Frequency_Divisible_by_K
+- L3718_Smallest_Missing_Multiple_of_K
+- L371_Sum_of_Two_Integers
+- L3726_Remove_Zeros_in_Decimal_Representation
+- L3736_Minimum_Moves_to_Equal_Array_Elements_III
+- L3745_Maximize_Expression_of_Three_Elements
+- L3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I
+- L3798_Largest_Even_Number
+- L3813_Vowel_Consonant_Score
+- L3833_Count_Dominant_Indices
+- L3838_Weighted_Word_Mapping
+- L3842_Toggle_Light_Bulbs
+- L3852_Smallest_Pair_With_Different_Frequencies
+- L3861_Minimum_Capacity_Box
+- L3870_Count_Commas_in_Range
+- L3875_Construct_Uniform_Parity_Array_I
+- L3884_First_Matching_Character_From_Both_Ends
+- L3894_Traffic_Signal_Color
+- L3895_Count_Digit_Appearances
+- L3903_Smallest_Stable_Index_I
+- L3908_Valid_Digit_Number
+- L3912_Valid_Elements_in_an_Array
+- L3921_Score_Validator
+- L3925_Concatenate_Array_With_Reverse
+- L3931_Check_Adjacent_Digit_Differences
+- L393_UTF_8_Validation
+- L3945_Digit_Frequency_Score
+- L3950_Exactly_One_Consecutive_Set_Bits_Pair
+- L3954_Sum_of_Compatible_Numbers_in_Range_I
+- L3959_Check_Good_Integer
+- L396_Rotate_Function
+- L3978_Unique_Middle_Element
+- L3986_Number_of_Elapsed_Seconds_Between_Two_Times
+- L3992_Rearrange_String_to_Avoid_Character_Pair
+- L4000_Largest_Integer_With_Given_Digit_Sum
+- L4006_Count_Valid_Prefixes
+- L404_Sum_of_Left_Leaves
+- L405_Convert_a_Number_to_Hexadecimal
+- L409_Longest_Palindrome
+- L412_Fizz_Buzz
+- L414_Third_Maximum_Number
+- L415_Add_Strings
+- L434_Number_of_Segments_in_a_String
+- L435_Non_overlapping_Intervals
+- L438_Find_All_Anagrams_in_a_String
+- L442_Find_All_Duplicates_in_an_Array
+- L443_String_Compression
+- L448_Find_All_Numbers_Disappeared_in_an_Array
+- L452_Minimum_Number_of_Arrows_to_Burst_Balloons
+- L455_Assign_Cookies
+- L458_Poor_Pigs
+- L459_Repeated_Substring_Pattern
+- L461_Hamming_Distance
+- L463_Island_Perimeter
+- L475_Heaters
+- L482_License_Key_Formatting
+- L485_Max_Consecutive_Ones
+- L492_Construct_the_Rectangle
+- L500_Keyboard_Row
+- L504_Base_7
+- L520_Detect_Capital
+- L521_Longest_Uncommon_Subsequence_I
+- L551_Student_Attendance_Record_I
+- L598_Range_Addition_II
+- L605_Can_Place_Flowers
+- L617_Merge_Two_Binary_Trees
+- L643_Maximum_Average_Subarray_I
+- L657_Robot_Return_to_Origin
+- L671_Second_Minimum_Node_In_a_Binary_Tree
+- L674_Longest_Continuous_Increasing_Subsequence
+- L693_Binary_Number_with_Alternating_Bits
+- L700_Search_in_a_Binary_Search_Tree
+- L704_Binary_Search
+- L717_1_bit_and_2_bit_Characters
+- L724_Find_Pivot_Index
+- L744_Find_Smallest_Letter_Greater_Than_Target
+- L746_Min_Cost_Climbing_Stairs
+- L747_Largest_Number_At_Least_Twice_of_Others
+- L766_Toeplitz_Matrix
+- L771_Jewels_and_Stones
+- L806_Number_of_Lines_To_Write_String
+- L807_Max_Increase_to_Keep_City_Skyline
+- L824_Goat_Latin
+- L830_Positions_of_Large_Groups
+- L832_Flipping_an_Image
+- L859_Buddy_Strings
+- L860_Lemonade_Change
+- L867_Transpose_Matrix
+- L868_Binary_Gap
+- L884_Uncommon_Words_from_Two_Sentences
+- L888_Fair_Candy_Swap
+- L896_Monotonic_Array
+- L905_Sort_Array_By_Parity
+- L908_Smallest_Range_I
+- L910_Smallest_Range_II
+- L917_Reverse_Only_Letters
+- L925_Long_Pressed_Name
+- L938_Range_Sum_of_BST
+- L941_Valid_Mountain_Array
+- L942_DI_String_Match
+- L944_Delete_Columns_to_Make_Sorted
+- L950_Reveal_Cards_In_Increasing_Order
+- L965_Univalued_Binary_Tree
+- L977_Squares_of_a_Sorted_Array
+- L997_Find_the_Town_Judge
+- L999_Available_Captures_for_Rook
+- README.md
+
+## God Nodes (most connected - your core abstractions)
+1. `TreeNode` - 244 edges
+2. `ListNode` - 72 edges
+3. `L472_Concatenated_Words` - 14 edges
+4. `NodeN` - 14 edges
+5. `NestedInteger` - 13 edges
+6. `L2558_Take_Gifts_From_the_Richest_Pile` - 11 edges
+7. `L085_Maximal_Rectangle` - 10 edges
+8. `L087_Scramble_String` - 9 edges
+9. `L3411_Maximum_Subarray_With_Equal_Products` - 9 edges
+10. `L097_Interleaving_String` - 8 edges
+
+## Surprising Connections (you probably didn't know these)
+- `L114_Flatten_Binary_Tree_to_Linked_List` --references--> `TreeNode`  [EXTRACTED]
+  src/L114_Flatten_Binary_Tree_to_Linked_List.java → src/struct/TreeNode.java
+- `IntervalComparator` --references--> `Interval`  [EXTRACTED]
+  src/L056_Merge_Intervals.java → src/struct/Interval.java
+- `L099_Recover_Binary_Search_Tree` --references--> `TreeNode`  [EXTRACTED]
+  src/L099_Recover_Binary_Search_Tree.java → src/struct/TreeNode.java
+- `NestedIntegerImpl` --references--> `NestedInteger`  [EXTRACTED]
+  src/struct/NestedIntegerImpl.java → src/struct/NestedInteger.java
+- `NestedIterator` --references--> `NestedInteger`  [EXTRACTED]
+  src/struct/NestedIterator.java → src/struct/NestedInteger.java
+
+## Import Cycles
+- None detected.
+
+## Communities (1035 total, 1016 thin omitted)
+
+### Community 0 - "NestedInteger"
+Cohesion: 0.08
+Nodes (10): L116_Populating_Next_Right_Pointers, L117_Populating_Next_Right_Pointers_in_Each_Node_II, L341_Flatten_Nested_List_Iterator, NestedInteger, Override, NestedIntegerImpl, Override, NestedIterator (+2 more)
+
+### Community 1 - "TreeNode"
+Cohesion: 0.10
+Nodes (9): L098_Validate_Binary_Search_Tree, L099_Recover_Binary_Search_Tree, L103_Binary_Tree_Zigzag_Level_Order_Traversal, L107_Binary_Tree_Level_Order_Traversal_II, L112_Path_Sum, L236_Lowest_Common_Ancestor_of_a_Binary_Tree, L637_Average_of_Levels_in_Binary_Tree, L993_Cousins_in_Binary_Tree (+1 more)
+
+### Community 2 - "Trie"
+Cohesion: 0.12
+Nodes (4): L208_Implement_Trie_Prefix_Tree, Trie, TrieNode, TrieNode
+
+### Community 3 - "NodeN"
+Cohesion: 0.20
+Nodes (4): L559_Maximum_Depth_of_N_ary_Tree, L589_N_ary_Tree_Preorder_Traversal, L590_N_ary_Tree_Postorder_Traversal, NodeN
+
+### Community 4 - "L472_Concatenated_Words"
+Cohesion: 0.19
+Nodes (3): L472_Concatenated_Words, Trie, TrieNode
+
+### Community 5 - "MyHashMap2"
+Cohesion: 0.20
+Nodes (4): L706_Design_HashMap, MyHashMap, MyHashMap2, Node
+
+### Community 6 - "Twitter"
+Cohesion: 0.16
+Nodes (3): L355_Design_Twitter, Twitter, Twitter2
+
+### Community 7 - "PeekingIterator"
+Cohesion: 0.21
+Nodes (4): Override, L284_Peeking_Iterator, PeekingIterator, PeekingIterator2
+
+### Community 8 - "NumArray2"
+Cohesion: 0.23
+Nodes (3): L307_Range_Sum_Query_Mutable, NumArray, NumArray2
+
+### Community 9 - "Node"
+Cohesion: 0.18
+Nodes (4): Node, L138_Copy_List_with_Random_Pointer, L2696_Minimum_String_Length_After_Removing_Substrings, Node
+
+### Community 10 - "Foo"
+Cohesion: 0.21
+Nodes (3): Foo, Foo2, L1114_Print_in_Order
+
+### Community 12 - "L2418_Sort_the_People"
+Cohesion: 0.24
+Nodes (3): Override, L2418_Sort_the_People, Person
+
+### Community 15 - "Interval"
+Cohesion: 0.29
+Nodes (4): IntervalComparator, Override, L056_Merge_Intervals, Interval
+
+### Community 17 - "L1352_Product_of_the_Last_K_Numbers"
+Cohesion: 0.24
+Nodes (3): L1352_Product_of_the_Last_K_Numbers, ProductOfNumbers, ProductOfNumbers2
+
+### Community 19 - ".main"
+Cohesion: 0.24
+Nodes (3): L3242_Design_Neighbor_Sum_Service, NeighborSum, neighborSumEfficient
+
+### Community 21 - "L733_Flood_Fill"
+Cohesion: 0.25
+Nodes (3): ImageNode, Override, L733_Flood_Fill
+
+### Community 22 - "ListNode"
+Cohesion: 0.44
+Nodes (3): ListNode, L023_Merge_k_Sorted_Lists, ListNode
+
+### Community 28 - "Codec"
+Cohesion: 0.29
+Nodes (3): Codec, Codec2, L535_Encode_and_Decode_TinyURL
+
+### Community 32 - "L1656_Design_an_Ordered_Stream"
+Cohesion: 0.28
+Nodes (3): L1656_Design_an_Ordered_Stream, OrderedStream, OrderedStream2
+
+## Knowledge Gaps
+- **1 isolated node(s):** `LeetCodeSolution`
+  These have ≤1 connection - possible missing edges or undocumented components.
+- **1016 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+
+## Suggested Questions
+_Questions this graph is uniquely positioned to answer:_
+
+- **Why does `TreeNode` connect `TreeNode` to `NestedInteger`, `L2196_Create_Binary_Tree_From_Descriptions`, `L095_Unique_Binary_Search_Trees_II`, `L938_Range_Sum_of_BST`, `L1022_Sum_of_Root_To_Leaf_Binary_Numbers`, `L1038_Binary_Search_Tree_to_Greater_Sum_Tree`, `L105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal`, `L106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal`, `L2265_Count_Nodes_Equal_to_Average_of_Subtree`, `L2331_Evaluate_Boolean_Binary_Tree`, `L114_Flatten_Binary_Tree_to_Linked_List`, `L965_Univalued_Binary_Tree`, `L235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree`, `L1302_Deepest_Leaves_Sum`, `L144_Binary_Tree_Preorder_Traversal`, `L1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree`, `L1382_Balance_a_Binary_Search_Tree`, `L1008_Construct_Binary_Search_Tree_from_Preorder_Traversal`, `L145_Binary_Tree_Postorder_Traversal`, `L530_Minimum_Absolute_Difference_in_BST`, `L101_Symmetric_Tree`, `L563_Binary_Tree_Tilt`, `L104_Maximum_Depth_of_Binary_Tree`, `L108_Convert_Sorted_Array_to_Binary_Search_Tree`, `.sortedListToBST`, `L111_Minimum_Depth_of_Binary_Tree`, `L654_Maximum_Binary_Tree`, `L113_Path_Sum_II`, `L129_Sum_Root_to_Leaf_Numbers`, `L783_Minimum_Distance_Between_BST_Nodes`, `L872_Leaf_Similar_Trees`, `L897_Increasing_Order_Search_Tree`, `L2415_Reverse_Odd_Levels_of_Binary_Tree`, `L404_Sum_of_Left_Leaves`, `L110_Balanced_Binary_Tree`, `L124_Binary_Tree_Maximum_Path_Sum`, `FindElements`, `L1315_Sum_of_Nodes_with_Even_Valued_Grandparent`, `L199_Binary_Tree_Right_Side_View`, `L257_Binary_Tree_Paths`, `L617_Merge_Two_Binary_Trees`, `L671_Second_Minimum_Node_In_a_Binary_Tree`, `L094_Binary_Tree_Inorder_Traversal`, `L337_House_Robber_III`, `L100_Same_Tree`, `L102_Binary_Tree_Level_Order_Traversal`, `L653_Two_Sum_IV_Input_is_a_BST`, `L700_Search_in_a_Binary_Search_Tree`, `L501_Find_Mode_in_Binary_Search_Tree`, `L543_Diameter_of_Binary_Tree`, `L572_Subtree_of_Another_Tree`, `L222_Count_Complete_Tree_Nodes`, `L2236_Root_Equals_Sum_of_Children`, `L226_Invert_Binary_Tree`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `ListNode` connect `ListNode` to `.rotateRight`, `L082_Remove_Duplicates_from_Sorted_List_II`, `L083_Remove_Duplicates_from_Sorted_List`, `.partition`, `L237_Delete_Node_in_a_Linked_List`, `.reverseBetween`, `LRUCache`, `.insertionSortList`, `.sortedListToBST`, `L1290_Convert_Binary_Number_in_a_Linked`, `L2181_Merge_Nodes_in_Between_Zeros`, `L876_Middle_of_the_Linked_List`, `L234_Palindrome_Linked_List`, `L141_Linked_List_Cycle`, `L142_Linked_List_Cycle_II`, `L143_Reorder_List`, `.sortList`, `L160_Intersection_of_Two_Linked_Lists`, `.oddEvenList`, `.mergeTwoLists`, `L2807_Insert_Greatest_Common_Divisors_in_Linked_List`, `.removeElements`, `L445_Add_Two_Numbers_II`, `.reverseList`, `L002_Add_Two_Numbers`, `L019_Remove_Nth_Node_From_End_of_List`, `.reverseKGroup`, `L024_Swap_Nodes_in_Pairs`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **What connects `LeetCodeSolution` to the rest of the system?**
+  _1 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `NestedInteger` be split into smaller, more focused modules?**
+  _Cohesion score 0.08367071524966262 - nodes in this community are weakly interconnected._
+- **Should `TreeNode` be split into smaller, more focused modules?**
+  _Cohesion score 0.09815078236130868 - nodes in this community are weakly interconnected._
+- **Should `Trie` be split into smaller, more focused modules?**
+  _Cohesion score 0.12418300653594772 - nodes in this community are weakly interconnected._
