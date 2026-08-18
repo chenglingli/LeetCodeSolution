@@ -1,16 +1,16 @@
-# Graph Report - LeetCodeSolution  (2026-08-10)
+# Graph Report - LeetCodeSolution  (2026-08-18)
 
 ## Corpus Check
-- 1144 files · ~306,164 words
+- 1150 files · ~309,090 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 5334 nodes · 6219 edges · 1035 communities (19 shown, 1016 thin omitted)
-- Extraction: 83% EXTRACTED · 17% INFERRED · 0% AMBIGUOUS · INFERRED: 1075 edges (avg confidence: 0.8)
+- 5367 nodes · 6257 edges · 1040 communities (19 shown, 1021 thin omitted)
+- Extraction: 83% EXTRACTED · 17% INFERRED · 0% AMBIGUOUS · INFERRED: 1081 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `71285380`
+- Built from commit: `1c13c8e8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -1050,10 +1050,15 @@
 - L997_Find_the_Town_Judge
 - L999_Available_Captures_for_Rook
 - README.md
+- L1329_Sort_the_Matrix_Diagonally
+- L1877_Minimize_Maximum_Pair_Sum_in_Array
+- L3271_Hash_Divided_String
+- L3016_Minimum_Number_of_Pushes_to_Type_Word_II
+- L4020_Elevator_Requests_I
 
 ## God Nodes (most connected - your core abstractions)
 1. `TreeNode` - 244 edges
-2. `ListNode` - 72 edges
+2. `ListNode` - 75 edges
 3. `L472_Concatenated_Words` - 14 edges
 4. `NodeN` - 14 edges
 5. `NestedInteger` - 13 edges
@@ -1078,7 +1083,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (1035 total, 1016 thin omitted)
+## Communities (1040 total, 1021 thin omitted)
 
 ### Community 0 - "NestedInteger"
 Cohesion: 0.08
@@ -1145,8 +1150,8 @@ Cohesion: 0.25
 Nodes (3): ImageNode, Override, L733_Flood_Fill
 
 ### Community 22 - "ListNode"
-Cohesion: 0.44
-Nodes (3): ListNode, L023_Merge_k_Sorted_Lists, ListNode
+Cohesion: 0.24
+Nodes (5): ListNode, L023_Merge_k_Sorted_Lists, ListNode, L2130_Maximum_Twin_Sum_of_a_Linked_List, ListNode
 
 ### Community 28 - "Codec"
 Cohesion: 0.29
@@ -1159,15 +1164,15 @@ Nodes (3): L1656_Design_an_Ordered_Stream, OrderedStream, OrderedStream2
 ## Knowledge Gaps
 - **1 isolated node(s):** `LeetCodeSolution`
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1016 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **1021 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `TreeNode` connect `TreeNode` to `NestedInteger`, `L2196_Create_Binary_Tree_From_Descriptions`, `L095_Unique_Binary_Search_Trees_II`, `L938_Range_Sum_of_BST`, `L1022_Sum_of_Root_To_Leaf_Binary_Numbers`, `L1038_Binary_Search_Tree_to_Greater_Sum_Tree`, `L105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal`, `L106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal`, `L2265_Count_Nodes_Equal_to_Average_of_Subtree`, `L2331_Evaluate_Boolean_Binary_Tree`, `L114_Flatten_Binary_Tree_to_Linked_List`, `L965_Univalued_Binary_Tree`, `L235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree`, `L1302_Deepest_Leaves_Sum`, `L144_Binary_Tree_Preorder_Traversal`, `L1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree`, `L1382_Balance_a_Binary_Search_Tree`, `L1008_Construct_Binary_Search_Tree_from_Preorder_Traversal`, `L145_Binary_Tree_Postorder_Traversal`, `L530_Minimum_Absolute_Difference_in_BST`, `L101_Symmetric_Tree`, `L563_Binary_Tree_Tilt`, `L104_Maximum_Depth_of_Binary_Tree`, `L108_Convert_Sorted_Array_to_Binary_Search_Tree`, `.sortedListToBST`, `L111_Minimum_Depth_of_Binary_Tree`, `L654_Maximum_Binary_Tree`, `L113_Path_Sum_II`, `L129_Sum_Root_to_Leaf_Numbers`, `L783_Minimum_Distance_Between_BST_Nodes`, `L872_Leaf_Similar_Trees`, `L897_Increasing_Order_Search_Tree`, `L2415_Reverse_Odd_Levels_of_Binary_Tree`, `L404_Sum_of_Left_Leaves`, `L110_Balanced_Binary_Tree`, `L124_Binary_Tree_Maximum_Path_Sum`, `FindElements`, `L1315_Sum_of_Nodes_with_Even_Valued_Grandparent`, `L199_Binary_Tree_Right_Side_View`, `L257_Binary_Tree_Paths`, `L617_Merge_Two_Binary_Trees`, `L671_Second_Minimum_Node_In_a_Binary_Tree`, `L094_Binary_Tree_Inorder_Traversal`, `L337_House_Robber_III`, `L100_Same_Tree`, `L102_Binary_Tree_Level_Order_Traversal`, `L653_Two_Sum_IV_Input_is_a_BST`, `L700_Search_in_a_Binary_Search_Tree`, `L501_Find_Mode_in_Binary_Search_Tree`, `L543_Diameter_of_Binary_Tree`, `L572_Subtree_of_Another_Tree`, `L222_Count_Complete_Tree_Nodes`, `L2236_Root_Equals_Sum_of_Children`, `L226_Invert_Binary_Tree`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `ListNode` connect `ListNode` to `.rotateRight`, `L082_Remove_Duplicates_from_Sorted_List_II`, `L083_Remove_Duplicates_from_Sorted_List`, `.partition`, `L237_Delete_Node_in_a_Linked_List`, `.reverseBetween`, `LRUCache`, `.insertionSortList`, `.sortedListToBST`, `L1290_Convert_Binary_Number_in_a_Linked`, `L2181_Merge_Nodes_in_Between_Zeros`, `L876_Middle_of_the_Linked_List`, `L234_Palindrome_Linked_List`, `L141_Linked_List_Cycle`, `L142_Linked_List_Cycle_II`, `L143_Reorder_List`, `.sortList`, `L160_Intersection_of_Two_Linked_Lists`, `.oddEvenList`, `.mergeTwoLists`, `L2807_Insert_Greatest_Common_Divisors_in_Linked_List`, `.removeElements`, `L445_Add_Two_Numbers_II`, `.reverseList`, `L002_Add_Two_Numbers`, `L019_Remove_Nth_Node_From_End_of_List`, `.reverseKGroup`, `L024_Swap_Nodes_in_Pairs`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `LeetCodeSolution` to the rest of the system?**
   _1 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `NestedInteger` be split into smaller, more focused modules?**
