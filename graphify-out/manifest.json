@@ -5758,5 +5758,35 @@
     "mtime": 1787189268.4903295,
     "ast_hash": "8250fc88798754613ba8a522702cffd0",
     "semantic_hash": ""
+  },
+  "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java": {
+    "mtime": 1787707122.4626102,
+    "ast_hash": "1a64e3b98114d34d7ea799e7a0109323",
+    "semantic_hash": ""
+  },
+  "src/L1551_Minimum_Operations_to_Make_Array_Equal.java": {
+    "mtime": 1787536228.4155862,
+    "ast_hash": "812196fd4d9bc030d30d1c20ae2d2978",
+    "semantic_hash": ""
+  },
+  "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java": {
+    "mtime": 1787794370.0341759,
+    "ast_hash": "5213ad1e11916edf9859fe833e45a0e6",
+    "semantic_hash": ""
+  },
+  "src/L1861_Rotating_the_Box.java": {
+    "mtime": 1787881124.5640473,
+    "ast_hash": "066c89c3b09ec6d2a3a4a317a01d5f92",
+    "semantic_hash": ""
+  },
+  "src/L3857_Minimum_Cost_to_Split_into_Ones.java": {
+    "mtime": 1787624093.6301186,
+    "ast_hash": "ae9e279a8c590b2ce0cf609f94a1587b",
+    "semantic_hash": ""
+  },
+  "src/L4024_Nearest_Available_Drone.java": {
+    "mtime": 1787280099.9933598,
+    "ast_hash": "efbd57771080909b63d0de284f7cc604",
+    "semantic_hash": ""
   }
 }

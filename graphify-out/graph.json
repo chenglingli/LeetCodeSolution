@@ -10795,6 +10795,50 @@
       "norm_label": ".main()"
     },
     {
+      "label": "L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "file_type": "code",
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram",
+      "community": 1044,
+      "community_name": "L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram",
+      "norm_label": "l1347_minimum_number_of_steps_to_make_two_strings_anagram.java"
+    },
+    {
+      "label": "L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram",
+      "file_type": "code",
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram",
+      "community": 1044,
+      "community_name": "L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram",
+      "norm_label": "l1347_minimum_number_of_steps_to_make_two_strings_anagram"
+    },
+    {
+      "label": ".minSteps()",
+      "file_type": "code",
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram_minsteps",
+      "community": 1044,
+      "community_name": "L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram",
+      "norm_label": ".minsteps()"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram_main",
+      "community": 1044,
+      "community_name": "L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram",
+      "norm_label": ".main()"
+    },
+    {
       "label": "L134_Gas_Station.java",
       "file_type": "code",
       "source_file": "src/L134_Gas_Station.java",
@@ -14491,6 +14535,50 @@
       "norm_label": ".main()"
     },
     {
+      "label": "L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "file_type": "code",
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l1551_minimum_operations_to_make_array_equal",
+      "community": 1045,
+      "community_name": "L1551_Minimum_Operations_to_Make_Array_Equal",
+      "norm_label": "l1551_minimum_operations_to_make_array_equal.java"
+    },
+    {
+      "label": "L1551_Minimum_Operations_to_Make_Array_Equal",
+      "file_type": "code",
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal",
+      "community": 1045,
+      "community_name": "L1551_Minimum_Operations_to_Make_Array_Equal",
+      "norm_label": "l1551_minimum_operations_to_make_array_equal"
+    },
+    {
+      "label": ".minOperations()",
+      "file_type": "code",
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal_minoperations",
+      "community": 1045,
+      "community_name": "L1551_Minimum_Operations_to_Make_Array_Equal",
+      "norm_label": ".minoperations()"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal_main",
+      "community": 1045,
+      "community_name": "L1551_Minimum_Operations_to_Make_Array_Equal",
+      "norm_label": ".main()"
+    },
+    {
       "label": "L1556_Thousand_Separator.java",
       "file_type": "code",
       "source_file": "src/L1556_Thousand_Separator.java",
@@ -15083,6 +15171,61 @@
       "community": 156,
       "community_name": "L1603_Design_Parking_System",
       "norm_label": ".addcar()"
+    },
+    {
+      "label": "L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "file_type": "code",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l1605_find_valid_matrix_given_row_and_column_sums",
+      "community": 1041,
+      "community_name": "L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums",
+      "norm_label": "l1605_find_valid_matrix_given_row_and_column_sums.java"
+    },
+    {
+      "label": "L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums",
+      "file_type": "code",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums",
+      "community": 1041,
+      "community_name": "L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums",
+      "norm_label": "l1605_find_valid_matrix_given_row_and_column_sums"
+    },
+    {
+      "label": ".restoreMatrix()",
+      "file_type": "code",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_restorematrix",
+      "community": 1041,
+      "community_name": "L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums",
+      "norm_label": ".restorematrix()"
+    },
+    {
+      "label": ".restoreMatrix2()",
+      "file_type": "code",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_restorematrix2",
+      "community": 1041,
+      "community_name": "L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums",
+      "norm_label": ".restorematrix2()"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_main",
+      "community": 1041,
+      "community_name": "L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums",
+      "norm_label": ".main()"
     },
     {
       "label": "L1608_Special_Array_With_X_Elements_Greater_Than_or_Equal_X.java",
@@ -18779,6 +18922,61 @@
       "community": 717,
       "community_name": "L1859_Sorting_the_Sentence",
       "norm_label": ".main()"
+    },
+    {
+      "label": "L1861_Rotating_the_Box.java",
+      "file_type": "code",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l1861_rotating_the_box",
+      "community": 1042,
+      "community_name": "L1861_Rotating_the_Box",
+      "norm_label": "l1861_rotating_the_box.java"
+    },
+    {
+      "label": "L1861_Rotating_the_Box",
+      "file_type": "code",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_l1861_rotating_the_box_l1861_rotating_the_box",
+      "community": 1042,
+      "community_name": "L1861_Rotating_the_Box",
+      "norm_label": "l1861_rotating_the_box"
+    },
+    {
+      "label": ".rotateTheBox()",
+      "file_type": "code",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "src_l1861_rotating_the_box_l1861_rotating_the_box_rotatethebox",
+      "community": 1042,
+      "community_name": "L1861_Rotating_the_Box",
+      "norm_label": ".rotatethebox()"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "src_l1861_rotating_the_box_l1861_rotating_the_box_main",
+      "community": 1042,
+      "community_name": "L1861_Rotating_the_Box",
+      "norm_label": ".main()"
+    },
+    {
+      "label": ".assertDeepEquals()",
+      "file_type": "code",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L137",
+      "_origin": "ast",
+      "id": "src_l1861_rotating_the_box_l1861_rotating_the_box_assertdeepequals",
+      "community": 1042,
+      "community_name": "L1861_Rotating_the_Box",
+      "norm_label": ".assertdeepequals()"
     },
     {
       "label": "L1863_Sum_of_All_Subset_XOR_Totals.java",
@@ -45852,6 +46050,61 @@
       "norm_label": ".main()"
     },
     {
+      "label": "L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "file_type": "code",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l3857_minimum_cost_to_split_into_ones",
+      "community": 1043,
+      "community_name": "L3857_Minimum_Cost_to_Split_into_Ones",
+      "norm_label": "l3857_minimum_cost_to_split_into_ones.java"
+    },
+    {
+      "label": "L3857_Minimum_Cost_to_Split_into_Ones",
+      "file_type": "code",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones",
+      "community": 1043,
+      "community_name": "L3857_Minimum_Cost_to_Split_into_Ones",
+      "norm_label": "l3857_minimum_cost_to_split_into_ones"
+    },
+    {
+      "label": ".minCost()",
+      "file_type": "code",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_mincost",
+      "community": 1043,
+      "community_name": "L3857_Minimum_Cost_to_Split_into_Ones",
+      "norm_label": ".mincost()"
+    },
+    {
+      "label": ".minCost2()",
+      "file_type": "code",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_mincost2",
+      "community": 1043,
+      "community_name": "L3857_Minimum_Cost_to_Split_into_Ones",
+      "norm_label": ".mincost2()"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_main",
+      "community": 1043,
+      "community_name": "L3857_Minimum_Cost_to_Split_into_Ones",
+      "norm_label": ".main()"
+    },
+    {
       "label": "L3861_Minimum_Capacity_Box.java",
       "file_type": "code",
       "source_file": "src/L3861_Minimum_Capacity_Box.java",
@@ -48005,6 +48258,50 @@
       "id": "src_l4020_elevator_requests_i_l4020_elevator_requests_i_main",
       "community": 1039,
       "community_name": "L4020_Elevator_Requests_I",
+      "norm_label": ".main()"
+    },
+    {
+      "label": "L4024_Nearest_Available_Drone.java",
+      "file_type": "code",
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l4024_nearest_available_drone",
+      "community": 1046,
+      "community_name": "L4024_Nearest_Available_Drone",
+      "norm_label": "l4024_nearest_available_drone.java"
+    },
+    {
+      "label": "L4024_Nearest_Available_Drone",
+      "file_type": "code",
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_l4024_nearest_available_drone_l4024_nearest_available_drone",
+      "community": 1046,
+      "community_name": "L4024_Nearest_Available_Drone",
+      "norm_label": "l4024_nearest_available_drone"
+    },
+    {
+      "label": ".nearestDrone()",
+      "file_type": "code",
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "src_l4024_nearest_available_drone_l4024_nearest_available_drone_nearestdrone",
+      "community": 1046,
+      "community_name": "L4024_Nearest_Available_Drone",
+      "norm_label": ".nearestdrone()"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "src_l4024_nearest_available_drone_l4024_nearest_available_drone_main",
+      "community": 1046,
+      "community_name": "L4024_Nearest_Available_Drone",
       "norm_label": ".main()"
     },
     {
@@ -73741,6 +74038,52 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram",
+      "target": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "call",
+      "source": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram_main",
+      "target": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram",
+      "target": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram_minsteps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/L1347_Minimum_Number_of_Steps_to_Make_Two_Strings_Anagram.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram_main",
+      "target": "src_l1347_minimum_number_of_steps_to_make_two_strings_anagram_l1347_minimum_number_of_steps_to_make_two_strings_anagram_minsteps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/L134_Gas_Station.java",
       "source_location": "L1",
       "weight": 1.0,
@@ -78354,6 +78697,52 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1551_minimum_operations_to_make_array_equal",
+      "target": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "call",
+      "source": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal_main",
+      "target": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal",
+      "target": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal_minoperations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/L1551_Minimum_Operations_to_Make_Array_Equal.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal_main",
+      "target": "src_l1551_minimum_operations_to_make_array_equal_l1551_minimum_operations_to_make_array_equal_minoperations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/L1556_Thousand_Separator.java",
       "source_location": "L4",
       "weight": 1.0,
@@ -79040,6 +79429,63 @@
       "source": "src_l1603_design_parking_system_parkingsystem",
       "target": "src_l1603_design_parking_system_parkingsystem_parkingsystem",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1605_find_valid_matrix_given_row_and_column_sums",
+      "target": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "call",
+      "source": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_main",
+      "target": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums",
+      "target": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_restorematrix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums",
+      "target": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_restorematrix2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/L1605_Find_Valid_Matrix_Given_Row_and_Column_Sums.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_main",
+      "target": "src_l1605_find_valid_matrix_given_row_and_column_sums_l1605_find_valid_matrix_given_row_and_column_sums_restorematrix2"
     },
     {
       "relation": "contains",
@@ -83224,6 +83670,75 @@
       "_origin": "ast",
       "source": "src_l1859_sorting_the_sentence_l1859_sorting_the_sentence_main",
       "target": "src_l1859_sorting_the_sentence_l1859_sorting_the_sentence_sortsentence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1861_rotating_the_box",
+      "target": "src_l1861_rotating_the_box_l1861_rotating_the_box",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1861_rotating_the_box_l1861_rotating_the_box",
+      "target": "src_l1861_rotating_the_box_l1861_rotating_the_box_assertdeepequals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "call",
+      "source": "src_l1861_rotating_the_box_l1861_rotating_the_box_main",
+      "target": "src_l1861_rotating_the_box_l1861_rotating_the_box",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1861_rotating_the_box_l1861_rotating_the_box",
+      "target": "src_l1861_rotating_the_box_l1861_rotating_the_box_rotatethebox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1861_rotating_the_box_l1861_rotating_the_box_main",
+      "target": "src_l1861_rotating_the_box_l1861_rotating_the_box_rotatethebox"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L1861_Rotating_the_Box.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l1861_rotating_the_box_l1861_rotating_the_box_main",
+      "target": "src_l1861_rotating_the_box_l1861_rotating_the_box_assertdeepequals",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -114647,6 +115162,63 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l3857_minimum_cost_to_split_into_ones",
+      "target": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "call",
+      "source": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_main",
+      "target": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones",
+      "target": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_mincost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones",
+      "target": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_mincost2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/L3857_Minimum_Cost_to_Split_into_Ones.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_main",
+      "target": "src_l3857_minimum_cost_to_split_into_ones_l3857_minimum_cost_to_split_into_ones_mincost"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/L3861_Minimum_Capacity_Box.java",
       "source_location": "L1",
       "weight": 1.0,
@@ -117039,6 +117611,52 @@
       "_origin": "ast",
       "source": "src_l4020_elevator_requests_i_l4020_elevator_requests_i_main",
       "target": "src_l4020_elevator_requests_i_l4020_elevator_requests_i_elevatorrequests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l4024_nearest_available_drone",
+      "target": "src_l4024_nearest_available_drone_l4024_nearest_available_drone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "call",
+      "source": "src_l4024_nearest_available_drone_l4024_nearest_available_drone_main",
+      "target": "src_l4024_nearest_available_drone_l4024_nearest_available_drone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l4024_nearest_available_drone_l4024_nearest_available_drone",
+      "target": "src_l4024_nearest_available_drone_l4024_nearest_available_drone_nearestdrone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/L4024_Nearest_Available_Drone.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_l4024_nearest_available_drone_l4024_nearest_available_drone_main",
+      "target": "src_l4024_nearest_available_drone_l4024_nearest_available_drone_nearestdrone"
     },
     {
       "relation": "contains",
@@ -131185,5 +131803,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8244f13275ee8b688069d721389ad77dac8e8f34"
+  "built_at_commit": "f3c4638dfa71005c221cb3c0c44e2e37465045d3"
 }
