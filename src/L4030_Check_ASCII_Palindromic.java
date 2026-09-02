@@ -76,7 +76,7 @@ public class L4030_Check_ASCII_Palindromic {
     以 'f' = 102 为例，低 8 位是 01100110，翻转后还是 01100110。
 
     分两步看：
-    
+
     1. Integer.reverse(x) 翻转的是整 32 位，不是 8 位
 
     x = 102 在 32 位里实际是：
