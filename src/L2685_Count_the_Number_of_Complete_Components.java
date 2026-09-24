@@ -113,6 +113,54 @@ public class L2685_Count_the_Number_of_Complete_Components {
         }
     }
 
+    /*
+    使用map统计每个节点的邻居节点数量
+    如果邻居节点数量等于节点数量，则说明该节点是一个完全联通的子图
+
+    两边的量级都是 O(n+E)，慢在
+    解法 1 每一步的常数。并查集只读写 int 数组；
+    解法 2 在堆上建 HashSet，再用整个集合当 HashMap 的 key。
+    
+     */
+    public int countCompleteComponents2(int n, int[][] edges) {
+        
+        // 初始化List<Set<Integer>> graph
+        List<Set<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            graph.add(new HashSet<>());
+            graph.get(i).add(i);
+        }
+
+        // 添加边
+        for (int[] e : edges) {
+            graph.get(e[0]).add(e[1]);
+            graph.get(e[1]).add(e[0]);
+        }
+        
+        // 统计每个节点的邻居节点数量
+        Map<Set<Integer>, Integer> freq = new HashMap<>();
+        for (int i = 0; i < n; i++) {
+            Set<Integer> key = graph.get(i);
+            freq.put(key, freq.getOrDefault(key, 0) + 1);
+
+            // 另一种写法，merge
+            // freq.merge(key, 1, Integer::sum);
+        }
+        
+        // 统计完全联通的子图
+        int ans = 0;
+        for (Map.Entry<Set<Integer>, Integer> entry : freq.entrySet()) {
+            if (entry.getKey().size() == entry.getValue()) {
+                ans++;
+            }
+        }
+
+        // 返回完全联通的子图数量
+        return ans;
+    }
+
+
+
     public static void main(String[] args) {
 
         L2685_Count_the_Number_of_Complete_Components s = new L2685_Count_the_Number_of_Complete_Components();
@@ -123,7 +171,7 @@ public class L2685_Count_the_Number_of_Complete_Components {
                 {0, 1}, {0, 2}, {1, 2}, {3, 4}
         };
 
-        int res = s.countCompleteComponents(n, edges);
+        int res = s.countCompleteComponents2(n, edges);
         System.out.println(res);
 
         long sysDate2 = System.currentTimeMillis();
