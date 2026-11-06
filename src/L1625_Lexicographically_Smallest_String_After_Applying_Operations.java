@@ -175,6 +175,12 @@ public class L1625_Lexicographically_Smallest_String_After_Applying_Operations {
     }
 
     // 对奇数位做加a操作
+    /*
+
+    同一次加法会给所有奇数位加上同一个数，这个数只能是 gcd(a, 10) 的倍数。
+    一个数字 d 能变成的最小值就是 d % gcd(a, 10)，而且对应唯一的增量。因为整组共用这一个增量，把该组最左边那位压到最小，后面几位就跟着确定了
+
+     */
     private void optimizeDigits(char[] t, int start, int g) {
         // 获取第一个数字
         int firstDigit = t[start] - '0';
